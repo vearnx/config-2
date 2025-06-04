@@ -6,4 +6,7 @@ For the script to work, you need rsync and Figlet (Optional, just if you wanna s
 
 Do with this as you want, For the script change your paths to adjust for your setup.
 
-Made by vearnx with alot of help from ChatGPT. I use Arch BTW.****
+Made by vearnx with alot of help from ChatGPT. I use Arch BTW.
+
+
+THIS IS THE SECOND ITTERATION OF THIS BECAUSE THE OLD ONE GOT CORRUPTED SOMEHOW
