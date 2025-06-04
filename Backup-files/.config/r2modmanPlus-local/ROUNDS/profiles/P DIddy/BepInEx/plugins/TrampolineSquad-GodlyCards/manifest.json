@@ -1,0 +1,12 @@
+{
+  "name": "GodlyCards",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/MONKESUPPORT/GodlyCards",
+  "description": "Adds 45 Cards",
+  "dependencies": [
+    "Pykess-ModdingUtils-0.3.1",
+    "willis81808-UnboundLib-3.0.1",
+    "Pykess-CardChoiceSpawnUniqueCardPatch-0.1.7",
+    "Root-GunProjectileSizePatch-1.0.1"
+  ]
+}

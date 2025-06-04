@@ -1,0 +1,91 @@
+{
+	"notifications": [
+		{
+			"guid": "05d33d92-9d46-49bd-a358-329ae365be0b",
+			"timestamp": 1746661609448,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"message": "You must initialize pass before logging in to Docker Desktop",
+				"icon": "error",
+				"type": "action-result",
+				"operation": "user-log-in",
+				"title": "Unable to log in",
+				"actionText": "Learn how",
+				"action": {
+					"action": "open-credential-store-instructions",
+					"params": {}
+				}
+			}
+		},
+		{
+			"guid": "ef966ed1-732c-4b15-9dde-038bb730b9aa",
+			"timestamp": 1746661810962,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"message": "Scout wants to send OS Notifications through Docker Desktop",
+				"icon": "sparkles",
+				"type": "general-purpose",
+				"actionText": "View",
+				"action": {
+					"action": "enable-scout-os-notifications",
+					"params": {}
+				}
+			}
+		},
+		{
+			"guid": "357f9d5b-8da5-452f-8e95-a0168b89e0a2",
+			"timestamp": 1747595790593,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"message": "How was your startup experience with Docker Desktop?",
+				"icon": "campaign",
+				"type": "feedback",
+				"actionText": "Give feedback",
+				"action": {
+					"action": "open-external-url",
+					"params": {
+						"url": "https://docker.qualtrics.com/jfe/form/SV_6AaVyp25bygjirY?DD_Version=4.41.2&Tab=Startup%2BComplete&OS=Linux"
+					}
+				}
+			}
+		},
+		{
+			"guid": "5aeb576e-a99c-41dd-8b92-aec77dacff73",
+			"timestamp": 1749065226646,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"ephemeral": false,
+				"icon": "sparkles",
+				"message": "Docker Desktop 4.42.0 has been installed. View what's new.",
+				"actionText": "View",
+				"action": {
+					"action": "view-notification-content"
+				},
+				"type": "update",
+				"fullContent": "# What's new in 4.42.0\n - Expanded network compatibility with IPv6 support\n- The Docker MCP Toolkit is now natively integrated into Docker Desktop\n- Docker Model Runner is now available for Windows systems running on Qualcomm/ARM GPUs\n- Added a Logs tab to the Models view so you can see the inference engine output in real time. \n- Gordon now integrates the MCP Toolkit, providing access to 100+ MCP servers\n- Fixed a bug where Docker Desktop failed to start on WSL 2.5.7 if another WSL distro is still using Linux cgroups v1\n"
+			}
+		},
+		{
+			"guid": "49b9ae12-23ad-424b-b4aa-45e9ce06c7d8",
+			"timestamp": 1749065237422,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"message": "Sign in to share images and collaborate with your team",
+				"icon": "disconnected",
+				"type": "action-result",
+				"operation": "user-log-in",
+				"actionText": "Sign in",
+				"action": {
+					"action": "open-login",
+					"params": {}
+				},
+				"title": "You are signed out"
+			}
+		}
+	]
+}

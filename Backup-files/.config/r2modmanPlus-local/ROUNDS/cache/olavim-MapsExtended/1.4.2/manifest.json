@@ -1,0 +1,10 @@
+{
+	"name": "MapsExtended",
+	"description": "Custom map core functionality",
+	"version_number": "1.4.2",
+	"dependencies": [
+		"BepInEx-BepInExPack_ROUNDS-5.4.1100",
+		"willis81808-UnboundLib-3.2.8"
+	],
+	"website_url": "https://github.com/olavim/RoundsMapsExtended"
+}

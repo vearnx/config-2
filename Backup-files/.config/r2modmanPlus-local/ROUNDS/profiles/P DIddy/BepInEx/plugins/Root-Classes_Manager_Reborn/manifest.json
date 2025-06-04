@@ -1,0 +1,14 @@
+{
+    "name": "Classes_Manager_Reborn",
+    "version_number": "1.5.5",
+    "website_url": "https://github.com/Tess-y/ClassesManagerReborn",
+    "description": "A recreation of the original Classes Manager, with added features.",
+    "dependencies": [
+        "willis81808-MMHook-1.0.0",
+        "BepInEx-BepInExPack_ROUNDS-5.4.1100",
+        "willis81808-UnboundLib-2.10.2",
+        "Pykess-ModdingUtils-0.3.5",
+        "Pykess-CardChoiceSpawnUniqueCardPatch-0.1.7",
+        "Root-RarityLib-1.1.2"
+    ]
+}

@@ -1,0 +1,41 @@
+{
+  "Sugar": {
+    "autoInstallDxvk": true,
+    "autoInstallDxvkNvapi": false,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": false,
+    "enableEsync": true,
+    "enableMsync": false,
+    "enableFsync": true,
+    "launcherArgs": "",
+    "nvidiaPrime": false,
+    "offlineMode": false,
+    "enviromentOptions": [
+      {
+        "key": "Steam-overlay",
+        "value": "STEAM_COMPAT_CLIENT_INSTALL_PATH=\"$HOME/.var/app/com.valvesoftware.Steam/data/Steam\""
+      }
+    ],
+    "wrapperOptions": [],
+    "showFps": false,
+    "targetExe": "/mnt/windows/Linux-games/rocketleague/BakkesMod/runbakkasmodlinux.bat",
+    "useGameMode": false,
+    "useSteamRuntime": true,
+    "battlEyeRuntime": true,
+    "eacRuntime": true,
+    "language": "",
+    "beforeLaunchScriptPath": "",
+    "afterLaunchScriptPath": "",
+    "verboseLogs": false,
+    "wineVersion": {
+      "bin": "/home/vearnx/.var/app/com.valvesoftware.Steam/.local/share/Steam/compatibilitytools.d/GE-Proton9-23/proton",
+      "name": "Proton - GE-Proton9-23",
+      "type": "proton"
+    },
+    "winePrefix": "/home/vearnx/Games/Heroic/Prefixes/default/Rocket League",
+    "wineCrossoverBottle": "",
+    "enableDXVKFpsLimit": false
+  },
+  "version": "v0",
+  "explicit": true
+}

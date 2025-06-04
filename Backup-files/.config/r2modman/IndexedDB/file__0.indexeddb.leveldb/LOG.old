@@ -1,0 +1,26 @@
+2025/01/05-19:44:21.359 69dfb Reusing MANIFEST /home/vearnx/.config/r2modman/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2025/01/05-19:44:21.359 69dfb Recovering log #32
+2025/01/05-19:44:21.364 69dfb Reusing old log /home/vearnx/.config/r2modman/IndexedDB/file__0.indexeddb.leveldb/000032.log 
+2025/01/05-19:44:29.125 69dfb Level-0 table #39: started
+2025/01/05-19:44:29.141 69dfb Level-0 table #39: 1185582 bytes OK
+2025/01/05-19:44:29.144 69dfb Delete type=0 #32
+2025/01/05-19:44:29.145 69dfb Compacting 1@1 + 2@2 files
+2025/01/05-19:44:29.148 69dfb Level-0 table #42: started
+2025/01/05-19:44:29.160 69dfb Level-0 table #42: 1213167 bytes OK
+2025/01/05-19:44:29.163 69dfb Delete type=0 #38
+2025/01/05-19:44:29.184 69dfb Generated table #40@1: 2630 keys, 2145340 bytes
+2025/01/05-19:44:29.191 69dfb Generated table #43@1: 4374 keys, 306482 bytes
+2025/01/05-19:44:29.191 69dfb Compacted 1@1 + 2@2 files => 2451822 bytes
+2025/01/05-19:44:29.204 69dfb compacted to: files[ 1 0 2 0 0 0 0 ]
+2025/01/05-19:44:29.204 69dfb Delete type=2 #35
+2025/01/05-19:44:29.204 69dfb Delete type=2 #36
+2025/01/05-19:44:29.204 69dfb Delete type=2 #39
+2025/01/05-19:44:29.212 69dfb Moved #42 to level-1 1213167 bytes OK: files[ 0 1 2 0 0 0 0 ]
+2025/01/05-19:44:29.220 69dfb Compacting 1@1 + 2@2 files
+2025/01/05-19:44:29.243 69dfb Generated table #44@1: 3611 keys, 2139064 bytes
+2025/01/05-19:44:29.255 69dfb Generated table #45@1: 5096 keys, 937586 bytes
+2025/01/05-19:44:29.255 69dfb Compacted 1@1 + 2@2 files => 3076650 bytes
+2025/01/05-19:44:29.258 69dfb compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/01/05-19:44:29.258 69dfb Delete type=2 #40
+2025/01/05-19:44:29.258 69dfb Delete type=2 #42
+2025/01/05-19:44:29.258 69dfb Delete type=2 #43

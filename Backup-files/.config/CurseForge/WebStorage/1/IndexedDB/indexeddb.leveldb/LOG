@@ -1,0 +1,15 @@
+2025/01/25-14:41:16.593 8ad5 Reusing MANIFEST /home/vearnx/.config/CurseForge/WebStorage/1/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/01/25-14:41:16.593 8ad5 Recovering log #7
+2025/01/25-14:41:16.594 8ad5 Reusing old log /home/vearnx/.config/CurseForge/WebStorage/1/IndexedDB/indexeddb.leveldb/000007.log 
+2025/01/25-14:41:37.006 8a83 Level-0 table #12: started
+2025/01/25-14:41:37.009 8a83 Level-0 table #12: 74080 bytes OK
+2025/01/25-14:41:37.010 8a83 Delete type=0 #7
+2025/01/25-14:41:37.010 8a83 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/01/25-14:41:37.010 8a83 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x05\x00\x00\xc8\x0b\x00S\x00W\x00H\x00e\x00a\x00l\x00t\x00h\x00L\x00o\x00g' @ 528 : 1
+2025/01/25-14:41:37.010 8a83 Compacting 1@1 + 1@2 files
+2025/01/25-14:41:37.010 8a83 Generated table #13@1: 57 keys, 1301 bytes
+2025/01/25-14:41:37.010 8a83 Compacted 1@1 + 1@2 files => 1301 bytes
+2025/01/25-14:41:37.011 8a83 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/01/25-14:41:37.012 8a83 Delete type=2 #9
+2025/01/25-14:41:37.012 8a83 Delete type=2 #12
+2025/01/25-14:41:37.012 8a83 Manual compaction at level-1 from '\x00\x05\x00\x00\xc8\x0b\x00S\x00W\x00H\x00e\x00a\x00l\x00t\x00h\x00L\x00o\x00g' @ 528 : 1 .. (end); will stop at (end)

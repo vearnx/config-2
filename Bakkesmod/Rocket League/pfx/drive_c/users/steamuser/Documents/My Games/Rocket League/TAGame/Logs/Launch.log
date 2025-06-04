@@ -1,0 +1,176 @@
+Log: Log file open, 14/04/2025 17:38:14
+Log: GPsyonixBuildID 250319.60456.478365
+Log: Command line: -AUTH_LOGIN=unused -AUTH_PASSWORD= -AUTH_TYPE=exchangecode -epicapp=Sugar -epicenv=Prod -EpicPortal -epicusername=GambleGod777 -epicuserid=450f5cd6696b492fa38e8f26e8acd936 -epiclocale=en -epicsandboxid=9773aa1aa54f4f7b80e44bef04986cea
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Log:  ... running in INSTALLED mode
+Init: Language extension: INT
+Init: Language extension: INT
+DevConfig: GConfig::LoadFile associated file:  ..\..\TAGame\Config\TAUI.ini
+Init: Version: 250319.60456.478365
+Init: Compiled (64-bit): Mar 19 2025 17:18:48
+Init: Command line: -AUTH_LOGIN=unused -AUTH_PASSWORD= -AUTH_TYPE=exchangecode -epicapp=Sugar -epicenv=Prod -EpicPortal -epicusername=GambleGod777 -epicuserid=450f5cd6696b492fa38e8f26e8acd936 -epiclocale=en -epicsandboxid=9773aa1aa54f4f7b80e44bef04986cea
+Init: Base directory: Z:\mnt\windows\Linux-games\rocketleague\rocketleague\Binaries\Win64\
+[0001.17] Log: Purging 30-day cache '..\..\TAGame\Cache\WebCache\*.*'...
+[0001.17] Log: Purging 3-day cache '..\..\TAGame\Logs\*.log'...
+[0001.18] Init: Computer: archlinux
+[0001.18] Init: User: steamuser
+[0001.18] Init: CPU Page size=4096, Processors=12
+[0001.18] Init: High frequency timer resolution =10.000000 MHz
+[0001.18] Init: Memory total: Physical=30.5GB (31GB approx) Pagefile=34.5GB Virtual=131072.0GB
+[0001.18] Init: Presizing for 138000 objects not considered by GC, pre-allocating 0 bytes.
+[0001.18] Init: Object subsystem initialized
+[0002.75] Log: Using feature set PrimeUpdate54
+[0002.79] Log: FOnlineSubsystemEOS: EOS version = 1.17.22-40344262
+[0002.79] DevOnline: EOS Platform CacheDirectory=C:\users\steamuser\AppData\Local\Rocket League\
+[0002.79] DevOnline: EOSSDK-LogEOSOverlay: OverlayPath registry key not found
+[0002.79] DevOnline: EOSSDK-LogEOSOverlay: Failed to initialize overlay module: PATH_NOT_CONFIGURED
+[0002.79] DevOnline: EOSSDK-LogEOSAuth: FAccountPortalBrowserManager::Init: Failed to register overlay: EOS_NotConfigured
+[0002.79] DevOnline: EOSSDK-LogEOSUI: Hot key event ignored because there are no known users.
+[0002.80] Log: FEOSManager::UpdateNetworkStatus OnlineSubsystem is null.
+[0002.87] Log: Found D3D11 adapter 0: AMD Radeon RX 7800 XT (RADV NAVI32)
+[0002.87] Log: Adapter has 16368MB of dedicated video memory, 0MB of dedicated system memory, and 15592MB of shared system memory
+[0002.91] Log: Found D3D11 adapter 1: AMD Radeon Graphics (RADV RAPHAEL_MENDOCINO)
+[0002.91] Log: Adapter has 512MB of dedicated video memory, 0MB of dedicated system memory, and 10736MB of shared system memory
+[0002.94] Log: Shader platform (RHI): PC-D3D-SM5
+[0002.99] Breadcrumbs: Startup_PreInit: 2.987
+[0003.00] Breadcrumbs: Startup_LoadGlobalShaders: 0.010
+[0006.97] Log: ProductDatabase_TA::InitProductLabels  0.01 sec total.
+[0008.56] Log: ProductDatabase_TA::UpdateAvailableProducts  1.59 sec total.
+[0008.59] Breadcrumbs: Startup_LoadScriptPackages: 5.591
+[0008.97] Breadcrumbs: Startup_LoadNonNativePackages: 0.376
+[0008.97] Log: 148458 objects as part of root set at end of initial load.
+[0008.97] Log: 0 out of 0 bytes used by permanent object pool.
+[0008.97] Log: ShaderCache load stats: AccumLoadSeconds=(1.643) ShadersLoaded=(420973) Duplicates=(27846)
+[0008.97] Log: Initializing Engine...
+[0008.97] Log: BuildID: 1512972997 from GPsyonixBuildID
+[0009.04] SystemSettings: Loading PC Settings
+[0009.05] Breadcrumbs: Startup_BuildGuidCache: 0.089
+[0009.07] Log: Running hardware survey...
+[0009.07] Log: Wwise(R) SDK Version 2019.1.11 Build 7296. Copyright (c) 2006-2012 Audiokinetic Inc. / All Rights Reserved.
+[0009.15] Log: OS: Microsoft Windows 10 Pro  (19043)
+[0009.15] Breadcrumbs: Startup_ClientInit: 0.096
+[0010.37] Log: WinSAT: 8.0 [8.0 CPU, 8.0 2D, 8.0 3D, 8.0 Mem, 8.0 Disk]
+[0010.37] Log: Processor: AMD Ryzen 5 7600X 6-Core Processor (AMD64 Family 25 Model 97 Stepping 2) 6 Cores, 12 Threads
+[0010.37] Log: Memory: 30.45GB
+[0010.37] Log: VideoController: AMD Radeon RX 7800 XT (RADV NAVI32) (31.0.21902.5)
+[0010.37] Log: Network Adapter: enp14s0
+[0010.37] Log: Network Adapter: wlan0
+[0010.37] Log: Network Adapter: docker0
+[0010.37] Log: Network Adapter: veth466fa0f
+[0010.37] Error: HardwareTest Query for SELECT Caption, Size, FreeSpace FROM Win32_LogicalDisk WHERE MediaType = 12 failed.  Error code: 0x80041001
+[0010.37] Log: Sound Device: Wine Audio Device
+[0010.37] Log: Hardware survey complete in 0.43 seconds.
+[0010.37] Breadcrumbs: Startup_CreateViewport: 1.215
+[0010.37] DevOnline: Created named interface (RecentPlayersList) of type (Engine.OnlineRecentPlayersList)
+[0010.37] DevOnline: EOSSDK-LogEOSRTC: EOS_RTCAudio_GetAudioInputDevicesCount is deprecated. Use EOS_RTCAudio_QueryInputDevicesInformation with EOS_RTCAudio_GetInputDevicesCount instead.
+[0010.39] DevOnline: EOSSDK-LogEOSRTC: EOS_RTCAudio_GetAudioInputDeviceByIndex is deprecated. Use EOS_RTCAudio_QueryInputDevicesInformation with EOS_RTCAudio_CopyInputDeviceInformationByIndex instead.
+[0010.39] DevOnline: EOSSDK-LogEOSRTC: EOS_RTCAudio_GetAudioOutputDevicesCount is deprecated. Use EOS_RTCAudio_QueryOutputDevicesInformation with EOS_RTCAudio_GetOutputDevicesCount instead.
+[0010.39] DevOnline: EOSSDK-LogEOSRTC: EOS_RTCAudio_GetAudioOutputDeviceByIndex is deprecated. Use EOS_RTCAudio_QueryOutputDevicesInformation with EOS_RTCAudio_CopyOutputDeviceInformationByIndex instead.
+[0010.39] EOSGameClips: EOSGameClips: Activate called successfully.
+[0010.39] EOSGameClips: EOSGameClips: Audio initialized successfully.
+[0010.39] EOSGameClips: EOSGameClips: Subscribed to game clips status events successfully.
+[0010.39] EOSGameClips: EOSGameClips: Subscribed to user status events successfully.
+[0010.39] EOSGameClips: EOSGameClips: Successfully initialized!
+[0010.39] ScriptLog: PsyNet using environment DBE_Production Prod
+[0010.39] PsyNet: PsyNetConnection_X_0 disabled OSCS_ServiceUnavailable
+[0010.39] PsyNetStaticData: HandleCacheExpired
+[0010.39] PsyNetStaticData: HandleGetURL URL=(https://config.psynet.gg/v2/Config/BattleCars/1512972997/Prod/Epic/INT/)
+[0010.39] PsyNetStaticData: Blocking sync start
+[0010.40] DevOnline: WebRequest_X_0 SEND: https://config.psynet.gg/v2/Config/BattleCars/1512972997/Prod/Epic/INT/
+[0010.57] DevOnline: WebRequest_X_0 RECV: 304 
+[0010.57] PsyNetStaticData: Blocking sync complete. Elapsed=0.1745
+[0010.57] PsyNetStaticData: HandleDataChanged
+[0010.58] ScriptWarning: ScriptWarning, Assertion failed, line 36
+	ContentConfig_TA Transient.Untitled_0.ContentConfig
+	Function ProjectX.ContentConfig_X:Apply:01D5
+Script call stack:
+	Function ProjectX.OnlineConfigDispatcher_X:ApplyConfigObject
+	Function TAGame.ContentConfig_TA:Apply
+	Function ProjectX.ContentConfig_X:Apply
+
+[0010.58] ScriptWarning: ScriptWarning, Assertion failed, line 36
+	ContentConfig_TA Transient.Untitled_0.ContentConfig
+	Function ProjectX.ContentConfig_X:Apply:01D5
+Script call stack:
+	Function ProjectX.OnlineConfigDispatcher_X:ApplyConfigObject
+	Function TAGame.ContentConfig_TA:Apply
+	Function ProjectX.ContentConfig_X:Apply
+
+[0010.58] ScriptWarning: ScriptWarning, Assertion failed, line 36
+	ContentConfig_TA Transient.Untitled_0.ContentConfig
+	Function ProjectX.ContentConfig_X:Apply:01D5
+Script call stack:
+	Function ProjectX.OnlineConfigDispatcher_X:ApplyConfigObject
+	Function TAGame.ContentConfig_TA:Apply
+	Function ProjectX.ContentConfig_X:Apply
+
+[0010.58] ScriptWarning: ScriptWarning, Assertion failed, line 36
+	ContentConfig_TA Transient.Untitled_0.ContentConfig
+	Function ProjectX.ContentConfig_X:Apply:01D5
+Script call stack:
+	Function ProjectX.OnlineConfigDispatcher_X:ApplyConfigObject
+	Function TAGame.ContentConfig_TA:Apply
+	Function ProjectX.ContentConfig_X:Apply
+
+[0012.15] Log: ProductDatabase_TA::UpdateAvailableProducts  1.57 sec total.
+[0022.55] Log: ProductDatabase_TA::InitProductLabels  0.01 sec total.
+[0022.55] PsyNet: PsyNetConnection_X_0 enabled
+[0022.55] PsyNetStaticData: UpdateCacheTimerEnabled CacheTimer.bEnabled=(True)
+[0022.55] EOSGameClips: Construct Constructed EOSGameClipsManager_TA. Self=(EOSGameClipsManager_TA_0)
+[0022.56] AuthPsyNetVerbose: New auth error. Error 'OSCS_NotConnected'
+[0022.56] AuthPsyNetVerbose: OnlinePlayerAuthentication_TA_0 None Unknown|0|0 Logout
+[0022.56] PsyNet: PsyNetConnection_X_1 disabled OSCS_NotConnected
+[0022.56] AuthPsyNetVerbose: PsyNet connection status changed. Error 'OSCS_NotConnected'
+[0022.56] AuthPsyNetVerbose: New auth error. Error 'OSCS_NotConnected'
+[0022.56] AuthPsyNetVerbose: OnlinePlayerAuthentication_TA_0 LoggedOut Unknown|0|0 Logout
+[0022.56] AuthPlatformCritical: Initiating auth. Player num '0', Name '', Password length '0'
+[0022.56] ScriptLog: HandleBlockListStatusCreated Status=(PlatformBlockListStatus_0) ControllerId=(0)
+[0022.56] AuthEpicCritical: Sending Eos login request with Credentials '{Version '4', Id Length '0', Token Length '0', Type 'EOS_LCT_ExchangeCode', SystemAuthCredentialsOptions null? 'Null', ExternalType 'EOS_ECT_EPIC'}'
+[0022.56] DevOnline: EOSSDK-LogEOSAuth: Invalid parameter EOS_Auth_Credentials.Token reason: must not be null or empty
+[0022.56] SaveGame: Load Player.ControllerId=(0) SaveFileName=(..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936.save)
+[0022.58] Breadcrumbs: Startup_InitOnlineSubsystem: 12.210
+[0022.58] DevNet: Browse: MENU_Main_p
+[0022.58] Log: LoadMap: MENU_Main_p
+[0022.58] Exit: XAudio2 Device shut down.
+[0022.61] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_GFxMenu_SF.upk
+[0022.68] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_MainMenu_SF.upk
+[0022.69] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_StartMenu_SF.upk
+[0022.76] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MainMenu_SF.upk
+[0022.86] Log: Game class is 'GameInfo_GFxMenu_TA'
+[0022.89] Log: Bringing World menu_main_p.TheWorld up for play (0) at 2025.04.14-17.38.36
+[0022.89] Log: Flushing async loaders.
+[0023.08] Log: Flushed async loaders.
+[0023.09] Log: Bringing up level for play took: 0.215334
+[0023.38] Log: ########### Finished loading level: 0.804467 seconds
+[0023.45] Breadcrumbs: Startup_Browse: 0.875
+[0023.45] Log: Initializing Engine Completed
+[0023.45] Breadcrumbs: Startup_Total: 23.453
+[0023.47] AuthEpicCritical: Eos login result 'EOS_InvalidParameters' for player '0'
+[0023.47] AuthPlatformCritical: Login failed for player '0' with error 'OSCS_ServiceUnavailable'
+[0023.48] DevOnline: WebRequest_X_1 SEND: https://rl-cdn.psyonix.com/LogoImages/S18/rl_s18_logo_en_fuwi.png
+[0023.49] SaveGame: HandleDataLoaded Result.Code=(BasicLoadResult_Success)
+[0023.49] ScriptLog: NetworkSave_TA_0 ApplySettings ReplicationRate=60 NetSpeed=15000 InputRate=60
+[0023.73] SaveData: Profile_TA_0 OnLoaded LocalID=(0)
+[0023.73] SaveData: Profile_TA_1 OnLoaded LocalID=(1)
+[0023.73] ScriptLog: GetDLCProducts, UnlockedDLCList=
+[0023.86] ScriptLog: GetDLCProducts, UnlockedDLCList=
+[0023.86] SaveGame: LocalPlayer_TA_0 HandleSaveDataLoaded 
+[0024.07] Log: 
+
+
+BakkesMod loaded
+
+
+[0024.28] FTECritical: [GFx] Changed active tutorial from 'null' to 'NONE'. Tutorial active? 'false', New checkpoint active? 'false'
+[0024.28] FTEVerbose: Checkpoint 'None' attempted completion while the FTE isn't active!
+[0024.33] Log: Flushing async loaders.
+[0024.72] Log: Flushed async loaders.
+[0025.44] Log: Octree Warning (AddPrimitive): StaticMeshActor_SMC_445 (Owner: BG_UF_Day_P.TheWorld:PersistentLevel.MeshCollector5) Outside World.
+[0025.44] Log: Octree Warning (AddPrimitive): StaticMeshActor_SMC_619 (Owner: BG_UF_Day_P.TheWorld:PersistentLevel.MeshCollector7) Outside World.
+[0025.44] Log: Octree Warning (AddPrimitive): StaticMeshActor_SMC_627 (Owner: BG_UF_Day_P.TheWorld:PersistentLevel.MeshCollector7) Outside World.
+[0025.45] Log: Detected new XInput controller 0
+[0025.46] XPGatedPlaylists: Not currently in a party.
+[0025.46] DevOnline: EOSSDK-LogEOSGameClips: No suitable h264 encoder found
+[0025.46] DevOnline: EOSSDK-LogEOSGameClips: Recording not supported.
+[0025.46] EOSGameClips: EOSGameClips: Availability changed from Pending to NotAvailable.
+[0025.46] Log: RPC Error (fa

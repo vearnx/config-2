@@ -1,0 +1,2454 @@
+{
+	"epic_Sugar": {
+		"id": "53573760846870087",
+		"game_id": "51154132383216479",
+		"platform_id": "epic",
+		"external_id": "Sugar",
+		"dlcs_ids": [],
+		"dlcs": [],
+		"parent_id": null,
+		"supported_operating_systems": [
+			{
+				"slug": "linux",
+				"name": "Linux"
+			},
+			{
+				"slug": "osx",
+				"name": "macOS"
+			},
+			{
+				"slug": "windows",
+				"name": "Windows"
+			}
+		],
+		"available_languages": [
+			{
+				"code": "en-US"
+			}
+		],
+		"first_release_date": null,
+		"game": {
+			"id": "51154132383216479",
+			"parent_id": null,
+			"dlcs_ids": [
+				"52356391477338978",
+				"52358850426210592",
+				"52362083928363156",
+				"53008728464673650",
+				"53008733998495930",
+				"53008760624664942",
+				"53011261881450124",
+				"53011263427921182",
+				"53011278140977670",
+				"53011283368536509",
+				"53020220438691116",
+				"53060770249152144",
+				"53718336595504034",
+				"54566615905538315",
+				"55481565701643441",
+				"55484181907094322",
+				"55487209929209827"
+			],
+			"first_release_date": "2015-07-06T00:00:00+0000",
+			"releases": [
+				{
+					"id": "51154132365061294",
+					"platform_id": "steam",
+					"external_id": "252950",
+					"release_per_platform_id": "steam_252950",
+					"availability": 0
+				},
+				{
+					"id": "51701635922618945",
+					"platform_id": "xboxone",
+					"external_id": "558797228",
+					"release_per_platform_id": "xboxone_558797228",
+					"availability": 0
+				},
+				{
+					"id": "52089468240782442",
+					"platform_id": "psn",
+					"external_id": "CUSA01433_00",
+					"release_per_platform_id": "psn_CUSA01433_00",
+					"availability": 0
+				},
+				{
+					"id": "52098158051072423",
+					"platform_id": "psn",
+					"external_id": "CUSA01163_00",
+					"release_per_platform_id": "psn_CUSA01163_00",
+					"availability": 0
+				},
+				{
+					"id": "52298090655093974",
+					"platform_id": "psn",
+					"external_id": "CUSA01759_00",
+					"release_per_platform_id": "psn_CUSA01759_00",
+					"availability": 0
+				},
+				{
+					"id": "52647238554258230",
+					"platform_id": "humble",
+					"external_id": "rocketleague_steam",
+					"release_per_platform_id": "humble_rocketleague_steam",
+					"availability": 0
+				},
+				{
+					"id": "52826713365047685",
+					"platform_id": "humble",
+					"external_id": "rocketleague_bundle_steam",
+					"release_per_platform_id": "humble_rocketleague_bundle_steam",
+					"availability": 0
+				},
+				{
+					"id": "52833862467197330",
+					"platform_id": "psvita",
+					"external_id": "CUSA01163_00",
+					"release_per_platform_id": "psvita_CUSA01163_00",
+					"availability": 0
+				},
+				{
+					"id": "52961398533381196",
+					"platform_id": "test",
+					"external_id": "CUSA01163_00",
+					"release_per_platform_id": "test_CUSA01163_00",
+					"availability": 0
+				},
+				{
+					"id": "53122972436099918",
+					"platform_id": "nswitch",
+					"external_id": "01005EE0036EC000",
+					"release_per_platform_id": "nswitch_01005EE0036EC000",
+					"availability": 0
+				},
+				{
+					"id": "53236254509843778",
+					"platform_id": "itch",
+					"external_id": "901b40fc25ce85c4723173eacf2403637f0225217f6fc8eee3bda670",
+					"release_per_platform_id": "itch_901b40fc25ce85c4723173eacf2403637f0225217f6fc8eee3bda670",
+					"availability": 0
+				},
+				{
+					"id": "53236432652930784",
+					"platform_id": "itch",
+					"external_id": "XFxSYWlkc2VydmVyXGdcTXkgRHJpdmVcRml0R2lybCBHYW1lc1xSb2NrZXQgTGVhZ3VlIFtGaXRHaXJsIFJlcGFja10=",
+					"release_per_platform_id": "itch_XFxSYWlkc2VydmVyXGdcTXkgRHJpdmVcRml0R2lybCBHYW1lc1xSb2NrZXQgTGVhZ3VlIFtGaXRHaXJsIFJlcGFja10=",
+					"availability": 0
+				},
+				{
+					"id": "53257652306140182",
+					"platform_id": "origin",
+					"external_id": "d6b1e23c1d37a714ac7d56a9d5ea27412793f6fa",
+					"release_per_platform_id": "origin_d6b1e23c1d37a714ac7d56a9d5ea27412793f6fa",
+					"availability": 0
+				},
+				{
+					"id": "53257744711131652",
+					"platform_id": "origin",
+					"external_id": "39fbad2f531cfa1c5bd23760a4a26d590ce0eb74c30d25af8564584430163608",
+					"release_per_platform_id": "origin_39fbad2f531cfa1c5bd23760a4a26d590ce0eb74c30d25af8564584430163608",
+					"availability": 0
+				},
+				{
+					"id": "53376900139150445",
+					"platform_id": "psx",
+					"external_id": "Rocket League",
+					"release_per_platform_id": "psx_Rocket League",
+					"availability": 0
+				},
+				{
+					"id": "53448423161932420",
+					"platform_id": "psn",
+					"external_id": "CUSA01653_00",
+					"release_per_platform_id": "psn_CUSA01653_00",
+					"availability": 0
+				},
+				{
+					"id": "53457017040950398",
+					"platform_id": "psx",
+					"external_id": "CUSA01433_00",
+					"release_per_platform_id": "psx_CUSA01433_00",
+					"availability": 0
+				},
+				{
+					"id": "53573760846870087",
+					"platform_id": "epic",
+					"external_id": "Sugar",
+					"release_per_platform_id": "epic_Sugar",
+					"availability": 0
+				},
+				{
+					"id": "53725159882259533",
+					"platform_id": "nswitch",
+					"external_id": "c313e82ce64e18054a1e3800df42af79bc9b89e8",
+					"release_per_platform_id": "nswitch_c313e82ce64e18054a1e3800df42af79bc9b89e8",
+					"availability": 0
+				},
+				{
+					"id": "53727399800695626",
+					"platform_id": "test",
+					"external_id": "CUSA01433_00",
+					"release_per_platform_id": "test_CUSA01433_00",
+					"availability": 0
+				},
+				{
+					"id": "53739006657643297",
+					"platform_id": "humble",
+					"external_id": "rocketleague_us_switch",
+					"release_per_platform_id": "humble_rocketleague_us_switch",
+					"availability": 0
+				},
+				{
+					"id": "53776177430332370",
+					"platform_id": "test",
+					"external_id": "252950",
+					"release_per_platform_id": "test_252950",
+					"availability": 0
+				},
+				{
+					"id": "53890585833622179",
+					"platform_id": "nswitch",
+					"external_id": "2fe8a2314ebde5c98bbd6ef630e71ddf030f0c30",
+					"release_per_platform_id": "nswitch_2fe8a2314ebde5c98bbd6ef630e71ddf030f0c30",
+					"availability": 0
+				},
+				{
+					"id": "53992080359980559",
+					"platform_id": "test",
+					"external_id": "/rocket-league-free-download/",
+					"release_per_platform_id": "test_/rocket-league-free-download/",
+					"availability": 0
+				},
+				{
+					"id": "54024455127042825",
+					"platform_id": "test",
+					"external_id": "rocket-league",
+					"release_per_platform_id": "test_rocket-league",
+					"availability": 0
+				},
+				{
+					"id": "54636390753190937",
+					"platform_id": "test",
+					"external_id": "steam_rocketleague",
+					"release_per_platform_id": "test_steam_rocketleague",
+					"availability": 0
+				},
+				{
+					"id": "54636390790896775",
+					"platform_id": "test",
+					"external_id": "epic_rocketleague",
+					"release_per_platform_id": "test_epic_rocketleague",
+					"availability": 0
+				},
+				{
+					"id": "54640359956700936",
+					"platform_id": "test",
+					"external_id": "gfn_100871611",
+					"release_per_platform_id": "test_gfn_100871611",
+					"availability": 0
+				},
+				{
+					"id": "54640359976334922",
+					"platform_id": "test",
+					"external_id": "gfn_252950",
+					"release_per_platform_id": "test_gfn_252950",
+					"availability": 0
+				},
+				{
+					"id": "55334052075395812",
+					"platform_id": "beamdog",
+					"external_id": "GAME_FROM_DATA_FILE-1-20220404154047",
+					"release_per_platform_id": "beamdog_GAME_FROM_DATA_FILE-1-20220404154047",
+					"availability": 0
+				},
+				{
+					"id": "55334067137668433",
+					"platform_id": "beamdog",
+					"external_id": "GAME_FROM_DATA_FILE-1-20220404154816",
+					"release_per_platform_id": "beamdog_GAME_FROM_DATA_FILE-1-20220404154816",
+					"availability": 0
+				},
+				{
+					"id": "55334074769211167",
+					"platform_id": "beamdog",
+					"external_id": "GAME_FROM_DATA_FILE-1-20220404155204",
+					"release_per_platform_id": "beamdog_GAME_FROM_DATA_FILE-1-20220404155204",
+					"availability": 0
+				},
+				{
+					"id": "55334080013563512",
+					"platform_id": "beamdog",
+					"external_id": "GAME_FROM_DATA_FILE-1-20220404155440",
+					"release_per_platform_id": "beamdog_GAME_FROM_DATA_FILE-1-20220404155440",
+					"availability": 0
+				},
+				{
+					"id": "55403729337448180",
+					"platform_id": "beamdog",
+					"external_id": "00000000-0000-0000-0000-000000006624",
+					"release_per_platform_id": "beamdog_00000000-0000-0000-0000-000000006624",
+					"availability": 0
+				},
+				{
+					"id": "55627466206858339",
+					"platform_id": "test",
+					"external_id": "gfn_17034111",
+					"release_per_platform_id": "test_gfn_17034111",
+					"availability": 0
+				},
+				{
+					"id": "55803699419145937",
+					"platform_id": "beamdog",
+					"external_id": "Sugar",
+					"release_per_platform_id": "beamdog_Sugar",
+					"availability": 0
+				},
+				{
+					"id": "51154132383216479",
+					"platform_id": "generic",
+					"external_id": "51154132383216479",
+					"release_per_platform_id": "generic_51154132383216479",
+					"availability": 1
+				}
+			],
+			"title": {
+				"*": "Rocket League",
+				"en-US": "Rocket League"
+			},
+			"sorting_title": {
+				"*": "Rocket League",
+				"en-US": "Rocket League"
+			},
+			"type": "game",
+			"developers_ids": [
+				"51153299211953003"
+			],
+			"developers": [
+				{
+					"id": "51153299211953003",
+					"name": "Psyonix",
+					"slug": "psyonix"
+				}
+			],
+			"publishers_ids": [
+				"51153299211953003"
+			],
+			"publishers": [
+				{
+					"id": "51153299211953003",
+					"name": "Psyonix",
+					"slug": "psyonix"
+				}
+			],
+			"genres_ids": [
+				"51121492616405278",
+				"51141224676321623",
+				"51141224875811235"
+			],
+			"genres": [
+				{
+					"id": "51121492616405278",
+					"name": {
+						"*": "Indie",
+						"en-US": "Indie"
+					},
+					"slug": "indie"
+				},
+				{
+					"id": "51141224676321623",
+					"name": {
+						"*": "Sport",
+						"en-US": "Sport"
+					},
+					"slug": "sport"
+				},
+				{
+					"id": "51141224875811235",
+					"name": {
+						"*": "Racing",
+						"en-US": "Racing"
+					},
+					"slug": "racing"
+				}
+			],
+			"themes_ids": [
+				"51071842231533391",
+				"51141225463821636"
+			],
+			"themes": [
+				{
+					"id": "51071842231533391",
+					"name": {
+						"*": "Action",
+						"en-US": "Action"
+					},
+					"slug": "action"
+				},
+				{
+					"id": "51141225463821636",
+					"name": {
+						"*": "Science fiction",
+						"en-US": "Science fiction"
+					},
+					"slug": "science-fiction"
+				}
+			],
+			"screenshots": [
+				{
+					"url_format": "https://images.gog.com/074f749ba9c98eb33c1597b3421b69c539aaa4256bde4a97ad9c5ed0b11dd570{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/a4abc960596e8e87fbbe59b544c12166814d0a76cc3d4d8e9dec61c69204e258{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/efd3d16e9e22c0865711ecbba18a808b5b047df2d210bef5768c45cca2489ff9{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/70eeccead8e038d0a8b8cdc50d79e0ddbb6aa7af132c4e21c7c47a31f054f989{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/0b7e7491ef52acf3caecef71f8155af34ce8f4bcf09c173a052cfc62c1866c8c{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/51d0403cc86b6b4f7f00c6f7de7fdbbbf98fa8e4b68ee96775dd156ce51454ea{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/4147538e08fbdc15cd07ef9ff79889a0cc050abefb8cf0a920a52f30be3f6753{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/d5f5f464e0095ced01a8051b0eb55b0192021c0dbdd258925b1e1d726f582db2{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/bd95c0237e766092cd30177452a11aaf9e544168590048bfc2420bbe89993bc4{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/292b36ce478f49eaaa4a8384db81b8b26c8d35a77211f712a66a55f8462bd1bd{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/21599f445830a7a1d0d91b8a9ff76050ff37c6885781a3cb2001f3e69443a8f5{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/110ff05b07ab87930f3d87e54c45f5d5b0edd3b15534dca1e29fa3365a5e236a{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/dd3c8dd76361f5ff27395b60a60096ad7b87d2bc5e7593f6dbfd30c4ad3220b9{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/58f5af7e5d8746848298e2cc0046d8b6bdd79e3283f9f19672d4d193cc5b098a{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/983b90cc16f2148561b555588ef1fba949397aace7c44df4a2150c9a01434a71{formatter}.{ext}?namespace=gamesdb"
+				}
+			],
+			"videos": [
+				{
+					"provider": "youtube",
+					"video_id": "o5YyUA525tI",
+					"thumbnail_id": "o5YyUA525tI",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "r4iT0yZEwk8",
+					"thumbnail_id": "r4iT0yZEwk8",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "kmZn0NIMVg8",
+					"thumbnail_id": "kmZn0NIMVg8",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "7iz-dQifR7Q",
+					"thumbnail_id": "7iz-dQifR7Q",
+					"name": "Trailer"
+				}
+			],
+			"artworks": [],
+			"summary": {
+				"*": "Soccer meets racing once again in our long-awaited, MP-focused sequel to Supersonic Acrobatic Rocket-Powered Battle-Cars! \r\n \r\nA futuristic Sports-Action game, Rocket League, equips players with booster-rigged vehicles that can be crashed into balls for incredible goals or epic saves across multiple, highly-detailed arenas. Using an advanced physics system to simulate realistic interactions, Rocket League relies on mass and momentum to give players a complete sense of intuitive control in this unbelievable, high-octane re-imagining of association football.",
+				"en-US": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and basketball-inspired Extra Modes, and more than 500 trillion possible cosmetic customization combinations."
+			},
+			"visible_in_library": true,
+			"aggregated_rating": 88.7059,
+			"game_modes": [
+				{
+					"id": "53051895165351137",
+					"name": "Single player",
+					"slug": "single-player"
+				},
+				{
+					"id": "53051898010278634",
+					"name": "Co-operative",
+					"slug": "co-operative"
+				},
+				{
+					"id": "53051908711988230",
+					"name": "Multiplayer",
+					"slug": "multiplayer"
+				},
+				{
+					"id": "53051956424090444",
+					"name": "Split screen",
+					"slug": "split-screen"
+				}
+			],
+			"horizontal_artwork": {
+				"url_format": "https://images.gog.com/ca8df85fb30e736ecb20f757e33255f6b5eaae65fa1fbf24237e6297decf2c97{formatter}.{ext}?namespace=gamesdb"
+			},
+			"background": {
+				"url_format": "https://images.gog.com/ca8df85fb30e736ecb20f757e33255f6b5eaae65fa1fbf24237e6297decf2c97{formatter}.{ext}?namespace=gamesdb"
+			},
+			"vertical_cover": {
+				"url_format": "https://images.gog.com/a51c4c8d790bd4f71a9746d5c02aa6974600310d7030a555cf2c368f047410bb{formatter}.{ext}?namespace=gamesdb"
+			},
+			"cover": {
+				"url_format": "https://images.gog.com/a51c4c8d790bd4f71a9746d5c02aa6974600310d7030a555cf2c368f047410bb{formatter}.{ext}?namespace=gamesdb"
+			},
+			"logo": {
+				"url_format": "https://images.gog.com/9c475b568ab1624d9a02b82f64b4d62f0ae90b5adf9d9f4a3de618df63036a91{formatter}.{ext}?namespace=gamesdb"
+			},
+			"square_icon": {
+				"url_format": "https://images.gog.com/6c3492f74e8098466f1fcf23365c50dc40262b2cfc7ebb4e8e22e11c031963af{formatter}.{ext}?namespace=gamesdb"
+			},
+			"global_popularity_all_time": 0,
+			"global_popularity_current": 0,
+			"series": {
+				"id": "53054447533519378",
+				"name": "Supersonic Acrobatic Rocket-Powered Battle-Cars",
+				"slug": "supersonic-acrobatic-rocket-powered-battle-cars"
+			},
+			"slug": "rocket-league-2015"
+		},
+		"title": {
+			"*": "Rocket League",
+			"en-US": "Rocket League"
+		},
+		"sorting_title": {
+			"*": "Rocket League",
+			"en-US": "Rocket League"
+		},
+		"type": "game",
+		"summary": {
+			"*": "Soccer meets racing once again in our long-awaited, MP-focused sequel to Supersonic Acrobatic Rocket-Powered Battle-Cars! \r\n \r\nA futuristic Sports-Action game, Rocket League, equips players with booster-rigged vehicles that can be crashed into balls for incredible goals or epic saves across multiple, highly-detailed arenas. Using an advanced physics system to simulate realistic interactions, Rocket League relies on mass and momentum to give players a complete sense of intuitive control in this unbelievable, high-octane re-imagining of association football.",
+			"en-US": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and basketball-inspired Extra Modes, and more than 500 trillion possible cosmetic customization combinations."
+		},
+		"videos": [],
+		"game_modes": [
+			{
+				"id": "53051895165351137",
+				"name": "Single player",
+				"slug": "single-player"
+			},
+			{
+				"id": "53051898010278634",
+				"name": "Co-operative",
+				"slug": "co-operative"
+			},
+			{
+				"id": "53051908711988230",
+				"name": "Multiplayer",
+				"slug": "multiplayer"
+			},
+			{
+				"id": "53051956424090444",
+				"name": "Split screen",
+				"slug": "split-screen"
+			}
+		],
+		"logo": {
+			"url_format": "https://images.gog.com/9c475b568ab1624d9a02b82f64b4d62f0ae90b5adf9d9f4a3de618df63036a91{formatter}.{ext}?namespace=gamesdb"
+		},
+		"series": {
+			"id": "53054447533519378",
+			"name": "Supersonic Acrobatic Rocket-Powered Battle-Cars",
+			"slug": "supersonic-acrobatic-rocket-powered-battle-cars"
+		},
+		"etag": "W/\"0227b9f025fd8f61472602e9b60e5ec1\""
+	},
+	"__timestamp": {
+		"epic_Sugar": "Sat Mar 22 2025 20:22:15 GMT-0400 (Eastern Daylight Time)",
+		"epic_Fortnite": "Mon Mar 24 2025 20:07:48 GMT-0400 (Eastern Daylight Time)",
+		"epic_592c359fb0e0413fb46dee2d24448eb4": "Mon Mar 24 2025 20:11:28 GMT-0400 (Eastern Daylight Time)",
+		"epic_398965b67f314d31b0683b8ea11c93a4": "Wed Mar 26 2025 21:28:22 GMT-0400 (Eastern Daylight Time)"
+	},
+	"epic_Fortnite": {
+		"id": "52214313435702487",
+		"game_id": "51152882072859886",
+		"platform_id": "epic",
+		"external_id": "Fortnite",
+		"dlcs_ids": [],
+		"dlcs": [],
+		"parent_id": null,
+		"supported_operating_systems": [
+			{
+				"slug": "osx",
+				"name": "macOS"
+			},
+			{
+				"slug": "windows",
+				"name": "Windows"
+			}
+		],
+		"available_languages": [
+			{
+				"code": "en-US"
+			}
+		],
+		"first_release_date": null,
+		"game": {
+			"id": "51152882072859886",
+			"parent_id": null,
+			"dlcs_ids": [
+				"52947335566007024",
+				"52947344281818270",
+				"53153064056476527",
+				"53536470167695825",
+				"53776533165085801",
+				"54368571176858425",
+				"55220843593566929",
+				"55458654312304077",
+				"55458654667882563",
+				"55458660177787679",
+				"55458660434198974",
+				"55458660757866419",
+				"55458661640891220",
+				"55458661919568686",
+				"55458662283659998",
+				"55669214934822458",
+				"55669215190352561",
+				"55669215591167393",
+				"55669216037990390",
+				"55669216345098558",
+				"55669216606602659",
+				"55669216853956558",
+				"55669217131089684",
+				"55669218997202394",
+				"55687127850028249",
+				"57111802791774918",
+				"57111802922275444",
+				"57119960514033123",
+				"58175360093041735",
+				"58181489112832074",
+				"58186997419311053",
+				"58186997629696193"
+			],
+			"first_release_date": "2017-07-25T00:00:00+0000",
+			"releases": [
+				{
+					"id": "51645675977406134",
+					"platform_id": "xboxone",
+					"external_id": "267695549",
+					"release_per_platform_id": "xboxone_267695549",
+					"availability": 0
+				},
+				{
+					"id": "52092243572804396",
+					"platform_id": "psn",
+					"external_id": "CUSA07669_00",
+					"release_per_platform_id": "psn_CUSA07669_00",
+					"availability": 0
+				},
+				{
+					"id": "52214313435702487",
+					"platform_id": "epic",
+					"external_id": "Fortnite",
+					"release_per_platform_id": "epic_Fortnite",
+					"availability": 0
+				},
+				{
+					"id": "52312705221853939",
+					"platform_id": "epic",
+					"external_id": "InfiltratorDemo_4.13",
+					"release_per_platform_id": "epic_InfiltratorDemo_4.13",
+					"availability": 0
+				},
+				{
+					"id": "52312716687713818",
+					"platform_id": "epic",
+					"external_id": "Zen_4.18",
+					"release_per_platform_id": "epic_Zen_4.18",
+					"availability": 0
+				},
+				{
+					"id": "52312719944127977",
+					"platform_id": "epic",
+					"external_id": "Zen_4.22",
+					"release_per_platform_id": "epic_Zen_4.22",
+					"availability": 0
+				},
+				{
+					"id": "52374015780181815",
+					"platform_id": "psn",
+					"external_id": "CUSA07022_00",
+					"release_per_platform_id": "psn_CUSA07022_00",
+					"availability": 0
+				},
+				{
+					"id": "52614038726857931",
+					"platform_id": "test",
+					"external_id": "Fortnite",
+					"release_per_platform_id": "test_Fortnite",
+					"availability": 0
+				},
+				{
+					"id": "52655507429307882",
+					"platform_id": "epic",
+					"external_id": "FortniteDevPlaytestI",
+					"release_per_platform_id": "epic_FortniteDevPlaytestI",
+					"availability": 0
+				},
+				{
+					"id": "52655507571039449",
+					"platform_id": "epic",
+					"external_id": "FortniteLiveBroadcasting",
+					"release_per_platform_id": "epic_FortniteLiveBroadcasting",
+					"availability": 0
+				},
+				{
+					"id": "52655507792346623",
+					"platform_id": "epic",
+					"external_id": "FortniteExtQAUETesting",
+					"release_per_platform_id": "epic_FortniteExtQAUETesting",
+					"availability": 0
+				},
+				{
+					"id": "52776274983824097",
+					"platform_id": "epic",
+					"external_id": "FortniteDevPlaytestL",
+					"release_per_platform_id": "epic_FortniteDevPlaytestL",
+					"availability": 0
+				},
+				{
+					"id": "52776275141900401",
+					"platform_id": "epic",
+					"external_id": "FortniteDevPlaytestK",
+					"release_per_platform_id": "epic_FortniteDevPlaytestK",
+					"availability": 0
+				},
+				{
+					"id": "52776275306890433",
+					"platform_id": "epic",
+					"external_id": "FortnitePredeployCN",
+					"release_per_platform_id": "epic_FortnitePredeployCN",
+					"availability": 0
+				},
+				{
+					"id": "52776275491355660",
+					"platform_id": "epic",
+					"external_id": "FortniteDevPlaytestN",
+					"release_per_platform_id": "epic_FortniteDevPlaytestN",
+					"availability": 0
+				},
+				{
+					"id": "52776275637256651",
+					"platform_id": "epic",
+					"external_id": "FortniteDevPlaytestM",
+					"release_per_platform_id": "epic_FortniteDevPlaytestM",
+					"availability": 0
+				},
+				{
+					"id": "52776275791380457",
+					"platform_id": "epic",
+					"external_id": "FortniteDevPlaytestJ",
+					"release_per_platform_id": "epic_FortniteDevPlaytestJ",
+					"availability": 0
+				},
+				{
+					"id": "52827043615784965",
+					"platform_id": "xboxone",
+					"external_id": "2137224547",
+					"release_per_platform_id": "xboxone_2137224547",
+					"availability": 0
+				},
+				{
+					"id": "52833862482511756",
+					"platform_id": "psvita",
+					"external_id": "CUSA07022_00",
+					"release_per_platform_id": "psvita_CUSA07022_00",
+					"availability": 0
+				},
+				{
+					"id": "52881322829296767",
+					"platform_id": "test",
+					"external_id": "CUSA07669_00",
+					"release_per_platform_id": "test_CUSA07669_00",
+					"availability": 0
+				},
+				{
+					"id": "53025795355403489",
+					"platform_id": "humble",
+					"external_id": "fortnite_deluxefounderspack_epicgames",
+					"release_per_platform_id": "humble_fortnite_deluxefounderspack_epicgames",
+					"availability": 0
+				},
+				{
+					"id": "53025849103059862",
+					"platform_id": "humble",
+					"external_id": "fortnitebattleroyale_starterpack_epicgames",
+					"release_per_platform_id": "humble_fortnitebattleroyale_starterpack_epicgames",
+					"availability": 0
+				},
+				{
+					"id": "53104263767592754",
+					"platform_id": "epic",
+					"external_id": "fn",
+					"release_per_platform_id": "epic_fn",
+					"availability": 0
+				},
+				{
+					"id": "53449078732891370",
+					"platform_id": "epic",
+					"external_id": "FortniteDevPlaytestU",
+					"release_per_platform_id": "epic_FortniteDevPlaytestU",
+					"availability": 0
+				},
+				{
+					"id": "53457017114877588",
+					"platform_id": "psx",
+					"external_id": "CUSA07669_00",
+					"release_per_platform_id": "psx_CUSA07669_00",
+					"availability": 0
+				},
+				{
+					"id": "54374103458353535",
+					"platform_id": "psn",
+					"external_id": "PPSA01923_00",
+					"release_per_platform_id": "psn_PPSA01923_00",
+					"availability": 0
+				},
+				{
+					"id": "54670164992822590",
+					"platform_id": "psn",
+					"external_id": "PPSA01922_00",
+					"release_per_platform_id": "psn_PPSA01922_00",
+					"availability": 0
+				},
+				{
+					"id": "54908478811050496",
+					"platform_id": "test",
+					"external_id": "gfn_100013311",
+					"release_per_platform_id": "test_gfn_100013311",
+					"availability": 0
+				},
+				{
+					"id": "55334052071996361",
+					"platform_id": "beamdog",
+					"external_id": "GAME_FROM_DATA_FILE-0-20220404154047",
+					"release_per_platform_id": "beamdog_GAME_FROM_DATA_FILE-0-20220404154047",
+					"availability": 0
+				},
+				{
+					"id": "55334067115552674",
+					"platform_id": "beamdog",
+					"external_id": "GAME_FROM_DATA_FILE-0-20220404154816",
+					"release_per_platform_id": "beamdog_GAME_FROM_DATA_FILE-0-20220404154816",
+					"availability": 0
+				},
+				{
+					"id": "55334074772970637",
+					"platform_id": "beamdog",
+					"external_id": "GAME_FROM_DATA_FILE-0-20220404155204",
+					"release_per_platform_id": "beamdog_GAME_FROM_DATA_FILE-0-20220404155204",
+					"availability": 0
+				},
+				{
+					"id": "55334080001773450",
+					"platform_id": "beamdog",
+					"external_id": "GAME_FROM_DATA_FILE-0-20220404155440",
+					"release_per_platform_id": "beamdog_GAME_FROM_DATA_FILE-0-20220404155440",
+					"availability": 0
+				},
+				{
+					"id": "55334096702261783",
+					"platform_id": "beamdog",
+					"external_id": "bd9eb298-158a-4f7e-8656-c0da5ccd8123",
+					"release_per_platform_id": "beamdog_bd9eb298-158a-4f7e-8656-c0da5ccd8123",
+					"availability": 0
+				},
+				{
+					"id": "55406709861044598",
+					"platform_id": "beamdog",
+					"external_id": "Fortnite",
+					"release_per_platform_id": "beamdog_Fortnite",
+					"availability": 0
+				},
+				{
+					"id": "55407077028036115",
+					"platform_id": "humble",
+					"external_id": "Fortnite",
+					"release_per_platform_id": "humble_Fortnite",
+					"availability": 0
+				},
+				{
+					"id": "55420955984224585",
+					"platform_id": "egg",
+					"external_id": "Fortnite",
+					"release_per_platform_id": "egg_Fortnite",
+					"availability": 0
+				},
+				{
+					"id": "56163502275626439",
+					"platform_id": "test",
+					"external_id": "epic_Fortnite",
+					"release_per_platform_id": "test_epic_Fortnite",
+					"availability": 0
+				},
+				{
+					"id": "56163627154396441",
+					"platform_id": "test",
+					"external_id": "100013311",
+					"release_per_platform_id": "test_100013311",
+					"availability": 0
+				},
+				{
+					"id": "56775070720531225",
+					"platform_id": "epic",
+					"external_id": "Fortnite_Studio",
+					"release_per_platform_id": "epic_Fortnite_Studio",
+					"availability": 0
+				},
+				{
+					"id": "56777367239584526",
+					"platform_id": "epic",
+					"external_id": "afdb5a85efcc45d8ae8e406e2121d81c",
+					"release_per_platform_id": "epic_afdb5a85efcc45d8ae8e406e2121d81c",
+					"availability": 0
+				},
+				{
+					"id": "57162942073200073",
+					"platform_id": "epic",
+					"external_id": "d8f7763e07d74c209d760a679f9ed6ac",
+					"release_per_platform_id": "epic_d8f7763e07d74c209d760a679f9ed6ac",
+					"availability": 0
+				},
+				{
+					"id": "57941255371413644",
+					"platform_id": "epic",
+					"external_id": "5291abb43ba449859549cb41535e8c8f",
+					"release_per_platform_id": "epic_5291abb43ba449859549cb41535e8c8f",
+					"availability": 0
+				},
+				{
+					"id": "57941255372942398",
+					"platform_id": "epic",
+					"external_id": "09e442f830a341f698b4da42abd98c9b",
+					"release_per_platform_id": "epic_09e442f830a341f698b4da42abd98c9b",
+					"availability": 0
+				},
+				{
+					"id": "51152882072859886",
+					"platform_id": "generic",
+					"external_id": "51152882072859886",
+					"release_per_platform_id": "generic_51152882072859886",
+					"availability": 1
+				}
+			],
+			"title": {
+				"*": "Fortnite",
+				"en-US": "Fortnite"
+			},
+			"sorting_title": {
+				"*": "Fortnite",
+				"en-US": "Fortnite"
+			},
+			"type": "game",
+			"developers_ids": [
+				"52372461744305993"
+			],
+			"developers": [
+				{
+					"id": "52372461744305993",
+					"name": "Epic Games",
+					"slug": "epic-games"
+				}
+			],
+			"publishers_ids": [
+				"52372461744305993"
+			],
+			"publishers": [
+				{
+					"id": "52372461744305993",
+					"name": "Epic Games",
+					"slug": "epic-games"
+				}
+			],
+			"genres_ids": [
+				"51071842242881003",
+				"51071842251704278",
+				"51071904337940794",
+				"51141224821260861",
+				"51141224846123521"
+			],
+			"genres": [
+				{
+					"id": "51071842242881003",
+					"name": {
+						"*": "Role-playing (RPG)",
+						"en-US": "Role-playing (RPG)"
+					},
+					"slug": "role-playing-rpg"
+				},
+				{
+					"id": "51071842251704278",
+					"name": {
+						"*": "Adventure",
+						"en-US": "Adventure"
+					},
+					"slug": "adventure"
+				},
+				{
+					"id": "51071904337940794",
+					"name": {
+						"*": "Strategy",
+						"en-US": "Strategy"
+					},
+					"slug": "strategy"
+				},
+				{
+					"id": "51141224821260861",
+					"name": {
+						"*": "Shooter",
+						"en-US": "Shooter"
+					},
+					"slug": "shooter"
+				},
+				{
+					"id": "51141224846123521",
+					"name": {
+						"*": "Simulator",
+						"en-US": "Simulator"
+					},
+					"slug": "simulator"
+				}
+			],
+			"themes_ids": [
+				"51071842227872529",
+				"51071842231533391",
+				"51141225990825995",
+				"51141226418224461"
+			],
+			"themes": [
+				{
+					"id": "51071842227872529",
+					"name": {
+						"*": "Open world",
+						"en-US": "Open world"
+					},
+					"slug": "open-world"
+				},
+				{
+					"id": "51071842231533391",
+					"name": {
+						"*": "Action",
+						"en-US": "Action"
+					},
+					"slug": "action"
+				},
+				{
+					"id": "51141225990825995",
+					"name": {
+						"*": "Sandbox",
+						"en-US": "Sandbox"
+					},
+					"slug": "sandbox"
+				},
+				{
+					"id": "51141226418224461",
+					"name": {
+						"*": "Survival",
+						"en-US": "Survival"
+					},
+					"slug": "survival"
+				}
+			],
+			"screenshots": [
+				{
+					"url_format": "https://images.gog.com/350000a7777afff8de13ca4d95c39a2ca39330c1ee57f51748a46634f06fce94{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/d2d1bf81bd7f916c83b5425e5f62b1e3bfdc18101afd98f41c5fc48bc7a568ce{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/5af46a640bbadf40307cf2bd1057a605502d7e989fae4715e62a738cabda1692{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/88fd89ad98c69f53d211e5979bc0fda7b9ad63a7c029c6f00df1971a59a6d218{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/e5f30918b81dd868f528f0d636743f306ef13af016ea0048d188b56ce1bc84b9{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/c9db7bd5bb5f3e17a96271e3b8fba6478c0f7618c41cfca35e921fac254cc002{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/7d55ea113ac486228c9d5efad099a8d215d316dde46666dc03f3517312910a6b{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/3dbf2a379d869e4fa9467f2e80dff2956b477272aeec29a71b831af2a5d188c1{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/648b1d062a76c60876b34325bbae3d566d1b1d4e9af70f5c277e182e3ae895ad{formatter}.{ext}?namespace=gamesdb"
+				}
+			],
+			"videos": [
+				{
+					"provider": "youtube",
+					"video_id": "Gq2GZCc1K2k",
+					"thumbnail_id": "Gq2GZCc1K2k",
+					"name": "Battle Royale Announcement Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "2GSfjeYVpkQ",
+					"thumbnail_id": "2GSfjeYVpkQ",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "qG-8ry32yvc",
+					"thumbnail_id": "qG-8ry32yvc",
+					"name": "Launch Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "Dk56OpKuFts",
+					"thumbnail_id": "Dk56OpKuFts",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "3KgmY5NrEzU",
+					"thumbnail_id": "3KgmY5NrEzU",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "d9gRvP9daPg",
+					"thumbnail_id": "d9gRvP9daPg",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "ldr0bg3S6MY",
+					"thumbnail_id": "ldr0bg3S6MY",
+					"name": "E3 2017 Gameplay Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "H-sFdMgJ93M",
+					"thumbnail_id": "H-sFdMgJ93M",
+					"name": "Trailer"
+				}
+			],
+			"artworks": [
+				{
+					"url_format": "https://images.gog.com/9be486d3828f752b75e7aeff4dea63a89f4e778f6b01090f12ec23f7d31c3545{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/590acce94725ca24a9fe4fec1c8d0b966b529d37ff047adff85031478d36bb9c{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/ce5b19ecd837e3a4ba9313a1a9857aa46b95c629e05bdaac59bbf943387762c0{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/5be65cd38b303f63b2a13542c32aafff790164ccde83ef4c8b4fa45b54d4bffc{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/c8201cd7ed5262b21ab71d946b52718df0d0f2b7aa2267eb3c346cad2f1748be{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/160d8e3f18824db3673a9aeb802dfa627517c233bb8dba5e14975ecbaa42f439{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/9333fd6800378f6077d01f2fe382a81cdb0eed0e1f8a9f560156c437554a94da{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/aeaf5dad3dfee4ec4aded1ca3a2701c4fb1a16afedb9935c3a77c8fe2345d14b{formatter}.{ext}?namespace=gamesdb"
+				}
+			],
+			"summary": {
+				"*": "Fortnite is the living, action building game from the developer formerly known as Epic MegaGames. You and your friends will lead a group of Heroes to reclaim and rebuild a homeland that has been left empty by mysterious darkness only known as \"the Storm\". \r\n \r\nBand together online to build extravagant forts, find or build insane weapons and traps and protect your towns from the strange monsters that emerge during the Storm. In an action experience from the only company smart enough to attach chainsaws to guns, get out there to push back the Storm and save the world. And don't forget to loot all the things.",
+				"en-US": "Fortnite is the completely free online game where you and your friends fight to be the last one standing in Battle Royale, join forces to make your own Creative games, or catch a live show at Party Royale."
+			},
+			"visible_in_library": true,
+			"aggregated_rating": 82.6,
+			"game_modes": [
+				{
+					"id": "53051895165351137",
+					"name": "Single player",
+					"slug": "single-player"
+				},
+				{
+					"id": "53051898010278634",
+					"name": "Co-operative",
+					"slug": "co-operative"
+				},
+				{
+					"id": "53051908711988230",
+					"name": "Multiplayer",
+					"slug": "multiplayer"
+				},
+				{
+					"id": "53051956424090444",
+					"name": "Split screen",
+					"slug": "split-screen"
+				},
+				{
+					"id": "53316265339172328",
+					"name": "Battle Royale",
+					"slug": "battle-royale"
+				}
+			],
+			"horizontal_artwork": {
+				"url_format": "https://images.gog.com/cd801498cd1f3b53da4838b118a23d132c4ec4db4ce8079081f814466b91104a{formatter}.{ext}?namespace=gamesdb"
+			},
+			"background": {
+				"url_format": "https://images.gog.com/cd801498cd1f3b53da4838b118a23d132c4ec4db4ce8079081f814466b91104a{formatter}.{ext}?namespace=gamesdb"
+			},
+			"vertical_cover": {
+				"url_format": "https://images.gog.com/5dcf4127b85d8d5bf271d0c533d27e7833a3c58465023855edfadd64a6e57b45{formatter}.{ext}?namespace=gamesdb"
+			},
+			"cover": {
+				"url_format": "https://images.gog.com/5dcf4127b85d8d5bf271d0c533d27e7833a3c58465023855edfadd64a6e57b45{formatter}.{ext}?namespace=gamesdb"
+			},
+			"logo": {
+				"url_format": "https://images.gog.com/5dcf4127b85d8d5bf271d0c533d27e7833a3c58465023855edfadd64a6e57b45{formatter}.{ext}?namespace=gamesdb"
+			},
+			"square_icon": {
+				"url_format": "https://images.gog.com/ce5b19ecd837e3a4ba9313a1a9857aa46b95c629e05bdaac59bbf943387762c0{formatter}.{ext}?namespace=gamesdb"
+			},
+			"global_popularity_all_time": 0,
+			"global_popularity_current": 0,
+			"slug": "fortnite-2017"
+		},
+		"title": {
+			"*": "Fortnite",
+			"en-US": "Fortnite"
+		},
+		"sorting_title": {
+			"*": "Fortnite",
+			"en-US": "Fortnite"
+		},
+		"type": "game",
+		"summary": {
+			"*": "Fortnite is the living, action building game from the developer formerly known as Epic MegaGames. You and your friends will lead a group of Heroes to reclaim and rebuild a homeland that has been left empty by mysterious darkness only known as \"the Storm\". \r\n \r\nBand together online to build extravagant forts, find or build insane weapons and traps and protect your towns from the strange monsters that emerge during the Storm. In an action experience from the only company smart enough to attach chainsaws to guns, get out there to push back the Storm and save the world. And don't forget to loot all the things.",
+			"en-US": "Fortnite is the completely free online game where you and your friends fight to be the last one standing in Battle Royale, join forces to make your own Creative games, or catch a live show at Party Royale."
+		},
+		"videos": [],
+		"game_modes": [
+			{
+				"id": "53051895165351137",
+				"name": "Single player",
+				"slug": "single-player"
+			},
+			{
+				"id": "53051898010278634",
+				"name": "Co-operative",
+				"slug": "co-operative"
+			},
+			{
+				"id": "53051908711988230",
+				"name": "Multiplayer",
+				"slug": "multiplayer"
+			},
+			{
+				"id": "53051956424090444",
+				"name": "Split screen",
+				"slug": "split-screen"
+			},
+			{
+				"id": "53316265339172328",
+				"name": "Battle Royale",
+				"slug": "battle-royale"
+			}
+		],
+		"logo": {
+			"url_format": "https://images.gog.com/5dcf4127b85d8d5bf271d0c533d27e7833a3c58465023855edfadd64a6e57b45{formatter}.{ext}?namespace=gamesdb"
+		},
+		"etag": "W/\"1456cf5ba7911f3d568a5ea8e37970c8\""
+	},
+	"epic_592c359fb0e0413fb46dee2d24448eb4": {
+		"id": "55743064863730621",
+		"game_id": "51152761107979097",
+		"platform_id": "epic",
+		"external_id": "592c359fb0e0413fb46dee2d24448eb4",
+		"dlcs_ids": [],
+		"dlcs": [],
+		"parent_id": null,
+		"supported_operating_systems": [
+			{
+				"slug": "windows",
+				"name": "Windows"
+			}
+		],
+		"available_languages": [
+			{
+				"code": "en-US"
+			}
+		],
+		"first_release_date": null,
+		"game": {
+			"id": "51152761107979097",
+			"parent_id": null,
+			"dlcs_ids": [
+				"51152761143373981",
+				"51295236268168162",
+				"51295236293919863",
+				"51760198889140266",
+				"52616893669442151",
+				"52678675151526176",
+				"52678675337670891",
+				"52678675625806419",
+				"52678676547842856",
+				"52678676772519298",
+				"52678676999019131",
+				"52678677189078063",
+				"52785351148598950",
+				"53020303910072811",
+				"53250627349031797",
+				"53423346631257129",
+				"53423352506207117",
+				"53423356276793733",
+				"53576306273141486",
+				"53773834688069671",
+				"54156183726410453",
+				"54280811245789887",
+				"54371745222234190",
+				"54687752531200891",
+				"54712171660329221",
+				"54750620110964866",
+				"55250138938471710",
+				"56538390239979369"
+			],
+			"first_release_date": "2017-09-06T00:00:00+0000",
+			"releases": [
+				{
+					"id": "51701638665527887",
+					"platform_id": "xboxone",
+					"external_id": "144389848",
+					"release_per_platform_id": "xboxone_144389848",
+					"availability": 0
+				},
+				{
+					"id": "51753442084248766",
+					"platform_id": "xboxone",
+					"external_id": "245548143",
+					"release_per_platform_id": "xboxone_245548143",
+					"availability": 0
+				},
+				{
+					"id": "52060670553976923",
+					"platform_id": "battlenet",
+					"external_id": "1146311730",
+					"release_per_platform_id": "battlenet_1146311730",
+					"availability": 0
+				},
+				{
+					"id": "52087229130255966",
+					"platform_id": "psn",
+					"external_id": "CUSA06172_00",
+					"release_per_platform_id": "psn_CUSA06172_00",
+					"availability": 0
+				},
+				{
+					"id": "52096175579210569",
+					"platform_id": "psn",
+					"external_id": "CUSA08456_00",
+					"release_per_platform_id": "psn_CUSA08456_00",
+					"availability": 0
+				},
+				{
+					"id": "52098158079270120",
+					"platform_id": "psn",
+					"external_id": "CUSA05042_00",
+					"release_per_platform_id": "psn_CUSA05042_00",
+					"availability": 0
+				},
+				{
+					"id": "52374568918974397",
+					"platform_id": "psn",
+					"external_id": "CUSA05963_00",
+					"release_per_platform_id": "psn_CUSA05963_00",
+					"availability": 0
+				},
+				{
+					"id": "52375258049090064",
+					"platform_id": "steam",
+					"external_id": "1085660",
+					"release_per_platform_id": "steam_1085660",
+					"availability": 0
+				},
+				{
+					"id": "52615426600377825",
+					"platform_id": "humble",
+					"external_id": "destiny2_latam_monthly_blizzardkeys",
+					"release_per_platform_id": "humble_destiny2_latam_monthly_blizzardkeys",
+					"availability": 0
+				},
+				{
+					"id": "52637438467441244",
+					"platform_id": "humble",
+					"external_id": "destiny2_eu_monthly_blizzardkeys",
+					"release_per_platform_id": "humble_destiny2_eu_monthly_blizzardkeys",
+					"availability": 0
+				},
+				{
+					"id": "52647238566969635",
+					"platform_id": "humble",
+					"external_id": "destiny2_me_af_monthly_blizzardkeys",
+					"release_per_platform_id": "humble_destiny2_me_af_monthly_blizzardkeys",
+					"availability": 0
+				},
+				{
+					"id": "52660468282834871",
+					"platform_id": "humble",
+					"external_id": "destiny2_asia_monthly_blizzardkeys",
+					"release_per_platform_id": "humble_destiny2_asia_monthly_blizzardkeys",
+					"availability": 0
+				},
+				{
+					"id": "52686770987225436",
+					"platform_id": "humble",
+					"external_id": "destiny2_us_monthly_blizzardkeys",
+					"release_per_platform_id": "humble_destiny2_us_monthly_blizzardkeys",
+					"availability": 0
+				},
+				{
+					"id": "52825732576233086",
+					"platform_id": "humble",
+					"external_id": "destiny2_beta_bungiekeys",
+					"release_per_platform_id": "humble_destiny2_beta_bungiekeys",
+					"availability": 0
+				},
+				{
+					"id": "52826885407376982",
+					"platform_id": "humble",
+					"external_id": "destiny2_rucis_monthly_blizzardkeys",
+					"release_per_platform_id": "humble_destiny2_rucis_monthly_blizzardkeys",
+					"availability": 0
+				},
+				{
+					"id": "52833862471923572",
+					"platform_id": "psvita",
+					"external_id": "CUSA05042_00",
+					"release_per_platform_id": "psvita_CUSA05042_00",
+					"availability": 0
+				},
+				{
+					"id": "52835247083267069",
+					"platform_id": "stadia",
+					"external_id": "Destiny 2",
+					"release_per_platform_id": "stadia_Destiny 2",
+					"availability": 0
+				},
+				{
+					"id": "52837587720065839",
+					"platform_id": "psvita",
+					"external_id": "CUSA08415_00",
+					"release_per_platform_id": "psvita_CUSA08415_00",
+					"availability": 0
+				},
+				{
+					"id": "52890636023216214",
+					"platform_id": "test",
+					"external_id": "CUSA05042_00",
+					"release_per_platform_id": "test_CUSA05042_00",
+					"availability": 0
+				},
+				{
+					"id": "52956989906220946",
+					"platform_id": "test",
+					"external_id": "CUSA06172_00",
+					"release_per_platform_id": "test_CUSA06172_00",
+					"availability": 0
+				},
+				{
+					"id": "52963177743951333",
+					"platform_id": "discord",
+					"external_id": "1146311730",
+					"release_per_platform_id": "discord_1146311730",
+					"availability": 0
+				},
+				{
+					"id": "53011263040931528",
+					"platform_id": "humble",
+					"external_id": "destiny2_na_blizzardkeys",
+					"release_per_platform_id": "humble_destiny2_na_blizzardkeys",
+					"availability": 0
+				},
+				{
+					"id": "53025563997073737",
+					"platform_id": "psn",
+					"external_id": "CUSA08415_00",
+					"release_per_platform_id": "psn_CUSA08415_00",
+					"availability": 0
+				},
+				{
+					"id": "53040392449599110",
+					"platform_id": "humble",
+					"external_id": "destiny2_asia_blizzardkeys",
+					"release_per_platform_id": "humble_destiny2_asia_blizzardkeys",
+					"availability": 0
+				},
+				{
+					"id": "53303690847303994",
+					"platform_id": "stadia",
+					"external_id": "View Destiny 2 Pro.",
+					"release_per_platform_id": "stadia_View Destiny 2 Pro.",
+					"availability": 0
+				},
+				{
+					"id": "53316652789166927",
+					"platform_id": "discord",
+					"external_id": "7a036bbc-e149-4693-8197-3c848615cb58",
+					"release_per_platform_id": "discord_7a036bbc-e149-4693-8197-3c848615cb58",
+					"availability": 0
+				},
+				{
+					"id": "53571320055063860",
+					"platform_id": "stadia",
+					"external_id": "20e792017ab34ad89b70dc17a5c72d68rcp1/sku/4950959380034dcda0aecf98f675e11f",
+					"release_per_platform_id": "stadia_20e792017ab34ad89b70dc17a5c72d68rcp1/sku/4950959380034dcda0aecf98f675e11f",
+					"availability": 0
+				},
+				{
+					"id": "53803545969823054",
+					"platform_id": "stadia",
+					"external_id": "20e792017ab34ad89b70dc17a5c72d68rcp1",
+					"release_per_platform_id": "stadia_20e792017ab34ad89b70dc17a5c72d68rcp1",
+					"availability": 0
+				},
+				{
+					"id": "54568220350129984",
+					"platform_id": "humble",
+					"external_id": "destiny2_legendaryedition_row_steam",
+					"release_per_platform_id": "humble_destiny2_legendaryedition_row_steam",
+					"availability": 0
+				},
+				{
+					"id": "54670091328518186",
+					"platform_id": "psn",
+					"external_id": "PPSA02409_00",
+					"release_per_platform_id": "psn_PPSA02409_00",
+					"availability": 0
+				},
+				{
+					"id": "54670099791656636",
+					"platform_id": "psn",
+					"external_id": "PPSA02411_00",
+					"release_per_platform_id": "psn_PPSA02411_00",
+					"availability": 0
+				},
+				{
+					"id": "54670123974202229",
+					"platform_id": "psn",
+					"external_id": "PPSA02410_00",
+					"release_per_platform_id": "psn_PPSA02410_00",
+					"availability": 0
+				},
+				{
+					"id": "54671072167077908",
+					"platform_id": "psn",
+					"external_id": "CUSA08483_00",
+					"release_per_platform_id": "psn_CUSA08483_00",
+					"availability": 0
+				},
+				{
+					"id": "54898186449773517",
+					"platform_id": "test",
+					"external_id": "gfn_1085660",
+					"release_per_platform_id": "test_gfn_1085660",
+					"availability": 0
+				},
+				{
+					"id": "55389832373410789",
+					"platform_id": "test",
+					"external_id": "100362311",
+					"release_per_platform_id": "test_100362311",
+					"availability": 0
+				},
+				{
+					"id": "55389890833501528",
+					"platform_id": "test",
+					"external_id": "gfn_100362311",
+					"release_per_platform_id": "test_gfn_100362311",
+					"availability": 0
+				},
+				{
+					"id": "55743064863730621",
+					"platform_id": "epic",
+					"external_id": "592c359fb0e0413fb46dee2d24448eb4",
+					"release_per_platform_id": "epic_592c359fb0e0413fb46dee2d24448eb4",
+					"availability": 0
+				},
+				{
+					"id": "56140854075911519",
+					"platform_id": "test",
+					"external_id": "1085660",
+					"release_per_platform_id": "test_1085660",
+					"availability": 0
+				},
+				{
+					"id": "56163502331107494",
+					"platform_id": "test",
+					"external_id": "steam_1085660",
+					"release_per_platform_id": "test_steam_1085660",
+					"availability": 0
+				},
+				{
+					"id": "56207655140359566",
+					"platform_id": "itch",
+					"external_id": "592c359fb0e0413fb46dee2d24448eb4",
+					"release_per_platform_id": "itch_592c359fb0e0413fb46dee2d24448eb4",
+					"availability": 0
+				},
+				{
+					"id": "57990717822642181",
+					"platform_id": "battlenet",
+					"external_id": "dst2",
+					"release_per_platform_id": "battlenet_dst2",
+					"availability": 0
+				},
+				{
+					"id": "51152761107979097",
+					"platform_id": "generic",
+					"external_id": "51152761107979097",
+					"release_per_platform_id": "generic_51152761107979097",
+					"availability": 1
+				}
+			],
+			"title": {
+				"*": "Destiny 2",
+				"en-US": "Destiny 2"
+			},
+			"sorting_title": {
+				"*": "Destiny 2",
+				"en-US": "Destiny 2"
+			},
+			"type": "game",
+			"developers_ids": [
+				"51141391215496480"
+			],
+			"developers": [
+				{
+					"id": "51141391215496480",
+					"name": "Bungie",
+					"slug": "bungie"
+				}
+			],
+			"publishers_ids": [
+				"51141225805908519"
+			],
+			"publishers": [
+				{
+					"id": "51141225805908519",
+					"name": "Activision",
+					"slug": "activision"
+				}
+			],
+			"genres_ids": [
+				"51071842242881003",
+				"51071842251704278",
+				"51141224821260861"
+			],
+			"genres": [
+				{
+					"id": "51071842242881003",
+					"name": {
+						"*": "Role-playing (RPG)",
+						"en-US": "Role-playing (RPG)"
+					},
+					"slug": "role-playing-rpg"
+				},
+				{
+					"id": "51071842251704278",
+					"name": {
+						"*": "Adventure",
+						"en-US": "Adventure"
+					},
+					"slug": "adventure"
+				},
+				{
+					"id": "51141224821260861",
+					"name": {
+						"*": "Shooter",
+						"en-US": "Shooter"
+					},
+					"slug": "shooter"
+				}
+			],
+			"themes_ids": [
+				"51071842227872529",
+				"51071842231533391",
+				"51071842246739768",
+				"51141225108229618",
+				"51141225463821636"
+			],
+			"themes": [
+				{
+					"id": "51071842227872529",
+					"name": {
+						"*": "Open world",
+						"en-US": "Open world"
+					},
+					"slug": "open-world"
+				},
+				{
+					"id": "51071842231533391",
+					"name": {
+						"*": "Action",
+						"en-US": "Action"
+					},
+					"slug": "action"
+				},
+				{
+					"id": "51071842246739768",
+					"name": {
+						"*": "Fantasy",
+						"en-US": "Fantasy"
+					},
+					"slug": "fantasy"
+				},
+				{
+					"id": "51141225108229618",
+					"name": {
+						"*": "Warfare",
+						"en-US": "Warfare"
+					},
+					"slug": "warfare"
+				},
+				{
+					"id": "51141225463821636",
+					"name": {
+						"*": "Science fiction",
+						"en-US": "Science fiction"
+					},
+					"slug": "science-fiction"
+				}
+			],
+			"screenshots": [
+				{
+					"url_format": "https://images.gog.com/1f83410e9897a3bf643509f3cdea3db165991f8fcaee5529af1940d2f71c118f{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/e3c0ae4346a54727f9d2a68cc5e9acc06d9b53dc12de739b3ffca4c36fe0b2cf{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/19f5d57f47fc7ceadeebf30fbddd0238d8757ea02bb84e0e7c730f7defff69ed{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/38825275c5e57199c27ab2c6024f9ae1d1fe0e7a2c5d713887200d13a3591a09{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/b522c128347948256919d4b4a69514aa1f2a52add7a2b2c00743fdd85b361df2{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/d5e03fc3255d17bb675213813249ad2f85726f100d3ead710e6b6dfc6011d131{formatter}.{ext}?namespace=gamesdb"
+				}
+			],
+			"videos": [
+				{
+					"provider": "youtube",
+					"video_id": "awh2XU3WrWI",
+					"thumbnail_id": "awh2XU3WrWI",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "z6ejXKYCZCM",
+					"thumbnail_id": "z6ejXKYCZCM",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "pKYmtZp2WLI",
+					"thumbnail_id": "pKYmtZp2WLI",
+					"name": "Launch Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "7hv_WKKszaQ",
+					"thumbnail_id": "7hv_WKKszaQ",
+					"name": "E3 2017: Our Darkest Hour Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "F0XTAagQi80",
+					"thumbnail_id": "F0XTAagQi80",
+					"name": "Zavala's Prelude Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "wGgB7b8CQJA",
+					"thumbnail_id": "wGgB7b8CQJA",
+					"name": "Featurette 1"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "Bk96j7lH12E",
+					"thumbnail_id": "Bk96j7lH12E",
+					"name": "Featurette 2"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "qvwhTQzP9vk",
+					"thumbnail_id": "qvwhTQzP9vk",
+					"name": "Featurette 3"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "aBQw8gjnzRs",
+					"thumbnail_id": "aBQw8gjnzRs",
+					"name": "Gameplay Reveal Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "np4Y9PyUUzs",
+					"thumbnail_id": "np4Y9PyUUzs",
+					"name": "Rally The Troops Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "-J5nhJuXO8A",
+					"thumbnail_id": "-J5nhJuXO8A",
+					"name": "A Long Day Trailer"
+				}
+			],
+			"artworks": [
+				{
+					"url_format": "https://images.gog.com/ae56c126300cf1d296a2e9822583c6802894df970149ad0bdbe8b85cff8ebaf1{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/1e1e41226ac6a752a33e4a77b9e472165aa1a4c7eb9ab7c8de8af2bc80440b1b{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/6ad85cbbc04ad6a6bfcc36ea5dad1fd4c75f8df0915035ad57c6684d08fd6f96{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/911374caf474a7216e1d318fc438aa3ea9207a06ee4fd3a0e92a0b91e7baacbe{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/3a4e0829d0cd3015e284f8c0f8a97684a7cd65f608e644e8badc579dfd1b1910{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/6ee63c5a0e63072c79abc5c686178c3e5b3d6ff3dea7e60dd63099c1ae00f522{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/91d1583c5c966b3df9c7654364967c4173aac868ebc159450f105249ae5dcb3b{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/cc907ac96ef078429de269abfc83b75062a65e5b80f5b8180185a442d4a285bc{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/3daf2e8f786b2ffa58178386a8682f9ca0fe95f5e62d058dc99082b44b92794b{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/f77ee163241d43ca9b83954b6a8f6b2daf30c3c8a571ef0c02d76bf1207b73ba{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/a77031de55f950b0dabf19d8ffbd6b3b782a97239b2a47fd6045c307846aa744{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/70205723304ab3e40f8301fc233e6bf828c04363d3f3333aa8e74bcd60c98923{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/f1183a2c5d26b3969e1ad1e567c42f3b054f8bab932022ca558523a98c76fbc1{formatter}.{ext}?namespace=gamesdb"
+				}
+			],
+			"summary": {
+				"*": "In Destiny 2, the last safe city on Earth has fallen and lays in ruins, occupied by a powerful new enemy and his elite army, the Red Legion. Every player creates their own character called a “Guardian,” humanity’s chosen protectors. As a Guardian in Destiny 2, players must master new abilities and weapons to reunite the city’s forces, stand together and fight back to reclaim their home.  \r\n  \r\nIn Destiny 2 players will answer this call, embarking on a fresh story filled with new destinations around our solar system to explore, and an expansive amount of activities to discover. There is something for almost every type of gamer in Destiny 2, including gameplay for solo, cooperative and competitive players set within a vast, evolving and exciting universe.",
+				"en-US": "Dive into the world of Destiny 2 to explore the mysteries of the solar system and experience responsive first-person shooter combat. Unlock powerful elemental abilities and collect unique gear to customize your Guardian's look and playstyle. Enjoy Destiny 2’s cinematic story, challenging co-op missions, and a variety of PvP modes alone or with friends. Download for free today and write your legend in the stars."
+			},
+			"visible_in_library": true,
+			"aggregated_rating": 82.44,
+			"game_modes": [
+				{
+					"id": "53051895165351137",
+					"name": "Single player",
+					"slug": "single-player"
+				},
+				{
+					"id": "53051898010278634",
+					"name": "Co-operative",
+					"slug": "co-operative"
+				},
+				{
+					"id": "53051908711988230",
+					"name": "Multiplayer",
+					"slug": "multiplayer"
+				},
+				{
+					"id": "53051958246697755",
+					"name": "Massively Multiplayer Online (MMO)",
+					"slug": "massively-multiplayer-online-mmo"
+				}
+			],
+			"horizontal_artwork": {
+				"url_format": "https://images.gog.com/04d1902d0c06cfb8eec473208dce5cd6fca52b8a2ba20ddfe8ec8b92d68afbd0{formatter}.{ext}?namespace=gamesdb"
+			},
+			"background": {
+				"url_format": "https://images.gog.com/04d1902d0c06cfb8eec473208dce5cd6fca52b8a2ba20ddfe8ec8b92d68afbd0{formatter}.{ext}?namespace=gamesdb"
+			},
+			"vertical_cover": {
+				"url_format": "https://images.gog.com/c679a96640fec210bec96541fdff022fd780665d59d2bbd50b6629ba012337b2{formatter}.{ext}?namespace=gamesdb"
+			},
+			"cover": {
+				"url_format": "https://images.gog.com/c679a96640fec210bec96541fdff022fd780665d59d2bbd50b6629ba012337b2{formatter}.{ext}?namespace=gamesdb"
+			},
+			"logo": {
+				"url_format": "https://images.gog.com/137ca1ad0036256a74d2e6573dc011750684f761230a00697962e4870c694ee7{formatter}.{ext}?namespace=gamesdb"
+			},
+			"square_icon": {
+				"url_format": "https://images.gog.com/34a13eeb03ee8c3d7ffb8e4d9b25cc9f3662e303e0261850a2d97a738fdfb185{formatter}.{ext}?namespace=gamesdb"
+			},
+			"global_popularity_all_time": 0,
+			"global_popularity_current": 0,
+			"series": {
+				"id": "53028513545176012",
+				"name": "Destiny",
+				"slug": "destiny"
+			},
+			"slug": "destiny-2-2017"
+		},
+		"title": {
+			"*": "Destiny 2",
+			"en-US": "Destiny 2"
+		},
+		"sorting_title": {
+			"*": "Destiny 2",
+			"en-US": "Destiny 2"
+		},
+		"type": "game",
+		"summary": {
+			"*": "In Destiny 2, the last safe city on Earth has fallen and lays in ruins, occupied by a powerful new enemy and his elite army, the Red Legion. Every player creates their own character called a “Guardian,” humanity’s chosen protectors. As a Guardian in Destiny 2, players must master new abilities and weapons to reunite the city’s forces, stand together and fight back to reclaim their home.  \r\n  \r\nIn Destiny 2 players will answer this call, embarking on a fresh story filled with new destinations around our solar system to explore, and an expansive amount of activities to discover. There is something for almost every type of gamer in Destiny 2, including gameplay for solo, cooperative and competitive players set within a vast, evolving and exciting universe.",
+			"en-US": "Dive into the world of Destiny 2 to explore the mysteries of the solar system and experience responsive first-person shooter combat. Unlock powerful elemental abilities and collect unique gear to customize your Guardian's look and playstyle. Enjoy Destiny 2’s cinematic story, challenging co-op missions, and a variety of PvP modes alone or with friends. Download for free today and write your legend in the stars."
+		},
+		"videos": [],
+		"game_modes": [
+			{
+				"id": "53051895165351137",
+				"name": "Single player",
+				"slug": "single-player"
+			},
+			{
+				"id": "53051898010278634",
+				"name": "Co-operative",
+				"slug": "co-operative"
+			},
+			{
+				"id": "53051908711988230",
+				"name": "Multiplayer",
+				"slug": "multiplayer"
+			},
+			{
+				"id": "53051958246697755",
+				"name": "Massively Multiplayer Online (MMO)",
+				"slug": "massively-multiplayer-online-mmo"
+			}
+		],
+		"logo": {
+			"url_format": "https://images.gog.com/137ca1ad0036256a74d2e6573dc011750684f761230a00697962e4870c694ee7{formatter}.{ext}?namespace=gamesdb"
+		},
+		"series": {
+			"id": "53028513545176012",
+			"name": "Destiny",
+			"slug": "destiny"
+		},
+		"etag": "W/\"5221052a91a73ba3f6c20a4952258714\""
+	},
+	"epic_398965b67f314d31b0683b8ea11c93a4": {
+		"id": "53943735959637268",
+		"game_id": "51295425455154652",
+		"platform_id": "epic",
+		"external_id": "398965b67f314d31b0683b8ea11c93a4",
+		"dlcs_ids": [],
+		"dlcs": [],
+		"parent_id": null,
+		"supported_operating_systems": [
+			{
+				"slug": "windows",
+				"name": "Windows"
+			}
+		],
+		"available_languages": [
+			{
+				"code": "en-US"
+			}
+		],
+		"first_release_date": null,
+		"game": {
+			"id": "51295425455154652",
+			"parent_id": null,
+			"dlcs_ids": [
+				"51295425478253695",
+				"51295425479762116",
+				"51295425480895708",
+				"51295425493232842",
+				"51295425495366095",
+				"51295425496610274",
+				"51295425499794489",
+				"51295425502765817",
+				"51295425508659038",
+				"51295425526792066",
+				"51295425540844054",
+				"51296562809087809",
+				"51745101506331150",
+				"52351401712838489",
+				"52579432266959076",
+				"52637727471225513",
+				"52686937217265919",
+				"52850461794547298",
+				"52850623446552016",
+				"52853051277358611",
+				"52853053127938471",
+				"52853606053305941",
+				"52947340152568764",
+				"52947341374710585",
+				"52947343227574550",
+				"52947343864909531",
+				"53020081282570588",
+				"53031389778657143",
+				"53031431709578668",
+				"53040642012617113",
+				"53052573775301579",
+				"53133425524715627",
+				"53150478766313749",
+				"53425726881095362",
+				"53639220713836403",
+				"55111299967532484",
+				"55393415804086594",
+				"55396254705192717",
+				"55397710273543787",
+				"55398129711361232",
+				"55400547748183882",
+				"55400675758813795",
+				"55400734946972855",
+				"55403551192120630",
+				"55403986474140399",
+				"55405706520442650",
+				"55406064476183124",
+				"55426214289671588",
+				"55434045501278502",
+				"55434056426138955",
+				"55439594259048685",
+				"55439604475826953",
+				"55452352391782122",
+				"55452352618773648",
+				"55465692122778138",
+				"55465701679833667",
+				"55525937820430087",
+				"55790458433068532",
+				"58185049029928114"
+			],
+			"first_release_date": "2013-03-25T00:00:00+0000",
+			"releases": [
+				{
+					"id": "51295425466985680",
+					"platform_id": "steam",
+					"external_id": "230410",
+					"release_per_platform_id": "steam_230410",
+					"availability": 0
+				},
+				{
+					"id": "51701632786549597",
+					"platform_id": "xboxone",
+					"external_id": "1482870140",
+					"release_per_platform_id": "xboxone_1482870140",
+					"availability": 0
+				},
+				{
+					"id": "52089468179994586",
+					"platform_id": "psn",
+					"external_id": "CUSA00106_00",
+					"release_per_platform_id": "psn_CUSA00106_00",
+					"availability": 0
+				},
+				{
+					"id": "52098158077497708",
+					"platform_id": "psn",
+					"external_id": "CUSA00080_00",
+					"release_per_platform_id": "psn_CUSA00080_00",
+					"availability": 0
+				},
+				{
+					"id": "52462153290196831",
+					"platform_id": "psn",
+					"external_id": "CUSA01639_00",
+					"release_per_platform_id": "psn_CUSA01639_00",
+					"availability": 0
+				},
+				{
+					"id": "52728638631482904",
+					"platform_id": "discord",
+					"external_id": "422772752647323649",
+					"release_per_platform_id": "discord_422772752647323649",
+					"availability": 0
+				},
+				{
+					"id": "52833862532200569",
+					"platform_id": "psvita",
+					"external_id": "CUSA00080_00",
+					"release_per_platform_id": "psvita_CUSA00080_00",
+					"availability": 0
+				},
+				{
+					"id": "52881322836235096",
+					"platform_id": "test",
+					"external_id": "CUSA00106_00",
+					"release_per_platform_id": "test_CUSA00106_00",
+					"availability": 0
+				},
+				{
+					"id": "52947333720155051",
+					"platform_id": "twitch",
+					"external_id": "491ab814-06db-4e89-91f6-699b1db550c6",
+					"release_per_platform_id": "twitch_491ab814-06db-4e89-91f6-699b1db550c6",
+					"availability": 0
+				},
+				{
+					"id": "52961398820535791",
+					"platform_id": "test",
+					"external_id": "CUSA00080_00",
+					"release_per_platform_id": "test_CUSA00080_00",
+					"availability": 0
+				},
+				{
+					"id": "53457017108970102",
+					"platform_id": "psx",
+					"external_id": "CUSA00106_00",
+					"release_per_platform_id": "psx_CUSA00106_00",
+					"availability": 0
+				},
+				{
+					"id": "53776177381605885",
+					"platform_id": "test",
+					"external_id": "230410",
+					"release_per_platform_id": "test_230410",
+					"availability": 0
+				},
+				{
+					"id": "53943735959637268",
+					"platform_id": "epic",
+					"external_id": "398965b67f314d31b0683b8ea11c93a4",
+					"release_per_platform_id": "epic_398965b67f314d31b0683b8ea11c93a4",
+					"availability": 0
+				},
+				{
+					"id": "54670123970708681",
+					"platform_id": "psn",
+					"external_id": "PPSA01980_00",
+					"release_per_platform_id": "psn_PPSA01980_00",
+					"availability": 0
+				},
+				{
+					"id": "54670238696308944",
+					"platform_id": "psn",
+					"external_id": "PPSA01737_00",
+					"release_per_platform_id": "psn_PPSA01737_00",
+					"availability": 0
+				},
+				{
+					"id": "54672345161136947",
+					"platform_id": "psn",
+					"external_id": "PPSA02323_00",
+					"release_per_platform_id": "psn_PPSA02323_00",
+					"availability": 0
+				},
+				{
+					"id": "54898186467142670",
+					"platform_id": "test",
+					"external_id": "gfn_230410",
+					"release_per_platform_id": "test_gfn_230410",
+					"availability": 0
+				},
+				{
+					"id": "54898186472340344",
+					"platform_id": "test",
+					"external_id": "gfn_101657411",
+					"release_per_platform_id": "test_gfn_101657411",
+					"availability": 0
+				},
+				{
+					"id": "55403729385993462",
+					"platform_id": "beamdog",
+					"external_id": "00000000-0000-0000-0000-000000008942",
+					"release_per_platform_id": "beamdog_00000000-0000-0000-0000-000000008942",
+					"availability": 0
+				},
+				{
+					"id": "55406709965702019",
+					"platform_id": "beamdog",
+					"external_id": "398965b67f314d31b0683b8ea11c93a4",
+					"release_per_platform_id": "beamdog_398965b67f314d31b0683b8ea11c93a4",
+					"availability": 0
+				},
+				{
+					"id": "55406917185563311",
+					"platform_id": "test",
+					"external_id": "398965b67f314d31b0683b8ea11c93a4",
+					"release_per_platform_id": "test_398965b67f314d31b0683b8ea11c93a4",
+					"availability": 0
+				},
+				{
+					"id": "55407077154319728",
+					"platform_id": "humble",
+					"external_id": "398965b67f314d31b0683b8ea11c93a4",
+					"release_per_platform_id": "humble_398965b67f314d31b0683b8ea11c93a4",
+					"availability": 0
+				},
+				{
+					"id": "55420956095973094",
+					"platform_id": "egg",
+					"external_id": "398965b67f314d31b0683b8ea11c93a4",
+					"release_per_platform_id": "egg_398965b67f314d31b0683b8ea11c93a4",
+					"availability": 0
+				},
+				{
+					"id": "51295425455154652",
+					"platform_id": "generic",
+					"external_id": "51295425455154652",
+					"release_per_platform_id": "generic_51295425455154652",
+					"availability": 1
+				}
+			],
+			"title": {
+				"*": "Warframe",
+				"en-US": "Warframe"
+			},
+			"sorting_title": {
+				"*": "Warframe",
+				"en-US": "Warframe"
+			},
+			"type": "game",
+			"developers_ids": [
+				"51141397729188269"
+			],
+			"developers": [
+				{
+					"id": "51141397729188269",
+					"name": "Digital Extremes",
+					"slug": "digital-extremes"
+				}
+			],
+			"publishers_ids": [
+				"51141397729188269"
+			],
+			"publishers": [
+				{
+					"id": "51141397729188269",
+					"name": "Digital Extremes",
+					"slug": "digital-extremes"
+				}
+			],
+			"genres_ids": [
+				"51071842242881003",
+				"51071842251704278",
+				"51141224821260861"
+			],
+			"genres": [
+				{
+					"id": "51071842242881003",
+					"name": {
+						"*": "Role-playing (RPG)",
+						"en-US": "Role-playing (RPG)"
+					},
+					"slug": "role-playing-rpg"
+				},
+				{
+					"id": "51071842251704278",
+					"name": {
+						"*": "Adventure",
+						"en-US": "Adventure"
+					},
+					"slug": "adventure"
+				},
+				{
+					"id": "51141224821260861",
+					"name": {
+						"*": "Shooter",
+						"en-US": "Shooter"
+					},
+					"slug": "shooter"
+				}
+			],
+			"themes_ids": [
+				"51071842231533391",
+				"51141225463821636"
+			],
+			"themes": [
+				{
+					"id": "51071842231533391",
+					"name": {
+						"*": "Action",
+						"en-US": "Action"
+					},
+					"slug": "action"
+				},
+				{
+					"id": "51141225463821636",
+					"name": {
+						"*": "Science fiction",
+						"en-US": "Science fiction"
+					},
+					"slug": "science-fiction"
+				}
+			],
+			"screenshots": [
+				{
+					"url_format": "https://images.gog.com/7d23df5f241e77bf674476bec8118af609f417ca7809f7fb929bc74bea024216{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/f1795db4b5681613ed4163f005b8a15e4f7cc5c5fc27f0493f22fd3290ba1583{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/30821822a0db19e8514b2d5bd042dc8c8996a17e33d0d4e67ef667c600fc1576{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/10050ab7fdddd29e091bc8fb1b32189ddaf71f689557c9ad325230757f07920d{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/759271f4df39924257cfdd3deffd2efa1c95fff944aa782807c28a05c082e6ef{formatter}.{ext}?namespace=gamesdb"
+				}
+			],
+			"videos": [
+				{
+					"provider": "youtube",
+					"video_id": "_dUxbV0ItPE",
+					"thumbnail_id": "_dUxbV0ItPE",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "kJ-Y3vEaplY",
+					"thumbnail_id": "kJ-Y3vEaplY",
+					"name": "Onslaught Highlight Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "Gx5RDaGVkZE",
+					"thumbnail_id": "Gx5RDaGVkZE",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "7QzMaXVxpLQ",
+					"thumbnail_id": "7QzMaXVxpLQ",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "JMDY6AfE-rM",
+					"thumbnail_id": "JMDY6AfE-rM",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "1cN_SiVLAhk",
+					"thumbnail_id": "1cN_SiVLAhk",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "FMbOBWS6ySc",
+					"thumbnail_id": "FMbOBWS6ySc",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "C4bPNpKQo78",
+					"thumbnail_id": "C4bPNpKQo78",
+					"name": "Trailer"
+				}
+			],
+			"artworks": [],
+			"summary": {
+				"*": "Warframe situates players as members of the Tenno race, newly awoken after years of cryo-sleep into a solar system at war. Reborn into a corrupt era, the Tenno are sought by the oppressive Grineer Empire for annihilation. Warframe armor is the key to overthrowing the Grineer by providing players with unique offensive and defensive powers to explore, upgrade and master during purpose-driven radical raids.",
+				"en-US": "Warframe situates players as members of the Tenno race, newly awoken after years of cryo-sleep into a solar system at war. Reborn into a corrupt era, the Tenno are sought by the oppressive Grineer Empire for annihilation. Warframe armor is the key to overthrowing the Grineer by providing players with unique offensive and defensive powers to explore, upgrade and master during purpose-driven radical raids."
+			},
+			"visible_in_library": true,
+			"aggregated_rating": 73.4545,
+			"game_modes": [
+				{
+					"id": "53051895165351137",
+					"name": "Single player",
+					"slug": "single-player"
+				},
+				{
+					"id": "53051898010278634",
+					"name": "Co-operative",
+					"slug": "co-operative"
+				},
+				{
+					"id": "53051908711988230",
+					"name": "Multiplayer",
+					"slug": "multiplayer"
+				}
+			],
+			"horizontal_artwork": {
+				"url_format": "https://images.gog.com/4f5e5257eebc08425dff3c93a6927c9f2dc8ccee70bd3ff246c609f51e636968{formatter}.{ext}?namespace=gamesdb"
+			},
+			"background": {
+				"url_format": "https://images.gog.com/4f5e5257eebc08425dff3c93a6927c9f2dc8ccee70bd3ff246c609f51e636968{formatter}.{ext}?namespace=gamesdb"
+			},
+			"vertical_cover": {
+				"url_format": "https://images.gog.com/72ae76bfab07dcd4e60087a14899ae4237cfc0676af611a5bc7322348fc2f4ff{formatter}.{ext}?namespace=gamesdb"
+			},
+			"cover": {
+				"url_format": "https://images.gog.com/72ae76bfab07dcd4e60087a14899ae4237cfc0676af611a5bc7322348fc2f4ff{formatter}.{ext}?namespace=gamesdb"
+			},
+			"logo": {
+				"url_format": "https://images.gog.com/72ae76bfab07dcd4e60087a14899ae4237cfc0676af611a5bc7322348fc2f4ff{formatter}.{ext}?namespace=gamesdb"
+			},
+			"icon": {
+				"url_format": "https://images.gog.com/72ae76bfab07dcd4e60087a14899ae4237cfc0676af611a5bc7322348fc2f4ff{formatter}.{ext}?namespace=gamesdb"
+			},
+			"square_icon": {
+				"url_format": "https://images.gog.com/5fa66450b28c496fd943d199ea45842f923ee1f0d9fff65573845e3f6d785efb{formatter}.{ext}?namespace=gamesdb"
+			},
+			"global_popularity_all_time": 0,
+			"global_popularity_current": 0,
+			"slug": "warframe-2013"
+		},
+		"title": {
+			"*": "Warframe",
+			"en-US": "Warframe"
+		},
+		"sorting_title": {
+			"*": "Warframe",
+			"en-US": "Warframe"
+		},
+		"type": "game",
+		"summary": {
+			"*": "Warframe situates players as members of the Tenno race, newly awoken after years of cryo-sleep into a solar system at war. Reborn into a corrupt era, the Tenno are sought by the oppressive Grineer Empire for annihilation. Warframe armor is the key to overthrowing the Grineer by providing players with unique offensive and defensive powers to explore, upgrade and master during purpose-driven radical raids.",
+			"en-US": "Warframe situates players as members of the Tenno race, newly awoken after years of cryo-sleep into a solar system at war. Reborn into a corrupt era, the Tenno are sought by the oppressive Grineer Empire for annihilation. Warframe armor is the key to overthrowing the Grineer by providing players with unique offensive and defensive powers to explore, upgrade and master during purpose-driven radical raids."
+		},
+		"videos": [],
+		"game_modes": [
+			{
+				"id": "53051895165351137",
+				"name": "Single player",
+				"slug": "single-player"
+			},
+			{
+				"id": "53051898010278634",
+				"name": "Co-operative",
+				"slug": "co-operative"
+			},
+			{
+				"id": "53051908711988230",
+				"name": "Multiplayer",
+				"slug": "multiplayer"
+			}
+		],
+		"icon": {
+			"url_format": "https://images.gog.com/72ae76bfab07dcd4e60087a14899ae4237cfc0676af611a5bc7322348fc2f4ff{formatter}.{ext}?namespace=gamesdb"
+		},
+		"logo": {
+			"url_format": "https://images.gog.com/72ae76bfab07dcd4e60087a14899ae4237cfc0676af611a5bc7322348fc2f4ff{formatter}.{ext}?namespace=gamesdb"
+		},
+		"etag": "W/\"3a6fd8858fa518c83d46f9e66a7b82b2\""
+	}
+}

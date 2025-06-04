@@ -1,0 +1,25 @@
+00:00:00.158502 VirtualBox GUI VM Selector Window 7.1.8 r168469 linux.amd64 (Apr 15 2025 18:05:05) release log
+00:00:00.158503 Log opened 2025-04-23T23:16:26.142935000Z
+00:00:00.158503 Build Type: release
+00:00:00.158504 OS Product: Linux
+00:00:00.158505 OS Release: 6.14.3-arch1-1
+00:00:00.158505 OS Version: #1 SMP PREEMPT_DYNAMIC Sun, 20 Apr 2025 12:38:52 +0000
+00:00:00.158523 DMI Product Name: MS-7E26
+00:00:00.158529 DMI Product Version: 1.0
+00:00:00.158532 Firmware type: UEFI
+00:00:00.158582 Secure Boot: Disabled
+00:00:00.158607 Host RAM: 31184MB (30.4GB) total, 22759MB (22.2GB) available
+00:00:00.158608 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.158609 Process ID: 498828
+00:00:00.158609 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.158627 Qt version: 6.9.0
+00:00:00.158956 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.161586 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.419738 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.433414 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 959x539 x 800x800
+00:00:02.261100 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 1276x719 x 800x800
+00:00:04.241416 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:06.930996 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:08.108480 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:50.176900 GUI: UICommon: Handling aboutToQuit request..
+00:00:50.962064 GUI: UICommon: aboutToQuit request handled!

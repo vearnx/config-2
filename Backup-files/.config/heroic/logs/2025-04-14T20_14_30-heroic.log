@@ -1,0 +1,142 @@
+(16:14:30) INFO:    [Legendary]:        Legendary location: /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary
+(16:14:30) INFO:    [Gog]:              GOGDL location: /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl
+(16:14:30) INFO:    [Connection]:       Connectivity: check-online
+(16:14:30) INFO:    [Connection]:       Pinging external endpoints
+(16:14:30) INFO:    [Gog]:              Checking for existing gog manifests
+(16:14:30) WARNING: [Backend]:          Protocol already registered.
+(16:14:30) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary --version
+(16:14:30) INFO:    [Gog]:              Running command: GOGDL_CONFIG_PATH=/home/vearnx/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/vearnx/.config/heroic/gog_store/auth.json --version
+(16:14:30) INFO:    [Nile]:             Running command: NILE_CONFIG_PATH=/home/vearnx/.config/heroic/nile_config /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/nile --version
+(16:14:30) INFO:    [Connection]:       Connectivity: online
+(16:14:30) ERROR:   [Gog]:              Unable to syncQueued playtime, userData not present
+(16:14:30) INFO:    [Gog]:              Running command: GOGDL_CONFIG_PATH=/home/vearnx/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/vearnx/.config/heroic/gog_store/auth.json auth
+(16:14:30) INFO:    [Backend]:          AreWeAntiCheatYet data downloaded
+(16:14:30) INFO:    [Backend]:          
+System Information:
+CPU: 12x AMD Ryzen 5 7600X 6-Core Processor
+Memory: 32.7 GB (used: 5.98 GB)
+GPUs:
+  GPU 0:
+    Name: Advanced Micro Devices, Inc. [AMD/ATI] Raphael
+    IDs: D=164e V=1002 SD=7e26 SV=1462
+    Driver: amdgpu
+  GPU 1:
+    Name: Advanced Micro Devices, Inc. [AMD/ATI] Navi 32 [Radeon RX 7700 XT / 7800 XT]
+    IDs: D=747e V=1002 SD=2413 SV=1458
+    Driver: amdgpu
+OS: Arch Linux 6.14.2-arch1-1 (linux)
+
+The current system is not a Steam Deck
+We are not running inside a Flatpak container
+
+Software Versions:
+  Heroic: 2.16.1 Scopper Gaban
+  Legendary: 0.20.36 Urban Flight (Heroic)
+  gogdl: 1.1.2
+  comet: comet 0.2.0
+  Nile: 1.1.2 Will A. Zeppeli
+
+(16:14:31) INFO:    [Frontend]:         Refreshing undefined Library
+(16:14:31) WARNING: [Backend]:          refresh not implemented on Sideload Library Manager
+(16:14:31) INFO:    [Legendary]:        Refreshing library...
+(16:14:31) INFO:    [Legendary]:        Refreshing Epic Games...
+(16:14:31) INFO:    [Backend]:          Frontend Ready
+(16:14:31) INFO:    [Backend]:          Checking for current version changelog
+(16:14:31) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary list --third-party
+(16:14:31) INFO:    [Legendary]:        Game list updated, got 6 games & DLCs
+(16:14:31) WARNING: [Backend]:          listUpdateableGames not implemented on Sideload Library Manager
+(16:14:31) INFO:    [Legendary]:        Checking for game updates: LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary list --third-party
+(16:14:32) INFO:    [Legendary]:        Found 0 games to update
+(16:14:33) INFO:    [Winetricks]:       Downloading Winetricks
+(16:14:35) INFO:    [WineDownloader]:   Updating wine versions info
+(16:14:35) INFO:    [WineDownloader]:   Fetching upstream information...
+(16:14:35) INFO:    [WineDownloader]:   wine versions updated
+(16:14:36) INFO:    [Backend]:          Starting the Download Queue
+(16:14:47) INFO:    [Backend]:          Sugar: Setting targetExe to "/mnt/windows/Linux-games/rocketleague/BakkesMod/runbakkasmodlinux.bat"
+(16:14:50) INFO:    [ProtocolHandler]:  Received heroic://launch?appName=Sugar&runner=legendary
+(16:14:50) INFO:    [Backend]:          Launching Rocket League® (Sugar)
+(16:14:50) INFO:    [Backend]:          Preventing display from sleep
+(16:14:50) INFO:    [Backend]:          Checking if wine version exists: Proton - GE-Proton9-23
+(16:14:50) INFO:    [Backend]:          Preventing machine to sleep
+(16:14:50) INFO:    [Backend]:          Using Steam sniper Runtime
+(16:14:50) INFO:    [Backend]:          Checking if wine version exists: Proton - GE-Proton9-23
+(16:14:50) INFO:    [Backend]:          Checking if wine version exists: Proton - GE-Proton9-23
+(16:14:50) INFO:    [Backend]:          Checking if wine version exists: Proton - GE-Proton9-23
+(16:14:50) DEBUG:   [Backend]:          Running Wine command: run wineboot --init
+(16:14:53) INFO:    [Legendary]:        Launching Rocket League®: HEROIC_APP_NAME=Sugar HEROIC_APP_RUNNER=legendary GAMEID=umu-0 HEROIC_APP_SOURCE=epic STORE=egs STEAM_COMPAT_INSTALL_PATH=/mnt/windows/Linux-games/rocketleague/rocketleague Steam-overlay=STEAM_COMPAT_CLIENT_INSTALL_PATH="$HOME/.var/app/com.valvesoftware.Steam/data/Steam" LD_PRELOAD= STEAM_COMPAT_CLIENT_INSTALL_PATH=/home/vearnx/.steam/steam WINEPREFIX="/home/vearnx/Games/Heroic/Prefixes/default/Rocket League" STEAM_COMPAT_DATA_PATH="/home/vearnx/Games/Heroic/Prefixes/default/Rocket League" PROTONPATH=/home/vearnx/.var/app/com.valvesoftware.Steam/.local/share/Steam/compatibilitytools.d/GE-Proton9-23 WINE_FULLSCREEN_FSR=0 PROTON_DISABLE_NVAPI=1 PROTON_EAC_RUNTIME=/home/vearnx/.config/heroic/tools/runtimes/eac_runtime PROTON_BATTLEYE_RUNTIME=/home/vearnx/.config/heroic/tools/runtimes/battleye_runtime STEAM_COMPAT_APP_ID=0 SteamAppId=0 SteamGameId=heroic-rocketleague PROTON_LOG_DIR=/home/vearnx LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary launch Sugar --no-wine --wrapper "/home/vearnx/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point -- "/home/vearnx/.var/app/com.valvesoftware.Steam/.local/share/Steam/compatibilitytools.d/GE-Proton9-23/proton" waitforexitandrun" --language en --override-exe /mnt/windows/Linux-games/rocketleague/BakkesMod/runbakkasmodlinux.bat
+(16:14:53) INFO:    [Backend]:          Preventing display to sleep
+(16:17:06) INFO:    [Backend]:          Trying to kill Sugar
+(16:17:06) INFO:    [Backend]:          Killed Sugar
+(16:17:06) INFO:    [Backend]:          Checking if wine version exists: Proton - GE-Proton9-23
+(16:17:06) DEBUG:   [Backend]:          Running Wine command: run wineboot -k
+(16:17:09) INFO:    [Backend]:          Stopping Display Power Saver Blocker
+(16:17:09) INFO:    [Frontend]:         Refreshing legendary Library
+(16:17:09) INFO:    [Legendary]:        Refreshing library...
+(16:17:09) INFO:    [Legendary]:        Refreshing Epic Games...
+(16:17:09) INFO:    [Backend]:          Stopping Power Saver Blocker
+(16:17:09) INFO:    [Backend]:          Stopping Display Sleep Blocker
+(16:17:09) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary list --third-party
+(16:17:09) INFO:    [Legendary]:        Game list updated, got 6 games & DLCs
+(16:17:09) INFO:    [Backend]:          Launching Rocket League® (Sugar)
+(16:17:09) INFO:    [Backend]:          Preventing display from sleep
+(16:17:09) INFO:    [Backend]:          Checking if wine version exists: Proton - GE-Proton9-23
+(16:17:09) INFO:    [Backend]:          Preventing machine to sleep
+(16:17:09) INFO:    [Backend]:          Using Steam sniper Runtime
+(16:17:09) INFO:    [Backend]:          Checking if wine version exists: Proton - GE-Proton9-23
+(16:17:09) INFO:    [Backend]:          Checking if wine version exists: Proton - GE-Proton9-23
+(16:17:09) INFO:    [Backend]:          Checking if wine version exists: Proton - GE-Proton9-23
+(16:17:09) DEBUG:   [Backend]:          Running Wine command: run wineboot --init
+(16:17:13) INFO:    [Legendary]:        Launching Rocket League®: HEROIC_APP_NAME=Sugar HEROIC_APP_RUNNER=legendary GAMEID=umu-0 HEROIC_APP_SOURCE=epic STORE=egs STEAM_COMPAT_INSTALL_PATH=/mnt/windows/Linux-games/rocketleague/rocketleague Steam-overlay=STEAM_COMPAT_CLIENT_INSTALL_PATH="$HOME/.var/app/com.valvesoftware.Steam/data/Steam" LD_PRELOAD= STEAM_COMPAT_CLIENT_INSTALL_PATH=/home/vearnx/.steam/steam WINEPREFIX="/home/vearnx/Games/Heroic/Prefixes/default/Rocket League" STEAM_COMPAT_DATA_PATH="/home/vearnx/Games/Heroic/Prefixes/default/Rocket League" PROTONPATH=/home/vearnx/.var/app/com.valvesoftware.Steam/.local/share/Steam/compatibilitytools.d/GE-Proton9-23 WINE_FULLSCREEN_FSR=0 PROTON_DISABLE_NVAPI=1 PROTON_EAC_RUNTIME=/home/vearnx/.config/heroic/tools/runtimes/eac_runtime PROTON_BATTLEYE_RUNTIME=/home/vearnx/.config/heroic/tools/runtimes/battleye_runtime STEAM_COMPAT_APP_ID=0 SteamAppId=0 SteamGameId=heroic-rocketleague PROTON_LOG_DIR=/home/vearnx LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary launch Sugar --no-wine --wrapper "/home/vearnx/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point -- "/home/vearnx/.var/app/com.valvesoftware.Steam/.local/share/Steam/compatibilitytools.d/GE-Proton9-23/proton" waitforexitandrun" --language en --override-exe /mnt/windows/Linux-games/rocketleague/BakkesMod/runbakkasmodlinux.bat
+(16:17:13) INFO:    [Backend]:          Preventing display to sleep
+(16:18:01) INFO:    [Backend]:          Trying to kill Sugar
+(16:18:01) INFO:    [Backend]:          Killed Sugar
+(16:18:01) INFO:    [Backend]:          Checking if wine version exists: Proton - GE-Proton9-23
+(16:18:01) DEBUG:   [Backend]:          Running Wine command: run wineboot -k
+(16:18:04) INFO:    [Backend]:          Stopping Display Power Saver Blocker
+(16:18:04) INFO:    [Frontend]:         Refreshing legendary Library
+(16:18:04) INFO:    [Legendary]:        Refreshing library...
+(16:18:04) INFO:    [Legendary]:        Refreshing Epic Games...
+(16:18:04) INFO:    [Backend]:          Stopping Power Saver Blocker
+(16:18:04) INFO:    [Backend]:          Stopping Display Sleep Blocker
+(16:18:04) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary list --third-party
+(16:18:05) INFO:    [Legendary]:        Game list updated, got 6 games & DLCs
+(16:18:06) INFO:    [Backend]:          Sugar: Setting useSteamRuntime to false
+(16:18:09) INFO:    [Backend]:          Launching Rocket League® (Sugar)
+(16:18:09) INFO:    [Backend]:          Checking if wine version exists: Proton - GE-Proton9-23
+(16:18:09) INFO:    [Backend]:          Preventing machine to sleep
+(16:18:09) INFO:    [Backend]:          Checking if wine version exists: Proton - GE-Proton9-23
+(16:18:09) INFO:    [Backend]:          Checking if wine version exists: Proton - GE-Proton9-23
+(16:18:09) INFO:    [Backend]:          Checking if wine version exists: Proton - GE-Proton9-23
+(16:18:09) DEBUG:   [Backend]:          Running Wine command: run wineboot --init
+(16:18:12) INFO:    [Legendary]:        Launching Rocket League®: HEROIC_APP_NAME=Sugar HEROIC_APP_RUNNER=legendary GAMEID=umu-0 HEROIC_APP_SOURCE=epic STORE=egs STEAM_COMPAT_INSTALL_PATH=/mnt/windows/Linux-games/rocketleague/rocketleague Steam-overlay=STEAM_COMPAT_CLIENT_INSTALL_PATH="$HOME/.var/app/com.valvesoftware.Steam/data/Steam" LD_PRELOAD= STEAM_COMPAT_CLIENT_INSTALL_PATH=/home/vearnx/.steam/steam WINEPREFIX="/home/vearnx/Games/Heroic/Prefixes/default/Rocket League" STEAM_COMPAT_DATA_PATH="/home/vearnx/Games/Heroic/Prefixes/default/Rocket League" PROTONPATH=/home/vearnx/.var/app/com.valvesoftware.Steam/.local/share/Steam/compatibilitytools.d/GE-Proton9-23 WINE_FULLSCREEN_FSR=0 PROTON_DISABLE_NVAPI=1 PROTON_EAC_RUNTIME=/home/vearnx/.config/heroic/tools/runtimes/eac_runtime PROTON_BATTLEYE_RUNTIME=/home/vearnx/.config/heroic/tools/runtimes/battleye_runtime STEAM_COMPAT_APP_ID=0 SteamAppId=0 SteamGameId=heroic-rocketleague PROTON_LOG_DIR=/home/vearnx LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary launch Sugar --no-wine --wrapper " "/home/vearnx/.var/app/com.valvesoftware.Steam/.local/share/Steam/compatibilitytools.d/GE-Proton9-23/proton" waitforexitandrun" --language en --override-exe /mnt/windows/Linux-games/rocketleague/BakkesMod/runbakkasmodlinux.bat
+(16:18:12) INFO:    [Backend]:          Preventing display to sleep
+(16:18:52) INFO:    [Legendary]:        Checking if EOS Overlay is enabled: LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary eos-overlay info --prefix "/home/vearnx/Games/Heroic/Prefixes/default/Rocket League/pfx"
+(16:18:52) INFO:    [ExtraGameInfo]:    Using cached ExtraGameInfo data for Rocket League
+(16:18:52) INFO:    [Legendary]:        Getting more details with 'legendary info'
+(16:18:52) INFO:    [ExtraGameInfo]:    Using cached ExtraGameInfo data for Rocket League
+(16:18:52) INFO:    [Legendary]:        Getting more details with 'legendary info'
+(16:18:52) INFO:    [Legendary]:        Getting more details with 'legendary info'
+(16:18:52) INFO:    [Legendary]:        Getting more details with 'legendary info'
+(16:18:52) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary info Sugar --json --platform Windows
+(16:18:52) INFO:    [Legendary]:        Abort command "LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary eos-overlay info --prefix "/home/vearnx/Games/Heroic/Prefixes/default/Rocket League/pfx""
+(16:18:52) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary info Sugar --json --platform Windows
+(16:18:52) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary info Sugar --json --platform Windows
+(16:18:52) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary info Sugar --json --platform Windows
+(16:18:52) INFO:    [Legendary]:        Getting Info from Epic API
+(16:18:53) DEBUG:   [Legendary]:        Using cached install info
+(16:18:55) INFO:    [Backend]:          Sugar: Setting useSteamRuntime to true
+(16:18:56) INFO:    [Backend]:          Stopping Display Power Saver Blocker
+(16:18:56) INFO:    [Frontend]:         Refreshing legendary Library
+(16:18:56) INFO:    [Legendary]:        Refreshing library...
+(16:18:56) INFO:    [Legendary]:        Refreshing Epic Games...
+(16:18:56) INFO:    [Backend]:          Stopping Power Saver Blocker
+(16:18:56) INFO:    [Backend]:          Stopping Display Sleep Blocker
+(16:18:56) DEBUG:   [Legendary]:        Using cached install info
+(16:18:56) DEBUG:   [Legendary]:        Using cached install info
+(16:18:56) DEBUG:   [Legendary]:        Using cached install info
+(16:18:56) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary list --third-party
+(16:18:56) INFO:    [Legendary]:        Game list updated, got 6 games & DLCs
+(16:18:56) DEBUG:   [Legendary]:        Using cached install info
+(16:18:56) DEBUG:   [Legendary]:        Using cached install info
+(16:18:56) DEBUG:   [Legendary]:        Using cached install info
+(16:18:58) DEBUG:   [Legendary]:        Using cached install info

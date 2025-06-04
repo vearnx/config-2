@@ -1,0 +1,25 @@
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display,dolphin_directorysizemode.upd:convert-directorysizecount-to-directorysizemode
+
+[ExtractDialog]
+2 screens: Window-Maximized=true
+DirHistory[$e]=$HOME/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Schedule I/Mods/,$HOME/Documents/bakkes/,$HOME/Documents/Firewatch/
+
+[General]
+ModifiedStartupSettings=true
+ShowFullPathInTitlebar=true
+Version=202
+ViewPropsTimestamp=2024,10,23,21,23,40.492
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,directorythumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,opendocumentthumbnail,svgthumbnail,windowsexethumbnail,windowsimagethumbnail,avif,evince,gdk-pixbuf-thumbnailer,gnome-font-viewer,gsf-office,heif,jxl,totem
+
+[Search]
+Location=Everywhere

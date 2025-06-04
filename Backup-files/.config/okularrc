@@ -1,0 +1,15 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/.config/hypr/wall_paper.bash
+File2[$e]=$HOME/.config/hypr/wallstate.txt
+Name1[$e]=wall_paper.bash
+Name2[$e]=wallstate.txt

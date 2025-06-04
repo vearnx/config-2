@@ -1,0 +1,7 @@
+{
+    "name": "MMHook",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "MonoMod Runtime Hooks generated for ROUNDS",
+    "dependencies": [ ]
+}

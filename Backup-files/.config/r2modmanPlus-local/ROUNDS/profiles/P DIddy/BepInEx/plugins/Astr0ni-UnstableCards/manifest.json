@@ -1,0 +1,22 @@
+{
+  "name": "UnstableCards",
+  "version_number": "2.8.1",
+  "website_url": "https://github.com/Astr0nii/Unstable-Cards",
+  "description": "The most unstable mod ROUNDS has to offer! 43 new cards with custom art and some with sounds!",
+  "dependencies": [
+    "Root-RarityLib-1.2.8",
+    "willis81808-UnboundLib-3.2.13",
+    "Pykess-CardChoiceSpawnUniqueCardPatch-0.1.10",
+    "Pykess-ModdingUtils-0.4.8",
+    "willuwontu-BlockForcePatch-1.0.1",
+    "CrazyCoders-RarityBundle-0.1.0",
+    "Root-GunBodyRecoilPatch-0.1.0",
+	"willuwontu-WillsWackyManagers-1.5.13",
+	"Pykess-GunUnblockablePatch-0.0.0",
+	"willuwontu-RespawnPatch-1.0.6",
+	"Root-GunProjectileSizePatch-1.1.2",
+	"Root-Classes_Manager_Reborn-1.5.5",
+	"Root-RegenerationPatch-0.0.0",
+	"Root-GravityPatch-0.0.0"
+  ]
+}

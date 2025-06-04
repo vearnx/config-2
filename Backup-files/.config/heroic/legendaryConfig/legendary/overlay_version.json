@@ -1,0 +1,56 @@
+{
+  "data": {
+    "appName": "98bc04bc842e4906993fd6d6644ffb8d",
+    "buildVersion": "1.2.8++EOSSDK+Release-Overlay-CL-34031348-Windows",
+    "hash": "928f56ad4e7decd2b944a28e23b2c7a880a800e5",
+    "labelName": "Live-Windows",
+    "manifests": [
+      {
+        "queryParams": [
+          {
+            "name": "cfl_token",
+            "value": "1739668155-1LdxIscJ8FpJBU8BQ6l%2FZG4VlIdJkh%2BApH9ALwGJUoM%3D"
+          }
+        ],
+        "uri": "https://cloudflare.epicgamescdn.com/Builds/EOS/OverlayCloudDir/w0mpcuXk66DKDtHnwEO8vXrENucZRQ.manifest"
+      },
+      {
+        "queryParams": [
+          {
+            "name": "ak_token",
+            "value": "exp=1739668155~hmac=349a936ea4ba409b3139668bcd8ffe54e42a0e0c15e637f2958f059e770c8680"
+          }
+        ],
+        "uri": "https://epicgames-download1.akamaized.net/Builds/EOS/OverlayCloudDir/w0mpcuXk66DKDtHnwEO8vXrENucZRQ.manifest"
+      },
+      {
+        "queryParams": [
+          {
+            "name": "Policy",
+            "value": "eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6IiovQnVpbGRzL0VPUy9PdmVybGF5Q2xvdWREaXIvdzBtcGN1WGs2NkRLRHRIbndFTzh2WHJFTnVjWlJRLm1hbmlmZXN0IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzM5NjY4MTU1fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__"
+          },
+          {
+            "name": "Signature",
+            "value": "Cls6q5K0ljwwRMOavjjLLjlbqgHxmzXYpQW8lmAP8w9bYY9Eky8rwEGJpdG0mbXT39KlF8DMH0hV3UnQw6mRLi4PF0TSuqV90Mcd~GVQKAs4aF-MUMLuKJPDsMsFnOAuGNDT~NnHCpXQINIIeAbAWAizSc2KICbDVggCrtzMAqhbaLGGr9UdWKd544~92el6ucdJd8Oi4aJiyL9KiJr9C6jgvrRg2fxLFKf-BeWPNP5CWH39XCoWOg7tK2apLZ6U4QY84GZOvTjZne~n14XsnRYc365rtKwr9jk0HI-fwDNBanLZch4ehVCHYkjENyumMUNUTxSIFFMZsDoJ-Aj4PA__"
+          },
+          {
+            "name": "Key-Pair-Id",
+            "value": "APKAI5CNFPJPTPYZISXQ"
+          }
+        ],
+        "uri": "https://download.epicgames.com/Builds/EOS/OverlayCloudDir/w0mpcuXk66DKDtHnwEO8vXrENucZRQ.manifest"
+      },
+      {
+        "queryParams": [
+          {
+            "name": "f_token",
+            "value": "1739668155_cf257d3ac5e1e2ae417867797dc3f378bcd9f89f"
+          }
+        ],
+        "uri": "https://fastly-download.epicgames.com/Builds/EOS/OverlayCloudDir/w0mpcuXk66DKDtHnwEO8vXrENucZRQ.manifest"
+      }
+    ],
+    "useSignedUrl": false
+  },
+  "last_update": 1739667855.4604897
+}

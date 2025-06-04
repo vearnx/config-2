@@ -1,0 +1,4 @@
+[4/14/2025, 4:14:30 PM] GOGDL_CONFIG_PATH=/home/vearnx/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/vearnx/.config/heroic/gog_store/auth.json --version
+[4/14/2025, 4:14:30 PM] GOGDL_CONFIG_PATH=/home/vearnx/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/vearnx/.config/heroic/gog_store/auth.json auth
+1.1.2
+null

@@ -1,0 +1,12 @@
+{
+    "name": "ROUNDS_VC",
+    "version_number": "0.0.0",
+    "website_url": "https://github.com/Tess-y/RoundsVC.git",
+    "description": "In-game voice chat!",
+    "dependencies": [
+        "willis81808-UnboundLib-2.11.1",
+	"willis81808-MMHook-1.0.0",
+	"BepInEx-BepInExPack_ROUNDS-5.4.1100"
+    ]
+}
+

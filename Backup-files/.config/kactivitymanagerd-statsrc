@@ -1,0 +1,11 @@
+[Favorites-org.kde.plasma.kicker.favorites.instance-106-abede4aa-78b1-4a84-a852-ae0c093220df]
+ordering=preferred://browser,applications:com.spotify.Client.desktop,applications:org.kde.konsole.desktop,applications:systemsettings.desktop,applications:org.kde.dolphin.desktop
+
+[Favorites-org.kde.plasma.kicker.favorites.instance-106-global]
+ordering=preferred://browser,applications:com.spotify.Client.desktop,applications:org.kde.konsole.desktop,applications:systemsettings.desktop,applications:org.kde.dolphin.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-4-abede4aa-78b1-4a84-a852-ae0c093220df]
+ordering=preferred://browser,org.kde.kontact.desktop,systemsettings.desktop,org.kde.dolphin.desktop,org.kde.discover.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-4-global]
+ordering=preferred://browser,org.kde.kontact.desktop,systemsettings.desktop,org.kde.dolphin.desktop,org.kde.discover.desktop

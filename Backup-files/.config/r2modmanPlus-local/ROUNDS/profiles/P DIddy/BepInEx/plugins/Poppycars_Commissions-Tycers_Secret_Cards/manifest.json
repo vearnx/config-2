@@ -1,0 +1,12 @@
+{
+    "name": "Tycers_Secret_Cards",
+    "version_number": "0.5.1",
+    "website_url": "",
+    "description": "Adds 5 additional cards, made by poppycars",
+    "dependencies": [
+"BepInEx-BepInExPack_ROUNDS-5.4.1900",
+"willis81808-UnboundLib-3.2.10",
+"Pykess-ModdingUtils-0.4.6",
+"Pykess-CardChoiceSpawnUniqueCardPatch-0.1.9"
+]    
+}

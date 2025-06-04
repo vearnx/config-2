@@ -1,0 +1,33 @@
+{
+  "w4JjggHz2NdnbmE7hBV4qK": {
+    "autoInstallDxvk": true,
+    "autoInstallDxvkNvapi": false,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": false,
+    "enableEsync": true,
+    "enableMsync": false,
+    "enableFsync": true,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": true,
+    "useGameMode": true,
+    "battlEyeRuntime": true,
+    "eacRuntime": true,
+    "language": "",
+    "beforeLaunchScriptPath": "",
+    "afterLaunchScriptPath": "",
+    "wineVersion": {
+      "bin": "/home/vearnx/.local/share/lutris/runners/wine/wine-ge-8-26-x86_64/bin/wine",
+      "name": "Wine - wine-ge-8-26-x86_64",
+      "type": "wine",
+      "lib": "/home/vearnx/.local/share/lutris/runners/wine/wine-ge-8-26-x86_64/lib64",
+      "lib32": "/home/vearnx/.local/share/lutris/runners/wine/wine-ge-8-26-x86_64/lib",
+      "wineserver": "/home/vearnx/.local/share/lutris/runners/wine/wine-ge-8-26-x86_64/bin/wineserver"
+    },
+    "winePrefix": "/home/vearnx/Games/Heroic/Prefixes/default/Title",
+    "wineCrossoverBottle": ""
+  },
+  "version": "v0",
+  "explicit": true
+}

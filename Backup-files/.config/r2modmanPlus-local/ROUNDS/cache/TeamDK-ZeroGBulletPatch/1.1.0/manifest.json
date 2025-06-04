@@ -1,0 +1,11 @@
+{
+	"name":"ZeroGBulletPatch",
+	"author_name":"dpklinge",
+    	"version_number":"1.1.0",
+	"website_url":"https://github.com/dpklinge/ZeroGBulletPatch",
+	"displayName":"Zero G Bullet Trajectory Patch",
+	"description":"Fixes trajectories of zero-gravity bullets",
+	"dependencies": [
+		"BepInEx-BepInExPack_ROUNDS-5.4.1100"
+	]
+}

@@ -1,0 +1,70 @@
+{
+  "Windows": [
+    {
+      "app_name": "398965b67f314d31b0683b8ea11c93a4",
+      "asset_id": "398965b67f314d31b0683b8ea11c93a4",
+      "build_version": "2024.03.28.14.05-21293",
+      "catalog_item_id": "9b6e3ff688c448f4971a9c752094f286",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "244aaaa06bfa49d088205b13b9d2d115",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "592c359fb0e0413fb46dee2d24448eb4",
+      "asset_id": "592c359fb0e0413fb46dee2d24448eb4",
+      "build_version": "10040010",
+      "catalog_item_id": "06bd477f9fbe4259a1421fb3f559aa46",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "428115def4ca4deea9d69c99c5a5a99e",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "Sugar",
+      "asset_id": "Sugar",
+      "build_version": "BC2_Update54+478365",
+      "catalog_item_id": "530145df28a24424923f5828cc9031a1",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "9773aa1aa54f4f7b80e44bef04986cea",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "86ae9acccf8443e18fca6950e0181288",
+      "asset_id": "86ae9acccf8443e18fca6950e0181288",
+      "build_version": "1.5.2",
+      "catalog_item_id": "101391ece6024e069a7cb8cf22104399",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "update_type": "PATCH"
+      },
+      "namespace": "a2dcbb9e34204bda9da8415f97b3f4ea",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "Fortnite_Studio",
+      "asset_id": "Fortnite",
+      "build_version": "++Fortnite+Release-34.30-CL-41387772-Windows",
+      "catalog_item_id": "1e8bda5cfbb641b9a9aea8bd62285f73",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "FortniteInstallationPool"
+      },
+      "namespace": "fn",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "Fortnite",
+      "asset_id": "Fortnite",
+      "build_version": "++Fortnite+Release-34.30-CL-41387772-Windows",
+      "catalog_item_id": "4fe75bbc5a674f4f9b356b5c90567da5",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "FortniteInstallationPool"
+      },
+      "namespace": "fn",
+      "sidecar_rev": 0
+    }
+  ]
+}

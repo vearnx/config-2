@@ -1,0 +1,8 @@
+modName: gnonme-ModThatIsNotMod
+files:
+  - - /home/vearnx/.config/r2modmanPlus-local/BONEWORKS/cache/gnonme-ModThatIsNotMod/0.3.6/Mods/ModThatIsNotMod.dll
+    - Mods/ModThatIsNotMod.dll
+  - - /home/vearnx/.config/r2modmanPlus-local/BONEWORKS/cache/gnonme-ModThatIsNotMod/0.3.6/Mods/ModThatIsNotMod.xml
+    - Mods/ModThatIsNotMod.xml
+  - - /home/vearnx/.config/r2modmanPlus-local/BONEWORKS/cache/gnonme-ModThatIsNotMod/0.3.6/Plugins/BackwardsCompatibilityPlugin.dll
+    - Plugins/BackwardsCompatibilityPlugin.dll

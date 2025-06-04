@@ -1,0 +1,7 @@
+currentState:
+  - - Mods/ModThatIsNotMod.dll
+    - gnonme-ModThatIsNotMod
+  - - Mods/ModThatIsNotMod.xml
+    - gnonme-ModThatIsNotMod
+  - - Plugins/BackwardsCompatibilityPlugin.dll
+    - gnonme-ModThatIsNotMod

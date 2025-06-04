@@ -1,0 +1,11 @@
+{
+    "name": "GunBodyRecoilPatch",
+    "version_number": "0.1.0",
+    "website_url": "https://github.com/Tess-y/GunBodyRecoilPatch/blob/master/Main.cs",
+    "description": "Makes Gun.recoilMuiltiplier and Gun.bodyRecoil function.",
+    "dependencies": [
+        "willis81808-MMHook-1.0.0",
+        "BepInEx-BepInExPack_ROUNDS-5.4.1100",
+        "willis81808-UnboundLib-2.10.2"
+    ]
+}

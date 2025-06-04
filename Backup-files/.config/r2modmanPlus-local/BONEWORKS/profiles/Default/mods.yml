@@ -1,0 +1,45 @@
+- manifestVersion: 1
+  name: LavaGang-MelonLoader
+  authorName: LavaGang
+  websiteUrl: https://thunderstore.io/c/boneworks/p/LavaGang/MelonLoader/
+  displayName: MelonLoader
+  description: The World's First Universal Mod Loader for Unity Games compatible
+    with both Il2Cpp and Mono
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1735776886343
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 5
+    patch: 4
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/BONEWORKS/cache/LavaGang-MelonLoader/0.5.4/icon.png
+- manifestVersion: 1
+  name: gnonme-ModThatIsNotMod
+  authorName: gnonme
+  websiteUrl: https://thunderstore.io/c/boneworks/p/gnonme/ModThatIsNotMod/
+  displayName: ModThatIsNotMod
+  description: A mod for loading in custom items, making life easier for other mod
+    creators, and a whole lot more.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1735776893309
+  loaders: []
+  dependencies:
+    - LavaGang-MelonLoader-0.5.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 3
+    patch: 6
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/BONEWORKS/cache/gnonme-ModThatIsNotMod/0.3.6/icon.png

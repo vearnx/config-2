@@ -1,0 +1,9 @@
+[GuiConfig]
+captureMode=3
+
+[ImageSave]
+lastImageSaveLocation=file:///home/vearnx/Pictures/Screenshots/Screenshot_20241102_183115.png
+translatedScreenshotsFolder=Screenshots
+
+[VideoSave]
+translatedScreencastsFolder=Screencasts

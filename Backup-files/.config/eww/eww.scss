@@ -1,0 +1,21 @@
+#wifi-volume-media-window {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+#wifi-status, #volume-level, #media-title {
+  color: white;
+}
+
+#volume-slider {
+  background-color: #333333;
+  border: 1px solid #555555;
+  width: 100%;
+}
+
+#volume-slider .slider {
+  background-color: #00FF00;  /* Green color for the slider thumb */
+  height: 10px;  /* Adjust the slider height */
+}

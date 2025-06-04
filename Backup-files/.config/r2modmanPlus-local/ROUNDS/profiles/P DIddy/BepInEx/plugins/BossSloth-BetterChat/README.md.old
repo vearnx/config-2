@@ -1,0 +1,38 @@
+# Better chat
+A new and improved reworked chat
+
+<details>
+<summary>Previews</summary>
+
+<img src="https://i.imgur.com/pQU3326.png" alt="drawing" width="500"/>
+<img src="https://i.imgur.com/UZY8eVI.jpeg" alt="drawing" width="700"/>
+
+</details>
+
+## Features
+
+- Fully customizable chat window
+- Use enter to open and close the window
+- Use up and down arrow to scroll through chat history
+- If you want to open the vanilla chat windows use `control` + `right-shift` + `Enter`
+- This mod can fully be used clientside
+- Global saving of the config
+
+## Patch notes
+
+- v1.2.0
+  - added team chat and idicator options for custom gamemodes
+
+- v1.1.0
+  - Added chat groups and chat groups interface
+  - Dead chat
+
+- v1.0.4
+    - fixed UnityExplorer soft locking the game
+- v1.0.3
+    - fixed the chat blocking the mouse raycast even when closed
+  
+### Known issues
+
+- If you type to the max character limit and re-open the chat the text becomes invisible
+    - How to fix: remove all text and close and re-open the chat window

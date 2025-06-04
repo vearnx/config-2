@@ -1,0 +1,11 @@
+{
+    "name": "ModsPlus",
+    "version_number": "1.6.2",
+    "website_url": "https://github.com/willis81808/ModsPlus",
+    "description": "Willis' amazing modding utilities",
+    "dependencies": [
+    	"willis81808-UnboundLib-3.2.3",
+        "Pykess-ModdingUtils-0.4.3",
+        "RoundsModding-AllThePatch-1.0.0"
+    ]
+}

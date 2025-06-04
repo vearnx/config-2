@@ -1,0 +1,20 @@
+2025/02/17-20:03:08.810 21 Creating DB /home/vearnx/.var/app/com.heroicgameslauncher.hgl/config/heroic/WebStorage/2/IndexedDB/indexeddb.leveldb since it was missing.
+2025/02/17-20:03:08.832 21 Reusing MANIFEST /home/vearnx/.var/app/com.heroicgameslauncher.hgl/config/heroic/WebStorage/2/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/02/17-20:03:08.876 23 Level-0 table #5: started
+2025/02/17-20:03:08.888 23 Level-0 table #5: 1653 bytes OK
+2025/02/17-20:03:08.906 23 Delete type=0 #3
+2025/02/17-20:03:08.906 1f Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/02/17-20:03:32.502 23 Level-0 table #7: started
+2025/02/17-20:03:32.510 23 Level-0 table #7: 1520 bytes OK
+2025/02/17-20:03:32.518 23 Delete type=0 #4
+2025/02/17-20:03:32.518 1f Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/02/17-20:03:32.518 1f Level-0 table #9: started
+2025/02/17-20:03:32.521 1f Level-0 table #9: 502 bytes OK
+2025/02/17-20:03:32.526 1f Delete type=0 #6
+2025/02/17-20:03:32.526 1f Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x04\x00\x00\x05' @ 203 : 1
+2025/02/17-20:03:32.526 1f Compacting 1@0 + 1@1 files
+2025/02/17-20:03:32.528 1f Generated table #10@0: 40 keys, 958 bytes
+2025/02/17-20:03:32.528 1f Compacted 1@0 + 1@1 files => 958 bytes
+2025/02/17-20:03:32.533 1f compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/02/17-20:03:32.534 1f Delete type=2 #9
+2025/02/17-20:03:32.534 1f Manual compaction at level-0 from '\x00\x04\x00\x00\x05' @ 203 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)

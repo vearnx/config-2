@@ -1,0 +1,9 @@
+[AC][SuspendAndShutdown]
+AutoSuspendAction=0
+InhibitLidActionWhenExternalMonitorPresent=false
+
+[Battery][SuspendAndShutdown]
+InhibitLidActionWhenExternalMonitorPresent=false
+
+[LowBattery][SuspendAndShutdown]
+InhibitLidActionWhenExternalMonitorPresent=false

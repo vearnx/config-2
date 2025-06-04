@@ -1,0 +1,1558 @@
+{
+  "Name": "CurseClient",
+  "Process": "Curse.Agent.Host",
+  "PID": 45662,
+  "Arguments": [
+    "/tmp/.mount_CurseFdEe8k9/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host",
+    "--port=62813",
+    "--to-port=62833",
+    "--pid=45524",
+    "--appDataPath=/home/vearnx/.config/CurseForge",
+    "--clientId=Overwolf"
+  ],
+  "ProcessStart": "2025-01-25T23:34:03.4036568Z",
+  "Version": "1.269.2.22204",
+  "BuildDate": "2000-01-03T17:20:08Z",
+  "Start": "2025-01-25T18:34:03.7877297-05:00",
+  "Log": [
+{
+  "timestamp": "2025-01-25T18:34:03.7820272-05:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Failed to modified BuiltInConverters: Cannot set initonly static field 'BuiltInConverters' after type 'Newtonsoft.Json.Serialization.DefaultContractResolver' is initialized."
+},
+{
+  "timestamp": "2025-01-25T18:34:03.785486-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Startup Name: CurseForge, Version: 1.269.2.22204"
+},
+{
+  "timestamp": "2025-01-25T18:34:03.7859214-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Running Mods Agent with args: --port=62813,--to-port=62833,--pid=45524,--appDataPath=/home/vearnx/.config/CurseForge,--clientId=Overwolf"
+},
+{
+  "timestamp": "2025-01-25T18:34:03.7880825-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "start monitor process: 45524"
+},
+{
+  "timestamp": "2025-01-25T18:34:04.3169763-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Unable to load game instances from disk. No file was found at: /home/vearnx/.config/CurseForge/agent/GameInstances/ModpackGameInstances.json"
+},
+{
+  "timestamp": "2025-01-25T18:34:04.386446-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Mods Agent server started on port 62813"
+},
+{
+  "timestamp": "2025-01-25T18:34:04.4145701-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Web Socket session connected"
+},
+{
+  "timestamp": "2025-01-25T18:34:04.5061899-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Update simultaneous downloads '1' => '3'"
+},
+{
+  "timestamp": "2025-01-25T18:34:04.5071056-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "UpdateOverrideLauncher"
+},
+{
+  "timestamp": "2025-01-25T18:34:04.507767-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing Curse Mods Agent"
+},
+{
+  "timestamp": "2025-01-25T18:34:04.5092599-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "update client Info ''..."
+},
+{
+  "timestamp": "2025-01-25T18:34:04.5356223-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T18:34:04.5444169-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "AddonServiceClient - CfCore Url: https://api.curseforge.com"
+},
+{
+  "timestamp": "2025-01-25T18:34:04.7855071-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on GameDatabase -> GetRemoteItems"
+},
+{
+  "timestamp": "2025-01-25T18:34:04.7860596-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Getting Games from server"
+},
+{
+  "timestamp": "2025-01-25T18:34:04.8270934-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Loaded 26 games from the server"
+},
+{
+  "timestamp": "2025-01-25T18:34:04.8272392-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Saving games to local cache at /home/vearnx/.config/CurseForge/agent/gamesCache.json"
+},
+{
+  "timestamp": "2025-01-25T18:34:04.8466332-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[GameRepository] Completed download of cache",
+  "data": {
+    "name": "Games",
+    "elapsedTime": "56.00"
+  }
+},
+{
+  "timestamp": "2025-01-25T18:34:04.8586858-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initializing local databases..."
+},
+{
+  "timestamp": "2025-01-25T18:34:04.8589813-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initializing game instances."
+},
+{
+  "timestamp": "2025-01-25T18:34:04.8700253-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Addons.AddonGameInstance'"
+},
+{
+  "timestamp": "2025-01-25T18:34:04.8703578-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Games.Minecraft.MinecraftGameInstance'"
+},
+{
+  "timestamp": "2025-01-25T18:34:04.8705483-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Addons.AddonGameInstance"
+},
+{
+  "timestamp": "2025-01-25T18:34:04.8882525-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] LoadInstancesFromDisk loaded 0 instances"
+},
+{
+  "timestamp": "2025-01-25T18:34:04.8883179-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Games.Minecraft.MinecraftGameInstance"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0320775-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] LoadInstancesFromDisk loaded 5 instances"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.037881-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/vearnx/Documents/curseforge/minecraft/Instances/tism/"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0454719-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initialized game tism instance"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0455042-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/vearnx/Documents/curseforge/minecraft/Instances/comp shaders/"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0458592-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initialized game comp shaders instance"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0458673-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/vearnx/Documents/curseforge/minecraft/Instances/RLCraft/"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.046221-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initialized game RLCraft instance"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0462289-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/vearnx/Documents/curseforge/minecraft/Instances/Cave Horror Project - CHP2/"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0465464-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initialized game Cave Horror Project - CHP2 instance"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0465538-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/vearnx/Documents/curseforge/minecraft/Instances/Shaders/"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0468336-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initialized game Shaders instance"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0492618-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Game instances initialization completed. Operation took 189 ms"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0495147-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initializing Modpack instances."
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0501964-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Running startup game detection"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0524852-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Performing quick game detection for 26 games..."
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0567905-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Completed startup game detection. We have a total of 5 detected game instances. Operation took 6 ms"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0576831-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0580803-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0582156-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Beginning initialization of InstanceManager"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0585384-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Setting file watcher on instance directory /home/vearnx/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0604219-05:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: tism"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0843926-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "InstanceManager initialized."
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0864789-05:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Refreshing Minecraft instances list"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0864995-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initializing tasks"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0875426-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Resolving Minecraft instances list from /home/vearnx/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0882486-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/Cave Horror Project - CHP1 was not found in database. Will attempt to import it."
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0891451-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/RLCraft"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0891658-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/Cave Horror Project - CHP1 (1) was not found in database. Will attempt to import it."
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0891967-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/Cave Horror Project - CHP1 (2) was not found in database. Will attempt to import it."
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0892184-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/Cave Horror Project - CHP1 (3) was not found in database. Will attempt to import it."
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0892432-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/Cave Horror Project - CHP2"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0892516-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/tism"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0892638-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/comp shaders"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0894625-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/Comp Shaders"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0894789-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/Shaders"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0895845-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Discord RPC client initialized successfully."
+},
+{
+  "timestamp": "2025-01-25T18:34:05.0896452-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initializing Periodic Tasks"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.092041-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.1005587-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.1005763-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T18:34:05.2296614-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetModFilesFromServer"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.2298987-05:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.2348839-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[ModLoaderDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Modloaders",
+    "elapsedTime": "142.00"
+  }
+},
+{
+  "timestamp": "2025-01-25T18:34:05.2742352-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: comp shaders"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.2997181-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[MinecraftVersionDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Versions",
+    "elapsedTime": "38.00"
+  }
+},
+{
+  "timestamp": "2025-01-25T18:34:05.3003995-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetModFilesFromServer"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.3266652-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: RLCraft"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.4949431-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetModFilesFromServer"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.563372-05:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: Cave Horror Project - CHP2"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.5992649-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.5992838-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T18:34:05.6862849-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.6863026-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T18:34:05.6955387-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetModFilesFromServer"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.834223-05:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: Shaders"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.8396545-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T18:34:05.8396701-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T18:34:05.8644158-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetModFilesFromServer"
+},
+{
+  "timestamp": "2025-01-25T18:34:15.1838494-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "InstallTask 5c9f2dbd-85e9-4701-9145-d6278d6bd7e6 LaunchMinecraftTask started..."
+},
+{
+  "timestamp": "2025-01-25T18:34:15.1846809-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Validate required Minecraft version prior to launch"
+},
+{
+  "timestamp": "2025-01-25T18:34:15.1873379-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Verifying Minecraft version: 1.21.3"
+},
+{
+  "timestamp": "2025-01-25T18:34:15.188568-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T18:34:15.188576-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T18:34:15.1885876-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Minecraft version 1.21.3 already exists... Skipping installation."
+},
+{
+  "timestamp": "2025-01-25T18:34:15.1889229-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Installing Fabric mod loader fabric-0.16.10-1.21.3."
+},
+{
+  "timestamp": "2025-01-25T18:34:15.1953511-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on MinecraftVersionInstallTask.Run -> _instance.SaveToDisk"
+},
+{
+  "timestamp": "2025-01-25T18:34:15.2520876-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-01-25T18:34:15.7749792-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 522ms"
+},
+{
+  "timestamp": "2025-01-25T18:34:15.7774859-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Launching Minecraft instance: Shaders"
+},
+{
+  "timestamp": "2025-01-25T18:34:15.7864681-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Setting minecraft version.json asset index"
+},
+{
+  "timestamp": "2025-01-25T18:34:15.7866221-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T18:34:15.786872-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[Minecraft] Saving version.json to /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T18:34:15.787162-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Setting Minecraft version.json jar location"
+},
+{
+  "timestamp": "2025-01-25T18:34:15.7872189-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T18:34:15.7874758-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[Minecraft] Saving version.json to /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T18:34:15.7903132-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Reading launcher_profiles.json from /home/vearnx/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T18:34:15.794455-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Launcher args determined as: -Xmx4096m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/vearnx/Documents/curseforge/minecraft/Install/libraries\""
+},
+{
+  "timestamp": "2025-01-25T18:34:15.7945743-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Inserting pre-launch profile (version format 1)",
+  "data": {
+    "name": "Shaders",
+    "gameDir": "/home/vearnx/Documents/curseforge/minecraft/Instances/Shaders/",
+    "lastVersionId": "fabric-loader-0.16.10-1.21.3",
+    "javaArgs": "-Xmx4096m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/vearnx/Documents/curseforge/minecraft/Install/libraries\"",
+    "resolution": {
+      "width": "2560",
+      "height": "1440"
+    },
+    "launcherVisibilityOnGameClose": "close launcher when game starts"
+  }
+},
+{
+  "timestamp": "2025-01-25T18:34:15.7955772-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Saving launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T18:34:15.7973726-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Writing profile to: /home/vearnx/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T18:34:15.9003775-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Process start '/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher' args determined: --workDir \"/home/vearnx/Documents/curseforge/minecraft/Install\""
+},
+{
+  "timestamp": "2025-01-25T18:34:15.9008591-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-01-25T18:34:16.8483291-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 947ms"
+},
+{
+  "timestamp": "2025-01-25T18:34:16.848986-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Starting Process..."
+},
+{
+  "timestamp": "2025-01-25T18:34:17.1862477-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "InstallTask 5c9f2dbd-85e9-4701-9145-d6278d6bd7e6 LaunchMinecraftTask completed"
+},
+{
+  "timestamp": "2025-01-25T18:35:20.2536128-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "InstallTask bd8edc6d-3010-4101-bd4c-dc55105fe8e3 LaunchMinecraftTask started..."
+},
+{
+  "timestamp": "2025-01-25T18:35:20.2536186-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Validate required Minecraft version prior to launch"
+},
+{
+  "timestamp": "2025-01-25T18:35:20.254248-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Verifying Minecraft version: 1.21.3"
+},
+{
+  "timestamp": "2025-01-25T18:35:20.2543313-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T18:35:20.2543387-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T18:35:20.2543494-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Minecraft version 1.21.3 already exists... Skipping installation."
+},
+{
+  "timestamp": "2025-01-25T18:35:20.2543586-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Installing Fabric mod loader fabric-0.16.10-1.21.3."
+},
+{
+  "timestamp": "2025-01-25T18:35:20.2547618-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on MinecraftVersionInstallTask.Run -> _instance.SaveToDisk"
+},
+{
+  "timestamp": "2025-01-25T18:35:20.2552254-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-01-25T18:35:21.5369525-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1281ms"
+},
+{
+  "timestamp": "2025-01-25T18:35:21.5372795-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Launching Minecraft instance: Shaders"
+},
+{
+  "timestamp": "2025-01-25T18:35:21.5441292-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Setting minecraft version.json asset index"
+},
+{
+  "timestamp": "2025-01-25T18:35:21.5441887-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T18:35:21.5442601-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "[Minecraft] Saving version.json to /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T18:35:21.5443454-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Setting Minecraft version.json jar location"
+},
+{
+  "timestamp": "2025-01-25T18:35:21.5443838-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T18:35:21.5444962-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "[Minecraft] Saving version.json to /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T18:35:21.5446653-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Reading launcher_profiles.json from /home/vearnx/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T18:35:21.5450272-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Launcher args determined as: -Xmx4096m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/vearnx/Documents/curseforge/minecraft/Install/libraries\""
+},
+{
+  "timestamp": "2025-01-25T18:35:21.5450297-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Inserting pre-launch profile (version format 1)",
+  "data": {
+    "name": "Shaders",
+    "gameDir": "/home/vearnx/Documents/curseforge/minecraft/Instances/Shaders/",
+    "lastVersionId": "fabric-loader-0.16.10-1.21.3",
+    "javaArgs": "-Xmx4096m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/vearnx/Documents/curseforge/minecraft/Install/libraries\"",
+    "resolution": {
+      "width": "2560",
+      "height": "1440"
+    },
+    "launcherVisibilityOnGameClose": "close launcher when game starts"
+  }
+},
+{
+  "timestamp": "2025-01-25T18:35:21.5450408-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Saving launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T18:35:21.5450804-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Writing profile to: /home/vearnx/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T18:35:21.6454284-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Process start '/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher' args determined: --workDir \"/home/vearnx/Documents/curseforge/minecraft/Install\""
+},
+{
+  "timestamp": "2025-01-25T18:35:21.6459162-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-01-25T18:35:22.1018108-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 455ms"
+},
+{
+  "timestamp": "2025-01-25T18:35:22.1022035-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Starting Process..."
+},
+{
+  "timestamp": "2025-01-25T18:35:22.2547124-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "InstallTask bd8edc6d-3010-4101-bd4c-dc55105fe8e3 LaunchMinecraftTask completed"
+},
+{
+  "timestamp": "2025-01-25T18:36:17.2305286-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "InstallTask 661c071c-db08-4c06-bf92-418d393671ec LaunchMinecraftTask started..."
+},
+{
+  "timestamp": "2025-01-25T18:36:17.2305331-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Validate required Minecraft version prior to launch"
+},
+{
+  "timestamp": "2025-01-25T18:36:17.2305924-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Verifying Minecraft version: 1.21.3"
+},
+{
+  "timestamp": "2025-01-25T18:36:17.2306425-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T18:36:17.2306471-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T18:36:17.2306534-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Minecraft version 1.21.3 already exists... Skipping installation."
+},
+{
+  "timestamp": "2025-01-25T18:36:17.2306617-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Installing Fabric mod loader fabric-0.16.10-1.21.3."
+},
+{
+  "timestamp": "2025-01-25T18:36:17.2309687-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on MinecraftVersionInstallTask.Run -> _instance.SaveToDisk"
+},
+{
+  "timestamp": "2025-01-25T18:36:17.2314243-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-01-25T18:36:27.0168902-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 9785ms"
+},
+{
+  "timestamp": "2025-01-25T18:36:27.0173921-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Launching Minecraft instance: Shaders"
+},
+{
+  "timestamp": "2025-01-25T18:36:27.0228493-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Setting minecraft version.json asset index"
+},
+{
+  "timestamp": "2025-01-25T18:36:27.022899-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T18:36:27.0229516-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "[Minecraft] Saving version.json to /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T18:36:27.0230216-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Setting Minecraft version.json jar location"
+},
+{
+  "timestamp": "2025-01-25T18:36:27.0230648-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T18:36:27.0231484-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "[Minecraft] Saving version.json to /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T18:36:27.0232666-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Reading launcher_profiles.json from /home/vearnx/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T18:36:27.0233049-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Launcher args determined as: -Xmx4096m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/vearnx/Documents/curseforge/minecraft/Install/libraries\""
+},
+{
+  "timestamp": "2025-01-25T18:36:27.0233062-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Inserting pre-launch profile (version format 1)",
+  "data": {
+    "name": "Shaders",
+    "gameDir": "/home/vearnx/Documents/curseforge/minecraft/Instances/Shaders/",
+    "lastVersionId": "fabric-loader-0.16.10-1.21.3",
+    "javaArgs": "-Xmx4096m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/vearnx/Documents/curseforge/minecraft/Install/libraries\"",
+    "resolution": {
+      "width": "2560",
+      "height": "1440"
+    },
+    "launcherVisibilityOnGameClose": "close launcher when game starts"
+  }
+},
+{
+  "timestamp": "2025-01-25T18:36:27.023316-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Saving launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T18:36:27.0233302-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Writing profile to: /home/vearnx/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T18:36:27.1235299-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Process start '/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher' args determined: --workDir \"/home/vearnx/Documents/curseforge/minecraft/Install\""
+},
+{
+  "timestamp": "2025-01-25T18:36:27.1240924-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-01-25T18:36:36.4684061-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 9344ms"
+},
+{
+  "timestamp": "2025-01-25T18:36:36.4688439-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Starting Process..."
+},
+{
+  "timestamp": "2025-01-25T18:36:36.4691293-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "InstallTask 661c071c-db08-4c06-bf92-418d393671ec LaunchMinecraftTask completed"
+},
+{
+  "timestamp": "2025-01-25T18:37:35.436691-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "InstallTask 142e4a02-3ce3-478b-a20c-678f78cf8c4b LaunchMinecraftTask started..."
+},
+{
+  "timestamp": "2025-01-25T18:37:35.4366949-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Validate required Minecraft version prior to launch"
+},
+{
+  "timestamp": "2025-01-25T18:37:35.4367664-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Verifying Minecraft version: 1.21.3"
+},
+{
+  "timestamp": "2025-01-25T18:37:35.4368217-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T18:37:35.4368262-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T18:37:35.4368342-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Minecraft version 1.21.3 already exists... Skipping installation."
+},
+{
+  "timestamp": "2025-01-25T18:37:35.436842-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Installing Fabric mod loader fabric-0.16.10-1.21.3."
+},
+{
+  "timestamp": "2025-01-25T18:37:35.4372146-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on MinecraftVersionInstallTask.Run -> _instance.SaveToDisk"
+},
+{
+  "timestamp": "2025-01-25T18:37:35.4376672-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-01-25T18:37:44.9363856-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 9498ms"
+},
+{
+  "timestamp": "2025-01-25T18:37:44.9368539-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Launching Minecraft instance: Shaders"
+},
+{
+  "timestamp": "2025-01-25T18:37:44.9423746-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Setting minecraft version.json asset index"
+},
+{
+  "timestamp": "2025-01-25T18:37:44.942418-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T18:37:44.9424645-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "[Minecraft] Saving version.json to /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T18:37:44.9425514-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Setting Minecraft version.json jar location"
+},
+{
+  "timestamp": "2025-01-25T18:37:44.9425794-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T18:37:44.9427044-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "[Minecraft] Saving version.json to /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T18:37:44.9428689-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Reading launcher_profiles.json from /home/vearnx/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T18:37:44.9429174-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Launcher args determined as: -Xmx4096m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/vearnx/Documents/curseforge/minecraft/Install/libraries\""
+},
+{
+  "timestamp": "2025-01-25T18:37:44.9429188-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Inserting pre-launch profile (version format 1)",
+  "data": {
+    "name": "Shaders",
+    "gameDir": "/home/vearnx/Documents/curseforge/minecraft/Instances/Shaders/",
+    "lastVersionId": "fabric-loader-0.16.10-1.21.3",
+    "javaArgs": "-Xmx4096m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/vearnx/Documents/curseforge/minecraft/Install/libraries\"",
+    "resolution": {
+      "width": "2560",
+      "height": "1440"
+    },
+    "launcherVisibilityOnGameClose": "close launcher when game starts"
+  }
+},
+{
+  "timestamp": "2025-01-25T18:37:44.942931-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Saving launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T18:37:44.9429491-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Writing profile to: /home/vearnx/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T18:37:45.0431792-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Process start '/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher' args determined: --workDir \"/home/vearnx/Documents/curseforge/minecraft/Install\""
+},
+{
+  "timestamp": "2025-01-25T18:37:45.0436185-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-01-25T18:37:54.6562679-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 9612ms"
+},
+{
+  "timestamp": "2025-01-25T18:37:54.6565535-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Starting Process..."
+},
+{
+  "timestamp": "2025-01-25T18:37:54.656835-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "InstallTask 142e4a02-3ce3-478b-a20c-678f78cf8c4b LaunchMinecraftTask completed"
+},
+{
+  "timestamp": "2025-01-25T18:38:50.3430533-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T18:38:50.3693936-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T18:39:05.6731464-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Web Socket session disconnected"
+},
+{
+  "timestamp": "2025-01-25T18:39:05.6739395-05:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Client disconnected from server"
+},
+{
+  "timestamp": "2025-01-25T18:39:05.6752557-05:00",
+  "level": "Warn",
+  "thread": 5,
+  "memory": 0.0,
+  "message": "Parent process is no longer active. Mods Agent will shutdown."
+},
+{
+  "timestamp": "2025-01-25T18:39:05.6753269-05:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Parent process exit. Shutting down..."
+},
+{
+  "timestamp": "2025-01-25T18:39:05.6781804-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Curse Mods Agent is shutting down"
+},
+{
+  "timestamp": "2025-01-25T18:39:05.678249-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Shutting down periodic tasks"
+},
+{
+  "timestamp": "2025-01-25T18:39:05.6783148-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Disabling periodic timers"
+},
+{
+  "timestamp": "2025-01-25T18:39:05.6785609-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2025-01-25T18:39:05.6786289-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2025-01-25T18:39:05.6786298-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2025-01-25T18:39:05.6786882-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Shutdown game instances."
+},
+{
+  "timestamp": "2025-01-25T18:39:05.6789958-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-01-25T18:39:12.7163249-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 7037ms"
+},
+{
+  "timestamp": "2025-01-25T18:39:12.7182398-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2025-01-25T18:39:12.7375502-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 19ms"
+},
+{
+  "timestamp": "2025-01-25T18:39:12.739664-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Clearing Discord presence."
+},
+{
+  "timestamp": "2025-01-25T18:39:12.7401505-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Discord RPC client disposed successfully."
+},
+{
+  "timestamp": "2025-01-25T18:39:12.7482588-05:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Shutting down the logger"
+},
+{
+  "timestamp": "2025-01-25T18:39:12.7748631-05:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Logging worker finished"
+}
+]}

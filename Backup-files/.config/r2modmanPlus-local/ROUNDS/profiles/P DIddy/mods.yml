@@ -1,0 +1,1286 @@
+- manifestVersion: 1
+  name: willis81808-MMHook
+  authorName: willis81808
+  websiteUrl: https://thunderstore.io/c/rounds/p/willis81808/MMHook/
+  displayName: MMHook
+  description: MonoMod Runtime Hooks generated for ROUNDS
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515182
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/willis81808-MMHook/icon.png
+- manifestVersion: 1
+  name: BepInEx-BepInExPack_ROUNDS
+  authorName: BepInEx
+  websiteUrl: https://thunderstore.io/c/rounds/p/BepInEx/BepInExPack_ROUNDS/
+  displayName: BepInExPack_ROUNDS
+  description: BepInEx pack for ROUNDS. Preconfigured and ready to use.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515194
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 5
+    minor: 4
+    patch: 1901
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/cache/BepInEx-BepInExPack_ROUNDS/5.4.1901/icon.png
+- manifestVersion: 1
+  name: willis81808-UnboundLib
+  authorName: willis81808
+  websiteUrl: https://thunderstore.io/c/rounds/p/willis81808/UnboundLib/
+  displayName: UnboundLib
+  description: This is a helpful utility for ROUNDS modders aimed at simplifying
+    common tasks.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515201
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1900
+    - willis81808-MMHook-1.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 2
+    patch: 13
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/willis81808-UnboundLib/icon.png
+- manifestVersion: 1
+  name: olavim-RoundsWithFriends
+  authorName: olavim
+  websiteUrl: https://thunderstore.io/c/rounds/p/olavim/RoundsWithFriends/
+  displayName: RoundsWithFriends
+  description: ROUNDS multiplayer extension
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515206
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+    - willis81808-UnboundLib-2.11.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 2
+    patch: 2
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/olavim-RoundsWithFriends/icon.png
+- manifestVersion: 1
+  name: willuwontu-AttackLevelPatch
+  authorName: willuwontu
+  websiteUrl: https://thunderstore.io/c/rounds/p/willuwontu/AttackLevelPatch/
+  displayName: AttackLevelPatch
+  description: Fixes issues with attack level components killing themselves.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515209
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/willuwontu-AttackLevelPatch/icon.png
+- manifestVersion: 1
+  name: willuwontu-RespawnPatch
+  authorName: willuwontu
+  websiteUrl: https://thunderstore.io/c/rounds/p/willuwontu/RespawnPatch/
+  displayName: RespawnPatch
+  description: Fixes issues with players getting less respawns than they should.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515212
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 6
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/willuwontu-RespawnPatch/icon.png
+- manifestVersion: 1
+  name: Pykess-PlayerJumpPatch
+  authorName: Pykess
+  websiteUrl: https://thunderstore.io/c/rounds/p/Pykess/PlayerJumpPatch/
+  displayName: PlayerJumpPatch
+  description: Patches the erroneous PlayerJump.Jump function in the base game
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515215
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/Pykess-PlayerJumpPatch/icon.png
+- manifestVersion: 1
+  name: Pykess-LegRaycastersPatch
+  authorName: Pykess
+  websiteUrl: https://thunderstore.io/c/rounds/p/Pykess/LegRaycastersPatch/
+  displayName: LegRaycastersPatch
+  description: Patches erroneous logic in the base game that causes physics issues
+    for small players
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515218
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/Pykess-LegRaycastersPatch/icon.png
+- manifestVersion: 1
+  name: Pykess-ModdingUtils
+  authorName: Pykess
+  websiteUrl: https://thunderstore.io/c/rounds/p/Pykess/ModdingUtils/
+  displayName: ModdingUtils
+  description: Utilities aimed at making modding easier and more accessible
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515225
+  loaders: []
+  dependencies:
+    - willis81808-UnboundLib-3.1.0
+    - willis81808-MMHook-1.0.0
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+    - Pykess-PlayerJumpPatch-0.0.2
+    - Pykess-LegRaycastersPatch-0.0.0
+    - willuwontu-RespawnPatch-1.0.6
+    - willuwontu-AttackLevelPatch-0.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 4
+    patch: 8
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/Pykess-ModdingUtils/icon.png
+- manifestVersion: 1
+  name: Pykess-CardChoiceSpawnUniqueCardPatch
+  authorName: Pykess
+  websiteUrl: https://thunderstore.io/c/rounds/p/Pykess/CardChoiceSpawnUniqueCardPatch/
+  displayName: CardChoiceSpawnUniqueCardPatch
+  description: Patches erroneous logic in the base game CardChoice method SpawnUniqueCard
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515228
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+    - willis81808-UnboundLib-3.1.0
+    - Pykess-ModdingUtils-0.3.3
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 1
+    patch: 10
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/Pykess-CardChoiceSpawnUniqueCardPatch/icon.png
+- manifestVersion: 1
+  name: Poppycars_Commissions-Tycers_Secret_Cards
+  authorName: Poppycars_Commissions
+  websiteUrl: https://thunderstore.io/c/rounds/p/Poppycars_Commissions/Tycers_Secret_Cards/
+  displayName: Tycers_Secret_Cards
+  description: Adds 5 additional cards, made by poppycars
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515232
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1900
+    - willis81808-UnboundLib-3.2.10
+    - Pykess-ModdingUtils-0.4.6
+    - Pykess-CardChoiceSpawnUniqueCardPatch-0.1.9
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 5
+    patch: 1
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/Poppycars_Commissions-Tycers_Secret_Cards/icon.png
+- manifestVersion: 1
+  name: olavim-MapsExtended
+  authorName: olavim
+  websiteUrl: https://thunderstore.io/c/rounds/p/olavim/MapsExtended/
+  displayName: MapsExtended
+  description: Custom map core functionality
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515240
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+    - willis81808-UnboundLib-3.2.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 4
+    patch: 2
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/olavim-MapsExtended/icon.png
+- manifestVersion: 1
+  name: Sp1kycring-SPM
+  authorName: Sp1kycring
+  websiteUrl: https://thunderstore.io/c/rounds/p/Sp1kycring/SPM/
+  displayName: SPM
+  description: OK, I may have used the wrong Manifest.Json. Contains 18 maps that
+    are ideal for 2 player, and 4 player functional.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515250
+  loaders: []
+  dependencies:
+    - olavim-MapsExtended-1.2.6
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 7
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/Sp1kycring-SPM/icon.png
+- manifestVersion: 1
+  name: Pykess-GunUnblockablePatch
+  authorName: Pykess
+  websiteUrl: https://thunderstore.io/c/rounds/p/Pykess/GunUnblockablePatch/
+  displayName: GunUnblockablePatch
+  description: Patches erroneous logic in the base game that causes the
+    unblockable property of guns to not work.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515255
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/Pykess-GunUnblockablePatch/icon.png
+- manifestVersion: 1
+  name: Pykess-DemonicPactPatch
+  authorName: Pykess
+  websiteUrl: https://thunderstore.io/c/rounds/p/Pykess/DemonicPactPatch/
+  displayName: DemonicPactPatch
+  description: Fixes a bug in the base game that causes Demonic Pact to break
+    certain cards after a rematch.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515260
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/Pykess-DemonicPactPatch/icon.png
+- manifestVersion: 1
+  name: RoundsModding-Grow_Patch
+  authorName: RoundsModding
+  websiteUrl: https://thunderstore.io/c/rounds/p/RoundsModding/Grow_Patch/
+  displayName: Grow_Patch
+  description: Fixes a major bug in the vanilla game which causes Grow's power to
+    depend on framerate.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515265
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/RoundsModding-Grow_Patch/icon.png
+- manifestVersion: 1
+  name: TeamDK-ZeroGBulletPatch
+  authorName: TeamDK
+  websiteUrl: https://thunderstore.io/c/rounds/p/TeamDK/ZeroGBulletPatch/
+  displayName: ZeroGBulletPatch
+  description: Fixes trajectories of zero-gravity bullets
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515270
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/TeamDK-ZeroGBulletPatch/icon.png
+- manifestVersion: 1
+  name: Senyksia-ResetAttackCooldownPatch
+  authorName: Senyksia
+  websiteUrl: https://thunderstore.io/c/rounds/p/Senyksia/ResetAttackCooldownPatch/
+  displayName: ResetAttackCooldownPatch
+  description: Fixes a bug that causes attack-cooldown to persist between rounds,
+    points, and death.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515275
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/Senyksia-ResetAttackCooldownPatch/icon.png
+- manifestVersion: 1
+  name: Pykess-TemporaryStatsPatch
+  authorName: Pykess
+  websiteUrl: https://thunderstore.io/c/rounds/p/Pykess/TemporaryStatsPatch/
+  displayName: TemporaryStatsPatch
+  description: Patches erroneous logic in the base game regarding temporary stat effects.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515279
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/Pykess-TemporaryStatsPatch/icon.png
+- manifestVersion: 1
+  name: Pykess-TeleportPatch
+  authorName: Pykess
+  websiteUrl: https://thunderstore.io/c/rounds/p/Pykess/TeleportPatch/
+  displayName: TeleportPatch
+  description: Patches several issues with Teleport.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515285
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1900
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/Pykess-TeleportPatch/icon.png
+- manifestVersion: 1
+  name: Root-RegenerationPatch
+  authorName: Root
+  websiteUrl: https://thunderstore.io/c/rounds/p/Root/RegenerationPatch/
+  displayName: RegenerationPatch
+  description: Stops the persistence of the regeneration stat
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515290
+  loaders: []
+  dependencies:
+    - willis81808-MMHook-1.0.0
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+    - willis81808-UnboundLib-2.10.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/Root-RegenerationPatch/icon.png
+- manifestVersion: 1
+  name: willuwontu-BlockForcePatch
+  authorName: willuwontu
+  websiteUrl: https://thunderstore.io/c/rounds/p/willuwontu/BlockForcePatch/
+  displayName: BlockForcePatch
+  description: Fixes issues with some block stats not working properly.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515295
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/willuwontu-BlockForcePatch/icon.png
+- manifestVersion: 1
+  name: RoundsModding-AllThePatch
+  authorName: RoundsModding
+  websiteUrl: https://thunderstore.io/c/rounds/p/RoundsModding/AllThePatch/
+  displayName: AllThePatch
+  description: A collection of all the fundamental game patches
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515299
+  loaders: []
+  dependencies:
+    - RoundsModding-Grow_Patch-0.0.0
+    - Pykess-CardChoiceSpawnUniqueCardPatch-0.1.9
+    - Pykess-PlayerJumpPatch-0.0.2
+    - Pykess-TemporaryStatsPatch-0.0.1
+    - Pykess-TeleportPatch-0.0.1
+    - Pykess-DemonicPactPatch-0.0.0
+    - Pykess-GunUnblockablePatch-0.0.0
+    - Pykess-LegRaycastersPatch-0.0.0
+    - willuwontu-RespawnPatch-1.0.6
+    - willuwontu-StopShootingYoureDead-0.0.0
+    - willuwontu-BlockForcePatch-1.0.1
+    - Root-GravityPatch-0.0.0
+    - Root-RegenerationPatch-0.0.0
+    - Senyksia-ResetAttackCooldownPatch-1.0.1
+    - TeamDK-ZeroGBulletPatch-1.1.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/RoundsModding-AllThePatch/icon.png
+- manifestVersion: 1
+  name: Root-GunBodyRecoilPatch
+  authorName: Root
+  websiteUrl: https://thunderstore.io/c/rounds/p/Root/GunBodyRecoilPatch/
+  displayName: GunBodyRecoilPatch
+  description: Makes Gun.recoilMuiltiplier and Gun.bodyRecoil function.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515305
+  loaders: []
+  dependencies:
+    - willis81808-MMHook-1.0.0
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+    - willis81808-UnboundLib-2.10.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/Root-GunBodyRecoilPatch/icon.png
+- manifestVersion: 1
+  name: willis81808-ModsPlus
+  authorName: willis81808
+  websiteUrl: https://thunderstore.io/c/rounds/p/willis81808/ModsPlus/
+  displayName: ModsPlus
+  description: Willis' amazing modding utilities
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515312
+  loaders: []
+  dependencies:
+    - willis81808-UnboundLib-3.2.3
+    - Pykess-ModdingUtils-0.4.3
+    - RoundsModding-AllThePatch-1.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 6
+    patch: 2
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/willis81808-ModsPlus/icon.png
+- manifestVersion: 1
+  name: Root-GravityPatch
+  authorName: Root
+  websiteUrl: https://thunderstore.io/c/rounds/p/Root/GravityPatch/
+  displayName: GravityPatch
+  description: Stops the persistence of gravity modifications
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515317
+  loaders: []
+  dependencies:
+    - willis81808-MMHook-1.0.0
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+    - willis81808-UnboundLib-2.10.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/Root-GravityPatch/icon.png
+- manifestVersion: 1
+  name: willuwontu-StopShootingYoureDead
+  authorName: willuwontu
+  websiteUrl: https://thunderstore.io/c/rounds/p/willuwontu/StopShootingYoureDead/
+  displayName: StopShootingYoureDead
+  description: A patch to fix bursts and blocking persisting between rounds.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515323
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+    - willis81808-UnboundLib-2.6.2
+    - willis81808-MMHook-1.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/willuwontu-StopShootingYoureDead/icon.png
+- manifestVersion: 1
+  name: InsaneCreator-InsaneCards
+  authorName: InsaneCreator
+  websiteUrl: https://thunderstore.io/c/rounds/p/InsaneCreator/InsaneCards/
+  displayName: InsaneCards
+  description: This is my mods which add 2 more cards to the game. The cards are
+    fairly balanced but open up new combos and strategies.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515328
+  loaders: []
+  dependencies:
+    - willis81808-MMHook-1.0.0
+    - BepInEx-BepInExPack_ROUNDS-5.4.1901
+    - willuwontu-AttackLevelPatch-0.0.0
+    - willuwontu-RespawnPatch-1.0.6
+    - Pykess-PlayerJumpPatch-0.0.2
+    - Pykess-LegRaycastersPatch-0.0.0
+    - willis81808-UnboundLib-3.2.13
+    - Pykess-ModdingUtils-0.4.8
+    - Pykess-CardChoiceSpawnUniqueCardPatch-0.1.10
+    - willuwontu-BlockForcePatch-1.0.1
+    - willuwontu-StopShootingYoureDead-0.0.0
+    - Root-GravityPatch-0.0.0
+    - Root-RegenerationPatch-0.0.0
+    - Pykess-TeleportPatch-0.0.1
+    - Pykess-TemporaryStatsPatch-0.0.2
+    - Senyksia-ResetAttackCooldownPatch-1.0.1
+    - TeamDK-ZeroGBulletPatch-1.1.0
+    - RoundsModding-Grow_Patch-0.0.0
+    - Pykess-DemonicPactPatch-0.0.0
+    - Pykess-GunUnblockablePatch-0.0.0
+    - RoundsModding-AllThePatch-1.0.0
+    - willis81808-ModsPlus-1.6.2
+    - Root-GunBodyRecoilPatch-0.1.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/InsaneCreator-InsaneCards/icon.png
+- manifestVersion: 1
+  name: Root-GunProjectileSizePatch
+  authorName: Root
+  websiteUrl: https://thunderstore.io/c/rounds/p/Root/GunProjectileSizePatch/
+  displayName: GunProjectileSizePatch
+  description: Patches the game so that Gun.ProjectileSize actualy works
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515334
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+    - willis81808-UnboundLib-3.1.4
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 2
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/Root-GunProjectileSizePatch/icon.png
+- manifestVersion: 1
+  name: Vuaen-Vuaens_Crazy_Cards
+  authorName: Vuaen
+  websiteUrl: https://thunderstore.io/c/rounds/p/Vuaen/Vuaens_Crazy_Cards/
+  displayName: Vuaens_Crazy_Cards
+  description: This is a mod that adds many random cards to make your gameplay as
+    chaotic as possible.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515341
+  loaders: []
+  dependencies:
+    - willuwontu-AttackLevelPatch-0.0.0
+    - willuwontu-RespawnPatch-1.0.6
+    - Pykess-PlayerJumpPatch-0.0.2
+    - Pykess-LegRaycastersPatch-0.0.0
+    - Pykess-ModdingUtils-0.4.8
+    - Pykess-CardChoiceSpawnUniqueCardPatch-0.1.10
+    - willuwontu-BlockForcePatch-1.0.1
+    - Root-GunProjectileSizePatch-1.1.2
+    - willis81808-MMHook-1.0.0
+    - willis81808-UnboundLib-3.2.13
+    - BepInEx-BepInExPack_ROUNDS-5.4.1901
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 2
+    patch: 2
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/Vuaen-Vuaens_Crazy_Cards/icon.png
+- manifestVersion: 1
+  name: Root-CardThemeLib
+  authorName: Root
+  websiteUrl: https://thunderstore.io/c/rounds/p/Root/CardThemeLib/
+  displayName: CardThemeLib
+  description: A utility library for adding custom card themes to the game.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515347
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 7
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/Root-CardThemeLib/icon.png
+- manifestVersion: 1
+  name: CrazyCoders-RarityBundle
+  authorName: CrazyCoders
+  websiteUrl: https://thunderstore.io/c/rounds/p/CrazyCoders/RarityBundle/
+  displayName: RarityBundle
+  description: A small bundle of rarities for use by other mods
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515354
+  loaders: []
+  dependencies:
+    - Root-RarityLib-1.2.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/CrazyCoders-RarityBundle/icon.png
+- manifestVersion: 1
+  name: Root-RarityLib
+  authorName: Root
+  websiteUrl: https://thunderstore.io/c/rounds/p/Root/RarityLib/
+  displayName: RarityLib
+  description: A utility library for adding custom rarities to the game.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515360
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+    - Pykess-ModdingUtils-0.3.5
+    - Pykess-CardChoiceSpawnUniqueCardPatch-0.1.7
+    - willis81808-UnboundLib-2.7.3
+    - willis81808-MMHook-1.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 8
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/Root-RarityLib/icon.png
+- manifestVersion: 1
+  name: Root-Classes_Manager_Reborn
+  authorName: Root
+  websiteUrl: https://thunderstore.io/c/rounds/p/Root/Classes_Manager_Reborn/
+  displayName: Classes_Manager_Reborn
+  description: A recreation of the original Classes Manager, with added features.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515368
+  loaders: []
+  dependencies:
+    - willis81808-MMHook-1.0.0
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+    - willis81808-UnboundLib-2.10.2
+    - Pykess-ModdingUtils-0.3.5
+    - Pykess-CardChoiceSpawnUniqueCardPatch-0.1.7
+    - Root-RarityLib-1.1.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 5
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/Root-Classes_Manager_Reborn/icon.png
+- manifestVersion: 1
+  name: willuwontu-WillsWackyManagers
+  authorName: willuwontu
+  websiteUrl: https://thunderstore.io/c/rounds/p/willuwontu/WillsWackyManagers/
+  displayName: WillsWackyManagers
+  description: Various managers for community usage.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515383
+  loaders: []
+  dependencies:
+    - willis81808-UnboundLib-2.6.2
+    - willis81808-MMHook-1.0.0
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+    - Root-RarityLib-1.0.7
+    - Pykess-PlayerJumpPatch-0.0.2
+    - Pykess-CardChoiceSpawnUniqueCardPatch-0.1.2
+    - Pykess-ModdingUtils-0.1.3
+    - Root-CardThemeLib-1.1.1
+    - CrazyCoders-RarityBundle-0.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 13
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/willuwontu-WillsWackyManagers/icon.png
+- manifestVersion: 1
+  name: Astr0ni-UnstableCards
+  authorName: Astr0ni
+  websiteUrl: https://thunderstore.io/c/rounds/p/Astr0ni/UnstableCards/
+  displayName: UnstableCards
+  description: The most unstable mod ROUNDS has to offer! 43 new cards with custom
+    art and some with sounds!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515396
+  loaders: []
+  dependencies:
+    - Root-RarityLib-1.2.8
+    - willis81808-UnboundLib-3.2.13
+    - Pykess-CardChoiceSpawnUniqueCardPatch-0.1.10
+    - Pykess-ModdingUtils-0.4.8
+    - willuwontu-BlockForcePatch-1.0.1
+    - CrazyCoders-RarityBundle-0.1.0
+    - Root-GunBodyRecoilPatch-0.1.0
+    - willuwontu-WillsWackyManagers-1.5.13
+    - Pykess-GunUnblockablePatch-0.0.0
+    - willuwontu-RespawnPatch-1.0.6
+    - Root-GunProjectileSizePatch-1.1.2
+    - Root-Classes_Manager_Reborn-1.5.5
+    - Root-RegenerationPatch-0.0.0
+    - Root-GravityPatch-0.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 8
+    patch: 1
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/Astr0ni-UnstableCards/icon.png
+- manifestVersion: 1
+  name: SandyMods-Internet_Meme_Cards
+  authorName: SandyMods
+  websiteUrl: https://thunderstore.io/c/rounds/p/SandyMods/Internet_Meme_Cards/
+  displayName: Internet_Meme_Cards
+  description: This originally started as a joke to mess with my friends and grew
+    into something I felt like publishing. Adds 30 new cards as of right now.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113552586
+  loaders: []
+  dependencies:
+    - willis81808-MMHook-1.0.0
+    - BepInEx-BepInExPack_ROUNDS-5.4.1901
+    - willis81808-UnboundLib-3.2.13
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/cache/SandyMods-Internet_Meme_Cards/1.0.2/icon.png
+- manifestVersion: 1
+  name: Root-PlayerTimeScale
+  authorName: Root
+  websiteUrl: https://thunderstore.io/c/rounds/p/Root/PlayerTimeScale/
+  displayName: PlayerTimeScale
+  description: Per Player Timescales
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515427
+  loaders: []
+  dependencies:
+    - willis81808-UnboundLib-2.10.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/Root-PlayerTimeScale/icon.png
+- manifestVersion: 1
+  name: willuwontu-ItemShops
+  authorName: willuwontu
+  websiteUrl: https://thunderstore.io/c/rounds/p/willuwontu/ItemShops/
+  displayName: ItemShops
+  description: Utilities for the creation of item shops.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515438
+  loaders: []
+  dependencies:
+    - willis81808-UnboundLib-2.11.0
+    - willis81808-MMHook-1.0.0
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+    - Pykess-CardChoiceSpawnUniqueCardPatch-0.1.7
+    - Pykess-ModdingUtils-0.2.6
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/willuwontu-ItemShops/icon.png
+- manifestVersion: 1
+  name: willis81808-Arcana
+  authorName: willis81808
+  websiteUrl: https://thunderstore.io/c/rounds/p/willis81808/Arcana/
+  displayName: Arcana
+  description: Tarot themed legendary cards
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515460
+  loaders: []
+  dependencies:
+    - willis81808-UnboundLib-3.2.5
+    - willis81808-ModsPlus-1.5.9
+    - Root-RarityLib-1.2.1
+    - Root-CardThemeLib-1.1.3
+    - Root-PlayerTimeScale-0.0.1
+    - willuwontu-ItemShops-0.0.1
+    - RoundsModding-AllThePatch-1.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 9
+    patch: 6
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/willis81808-Arcana/icon.png
+- manifestVersion: 1
+  name: SanyaTeam-SanyaCards
+  authorName: SanyaTeam
+  websiteUrl: https://thunderstore.io/c/rounds/p/SanyaTeam/SanyaCards/
+  displayName: SanyaCards
+  description: +21 cards
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515467
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1901
+    - Pykess-ModdingUtils-0.4.8
+    - Pykess-CardChoiceSpawnUniqueCardPatch-0.1.10
+    - Pykess-PlayerJumpPatch-0.0.2
+    - olavim-MapsExtended-1.4.2
+    - Root-GunBodyRecoilPatch-0.1.0
+    - Root-RegenerationPatch-0.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 10
+    patch: 2
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/SanyaTeam-SanyaCards/icon.png
+- manifestVersion: 1
+  name: BudsCards-BudsCards
+  authorName: BudsCards
+  websiteUrl: https://thunderstore.io/c/rounds/p/BudsCards/BudsCards/
+  displayName: BudsCards
+  description: Currently adds 20 high quality, balanced cards with fully animated icons.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515477
+  loaders: []
+  dependencies:
+    - willis81808-UnboundLib-2.6.2
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+    - Pykess-CardChoiceSpawnUniqueCardPatch-0.1.2
+    - Pykess-ModdingUtils-0.1.3
+    - TeamDK-ZeroGBulletPatch-1.0.0
+    - Pykess-PlayerJumpPatch-0.0.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 7
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/BudsCards-BudsCards/icon.png
+- manifestVersion: 1
+  name: TrampolineSquad-GodlyCards
+  authorName: TrampolineSquad
+  websiteUrl: https://thunderstore.io/c/rounds/p/TrampolineSquad/GodlyCards/
+  displayName: GodlyCards
+  description: Adds 45 Cards
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515485
+  loaders: []
+  dependencies:
+    - Pykess-ModdingUtils-0.3.1
+    - willis81808-UnboundLib-3.0.1
+    - Pykess-CardChoiceSpawnUniqueCardPatch-0.1.7
+    - Root-GunProjectileSizePatch-1.0.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/TrampolineSquad-GodlyCards/icon.png
+- manifestVersion: 1
+  name: PykessAndRoot-ROUNDS_VC
+  authorName: PykessAndRoot
+  websiteUrl: https://thunderstore.io/c/rounds/p/PykessAndRoot/ROUNDS_VC/
+  displayName: ROUNDS_VC
+  description: In-game voice chat!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515494
+  loaders: []
+  dependencies:
+    - willis81808-UnboundLib-2.11.1
+    - willis81808-MMHook-1.0.0
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 0
+  enabled: false
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/cache/PykessAndRoot-ROUNDS_VC/0.0.0/icon.png
+- manifestVersion: 1
+  name: BossSloth-BetterChat
+  authorName: BossSloth
+  websiteUrl: https://thunderstore.io/c/rounds/p/BossSloth/BetterChat/
+  displayName: BetterChat
+  description: Reworks the horrible chat system
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515503
+  loaders: []
+  dependencies:
+    - willis81808-UnboundLib-2.7.0
+    - willis81808-MMHook-1.0.0
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 0
+  enabled: false
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/cache/BossSloth-BetterChat/1.2.0/icon.png
+- manifestVersion: 1
+  name: Pykess-Map_Embiggener
+  authorName: Pykess
+  websiteUrl: https://thunderstore.io/c/rounds/p/Pykess/Map_Embiggener/
+  displayName: Map_Embiggener
+  description: Adjustable Map Sizes!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515514
+  loaders: []
+  dependencies:
+    - willis81808-UnboundLib-2.11.1
+    - willis81808-MMHook-1.0.0
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 2
+    patch: 0
+  enabled: false
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/cache/Pykess-Map_Embiggener/2.2.0/icon.png
+- manifestVersion: 1
+  name: BossSloth-LocalZoom
+  authorName: BossSloth
+  websiteUrl: https://thunderstore.io/c/rounds/p/BossSloth/LocalZoom/
+  displayName: LocalZoom
+  description: Custom camera features, primarily for custom gamemodes
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515522
+  loaders: []
+  dependencies:
+    - willis81808-UnboundLib-2.10.0
+    - willis81808-MMHook-1.0.0
+    - Pykess-Map_Embiggener-2.2.0
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: false
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/cache/BossSloth-LocalZoom/1.1.1/icon.png
+- manifestVersion: 1
+  name: Pykess-PlayerCustomizationUtilities
+  authorName: Pykess
+  websiteUrl: https://thunderstore.io/c/rounds/p/Pykess/PlayerCustomizationUtilities/
+  displayName: PlayerCustomizationUtilities
+  description: Utilities for adding custom cosmetic items.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515531
+  loaders: []
+  dependencies:
+    - willis81808-UnboundLib-2.11.1
+    - willis81808-MMHook-1.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/profiles/P
+    DIddy/BepInEx/plugins/Pykess-PlayerCustomizationUtilities/icon.png
+- manifestVersion: 1
+  name: Pykess-Game_Mode_Collection
+  authorName: Pykess
+  websiteUrl: https://thunderstore.io/c/rounds/p/Pykess/Game_Mode_Collection/
+  displayName: Game_Mode_Collection
+  description: A collection of new game modes
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736113515559
+  loaders: []
+  dependencies:
+    - olavim-RoundsWithFriends-2.2.0
+    - BossSloth-LocalZoom-1.1.0
+    - BossSloth-BetterChat-1.2.0
+    - olavim-MapsExtended-0.9.5
+    - Pykess-Map_Embiggener-2.2.0
+    - PykessAndRoot-ROUNDS_VC-0.0.0
+    - willuwontu-ItemShops-0.0.1
+    - Pykess-ModdingUtils-0.3.1
+    - Pykess-TemporaryStatsPatch-0.0.0
+    - Pykess-CardChoiceSpawnUniqueCardPatch-0.1.7
+    - Pykess-PlayerJumpPatch-0.0.2
+    - Pykess-LegRaycastersPatch-0.0.0
+    - Pykess-GunUnblockablePatch-0.0.0
+    - Pykess-DemonicPactPatch-0.0.0
+    - TeamDK-ZeroGBulletPatch-1.1.0
+    - Root-GunProjectileSizePatch-1.1.2
+    - Pykess-TeleportPatch-0.0.1
+    - Pykess-PlayerCustomizationUtilities-1.0.0
+    - willis81808-UnboundLib-2.11.1
+    - willis81808-MMHook-1.0.0
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 2
+  enabled: false
+  icon: /home/vearnx/.config/r2modmanPlus-local/ROUNDS/cache/Pykess-Game_Mode_Collection/1.1.2/icon.png

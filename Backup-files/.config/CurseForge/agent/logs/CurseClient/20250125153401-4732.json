@@ -1,0 +1,2673 @@
+{
+  "Name": "CurseClient",
+  "Process": "Curse.Agent.Host",
+  "PID": 18226,
+  "Arguments": [
+    "/tmp/.mount_CurseFEs0b3J/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host",
+    "--port=56780",
+    "--to-port=56800",
+    "--pid=17956",
+    "--appDataPath=/home/vearnx/.config/CurseForge",
+    "--clientId=Overwolf"
+  ],
+  "ProcessStart": "2025-01-25T20:34:00.8927776Z",
+  "Version": "1.269.2.22204",
+  "BuildDate": "2000-01-03T17:20:08Z",
+  "Start": "2025-01-25T15:34:01.2840212-05:00",
+  "Log": [
+{
+  "timestamp": "2025-01-25T15:34:01.2778723-05:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Failed to modified BuiltInConverters: Cannot set initonly static field 'BuiltInConverters' after type 'Newtonsoft.Json.Serialization.DefaultContractResolver' is initialized."
+},
+{
+  "timestamp": "2025-01-25T15:34:01.2814428-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Startup Name: CurseForge, Version: 1.269.2.22204"
+},
+{
+  "timestamp": "2025-01-25T15:34:01.2819125-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Running Mods Agent with args: --port=56780,--to-port=56800,--pid=17956,--appDataPath=/home/vearnx/.config/CurseForge,--clientId=Overwolf"
+},
+{
+  "timestamp": "2025-01-25T15:34:01.2839772-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "start monitor process: 17956"
+},
+{
+  "timestamp": "2025-01-25T15:34:01.8634535-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Unable to load game instances from disk. No file was found at: /home/vearnx/.config/CurseForge/agent/GameInstances/ModpackGameInstances.json"
+},
+{
+  "timestamp": "2025-01-25T15:34:01.9381678-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Mods Agent server started on port 56780"
+},
+{
+  "timestamp": "2025-01-25T15:34:01.9684228-05:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Web Socket session connected"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.0669196-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Update simultaneous downloads '1' => '3'"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.0678048-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "UpdateOverrideLauncher"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.0684799-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing Curse Mods Agent"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.0700318-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "update client Info ''..."
+},
+{
+  "timestamp": "2025-01-25T15:34:02.1004384-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.1109357-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "AddonServiceClient - CfCore Url: https://api.curseforge.com"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.3731147-05:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on GameDatabase -> GetRemoteItems"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.3736573-05:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Getting Games from server"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.414273-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Loaded 26 games from the server"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.414423-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Saving games to local cache at /home/vearnx/.config/CurseForge/agent/gamesCache.json"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.4350631-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[GameRepository] Completed download of cache",
+  "data": {
+    "name": "Games",
+    "elapsedTime": "57.00"
+  }
+},
+{
+  "timestamp": "2025-01-25T15:34:02.4476442-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initializing local databases..."
+},
+{
+  "timestamp": "2025-01-25T15:34:02.4479632-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initializing game instances."
+},
+{
+  "timestamp": "2025-01-25T15:34:02.4605157-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Addons.AddonGameInstance'"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.4609758-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Games.Minecraft.MinecraftGameInstance'"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.4611989-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Addons.AddonGameInstance"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.4803291-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] LoadInstancesFromDisk loaded 0 instances"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.4804189-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Games.Minecraft.MinecraftGameInstance"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.6505338-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] LoadInstancesFromDisk loaded 5 instances"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.6567514-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/vearnx/Documents/curseforge/minecraft/Instances/tism/"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.6652597-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initialized game tism instance"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.6653153-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/vearnx/Documents/curseforge/minecraft/Instances/RLCraft/"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.6661921-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initialized game RLCraft instance"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.6662042-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/vearnx/Documents/curseforge/minecraft/Instances/comp shaders/"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.6666018-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initialized game comp shaders instance"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.666613-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/vearnx/Documents/curseforge/minecraft/Instances/Cave Horror Project - CHP2/"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.6681855-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initialized game Cave Horror Project - CHP2 instance"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.6681985-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/vearnx/Documents/curseforge/minecraft/Instances/Shaders/"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.6686503-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initialized game Shaders instance"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.6723005-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Game instances initialization completed. Operation took 223 ms"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.6726825-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initializing Modpack instances."
+},
+{
+  "timestamp": "2025-01-25T15:34:02.6735056-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Running startup game detection"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.676201-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Performing quick game detection for 26 games..."
+},
+{
+  "timestamp": "2025-01-25T15:34:02.680853-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Completed startup game detection. We have a total of 5 detected game instances. Operation took 7 ms"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.6818192-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.6822147-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T15:34:02.6823489-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Beginning initialization of InstanceManager"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.6827342-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Setting file watcher on instance directory /home/vearnx/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.6849602-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: tism"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.7772621-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "InstanceManager initialized."
+},
+{
+  "timestamp": "2025-01-25T15:34:02.7780735-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initializing tasks"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.7780873-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Refreshing Minecraft instances list"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.7796642-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Resolving Minecraft instances list from /home/vearnx/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.7804537-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/Cave Horror Project - CHP1 was not found in database. Will attempt to import it."
+},
+{
+  "timestamp": "2025-01-25T15:34:02.7812196-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Discord RPC client initialized successfully."
+},
+{
+  "timestamp": "2025-01-25T15:34:02.7812995-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initializing Periodic Tasks"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.7816363-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/RLCraft"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.7816672-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/Cave Horror Project - CHP1 (1) was not found in database. Will attempt to import it."
+},
+{
+  "timestamp": "2025-01-25T15:34:02.7817162-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/Cave Horror Project - CHP1 (2) was not found in database. Will attempt to import it."
+},
+{
+  "timestamp": "2025-01-25T15:34:02.7817562-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/Cave Horror Project - CHP1 (3) was not found in database. Will attempt to import it."
+},
+{
+  "timestamp": "2025-01-25T15:34:02.7818063-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/Cave Horror Project - CHP2"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.7821417-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/tism"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.7821778-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/comp shaders"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.7822025-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/Comp Shaders"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.7822344-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/Shaders"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.7866309-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.7977727-05:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.7977948-05:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T15:34:02.8544488-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetModFilesFromServer"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.8551836-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.872017-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[ModLoaderDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Modloaders",
+    "elapsedTime": "161.00"
+  }
+},
+{
+  "timestamp": "2025-01-25T15:34:02.9019414-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: RLCraft"
+},
+{
+  "timestamp": "2025-01-25T15:34:02.9601057-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[MinecraftVersionDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Versions",
+    "elapsedTime": "48.00"
+  }
+},
+{
+  "timestamp": "2025-01-25T15:34:03.0505333-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetModFilesFromServer"
+},
+{
+  "timestamp": "2025-01-25T15:34:03.1342198-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: comp shaders"
+},
+{
+  "timestamp": "2025-01-25T15:34:03.1626523-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetModFilesFromServer"
+},
+{
+  "timestamp": "2025-01-25T15:34:03.1919187-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: Cave Horror Project - CHP2"
+},
+{
+  "timestamp": "2025-01-25T15:34:03.2968449-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T15:34:03.2968764-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T15:34:03.3200663-05:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetModFilesFromServer"
+},
+{
+  "timestamp": "2025-01-25T15:34:03.381057-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: Shaders"
+},
+{
+  "timestamp": "2025-01-25T15:34:03.3925336-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T15:34:03.3925643-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T15:34:03.4220216-05:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetModFilesFromServer"
+},
+{
+  "timestamp": "2025-01-25T15:34:03.5157158-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T15:34:03.51574-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T15:34:05.1878333-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "InstallTask 5986eb46-5dbe-4638-a76e-83c95752c1b3 LaunchMinecraftTask started..."
+},
+{
+  "timestamp": "2025-01-25T15:34:05.1886519-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Validate required Minecraft version prior to launch"
+},
+{
+  "timestamp": "2025-01-25T15:34:05.191305-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Verifying Minecraft version: 1.21.3"
+},
+{
+  "timestamp": "2025-01-25T15:34:05.1925428-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T15:34:05.192551-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T15:34:05.1925743-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Minecraft version 1.21.3 already exists... Skipping installation."
+},
+{
+  "timestamp": "2025-01-25T15:34:05.1929405-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Installing Fabric mod loader fabric-0.16.10-1.21.3."
+},
+{
+  "timestamp": "2025-01-25T15:34:05.1996595-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on MinecraftVersionInstallTask.Run -> _instance.SaveToDisk"
+},
+{
+  "timestamp": "2025-01-25T15:34:05.2587041-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-01-25T15:34:05.7323304-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 473ms"
+},
+{
+  "timestamp": "2025-01-25T15:34:05.7345282-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Launching Minecraft instance: Shaders"
+},
+{
+  "timestamp": "2025-01-25T15:34:05.7429545-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Setting minecraft version.json asset index"
+},
+{
+  "timestamp": "2025-01-25T15:34:05.7432113-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T15:34:05.7436028-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[Minecraft] Saving version.json to /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T15:34:05.7439749-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Setting Minecraft version.json jar location"
+},
+{
+  "timestamp": "2025-01-25T15:34:05.7440908-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T15:34:05.7446804-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[Minecraft] Saving version.json to /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T15:34:05.748068-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Reading launcher_profiles.json from /home/vearnx/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T15:34:05.7523552-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Launcher args determined as: -Xmx4096m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/vearnx/Documents/curseforge/minecraft/Install/libraries\""
+},
+{
+  "timestamp": "2025-01-25T15:34:05.752464-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Inserting pre-launch profile (version format 1)",
+  "data": {
+    "name": "Shaders",
+    "gameDir": "/home/vearnx/Documents/curseforge/minecraft/Instances/Shaders/",
+    "lastVersionId": "fabric-loader-0.16.10-1.21.3",
+    "javaArgs": "-Xmx4096m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/vearnx/Documents/curseforge/minecraft/Install/libraries\"",
+    "resolution": {
+      "width": "1024",
+      "height": "768"
+    },
+    "launcherVisibilityOnGameClose": "close launcher when game starts"
+  }
+},
+{
+  "timestamp": "2025-01-25T15:34:05.7535825-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Saving launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T15:34:05.7557416-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Writing profile to: /home/vearnx/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T15:34:05.8590785-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Process start '/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher' args determined: --workDir \"/home/vearnx/Documents/curseforge/minecraft/Install\""
+},
+{
+  "timestamp": "2025-01-25T15:34:05.860297-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-01-25T15:34:06.2633613-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 403ms"
+},
+{
+  "timestamp": "2025-01-25T15:34:06.2640658-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Starting Process..."
+},
+{
+  "timestamp": "2025-01-25T15:34:07.1900229-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "InstallTask 5986eb46-5dbe-4638-a76e-83c95752c1b3 LaunchMinecraftTask completed"
+},
+{
+  "timestamp": "2025-01-25T15:34:16.6077324-05:00",
+  "level": "Error",
+  "thread": 23,
+  "memory": 0.0,
+  "error": {
+    "message": "Could not find file '/home/vearnx/Documents/curseforge/minecraft/Instances/Shaders/logs/2025-01-25-7.log'.",
+    "type": "System.IO.FileNotFoundException",
+    "stack": [
+      "System.IO.FileSystem.GetAttributes(String)",
+      "System.IO.File.GetAttributes(String)",
+      "Curse.Games.Minecraft.MinecraftInstanceService.DetermineChangeFileContext(String,String)",
+      "Curse.Games.Minecraft.MinecraftInstanceService+<>c__DisplayClass39_0.<OnInstanceFileRenamed>b__0()",
+      "Curse.Common.Threading.SerialQueue+<>c__DisplayClass3_0.<Enqueue>b__0()",
+      "Curse.Common.Threading.SerialQueue+<>c__DisplayClass4_0`1.<Enqueue>b__0(Task)",
+      "System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.ThreadPoolTaskScheduler.TryExecuteTaskInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskContinuation.InlineIfPossibleOrElseQueue(Task,Boolean)",
+      "System.Threading.Tasks.ContinueWithTaskContinuation.Run(Task,Boolean)",
+      "System.Threading.Tasks.Task.ContinueWithCore(Task,TaskScheduler,CancellationToken,TaskContinuationOptions)",
+      "System.Threading.Tasks.Task.ContinueWith[TResult](Func`2,TaskScheduler,CancellationToken,TaskContinuationOptions)",
+      "System.Threading.Tasks.Task.ContinueWith[TResult](Func`2,TaskContinuationOptions)",
+      "Curse.Common.Threading.SerialQueue.Enqueue[T](Func`1)",
+      "Curse.Common.Threading.SerialQueue.Enqueue(Action)",
+      "Curse.Games.Minecraft.MinecraftInstanceService+<OnInstanceFileRenamed>d__39.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start[TStateMachine](TStateMachine&)",
+      "Curse.Games.Minecraft.MinecraftInstanceService.OnInstanceFileRenamed(Object,RenamedEventArgs)",
+      "System.IO.FileSystemWatcher.OnRenamed(RenamedEventArgs)",
+      "System.IO.FileSystemWatcher.NotifyRenameEventArgs(WatcherChangeTypes,ReadOnlySpan`1,ReadOnlySpan`1)",
+      "System.IO.FileSystemWatcher+RunningInstance.ProcessEvents()",
+      "System.IO.FileSystemWatcher+RunningInstance+<>c.<Start>b__14_0(Object)",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Callback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ]
+  }
+},
+{
+  "timestamp": "2025-01-25T15:37:18.6547687-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T15:37:18.6728238-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T15:42:24.4402262-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T15:42:24.4534523-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T15:47:30.0901305-05:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T15:47:30.1178356-05:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T15:52:35.6397501-05:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T15:52:35.6672416-05:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T15:57:41.1745759-05:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T15:57:41.1976315-05:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T16:02:46.8067825-05:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T16:02:46.8204347-05:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T16:07:52.4629784-05:00",
+  "level": "Info",
+  "thread": 41,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T16:07:52.4746536-05:00",
+  "level": "Info",
+  "thread": 41,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T16:12:57.9763537-05:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T16:12:57.9928181-05:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T16:18:03.493291-05:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T16:18:03.51581-05:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T16:23:09.1451931-05:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T16:23:09.1592168-05:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T16:28:14.829496-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T16:28:14.8420576-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T16:33:20.4977172-05:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T16:33:20.5202087-05:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T16:34:02.1615555-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2025-01-25T16:34:02.1630653-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2025-01-25T16:34:02.3865654-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "[ModLoaderDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Modloaders",
+    "elapsedTime": "67.00"
+  }
+},
+{
+  "timestamp": "2025-01-25T16:34:02.4129953-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2025-01-25T16:38:26.1563112-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T16:38:26.1765655-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T16:39:13.5446794-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "InstallTask dce3ecf2-fc8b-4697-afe1-c7d6f07f8284 LaunchMinecraftTask started..."
+},
+{
+  "timestamp": "2025-01-25T16:39:13.5446849-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Validate required Minecraft version prior to launch"
+},
+{
+  "timestamp": "2025-01-25T16:39:13.5452853-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Verifying Minecraft version: 1.21.3"
+},
+{
+  "timestamp": "2025-01-25T16:39:13.545359-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T16:39:13.5453647-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T16:39:13.5453751-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Minecraft version 1.21.3 already exists... Skipping installation."
+},
+{
+  "timestamp": "2025-01-25T16:39:13.5453847-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Installing Fabric mod loader fabric-0.16.10-1.21.3."
+},
+{
+  "timestamp": "2025-01-25T16:39:13.5457338-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on MinecraftVersionInstallTask.Run -> _instance.SaveToDisk"
+},
+{
+  "timestamp": "2025-01-25T16:39:13.5461547-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-01-25T16:39:13.959451-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 413ms"
+},
+{
+  "timestamp": "2025-01-25T16:39:13.9598674-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Launching Minecraft instance: Shaders"
+},
+{
+  "timestamp": "2025-01-25T16:39:13.9655372-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Setting minecraft version.json asset index"
+},
+{
+  "timestamp": "2025-01-25T16:39:13.9655847-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T16:39:13.9656276-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "[Minecraft] Saving version.json to /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T16:39:13.9656933-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Setting Minecraft version.json jar location"
+},
+{
+  "timestamp": "2025-01-25T16:39:13.965711-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T16:39:13.9657998-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "[Minecraft] Saving version.json to /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T16:39:13.9659361-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Reading launcher_profiles.json from /home/vearnx/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T16:39:13.9659922-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Launcher args determined as: -Xmx4096m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/vearnx/Documents/curseforge/minecraft/Install/libraries\""
+},
+{
+  "timestamp": "2025-01-25T16:39:13.9659935-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Inserting pre-launch profile (version format 1)",
+  "data": {
+    "name": "Shaders",
+    "gameDir": "/home/vearnx/Documents/curseforge/minecraft/Instances/Shaders/",
+    "lastVersionId": "fabric-loader-0.16.10-1.21.3",
+    "javaArgs": "-Xmx4096m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/vearnx/Documents/curseforge/minecraft/Install/libraries\"",
+    "resolution": {
+      "width": "1024",
+      "height": "768"
+    },
+    "launcherVisibilityOnGameClose": "close launcher when game starts"
+  }
+},
+{
+  "timestamp": "2025-01-25T16:39:13.9660041-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Saving launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T16:39:13.9660337-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Writing profile to: /home/vearnx/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T16:39:14.0663428-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Process start '/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher' args determined: --workDir \"/home/vearnx/Documents/curseforge/minecraft/Install\""
+},
+{
+  "timestamp": "2025-01-25T16:39:14.0667111-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-01-25T16:39:14.4574918-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 390ms"
+},
+{
+  "timestamp": "2025-01-25T16:39:14.4579597-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Starting Process..."
+},
+{
+  "timestamp": "2025-01-25T16:39:15.5454957-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "InstallTask dce3ecf2-fc8b-4697-afe1-c7d6f07f8284 LaunchMinecraftTask completed"
+},
+{
+  "timestamp": "2025-01-25T16:39:30.3951022-05:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T16:39:30.3951116-05:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T16:40:21.9870079-05:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T16:40:21.9870241-05:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T16:40:22.0246716-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T16:40:22.0246924-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T16:40:25.8772573-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "InstallTask 043ea53a-2a60-401e-8ebb-81af974aaa12 LaunchMinecraftTask started..."
+},
+{
+  "timestamp": "2025-01-25T16:40:25.8772614-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Validate required Minecraft version prior to launch"
+},
+{
+  "timestamp": "2025-01-25T16:40:25.8773207-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Verifying Minecraft version: 1.21.3"
+},
+{
+  "timestamp": "2025-01-25T16:40:25.8773708-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T16:40:25.8773746-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T16:40:25.8773812-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Minecraft version 1.21.3 already exists... Skipping installation."
+},
+{
+  "timestamp": "2025-01-25T16:40:25.8773879-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Installing Fabric mod loader fabric-0.16.10-1.21.3."
+},
+{
+  "timestamp": "2025-01-25T16:40:25.8776501-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on MinecraftVersionInstallTask.Run -> _instance.SaveToDisk"
+},
+{
+  "timestamp": "2025-01-25T16:40:25.8779868-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-01-25T16:40:26.2845691-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 406ms"
+},
+{
+  "timestamp": "2025-01-25T16:40:26.2849068-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Launching Minecraft instance: Shaders"
+},
+{
+  "timestamp": "2025-01-25T16:40:26.2898986-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Setting minecraft version.json asset index"
+},
+{
+  "timestamp": "2025-01-25T16:40:26.2899473-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T16:40:26.2899911-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[Minecraft] Saving version.json to /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T16:40:26.2900712-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Setting Minecraft version.json jar location"
+},
+{
+  "timestamp": "2025-01-25T16:40:26.2900938-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T16:40:26.2901997-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[Minecraft] Saving version.json to /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T16:40:26.2903496-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Reading launcher_profiles.json from /home/vearnx/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T16:40:26.2907116-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Launcher args determined as: -Xmx4096m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/vearnx/Documents/curseforge/minecraft/Install/libraries\""
+},
+{
+  "timestamp": "2025-01-25T16:40:26.2907131-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Inserting pre-launch profile (version format 1)",
+  "data": {
+    "name": "Shaders",
+    "gameDir": "/home/vearnx/Documents/curseforge/minecraft/Instances/Shaders/",
+    "lastVersionId": "fabric-loader-0.16.10-1.21.3",
+    "javaArgs": "-Xmx4096m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/vearnx/Documents/curseforge/minecraft/Install/libraries\"",
+    "resolution": {
+      "width": "1024",
+      "height": "768"
+    },
+    "launcherVisibilityOnGameClose": "close launcher when game starts"
+  }
+},
+{
+  "timestamp": "2025-01-25T16:40:26.2907258-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Saving launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T16:40:26.2907442-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Writing profile to: /home/vearnx/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T16:40:26.3909775-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Process start '/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher' args determined: --workDir \"/home/vearnx/Documents/curseforge/minecraft/Install\""
+},
+{
+  "timestamp": "2025-01-25T16:40:26.3914854-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-01-25T16:40:26.7915037-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 400ms"
+},
+{
+  "timestamp": "2025-01-25T16:40:26.7918241-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Starting Process..."
+},
+{
+  "timestamp": "2025-01-25T16:40:27.8782135-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "InstallTask 043ea53a-2a60-401e-8ebb-81af974aaa12 LaunchMinecraftTask completed"
+},
+{
+  "timestamp": "2025-01-25T16:40:33.1365425-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T16:40:33.1365572-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T16:40:52.2934904-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T16:40:52.2935052-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T16:40:54.5530431-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Performing comprehensive game detection for 26 games..."
+},
+{
+  "timestamp": "2025-01-25T16:40:54.5536074-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Discovering games from search...",
+  "data": {
+    "Comprehensive": true,
+    "GamesInstancesCount": 5
+  }
+},
+{
+  "timestamp": "2025-01-25T16:41:01.351133-05:00",
+  "level": "Warn",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "An error occurred while looking for installed in games in path '/usr/share/factory/etc/audit'",
+  "error": {
+    "message": "Access to the path '/usr/share/factory/etc/audit/plugins.d' is denied.",
+    "type": "System.UnauthorizedAccessException",
+    "stack": [
+      "System.IO.Enumeration.FileSystemEnumerator`1.Init()",
+      "System.IO.DirectoryInfo.InternalEnumerateInfos(String,String,SearchTarget,EnumerationOptions)",
+      "Curse.Radium.Games.GameService.SearchFolder(DirectoryInfo,Int32,Int32,Game[])",
+      "Curse.Radium.Games.GameService.SearchFolder(DirectoryInfo,Int32,Int32,Game[])",
+      "Curse.Radium.Games.GameService.SearchFolder(DirectoryInfo,Int32,Int32,Game[])",
+      "Curse.Radium.Games.GameService.SearchFolder(DirectoryInfo,Int32,Int32,Game[])",
+      "Curse.Radium.Games.GameService.SearchFolder(DirectoryInfo,Int32,Int32,Game[])",
+      "Curse.Radium.Games.GameService.SearchFolder(DirectoryInfo,Int32,Int32,Game[])",
+      "Curse.Radium.Games.GameService.DiscoverGamesFromSearch(Boolean,IEnumerable`1)",
+      "Curse.Radium.Games.GameService.DetectGames(Boolean,IEnumerable`1)",
+      "Curse.Radium.Games.GameService+<>c__DisplayClass48_0.<DetectGamesAsync>b__0()",
+      "System.Threading.Tasks.Task`1.InnerInvoke()",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.ProcessExclusiveTasks()",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()"
+    ],
+    "innerError": {
+      "message": "Permission denied",
+      "type": "System.IO.IOException"
+    }
+  }
+},
+{
+  "timestamp": "2025-01-25T16:43:31.8430544-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T16:43:31.8563464-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T16:44:22.4963919-05:00",
+  "level": "Warn",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "An error occurred while looking for installed in games in '/root' path",
+  "error": {
+    "message": "Access to the path '/root' is denied.",
+    "type": "System.UnauthorizedAccessException",
+    "stack": [
+      "System.IO.Enumeration.FileSystemEnumerator`1.Init()",
+      "System.IO.DirectoryInfo.InternalEnumerateInfos(String,String,SearchTarget,EnumerationOptions)",
+      "Curse.Radium.Games.GameService.SearchFolder(DirectoryInfo,Int32,Int32,Game[])",
+      "Curse.Radium.Games.GameService.DiscoverGamesFromSearch(Boolean,IEnumerable`1)",
+      "Curse.Radium.Games.GameService.DetectGames(Boolean,IEnumerable`1)",
+      "Curse.Radium.Games.GameService+<>c__DisplayClass48_0.<DetectGamesAsync>b__0()",
+      "System.Threading.Tasks.Task`1.InnerInvoke()",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.ProcessExclusiveTasks()",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()"
+    ],
+    "innerError": {
+      "message": "Permission denied",
+      "type": "System.IO.IOException"
+    }
+  }
+},
+{
+  "timestamp": "2025-01-25T16:45:15.8652061-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T16:45:15.8652232-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T16:45:15.8937582-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T16:45:15.8937909-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T16:45:17.4590833-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "InstallTask ae1f43d6-2e76-41f7-ac64-c47f7f50698f LaunchMinecraftTask started..."
+},
+{
+  "timestamp": "2025-01-25T16:45:17.4590869-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Validate required Minecraft version prior to launch"
+},
+{
+  "timestamp": "2025-01-25T16:45:17.4591638-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Verifying Minecraft version: 1.21.3"
+},
+{
+  "timestamp": "2025-01-25T16:45:17.459214-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T16:45:17.4592184-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T16:45:17.4592263-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Minecraft version 1.21.3 already exists... Skipping installation."
+},
+{
+  "timestamp": "2025-01-25T16:45:17.459234-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Installing Fabric mod loader fabric-0.16.10-1.21.3."
+},
+{
+  "timestamp": "2025-01-25T16:45:17.45949-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on MinecraftVersionInstallTask.Run -> _instance.SaveToDisk"
+},
+{
+  "timestamp": "2025-01-25T16:45:17.4598617-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-01-25T16:45:17.8509121-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 391ms"
+},
+{
+  "timestamp": "2025-01-25T16:45:17.8511922-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Launching Minecraft instance: Shaders"
+},
+{
+  "timestamp": "2025-01-25T16:45:17.856827-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Setting minecraft version.json asset index"
+},
+{
+  "timestamp": "2025-01-25T16:45:17.8568857-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T16:45:17.8569277-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[Minecraft] Saving version.json to /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T16:45:17.8569883-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Setting Minecraft version.json jar location"
+},
+{
+  "timestamp": "2025-01-25T16:45:17.857014-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T16:45:17.8571002-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[Minecraft] Saving version.json to /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T16:45:17.8572281-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Reading launcher_profiles.json from /home/vearnx/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T16:45:17.8572665-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Launcher args determined as: -Xmx4096m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/vearnx/Documents/curseforge/minecraft/Install/libraries\""
+},
+{
+  "timestamp": "2025-01-25T16:45:17.8572679-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Inserting pre-launch profile (version format 1)",
+  "data": {
+    "name": "Shaders",
+    "gameDir": "/home/vearnx/Documents/curseforge/minecraft/Instances/Shaders/",
+    "lastVersionId": "fabric-loader-0.16.10-1.21.3",
+    "javaArgs": "-Xmx4096m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/vearnx/Documents/curseforge/minecraft/Install/libraries\"",
+    "resolution": {
+      "width": "2560",
+      "height": "1440"
+    },
+    "launcherVisibilityOnGameClose": "close launcher when game starts"
+  }
+},
+{
+  "timestamp": "2025-01-25T16:45:17.857278-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Saving launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T16:45:17.8572922-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Writing profile to: /home/vearnx/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T16:45:17.9575131-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Process start '/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher' args determined: --workDir \"/home/vearnx/Documents/curseforge/minecraft/Install\""
+},
+{
+  "timestamp": "2025-01-25T16:45:17.9579817-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-01-25T16:45:18.3462603-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 388ms"
+},
+{
+  "timestamp": "2025-01-25T16:45:18.3482305-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Starting Process..."
+},
+{
+  "timestamp": "2025-01-25T16:45:19.4595922-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "InstallTask ae1f43d6-2e76-41f7-ac64-c47f7f50698f LaunchMinecraftTask completed"
+},
+{
+  "timestamp": "2025-01-25T16:46:13.7929908-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "InstallTask 93e53c5b-8a87-4b64-89ed-93f1622db64a LaunchMinecraftTask started..."
+},
+{
+  "timestamp": "2025-01-25T16:46:13.7929946-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Validate required Minecraft version prior to launch"
+},
+{
+  "timestamp": "2025-01-25T16:46:13.7930608-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Verifying Minecraft version: 1.21.3"
+},
+{
+  "timestamp": "2025-01-25T16:46:13.7931116-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T16:46:13.7931158-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T16:46:13.7931243-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Minecraft version 1.21.3 already exists... Skipping installation."
+},
+{
+  "timestamp": "2025-01-25T16:46:13.7931321-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Installing Fabric mod loader fabric-0.16.10-1.21.3."
+},
+{
+  "timestamp": "2025-01-25T16:46:13.7934397-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on MinecraftVersionInstallTask.Run -> _instance.SaveToDisk"
+},
+{
+  "timestamp": "2025-01-25T16:46:13.7938335-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-01-25T16:46:14.1882329-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 394ms"
+},
+{
+  "timestamp": "2025-01-25T16:46:14.1885278-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Launching Minecraft instance: Shaders"
+},
+{
+  "timestamp": "2025-01-25T16:46:14.1937624-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Setting minecraft version.json asset index"
+},
+{
+  "timestamp": "2025-01-25T16:46:14.1938095-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T16:46:14.1938563-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[Minecraft] Saving version.json to /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T16:46:14.193925-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Setting Minecraft version.json jar location"
+},
+{
+  "timestamp": "2025-01-25T16:46:14.1939408-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T16:46:14.1940177-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[Minecraft] Saving version.json to /home/vearnx/Documents/curseforge/minecraft/Install/versions/fabric-loader-0.16.10-1.21.3/fabric-loader-0.16.10-1.21.3.json"
+},
+{
+  "timestamp": "2025-01-25T16:46:14.1941733-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Reading launcher_profiles.json from /home/vearnx/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T16:46:14.1942449-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Launcher args determined as: -Xmx4096m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/vearnx/Documents/curseforge/minecraft/Install/libraries\""
+},
+{
+  "timestamp": "2025-01-25T16:46:14.1942467-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Inserting pre-launch profile (version format 1)",
+  "data": {
+    "name": "Shaders",
+    "gameDir": "/home/vearnx/Documents/curseforge/minecraft/Instances/Shaders/",
+    "lastVersionId": "fabric-loader-0.16.10-1.21.3",
+    "javaArgs": "-Xmx4096m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/vearnx/Documents/curseforge/minecraft/Install/libraries\"",
+    "resolution": {
+      "width": "2560",
+      "height": "1440"
+    },
+    "launcherVisibilityOnGameClose": "close launcher when game starts"
+  }
+},
+{
+  "timestamp": "2025-01-25T16:46:14.1942593-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Saving launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T16:46:14.1942752-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Writing profile to: /home/vearnx/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2025-01-25T16:46:14.2944937-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Process start '/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher' args determined: --workDir \"/home/vearnx/Documents/curseforge/minecraft/Install\""
+},
+{
+  "timestamp": "2025-01-25T16:46:14.2949644-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-01-25T16:46:14.6748952-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 379ms"
+},
+{
+  "timestamp": "2025-01-25T16:46:14.6751589-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Starting Process..."
+},
+{
+  "timestamp": "2025-01-25T16:46:15.7935016-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "InstallTask 93e53c5b-8a87-4b64-89ed-93f1622db64a LaunchMinecraftTask completed"
+},
+{
+  "timestamp": "2025-01-25T16:48:37.3726472-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T16:48:37.3971393-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T16:53:43.0460494-05:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T16:53:43.0905222-05:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T16:57:31.5688067-05:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T16:57:36.1804302-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T16:57:38.7310623-05:00",
+  "level": "Info",
+  "thread": 41,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T16:58:24.2031207-05:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-01-25T16:58:24.2033486-05:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Network status changed: Reconnecting"
+},
+{
+  "timestamp": "2025-01-25T16:58:27.2791065-05:00",
+  "level": "Info",
+  "thread": 41,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-01-25T16:58:30.1389487-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-01-25T16:58:48.6967866-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T16:58:48.6971863-05:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-01-25T16:59:18.0890587-05:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-01-25T16:59:41.7157471-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-01-25T17:00:12.9491629-05:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-01-25T17:00:57.9318512-05:00",
+  "level": "Info",
+  "thread": 41,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-01-25T17:01:50.0387628-05:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-01-25T17:01:51.0513105-05:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T17:01:51.0513301-05:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Network status changed: Connected"
+},
+{
+  "timestamp": "2025-01-25T17:01:51.5011214-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T17:01:51.5294671-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T17:01:51.9035709-05:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T17:01:51.9213314-05:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T17:01:54.0277203-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T17:01:54.0549988-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T17:03:54.0729949-05:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T17:03:54.0870754-05:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T17:08:59.6225896-05:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T17:08:59.6357451-05:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T17:14:05.5828754-05:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T17:14:05.602736-05:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T17:19:11.0894681-05:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T17:19:11.1137046-05:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T17:24:16.4992143-05:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T17:24:16.5105194-05:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T17:29:21.8927648-05:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T17:29:21.9065302-05:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T17:34:02.2865032-05:00",
+  "level": "Info",
+  "thread": 47,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2025-01-25T17:34:02.2866293-05:00",
+  "level": "Info",
+  "thread": 47,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2025-01-25T17:34:02.5192905-05:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-01-25T17:34:02.5212196-05:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-01-25T17:34:02.5234634-05:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-01-25T17:34:02.5239526-05:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-01-25T17:34:02.5243639-05:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-01-25T17:34:02.5263344-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "[ModLoaderDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Modloaders",
+    "elapsedTime": "81.00"
+  }
+},
+{
+  "timestamp": "2025-01-25T17:34:02.5265352-05:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-01-25T17:34:02.5268541-05:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-01-25T17:34:02.5474037-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2025-01-25T17:34:27.4561986-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T17:34:27.4802964-05:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T17:39:32.9690178-05:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T17:39:32.9931201-05:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T17:44:39.2257251-05:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T17:44:39.2486081-05:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+}
+]}

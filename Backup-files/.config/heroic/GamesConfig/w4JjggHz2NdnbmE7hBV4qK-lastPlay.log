@@ -1,0 +1,86 @@
+Launching "Title" (sideload)
+Native? No
+Installed in: /mnt/windows/Linux-games/rocketleague/BakkesMod
+
+System Info:
+CPU: 12x AMD Ryzen 5 7600X 6-Core Processor
+Memory: 32.7 GB (used: 3.8 GB)
+GPUs:
+  GPU 0:
+    Name: Advanced Micro Devices, Inc. [AMD/ATI] Raphael
+    IDs: D=164e V=1002 SD=7e26 SV=1462
+    Driver: amdgpu
+  GPU 1:
+    Name: Advanced Micro Devices, Inc. [AMD/ATI] Navi 32 [Radeon RX 7700 XT / 7800 XT]
+    IDs: D=747e V=1002 SD=2413 SV=1458
+    Driver: amdgpu
+OS: Arch Linux 6.13.2-arch1-1 (linux)
+
+The current system is not a Steam Deck
+We are running inside a Flatpak container
+
+Software Versions:
+  Heroic: 2.15.2 Emeth
+  Legendary: 0.20.36 Urban Flight (Heroic)
+  gogdl: 1.1.2
+  comet: comet 0.1.2
+
+  Nile: 1.1.2 Will A. Zeppeli
+
+Game Settings: {
+	"autoInstallDxvk": true,
+	"autoInstallDxvkNvapi": false,
+	"autoInstallVkd3d": true,
+	"preferSystemLibs": false,
+	"enableEsync": true,
+	"enableMsync": false,
+	"enableFsync": true,
+	"nvidiaPrime": false,
+	"enviromentOptions": [],
+	"wrapperOptions": [],
+	"showFps": true,
+	"useGameMode": true,
+	"battlEyeRuntime": true,
+	"eacRuntime": true,
+	"language": "",
+	"beforeLaunchScriptPath": "",
+	"afterLaunchScriptPath": "",
+	"wineVersion": {
+		"bin": "/home/vearnx/.local/share/lutris/runners/wine/wine-ge-8-26-x86_64/bin/wine",
+		"name": "Wine - wine-ge-8-26-x86_64",
+		"type": "wine",
+		"lib": "/home/vearnx/.local/share/lutris/runners/wine/wine-ge-8-26-x86_64/lib64",
+		"lib32": "/home/vearnx/.local/share/lutris/runners/wine/wine-ge-8-26-x86_64/lib",
+		"wineserver": "/home/vearnx/.local/share/lutris/runners/wine/wine-ge-8-26-x86_64/bin/wineserver"
+	},
+	"winePrefix": "/home/vearnx/Games/Heroic/Prefixes/default/Title",
+	"wineCrossoverBottle": ""
+}
+
+Game launched at: Sun Feb 16 2025 03:37:00 GMT-0500 (Eastern Standard Time)
+
+Winetricks packages: 
+
+gamemodeauto: 
+gamemodeauto: 
+gamemodeauto: 
+gamemodeauto: 
+gamemodeauto: 
+01d0:fixme:exec:SHELL_execute flags ignored: 0x00000100
+01d0:fixme:exec:SHELL_execute flags ignored: 0x00000100
+01d0:fixme:exec:SHELL_execute flags ignored: 0x00000100
+01d0:fixme:exec:SHELL_execute flags ignored: 0x00000100
+01d0:fixme:exec:SHELL_execute flags ignored: 0x00000100
+01d0:fixme:exec:SHELL_execute flags ignored: 0x00000100
+01d0:fixme:exec:SHELL_execute flags ignored: 0x00000100
+01d0:fixme:exec:SHELL_execute flags ignored: 0x00000100
+01d0:fixme:exec:SHELL_execute flags ignored: 0x00000100
+01d0:fixme:exec:SHELL_execute flags ignored: 0x00000100
+Application could not be started, or no application associated with the specified file.
+ShellExecuteEx failed: File not found.
+
+gamemodeauto: 
+Can't recognize 'RocketLeague.exe ' as an internal or external command, or batch script.
+gamemodeauto: 
+gamemodeauto: 
+============= End of log =============

@@ -1,0 +1,1613 @@
+Log: Log file open, 13/04/2025 02:28:26
+Log: GPsyonixBuildID 250319.60456.478365
+Log: Command line: -AUTH_LOGIN=unused -AUTH_PASSWORD=dcf455c6ee24460788cc0e42d08e2ef0 -AUTH_TYPE=exchangecode -epicapp=Sugar -epicenv=Prod -EpicPortal -epicusername=GambleGod777 -epicuserid=450f5cd6696b492fa38e8f26e8acd936 -epiclocale=en -epicsandboxid=9773aa1aa54f4f7b80e44bef04986cea
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Log:  ... running in INSTALLED mode
+Init: Language extension: INT
+Init: Language extension: INT
+DevConfig: GConfig::LoadFile associated file:  ..\..\TAGame\Config\TAUI.ini
+Init: Version: 250319.60456.478365
+Init: Compiled (64-bit): Mar 19 2025 17:18:48
+Init: Command line: -AUTH_LOGIN=unused -AUTH_PASSWORD=dcf455c6ee24460788cc0e42d08e2ef0 -AUTH_TYPE=exchangecode -epicapp=Sugar -epicenv=Prod -EpicPortal -epicusername=GambleGod777 -epicuserid=450f5cd6696b492fa38e8f26e8acd936 -epiclocale=en -epicsandboxid=9773aa1aa54f4f7b80e44bef04986cea
+Init: Base directory: Z:\mnt\windows\Linux-games\rocketleague\rocketleague\Binaries\Win64\
+[0001.26] Log: Purging 30-day cache '..\..\TAGame\Cache\WebCache\*.*'...
+[0001.26] Log: Purging 3-day cache '..\..\TAGame\Logs\*.log'...
+[0001.26] Init: Computer: archlinux
+[0001.26] Init: User: steamuser
+[0001.26] Init: CPU Page size=4096, Processors=12
+[0001.26] Init: High frequency timer resolution =10.000000 MHz
+[0001.26] Init: Memory total: Physical=30.5GB (31GB approx) Pagefile=34.5GB Virtual=131072.0GB
+[0001.26] Init: Presizing for 138000 objects not considered by GC, pre-allocating 0 bytes.
+[0001.27] Init: Object subsystem initialized
+[0002.82] Log: Using feature set PrimeUpdate54
+[0002.90] Log: FOnlineSubsystemEOS: EOS version = 1.17.22-40344262
+[0002.90] DevOnline: EOS Platform CacheDirectory=C:\users\steamuser\AppData\Local\Rocket League\
+[0002.90] DevOnline: EOSSDK-LogEOSOverlay: OverlayPath registry key not found
+[0002.90] DevOnline: EOSSDK-LogEOSOverlay: Failed to initialize overlay module: PATH_NOT_CONFIGURED
+[0002.90] DevOnline: EOSSDK-LogEOSAuth: FAccountPortalBrowserManager::Init: Failed to register overlay: EOS_NotConfigured
+[0002.90] DevOnline: EOSSDK-LogEOSUI: Hot key event ignored because there are no known users.
+[0002.90] Log: FEOSManager::UpdateNetworkStatus OnlineSubsystem is null.
+[0002.97] Log: Found D3D11 adapter 0: AMD Radeon RX 7800 XT (RADV NAVI32)
+[0002.97] Log: Adapter has 16368MB of dedicated video memory, 0MB of dedicated system memory, and 15592MB of shared system memory
+[0003.01] Log: Found D3D11 adapter 1: AMD Radeon Graphics (RADV RAPHAEL_MENDOCINO)
+[0003.01] Log: Adapter has 512MB of dedicated video memory, 0MB of dedicated system memory, and 10736MB of shared system memory
+[0003.05] Log: Shader platform (RHI): PC-D3D-SM5
+[0003.09] Breadcrumbs: Startup_PreInit: 3.092
+[0003.11] Breadcrumbs: Startup_LoadGlobalShaders: 0.013
+[0007.09] Log: ProductDatabase_TA::InitProductLabels  0.01 sec total.
+[0008.67] Log: ProductDatabase_TA::UpdateAvailableProducts  1.58 sec total.
+[0008.70] Breadcrumbs: Startup_LoadScriptPackages: 5.592
+[0009.07] Breadcrumbs: Startup_LoadNonNativePackages: 0.372
+[0009.07] Log: 148458 objects as part of root set at end of initial load.
+[0009.07] Log: 0 out of 0 bytes used by permanent object pool.
+[0009.07] Log: ShaderCache load stats: AccumLoadSeconds=(1.615) ShadersLoaded=(420973) Duplicates=(27846)
+[0009.07] Log: Initializing Engine...
+[0009.07] Log: BuildID: 1512972997 from GPsyonixBuildID
+[0009.15] SystemSettings: Loading PC Settings
+[0009.16] Breadcrumbs: Startup_BuildGuidCache: 0.091
+[0009.18] Log: Running hardware survey...
+[0009.18] Log: Wwise(R) SDK Version 2019.1.11 Build 7296. Copyright (c) 2006-2012 Audiokinetic Inc. / All Rights Reserved.
+[0009.29] Log: OS: Microsoft Windows 10 Pro  (19043)
+[0009.29] Log: WinSAT: 8.0 [8.0 CPU, 8.0 2D, 8.0 3D, 8.0 Mem, 8.0 Disk]
+[0009.29] Breadcrumbs: Startup_ClientInit: 0.127
+[0010.54] Log: Processor: AMD Ryzen 5 7600X 6-Core Processor (AMD64 Family 25 Model 97 Stepping 2) 6 Cores, 12 Threads
+[0010.54] Log: Memory: 30.45GB
+[0010.54] Log: VideoController: AMD Radeon RX 7800 XT (RADV NAVI32) (31.0.21902.5)
+[0010.54] Log: Network Adapter: enp14s0
+[0010.54] Log: Network Adapter: wlan0
+[0010.54] Log: Network Adapter: docker0
+[0010.54] Log: Network Adapter: veth7329b31
+[0010.54] Error: HardwareTest Query for SELECT Caption, Size, FreeSpace FROM Win32_LogicalDisk WHERE MediaType = 12 failed.  Error code: 0x80041001
+[0010.54] Log: Sound Device: Wine Audio Device
+[0010.54] Log: Hardware survey complete in 0.42 seconds.
+[0010.54] Breadcrumbs: Startup_CreateViewport: 1.249
+[0010.54] DevOnline: Created named interface (RecentPlayersList) of type (Engine.OnlineRecentPlayersList)
+[0010.54] DevOnline: EOSSDK-LogEOSRTC: EOS_RTCAudio_GetAudioInputDevicesCount is deprecated. Use EOS_RTCAudio_QueryInputDevicesInformation with EOS_RTCAudio_GetInputDevicesCount instead.
+[0010.61] DevOnline: EOSSDK-LogEOSRTC: EOS_RTCAudio_GetAudioInputDeviceByIndex is deprecated. Use EOS_RTCAudio_QueryInputDevicesInformation with EOS_RTCAudio_CopyInputDeviceInformationByIndex instead.
+[0010.61] DevOnline: EOSSDK-LogEOSRTC: EOS_RTCAudio_GetAudioOutputDevicesCount is deprecated. Use EOS_RTCAudio_QueryOutputDevicesInformation with EOS_RTCAudio_GetOutputDevicesCount instead.
+[0010.61] DevOnline: EOSSDK-LogEOSRTC: EOS_RTCAudio_GetAudioOutputDeviceByIndex is deprecated. Use EOS_RTCAudio_QueryOutputDevicesInformation with EOS_RTCAudio_CopyOutputDeviceInformationByIndex instead.
+[0010.61] EOSGameClips: EOSGameClips: Activate called successfully.
+[0010.61] EOSGameClips: EOSGameClips: Audio initialized successfully.
+[0010.61] EOSGameClips: EOSGameClips: Subscribed to game clips status events successfully.
+[0010.61] EOSGameClips: EOSGameClips: Subscribed to user status events successfully.
+[0010.61] EOSGameClips: EOSGameClips: Successfully initialized!
+[0010.61] ScriptLog: PsyNet using environment DBE_Production Prod
+[0010.61] PsyNet: PsyNetConnection_X_0 disabled OSCS_ServiceUnavailable
+[0010.61] PsyNetStaticData: HandleCacheExpired
+[0010.61] PsyNetStaticData: HandleGetURL URL=(https://config.psynet.gg/v2/Config/BattleCars/1512972997/Prod/Epic/INT/)
+[0010.61] PsyNetStaticData: Blocking sync start
+[0010.61] DevOnline: WebRequest_X_0 SEND: https://config.psynet.gg/v2/Config/BattleCars/1512972997/Prod/Epic/INT/
+[0010.79] DevOnline: WebRequest_X_0 RECV: 304 
+[0010.79] PsyNetStaticData: Blocking sync complete. Elapsed=0.1769
+[0010.79] PsyNetStaticData: HandleDataChanged
+[0010.80] ScriptWarning: ScriptWarning, Assertion failed, line 36
+	ContentConfig_TA Transient.Untitled_0.ContentConfig
+	Function ProjectX.ContentConfig_X:Apply:01D5
+Script call stack:
+	Function ProjectX.OnlineConfigDispatcher_X:ApplyConfigObject
+	Function TAGame.ContentConfig_TA:Apply
+	Function ProjectX.ContentConfig_X:Apply
+
+[0010.80] ScriptWarning: ScriptWarning, Assertion failed, line 36
+	ContentConfig_TA Transient.Untitled_0.ContentConfig
+	Function ProjectX.ContentConfig_X:Apply:01D5
+Script call stack:
+	Function ProjectX.OnlineConfigDispatcher_X:ApplyConfigObject
+	Function TAGame.ContentConfig_TA:Apply
+	Function ProjectX.ContentConfig_X:Apply
+
+[0010.80] ScriptWarning: ScriptWarning, Assertion failed, line 36
+	ContentConfig_TA Transient.Untitled_0.ContentConfig
+	Function ProjectX.ContentConfig_X:Apply:01D5
+Script call stack:
+	Function ProjectX.OnlineConfigDispatcher_X:ApplyConfigObject
+	Function TAGame.ContentConfig_TA:Apply
+	Function ProjectX.ContentConfig_X:Apply
+
+[0010.80] ScriptWarning: ScriptWarning, Assertion failed, line 36
+	ContentConfig_TA Transient.Untitled_0.ContentConfig
+	Function ProjectX.ContentConfig_X:Apply:01D5
+Script call stack:
+	Function ProjectX.OnlineConfigDispatcher_X:ApplyConfigObject
+	Function TAGame.ContentConfig_TA:Apply
+	Function ProjectX.ContentConfig_X:Apply
+
+[0012.38] Log: ProductDatabase_TA::UpdateAvailableProducts  1.58 sec total.
+[0022.43] Log: ProductDatabase_TA::InitProductLabels  0.01 sec total.
+[0022.43] PsyNet: PsyNetConnection_X_0 enabled
+[0022.43] PsyNetStaticData: UpdateCacheTimerEnabled CacheTimer.bEnabled=(True)
+[0022.43] EOSGameClips: Construct Constructed EOSGameClipsManager_TA. Self=(EOSGameClipsManager_TA_0)
+[0022.43] AuthPsyNetVerbose: New auth error. Error 'OSCS_NotConnected'
+[0022.43] AuthPsyNetVerbose: OnlinePlayerAuthentication_TA_0 None Unknown|0|0 Logout
+[0022.43] PsyNet: PsyNetConnection_X_1 disabled OSCS_NotConnected
+[0022.43] AuthPsyNetVerbose: PsyNet connection status changed. Error 'OSCS_NotConnected'
+[0022.43] AuthPsyNetVerbose: New auth error. Error 'OSCS_NotConnected'
+[0022.43] AuthPsyNetVerbose: OnlinePlayerAuthentication_TA_0 LoggedOut Unknown|0|0 Logout
+[0022.43] AuthPlatformCritical: Initiating auth. Player num '0', Name '', Password length '0'
+[0022.43] ScriptLog: HandleBlockListStatusCreated Status=(PlatformBlockListStatus_0) ControllerId=(0)
+[0022.43] AuthEpicCritical: Sending Eos login request with Credentials '{Version '4', Id Length '0', Token Length '32', Type 'EOS_LCT_ExchangeCode', SystemAuthCredentialsOptions null? 'Null', ExternalType 'EOS_ECT_EPIC'}'
+[0022.44] SaveGame: Load Player.ControllerId=(0) SaveFileName=(..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936.save)
+[0022.45] Breadcrumbs: Startup_InitOnlineSubsystem: 11.911
+[0022.45] DevNet: Browse: MENU_Main_p
+[0022.45] Log: LoadMap: MENU_Main_p
+[0022.45] Exit: XAudio2 Device shut down.
+[0022.48] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_GFxMenu_SF.upk
+[0022.58] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_MainMenu_SF.upk
+[0022.59] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_StartMenu_SF.upk
+[0022.65] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MainMenu_SF.upk
+[0022.75] Log: Game class is 'GameInfo_GFxMenu_TA'
+[0022.78] Log: Bringing World menu_main_p.TheWorld up for play (0) at 2025.04.13-02.28.47
+[0022.78] Log: Flushing async loaders.
+[0022.99] Log: Flushed async loaders.
+[0022.99] Log: Bringing up level for play took: 0.233690
+[0023.30] Log: ########### Finished loading level: 0.848991 seconds
+[0023.35] Breadcrumbs: Startup_Browse: 0.904
+[0023.35] Log: Initializing Engine Completed
+[0023.35] Breadcrumbs: Startup_Total: 23.353
+[0023.38] DevOnline: WebRequest_X_1 SEND: https://rl-cdn.psyonix.com/LogoImages/S18/rl_s18_logo_en_fuwi.png
+[0023.39] SaveGame: HandleDataLoaded Result.Code=(BasicLoadResult_Success)
+[0023.39] ScriptLog: NetworkSave_TA_0 ApplySettings ReplicationRate=60 NetSpeed=15000 InputRate=60
+[0023.67] SaveData: Profile_TA_0 OnLoaded LocalID=(0)
+[0023.67] ScriptLog: GetDLCProducts, UnlockedDLCList=
+[0023.81] ScriptLog: GetDLCProducts, UnlockedDLCList=
+[0023.81] SaveGame: LocalPlayer_TA_0 HandleSaveDataLoaded 
+[0024.01] Log: 
+
+
+BakkesMod loaded
+
+
+[0024.19] FTECritical: [GFx] Changed active tutorial from 'null' to 'NONE'. Tutorial active? 'false', New checkpoint active? 'false'
+[0024.19] FTEVerbose: Checkpoint 'None' attempted completion while the FTE isn't active!
+[0024.23] Log: Flushing async loaders.
+[0024.67] Log: Flushed async loaders.
+[0025.35] Log: Octree Warning (AddPrimitive): StaticMeshActor_SMC_445 (Owner: BG_UF_Day_P.TheWorld:PersistentLevel.MeshCollector5) Outside World.
+[0025.35] Log: Octree Warning (AddPrimitive): StaticMeshActor_SMC_619 (Owner: BG_UF_Day_P.TheWorld:PersistentLevel.MeshCollector7) Outside World.
+[0025.35] Log: Octree Warning (AddPrimitive): StaticMeshActor_SMC_627 (Owner: BG_UF_Day_P.TheWorld:PersistentLevel.MeshCollector7) Outside World.
+[0025.36] Log: Detected new XInput controller 0
+[0025.37] XPGatedPlaylists: Not currently in a party.
+[0025.37] DevOnline: EOSSDK-LogEOSGameClips: No suitable h264 encoder found
+[0025.37] DevOnline: EOSSDK-LogEOSGameClips: Recording not supported.
+[0025.37] EOSGameClips: EOSGameClips: Availability changed from Pending to NotAvailable.
+[0025.37] Log: RPC Error (failure): Service=Filters/FilterContent, Type=OSCS_NotConnected, Code=-1, Message=
+[0025.63] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0025.63] DevOnline: EOSSDK-LogEOSUI: Hot key event ignored because there are no known users.
+[0025.81] DevOnline: WebRequest_X_1 RECV: 304 
+[0025.85] DevOnline: EOSSDK-LogEOSEcom: Purchase flow is disabled due to overlay setup failure (EOS_NotConfigured).
+[0025.85] DevOnline: EOSSDK-LogEOSUI: Hot key event ignored because there are no known users.
+[0025.85] DevOnline: EOSSDK-LogEOSUI: Social overlay is disabled due to overlay setup failure (EOS_NotConfigured).
+[0026.03] AuthEpicCritical: Eos login result 'EOS_Success' for player '0'
+[0026.03] EOSGameClips: EOSGameClipsMetrics_TA_0.RecordAccountLinking()  - Errors[0] InAccountMetric.Errors[Index]=(GameClipsNotAvailable)
+[0026.03] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0026.20] AuthEpicCritical: Connect login result 'EOS_Success' for player '450f5cd6696b492fa38e8f26e8acd936', local num '0'
+[0026.20] AuthPlatformCritical: Login status changed for player '0' to 'LS_LoggedIn'
+[0026.20] AuthPlatformVerbose: Login attempt concluded
+[0026.20] FTEVerbose: [GFx] EULA sync started, waiting for response.
+[0026.20] DevOnline: WebRequest_X_2 SEND: https://eulatracking-public-service-prod06.ol.epicgames.com/eulatracking/api/eos/v1/agreements/rocket_league/identities/450f5cd6696b492fa38e8f26e8acd936?locale=en
+[0026.20] AuthEpicVerbose: Requesting cabined status for player '0'
+[0026.20] DevOnline: WebRequest_X_3 SEND: https://api.epicgames.dev/epic/id/v1/accounts?accountId=450f5cd6696b492fa38e8f26e8acd936
+[0026.20] PsyNet: PsyNetConnection_X_1 enabled
+[0026.20] AuthPsyNetVerbose: PsyNet connection status changed. Error 'None'
+[0026.20] AuthPsyNetVerbose: Transitioning to state 'RequestAuthCode'
+[0026.20] AuthPsyNetCritical: Requesting auth ticket from platform for 'Epic|450f5cd6696b492fa38e8f26e8acd936|0'
+[0026.20] AuthPsyNetCritical: Platform auth ticket completed with success 'True'
+[0026.20] AuthPsyNetVerbose: Transitioning to state 'SendLoginRequest'
+[0026.20] AuthPsyNetCritical: Sending login RPC for player '450f5cd6696b492fa38e8f26e8acd936' Auth ticket required? 'True'
+[0026.20] AuthPsyNetCritical: Primary player ID? 'Epic|450f5cd6696b492fa38e8f26e8acd936|0' Logging In PlayerID '450f5cd6696b492fa38e8f26e8acd936'
+[0026.20] Party: HandleLocalPlayerLoginStatusChanged PlayerName=GambleGod777 PlayerID=Epic|450f5cd6696b492fa38e8f26e8acd936|0 LoginStatus=LS_LoggedIn IsPrimary=True IsInParty=False
+[0026.20] PsyNet: HTTP send ID=PsyNetMessage_X_0 Message=PsyNetMessage_X_0
+[0026.20] DevOnline: WebRequest_X_4 SEND: https://api.rlpp.psynet.gg/rpc/Auth/AuthPlayer/v2
+[0026.28] ScriptLog: GetDLCProducts, UnlockedDLCList=
+[0026.31] XPGatedPlaylists: Not currently in a party.
+[0026.36] DevOnline: WebRequest_X_2 RECV: 204 
+[0026.36] Log: Failed to parse JSON: offset:'0' 'The document is empty.'
+[0026.36] Log: UJSONSerializer_X::DecodeObject() Failed: Object=EulaTextResponse Transient.EulaTextResponse_0
+Json:
+
+[0026.36] DevOnline: WebRequest_X_5 SEND: https://eulatracking-public-service-prod06.ol.epicgames.com/eulatracking/api/eos/v1/agreements/rocket_league?locale=en
+[0026.36] FTEVerbose: [GFx] EULA sync response received.
+[0026.36] DevOnline: WebRequest_X_3 RECV: 200 
+[0026.36] AuthEpicVerbose: Cabined request completed for user '0' with result 'False', Error 'None'
+[0026.36] ScriptLog: ChatFilterManager HandleSaveLoaded: [Error: Type:None] 
+[0026.36] ScriptLog: ChatFilterManager: Updating Permissions for PlayerID: Epic|450f5cd6696b492fa38e8f26e8acd936|0 LocalPlayerNum: 0
+[0026.36] ScriptLog: ChatFilterManager: Updating MostRestrictiveVoiceFilter [Save: ChatFilter_None] [Current: ChatFilter_All
+[0026.36] ScriptLog: ChatFilterManager: Updating Permissions for PlayerID: Epic|450f5cd6696b492fa38e8f26e8acd936|0 LocalPlayerNum: 0
+[0026.36] ScriptLog: ChatFilterManager: Updating MostRestrictiveVoiceFilter [Save: ChatFilter_None] [Current: ChatFilter_All
+[0026.40] Log: Assigning XInput controller to 0
+[0026.45] XPGatedPlaylists: Not currently in a party.
+[0026.47] DevOnline: WebRequest_X_5 RECV: 200 
+[0026.58] DevOnline: WebRequest_X_4 RECV: 200 
+[0026.58] PsyNet: HTTP recv ID=PsyNetMessage_X_0 Message=PsyNetMessage_X_1
+[0026.59] AuthPsyNetCritical: PsyNet auth RPC succeeded for player '450f5cd6696b492fa38e8f26e8acd936'
+[0026.59] AuthPsyNetVerbose: Transitioning to state 'LoggedIn'
+[0026.59] AuthPsyNetCritical: Login successful for player '450f5cd6696b492fa38e8f26e8acd936'
+[0026.59] Auth: OnlinePlayer_TA_0 OnlinePlayerAuthentication_TA_0 HandleAuthLoginChange Auth.bLoggedIn=(True)
+[0026.59] PsyNet: Enabling PerCon
+[0026.60] PsyNet: PsyNetConnection_X_1 SetAuthorized bAuthorized=True
+[0026.60] RankedReconnect: LocalPlayer_TA_0.CheckForRankedReconnect() bOpenedStartMenu=(False) IsMenuLevel=(True) bLoggedIn=(True) IsPrimaryPlayer=(True) RankedReconnectAvailable=(False) EpochTime=(0) EpochNow=(1744525731) TimeSince=(1744525731) ReconnectTimeoutSeconds=(900) Reservation=()
+[0026.70] XPGatedPlaylists: Not currently in a party.
+[0026.73] PsyNet: PsyNetMessengerWebSocket_X_0 Connected
+[0026.73] PsyNet: PsyNetConnection_X_1 UpdateConnectionState bConnected=(True) bFreshConnection=(True)
+[0026.73] DevOnline: WebRequest_X_6 SEND: https://api.kws.ol.epicgames.com/v1/epic-settings/public/users/450f5cd6696b492fa38e8f26e8acd936/values?game=rl
+[0026.73] DevOnline: EOSSDK-LogEOSRTC: EOS_RTCAudio_SetAudioInputSettings is deprecated. Use EOS_RTCAudio_SetInputDeviceSettings instead.
+[0026.73] DevOnline: EOSSDK-LogEOSRTC: EOS_RTCAudio_SetAudioOutputSettings is deprecated. Use EOS_RTCAudio_SetOutputDeviceSettings instead.
+[0026.73] DevOnline: WebRequest_X_7 SEND: https://api.epicgames.dev/epic/friends/v1/450f5cd6696b492fa38e8f26e8acd936/blocklist
+[0026.73] DevOnline: PlayerDataStorage_QueryFileList: Beginning to query files. User=(450f5cd6696b492fa38e8f26e8acd936)
+[0026.73] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 SetPsyNetConnection InPsyNetConnection=(PsyNetConnection_X_1)
+[0026.73] PsyNet: PsyNetConnection_X_1 UpdateConnectionState bPerConConnected=(True)
+[0026.78] DevOnline: WebRequest_X_7 RECV: 200 
+[0026.83] DevOnline: PlayerDataStorage_QueryFileList: Finished querying files. User=(450f5cd6696b492fa38e8f26e8acd936) Success=(1)
+[0026.83] DevOnline: PlayerDataStorage_ReadFile: Beginning to download file. User=(450f5cd6696b492fa38e8f26e8acd936) FileName=(RLSaveData)
+[0026.85] ScriptLog: ListenForBlockListDownloaded PrimaryStatus=(PlatformBlockListStatus_0) PrimaryStatus.DownloadStatus=(EB_Pending)
+[0026.86] ScriptLog: HandleStatusChanged PrimaryStatus.DownloadStatus=(EB_Success) ControllerId=(0)
+[0026.93] DevOnline: WebRequest_X_6 RECV: 200 
+[0026.93] ScriptLog: Setting.Namespace: stats, Setting.SettingName: show-in-leaderboard
+[0026.93] ScriptLog: Setting.Namespace: profile, Setting.SettingName: require-pin-to-add-friend
+[0026.93] EOSPermissions: NS=profile SN=require-pin-to-add-friend PL=False EL=null DV=False IV=False
+[0026.93] ScriptLog: Setting.Namespace: profile, Setting.SettingName: p2p-trading
+[0026.93] ScriptLog: Setting.Namespace: chat, Setting.SettingName: voice
+[0026.93] EOSPermissions: NS=chat SN=voice PL=0 EL=null DV=0 IV=0
+[0026.93] ScriptLog: Setting.Namespace: chat, Setting.SettingName: text
+[0026.93] EOSPermissions: NS=chat SN=text PL=0 EL=null DV=0 IV=0
+[0026.93] ScriptLog: Setting.Namespace: chat, Setting.SettingName: enhanced-voice-reporting
+[0026.93] EOSPermissions: NS=chat SN=enhanced-voice-reporting PL=null EL=null DV=prefer-not-recording IV=0
+[0026.93] ScriptLog: Setting.Namespace: prm, Setting.SettingName: marketing
+[0026.93] EOSPermissions: NS=prm SN=marketing PL=null EL=True DV=True IV=True
+[0026.93] ScriptLog: Setting.Namespace: prm, Setting.SettingName: experience
+[0026.93] DevOnline: WebRequest_X_8 SEND: https://api.epicgames.dev/epic/friends/v1/450f5cd6696b492fa38e8f26e8acd936/outgoing
+[0026.98] Log: Flushing async loaders.
+[0027.01] Log: Flushed async loaders.
+[0027.04] DevOnline: WebRequest_X_8 RECV: 200 
+[0027.04] DevOnline: WebRequest_X_9 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Play.jpg
+[0027.04] DevOnline: WebRequest_X_10 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Shot.jpg
+[0027.04] DevOnline: WebRequest_X_11 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Save.jpg
+[0027.04] DevOnline: WebRequest_X_12 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Center.jpg
+[0027.04] DevOnline: WebRequest_X_13 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Win.jpg
+[0027.04] DevOnline: WebRequest_X_14 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_AerialGoal.jpg
+[0027.04] DevOnline: WebRequest_X_15 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_SAG.jpg
+[0027.04] DevOnline: WebRequest_X_16 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Clear.jpg
+[0027.04] DevOnline: WebRequest_X_17 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Goal.jpg
+[0027.05] DevOnline: WebRequest_X_18 SEND: https://rl-cdn.psyonix.com/ChallengeBanners/NUX_Popup_Octane.png
+[0027.05] DevOnline: WebRequest_X_19 SEND: https://rl-cdn.psyonix.com/ChallengeBanners/Season_imagery_Reward.png
+[0027.06] DevOnline: WebRequest_X_20 SEND: https://rl-cdn.psyonix.com/RocketPass/Images/S18/rl_s18_challengedashboard_uhcow.png
+[0027.11] DevOnline: WebRequest_X_21 SEND: https://rl-cdn.psyonix.com/Playlists/Images/rl_event_mode_bg_heatseeker.jpg
+[0027.12] DevOnline: WebRequest_X_22 SEND: https://rl-cdn.psyonix.com/Playlists/Images/rl_event_mode_bg_DropshotRumble.jpg
+[0027.16] DevOnline: WebRequest_X_23 SEND: https://rl-cdn.psyonix.com/Playlists/Images/rl_knockout_bash_2022_playlist_details_image.jpg
+[0027.17] DevOnline: WebRequest_X_9 RECV: 304 
+[0027.17] DevOnline: WebRequest_X_10 RECV: 304 
+[0027.19] DevOnline: WebRequest_X_11 RECV: 304 
+[0027.19] DevOnline: WebRequest_X_12 RECV: 304 
+[0027.19] DevOnline: WebRequest_X_15 RECV: 304 
+[0027.19] DevOnline: WebRequest_X_16 RECV: 304 
+[0027.19] DevOnline: WebRequest_X_17 RECV: 304 
+[0027.19] DevOnline: WebRequest_X_18 RECV: 304 
+[0027.20] DevOnline: WebRequest_X_19 RECV: 304 
+[0027.20] DevOnline: WebRequest_X_13 RECV: 304 
+[0027.20] DevOnline: WebRequest_X_14 RECV: 304 
+[0027.20] DevOnline: WebRequest_X_20 RECV: 304 
+[0027.21] ScriptLog: RegionPinger_X_0 PingRegions ("13.245.13.194:8579","18.166.63.217:7809","18.182.4.106:8663","65.0.69.9:8387","47.129.125.185:8321","3.26.221.30:8485","18.195.167.228:7849","56.228.5.78:7995","34.251.173.106:7881","18.133.124.79:8749","13.38.104.183:8587","16.24.212.70:8487","15.228.141.247:8809","54.210.219.10:8355","3.15.19.82:7913","18.88.11.98:8381","13.56.183.112:7975","52.36.239.29:8075")
+[0027.22] DevOnline: WebRequest_X_21 RECV: 304 
+[0027.22] DevOnline: WebRequest_X_22 RECV: 304 
+[0027.24] DevOnline: WebRequest_X_23 RECV: 304 
+[0027.36] DevOnline: PlayerDataStorage_ReadFile: File download complete. User=(450f5cd6696b492fa38e8f26e8acd936) FileName=(RLSaveData) Success=(1)
+[0027.36] EOSSync: HandleFileReadComplete LocalSaveTick: 4746
+[0027.36] EOSSync: HandleFileReadComplete OnlineSaveTick: 4746
+[0027.36] EOSSync: HandleFileReadComplete Local Save is up to date, keeping this file
+[0027.37] Log: Resetting full product sync timestamp because these productIDs were not found: 6222 6232 6215 6219 617 668 1017 
+[0027.37] ScriptLog: NewProductIDs128: 
+[0027.37] ScriptLog: GetDLCProducts, UnlockedDLCList=
+[0027.48] AuthEpicVerbose: Epic save data loaded
+[0027.48] AuthEpicVerbose: [GFx] Epic login changed. m_uiState:StartMenu bPromptParentalConsent:false bPromptToChoosePrimaryAccount:false bEpicSaveDataLoaded:true bPlatformLinked:true
+[0027.48] ScriptLog: GetDLCProducts, UnlockedDLCList=
+[0027.48] DevOnline: WebRequest_X_24 SEND: https://rl-cdn.psyonix.com/Legal/PC/PrivacyPolicy/INT.txt
+[0027.48] DevOnline: WebRequest_X_25 SEND: https://rl-cdn.psyonix.com/Legal/PC/ToS/INT.txt
+[0027.48] DevOnline: WebRequest_X_26 SEND: https://rl-cdn.psyonix.com/Legal/PC/SCT/INT.txt
+[0027.48] DevOnline: WebRequest_X_27 SEND: https://rl-cdn.psyonix.com/Legal/PC/PaymentServices/INT.txt
+[0027.51] DevOnline: WebRequest_X_24 RECV: 304 
+[0027.52] DevOnline: WebRequest_X_25 RECV: 304 
+[0027.52] DevOnline: WebRequest_X_27 RECV: 304 
+[0027.53] DevOnline: WebRequest_X_26 RECV: 304 
+[0028.18] Matchmaking: All Regions Pinged: USE (1.0000),USC (1.0000),USW (1.0000),EU (1.0000),ASC (1.0000),ASM (1.0000),JPN (1.0000),ME (1.0000),OCE (1.0000),SAF (1.0000),SAM (1.0000),IND (1.0000),SAF1 (0.2692),ASC1 (0.2513),JPN1 (0.1203),IND1 (0.2239),ASM1 (0.2490),OCE1 (0.2302),EU5 (0.0828),EU1 (0.0828),EU3 (0.0642),EU7 (0.0642),EU9 (0.0457),ME1 (0.1886),SAM1 (0.1500),USE1 (0.0180),USE3 (0.0091),USC1 (0.0091),USW1 (0.0967),USW3 (0.1136)
+[0028.18] Matchmaking: Failed to ping 'USE'. Using cached ping '0.0278'
+[0028.18] Matchmaking: Failed to ping 'USC'. Using cached ping '0.0611'
+[0028.18] Matchmaking: Failed to ping 'USW'. Using cached ping '0.1167'
+[0028.18] Matchmaking: Failed to ping 'ASC'. Using cached ping '0.2445'
+[0028.18] Matchmaking: Failed to ping 'ASM'. Using cached ping '0.2445'
+[0028.18] Matchmaking: Failed to ping 'JPN'. Using cached ping '0.1778'
+[0028.18] Matchmaking: Failed to ping 'ME'. Using cached ping '0.1945'
+[0028.18] Matchmaking: Failed to ping 'OCE'. Using cached ping '0.2278'
+[0028.18] Matchmaking: Failed to ping 'SAF'. Using cached ping '0.2778'
+[0028.18] Matchmaking: Failed to ping 'SAM'. Using cached ping '0.1445'
+[0028.18] Matchmaking: Failed to ping 'IND'. Using cached ping '0.2222'
+[0028.18] Log: FCacheExportTask(..\..\TAGame\Cache\RegionCache.cache) wrote 2702 bytes to memory
+[0028.41] Legacy: State Set
+[0028.41] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'false', Legal modal valid? 'true', Online? 'true', Cabined state '0', Legacy state '3'
+[0028.41] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0028.41] AuthEpicVerbose: [GFx] Showing login flow. Platform linked? 'true' Prompt for epic link? 'false' Prompt for primary? 'false' Prompt for parental consent? 'false' Epic data loaded? 'true' Showing epic flow? 'false'
+[0028.41] AuthEpicVerbose: [GFx] Epic flow completed 'false'
+[0028.41] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '0', Legacy state '3'
+[0028.41] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0028.41] FTE: Starting Group:Prime_LegalText at Checkpoint:FTE_PrimaryPlayerIsXboxGuest
+[0028.41] FTE: CompleteCheckpoint GroupName=(Prime_LegalText) CheckpointName=(FTE_PrimaryPlayerIsXboxGuest)
+[0028.41] FTE: Moving to Checkpoint:FTE_PrivacyPolicy
+[0028.41] FTE: CompleteCheckpoint GroupName=(Prime_LegalText) CheckpointName=(FTE_PrivacyPolicy)
+[0028.41] FTE: Moving to Checkpoint:FTE_EulaText
+[0028.41] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '0', Legacy state '3'
+[0028.41] FTEDev: Trying to start FTE Group Prime_InitialStartup while another Group Prime_LegalText is active
+[0028.41] Eula: RequiresAcceptance? EulaConfig?.bRequiresAcceptance=(True) GetUISave()?.Contains('bAcceptedOfflineEULA')=(True) Eula.SyncState=(LSS_Accepted)
+[0028.41] FTE: CompleteCheckpoint GroupName=(Prime_LegalText) CheckpointName=(FTE_EulaText)
+[0028.41] FTE: CompleteActiveGroup GroupName:Prime_LegalText
+[0028.41] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '0', Legacy state '3'
+[0028.41] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0028.41] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '0', Legacy state '3'
+[0028.41] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0028.41] DevOnline: Request EOS to show voice agreement for player 0
+[0028.41] DevOnline: EOSSDK-LogEOSUI: EOS_UI_PromptVoiceTerms: Social Overlay voice moderation feature in unexpected disabled state.
+[0028.41] FTEDev: Trying to start FTE Group Prime_FreeToPlayTutorial_1 which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0028.41] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '0', Legacy state '3'
+[0028.41] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0028.41] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '0', Legacy state '3'
+[0028.41] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0028.41] FTEDev: Trying to start FTE Group Prime_FreeToPlayTutorial_1 which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0028.41] FTECritical: [GFx] Changed active tutorial from 'null' to 'NONE'. Tutorial active? 'false', New checkpoint active? 'false'
+[0028.41] FTEVerbose: Checkpoint 'None' attempted completion while the FTE isn't active!
+[0028.41] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '0', Legacy state '3'
+[0028.41] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0028.41] FTEDev: Trying to start FTE Group Prime_FreeToPlayTutorial_1 which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0028.41] Eula: RequiresAcceptance? EulaConfig?.bRequiresAcceptance=(True) GetUISave()?.Contains('bAcceptedOfflineEULA')=(True) Eula.SyncState=(LSS_Accepted)
+[0028.41] AuthEpicVerbose: [GFx] Epic login changed. m_uiState:MainMenu bPromptParentalConsent:false bPromptToChoosePrimaryAccount:false bEpicSaveDataLoaded:false bPlatformLinked:false
+[0028.41] FTEDev: Trying to start FTE Group Prime_MatchComplete which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0028.41] FTEDev: Group Prime_LegacyUpdate Is not meant for users of type FTESave.LegacyGroupType=(LGT_NewUser)
+[0028.46] RankedReconnect: LocalPlayer_TA_0.CheckForRankedReconnect() bOpenedStartMenu=(True) IsMenuLevel=(True) bLoggedIn=(True) IsPrimaryPlayer=(True) RankedReconnectAvailable=(False) EpochTime=(0) EpochNow=(1744525733) TimeSince=(1744525733) ReconnectTimeoutSeconds=(900) Reservation=()
+[0028.47] MTX: ConditionalClaimEntitlements bAllowEntitlements=(True) bClaimingEntitlements=(False) bEntitlementsDirty=(True) PsyNetConnected=(True) SplitscreenID=(0) bMtxCodeExpired=(False)
+[0028.47] MTX: HandleMtxCode bSuccess=True
+[0028.50] DevOnline: WebRequest_X_28 SEND: https://rl-cdn.psyonix.com/Blog/Images/RL_U54_S18_3panel_MiddlePanel_Live.png
+[0028.51] DevOnline: WebRequest_X_29 SEND: https://rl-cdn.psyonix.com/Blog/Images/EN_U54.1RL_Mamba_TriNewsPanel_672x840.png
+[0028.51] DevOnline: WebRequest_X_30 SEND: https://rl-cdn.psyonix.com/Blog/Images/RL_U54_S18_3panel_MiddlePanel_Announce_v2.png
+[0028.53] Log: FSaveDataExportTask(0) wrote 849401 bytes to memory
+[0028.53] Log: SaveGameDataAsync game thread time: 5 ms
+[0028.54] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936.save
+[0028.54] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936_2.save] Result:[1]
+[0028.55] DevOnline: WebRequest_X_28 RECV: 304 
+[0028.56] DevOnline: WebRequest_X_30 RECV: 304 
+[0028.56] DevOnline: WebRequest_X_29 RECV: 304 
+[0028.70] MTX: HandleClaimSuccess Products=0
+[0029.11] EOSVoice: HandleFriendsListChanged
+[0030.27] Online: TryToPlayOnline ControllerID=(-1)
+[0030.28] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0030.28] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=(False)
+[0031.60] Online: TryToPlayOnline ControllerID=(-1)
+[0031.60] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0031.67] Party: OnPartyCreated bWasSuccessful=(True) InPartyId:'PsyNet-6lPmwClj' 
+[0031.67] Party: HandleJoinLobby bWasSuccessful=(True) LobbyUID:'PsyNet-6lPmwClj' 
+[0031.67] Party: HandleLobbyMemberStatusUpdate LobbyUID=PsyNet-6lPmwClj Members=1 MemberIndex=0 MemberID=Epic|450f5cd6696b492fa38e8f26e8acd936|0
+[0031.68] PsyNet: PsyNetChannel_X_0 Init party:6lPmwClj
+[0031.68] PsyNet: PsyNetChannel_X_0 Open party:6lPmwClj
+[0031.68] PsyNet: PsyNetChannel_X_0 party:6lPmwClj waiting for first channel message
+[0031.77] Eula: RequiresAcceptance? EulaConfig?.bRequiresAcceptance=(True) GetUISave()?.Contains('bAcceptedOfflineEULA')=(True) Eula.SyncState=(LSS_Accepted)
+[0031.77] Party: BroadcastMatchmakingAvailabilityDelayed PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' MatchmakeRestrictions=(4)
+[0031.77] Party: SetAvailableForMatchmakingForMember PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' MatchmakeRestrictions=(4)
+[0031.77] Party: BroadcastDisableCrossPlay PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' PartyMembers[ PartyMemberIndex ].bDisableCrossPlay=(False)
+[0031.77] Party: BroadcastCrossTextChatState PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' PartyMembers[PartyMemberIndex].CrossChatState=(PCCS_Everybody)
+[0031.94] PsyNet: PsyNetChannel_X_0 party:6lPmwClj first channel message MessageID=1
+[0031.94] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=1
+[0031.95] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0031.96] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=2
+[0031.96] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=2
+[0031.97] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0031.97] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=3
+[0031.97] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=3
+[0031.97] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0032.00] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=5
+[0032.00] PsyNet: PsyNetChannel_X_0 party:6lPmwClj waiting for 4
+[0032.00] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=6
+[0032.00] PsyNet: PsyNetChannel_X_0 party:6lPmwClj waiting for 4
+[0032.01] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=7
+[0032.01] PsyNet: PsyNetChannel_X_0 party:6lPmwClj waiting for 4
+[0032.01] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=4
+[0032.01] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=4
+[0032.01] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=5
+[0032.01] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=6
+[0032.01] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=7
+[0032.02] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0032.02] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0032.02] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0032.02] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0032.03] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=9
+[0032.03] PsyNet: PsyNetChannel_X_0 party:6lPmwClj waiting for 8
+[0032.04] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=8
+[0032.04] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=8
+[0032.04] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=9
+[0032.04] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0032.04] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0032.05] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=10
+[0032.05] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=10
+[0032.05] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0032.31] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=11
+[0032.31] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=11
+[0032.32] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0035.53] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=12
+[0035.53] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=12
+[0035.53] Party: HandleLobbyMemberStatusUpdate LobbyUID=PsyNet-6lPmwClj Members=2 MemberIndex=1 MemberID=Epic|359253c5bac348378457d018b9043f7e|0
+[0035.53] Party: UpdatePartyLock NewLockStatus=(False)
+[0035.54] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/UserJoined 
+[0035.63] Eula: RequiresAcceptance? EulaConfig?.bRequiresAcceptance=(True) GetUISave()?.Contains('bAcceptedOfflineEULA')=(True) Eula.SyncState=(LSS_Accepted)
+[0035.63] Party: BroadcastMatchmakingAvailabilityDelayed PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' MatchmakeRestrictions=(4)
+[0035.63] Party: SetAvailableForMatchmakingForMember PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' MatchmakeRestrictions=(4)
+[0035.63] Party: BroadcastDisableCrossPlay PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' PartyMembers[ PartyMemberIndex ].bDisableCrossPlay=(False)
+[0035.63] Party: BroadcastCrossTextChatState PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' PartyMembers[PartyMemberIndex].CrossChatState=(PCCS_Everybody)
+[0035.81] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=13
+[0035.81] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=13
+[0035.81] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0035.81] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=14
+[0035.81] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=14
+[0035.81] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_XPLevelUpdate_TA
+[0035.82] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0035.82] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=16
+[0035.82] PsyNet: PsyNetChannel_X_0 party:6lPmwClj waiting for 15
+[0035.82] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=15
+[0035.82] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=15
+[0035.82] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_CurrentVoiceRoom_TA
+[0035.82] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=16
+[0035.82] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_GetPlatformParty_X
+[0035.83] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0035.83] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0035.83] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=17
+[0035.83] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=17
+[0035.83] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_LocalPlayers_X
+[0035.83] Party: Handle PartyMessage_LocalPlayers_X: IsPrimaryPlayer=True
+[0035.83] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0035.84] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=18
+[0035.84] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=18
+[0035.84] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_MatchmakingAvailability_X
+[0035.84] Party: SetAvailableForMatchmakingForMember PartyMemberID:'Epic|359253c5bac348378457d018b9043f7e|0' MatchmakeRestrictions=(0)
+[0035.85] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0035.85] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=19
+[0035.85] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=19
+[0035.85] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_MatchmakingAvailability_X
+[0035.85] Party: SetAvailableForMatchmakingForMember PartyMemberID:'Epic|359253c5bac348378457d018b9043f7e|0' MatchmakeRestrictions=(0)
+[0035.86] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0035.86] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=22
+[0035.86] PsyNet: PsyNetChannel_X_0 party:6lPmwClj waiting for 20
+[0035.87] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=21
+[0035.87] PsyNet: PsyNetChannel_X_0 party:6lPmwClj waiting for 20
+[0035.87] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=20
+[0035.87] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=20
+[0035.87] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_CrossPlayTextChat_X
+[0035.87] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=21
+[0035.87] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_PartyMemberJoinGame_X
+[0035.87] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=22
+[0035.88] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0035.88] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0035.88] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0035.88] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=23
+[0035.88] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=23
+[0035.88] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_DisableCrossPlay_X
+[0035.88] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0035.88] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=25
+[0035.88] PsyNet: PsyNetChannel_X_0 party:6lPmwClj waiting for 24
+[0035.89] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=24
+[0035.89] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=24
+[0035.89] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=25
+[0035.90] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0035.90] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0035.90] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=27
+[0035.90] PsyNet: PsyNetChannel_X_0 party:6lPmwClj waiting for 26
+[0035.90] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=26
+[0035.90] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=26
+[0035.90] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_UserVoiceReportingLevel_TA
+[0035.90] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=27
+[0035.90] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_XPLevelUpdate_TA
+[0035.91] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0035.91] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0035.91] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=28
+[0035.91] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=28
+[0035.91] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_Loadout_TA
+[0035.91] Party: HandleLoadoutMessage MemberID=Epic|359253c5bac348378457d018b9043f7e|0
+[0035.91] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0035.93] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=29
+[0035.93] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=29
+[0035.93] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0035.93] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=30
+[0035.93] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=30
+[0035.94] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0035.94] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=31
+[0035.94] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=31
+[0035.95] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0035.95] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=32
+[0035.95] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=32
+[0035.96] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0036.50] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=33
+[0036.50] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=33
+[0036.50] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_CurrentVoiceRoom_TA
+[0036.50] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0036.67] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=34
+[0036.67] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=34
+[0036.67] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0036.94] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=35
+[0036.94] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=35
+[0036.95] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0036.99] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=36
+[0036.99] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=36
+[0037.00] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0037.02] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=38
+[0037.02] PsyNet: PsyNetChannel_X_0 party:6lPmwClj waiting for 37
+[0037.03] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=37
+[0037.03] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=37
+[0037.03] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=38
+[0037.03] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0037.03] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0037.38] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=39
+[0037.38] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=39
+[0037.38] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_XPLevelUpdate_TA
+[0037.39] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0037.43] DevNet: Browse: UtopiaStadium_P?Game=TAGame.GameInfo_Soccar_TA?GameTags=Freeplay
+[0037.51] Log: FSaveDataExportTask(0) wrote 811565 bytes to memory
+[0037.51] Log: SaveGameDataAsync game thread time: 4 ms
+[0037.51] Log: Flushing async loaders.
+[0037.52] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936_1.save
+[0037.52] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936.save] Result:[1]
+[0037.52] Log: Flushed async loaders.
+[0037.52] Log: LoadMap: UtopiaStadium_P?Game=TAGame.GameInfo_Soccar_TA?GameTags=Freeplay
+[0037.54] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0037.67] DevOnline: PsyNet Flush End
+[0038.11] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_Soccar_SF.upk
+[0038.28] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_XP_SF.upk
+[0038.30] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFx_XPProgressMenu_SF.upk
+[0038.32] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_EndGameMenu_SF.upk
+[0038.36] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_WinnerMenu_SF.upk
+[0038.38] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameScoreboard_SF.upk
+[0038.39] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameMenu_SF.upk
+[0038.41] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_HudMatchInfo_SF.upk
+[0038.42] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_Hud_SF.upk
+[0038.45] Log: Fully load package: ..\..\TAGame\CookedPCConsole\Mutators_SF.upk
+[0038.47] Log: Game class is 'GameInfo_Soccar_TA'
+[0038.67] Log: Bringing World UtopiaStadium_P.TheWorld up for play (0) at 2025.04.13-02.29.03
+[0038.67] Log: Flushing async loaders.
+[0038.70] Log: Flushed async loaders.
+[0038.70] Party: UpdatePartyLock NewLockStatus=(False)
+[0038.70] MatchBroadcast: Init bBroadcastMatch=(False) MatchLog=(None)
+[0038.70] ScriptLog: MatchTypeClass=(MatchType_Offline_TA)
+[0038.80] ScriptWarning: ScriptWarning, Accessed None 'PC'
+	GFxData_MultiItemDrops_TA Transient.GFxData_MultiItemDrops_TA_0
+	Function TAGame.GFxData_MultiItemDrops_TA:GetUnseenContainerDrops:008B
+Script call stack:
+	Function TAGame.GFxData_MultiItemDrops_TA:GetUnseenContainerDrops
+
+[0038.80] LTM: SettingsType=(CustomMatchSettingsType_PrivateMatch)
+[0038.80] LTM: SettingsType=(CustomMatchSettingsType_PrivateMatch) InSettingsType=(CustomMatchSettingsType_LocalMatch)
+[0038.81] LTM: SettingsType=(CustomMatchSettingsType_LocalMatch) InSettingsType=(CustomMatchSettingsType_LocalMatch)
+[0038.82] Log: Bringing up level for play took: 0.349918
+[0039.03] ScriptLog: Uncached PlatformId for Epic|450f5cd6696b492fa38e8f26e8acd936|0
+[0039.11] EOSVoice: Not requesting voice token, no MatchGUID
+[0039.11] Log: ########### Finished loading level: 1.592735 seconds
+[0039.12] Eula: RequiresAcceptance? EulaConfig?.bRequiresAcceptance=(True) GetUISave()?.Contains('bAcceptedOfflineEULA')=(True) Eula.SyncState=(LSS_Accepted)
+[0039.12] Party: BroadcastMatchmakingAvailabilityDelayed PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' MatchmakeRestrictions=(0)
+[0039.12] Party: SetAvailableForMatchmakingForMember PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' MatchmakeRestrictions=(0)
+[0039.12] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0039.33] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=40
+[0039.33] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=40
+[0039.35] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0039.37] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=41
+[0039.37] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=41
+[0039.37] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0039.40] DevOnline: WebRequest_X_31 SEND: https://rl-cdn.psyonix.com/Ads/Prod/213.ciLwqMT4/200.jpg
+[0039.43] DevOnline: WebRequest_X_31 RECV: 304 
+[0040.04] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[0040.53] Online: TryToPlayOnline ControllerID=(-1)
+[0040.53] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0040.53] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=(False)
+[0086.24] DevOnline: WebRequest_X_32 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=1512972997&AppEnvironment=Prod&UploadType=eteventstream&UserID=|450f5cd6696b492fa38e8f26e8acd936|||Epic|450f5cd6696b492fa38e8f26e8acd936|0&SessionID=65960D5E45613E72B650EEB88D98EBF1
+[0086.36] DevOnline: WebRequest_X_32 RECV: 204 
+[0146.24] DevOnline: WebRequest_X_33 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=1512972997&AppEnvironment=Prod&UploadType=eteventstream&UserID=|450f5cd6696b492fa38e8f26e8acd936|||Epic|450f5cd6696b492fa38e8f26e8acd936|0&SessionID=65960D5E45613E72B650EEB88D98EBF1
+[0146.28] DevOnline: WebRequest_X_33 RECV: 204 
+[0162.69] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0166.22] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0166.23] EOSGameClips: EOSGameClips: Currently recording: false
+[0166.75] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0166.77] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0167.65] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=42
+[0167.65] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=42
+[0167.65] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_PartyMemberJoinGame_X
+[0167.66] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0167.82] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=43
+[0167.82] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=43
+[0167.82] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_PartyMemberJoinGame_X
+[0167.83] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0168.12] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=44
+[0168.12] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=44
+[0168.12] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_MatchmakingAvailability_X
+[0168.12] Party: SetAvailableForMatchmakingForMember PartyMemberID:'Epic|359253c5bac348378457d018b9043f7e|0' MatchmakeRestrictions=(4)
+[0168.13] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0195.01] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0198.54] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0198.55] EOSGameClips: EOSGameClips: Currently recording: false
+[0198.99] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0199.00] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0206.25] DevOnline: WebRequest_X_34 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=1512972997&AppEnvironment=Prod&UploadType=eteventstream&UserID=|450f5cd6696b492fa38e8f26e8acd936|||Epic|450f5cd6696b492fa38e8f26e8acd936|0&SessionID=65960D5E45613E72B650EEB88D98EBF1
+[0206.28] DevOnline: WebRequest_X_34 RECV: 204 
+[0231.84] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[0233.32] Log: FSaveDataExportTask(0) wrote 811565 bytes to memory
+[0233.32] Log: SaveGameDataAsync game thread time: 5 ms
+[0233.33] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936_2.save
+[0233.33] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936_1.save] Result:[1]
+[0249.10] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0250.39] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[0252.85] Online: TryToPlayOnline ControllerID=(-1)
+[0252.86] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0252.86] Prime24121: StartSearch.PreferredRegions.Length 3
+[0252.86] Matchmaking: OnlineGameMatchmaking_X_0 OnlineGameMatchmaking_X -> PingRegions
+[0252.86] Party: UpdatePartyLock NewLockStatus=(True)
+[0253.02] ScriptLog: RegionPinger_X_1 PingRegions ("18.88.32.32:8101","18.117.131.231:7949","54.208.243.118:8501","13.38.19.51:7829","35.177.206.32:8981","34.251.173.106:9063","13.50.237.134:8149","3.64.60.97:8577","54.177.207.68:8611","52.36.239.29:8107","43.207.107.92:8495","15.229.129.116:8983","157.175.233.1:8549","52.66.228.189:7703","3.27.205.148:8413","3.0.201.121:8405","18.166.63.217:8471","13.245.13.194:8777")
+[0253.23] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=45
+[0253.23] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=45
+[0253.23] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0254.01] Matchmaking: All Regions Pinged: USC1 (0.0540),USE3 (0.0444),USE1 (0.0278),USE (1.0000),EU9 (0.1000),USC (1.0000),EU7 (0.1056),EU3 (0.1167),EU1 (0.1207),EU5 (0.1262),USW1 (0.0945),USW3 (0.1056),USW (1.0000),JPN1 (0.1778),SAM (1.0000),SAM1 (0.1445),JPN (1.0000),ME1 (0.1834),ME (1.0000),IND (1.0000),IND1 (0.2167),OCE (1.0000),OCE1 (0.2278),ASM (1.0000),ASC (1.0000),ASM1 (0.2445),ASC1 (0.2389),SAF1 (0.2611),SAF (1.0000),EU (1.0000)
+[0254.01] Matchmaking: Failed to ping 'USE'. Using cached ping '0.0278'
+[0254.01] Matchmaking: Failed to ping 'USC'. Using cached ping '0.0611'
+[0254.01] Matchmaking: Failed to ping 'USW'. Using cached ping '0.1167'
+[0254.01] Matchmaking: Failed to ping 'SAM'. Using cached ping '0.1445'
+[0254.01] Matchmaking: Failed to ping 'JPN'. Using cached ping '0.1778'
+[0254.01] Matchmaking: Failed to ping 'ME'. Using cached ping '0.1945'
+[0254.01] Matchmaking: Failed to ping 'IND'. Using cached ping '0.2222'
+[0254.01] Matchmaking: Failed to ping 'OCE'. Using cached ping '0.2278'
+[0254.01] Matchmaking: Failed to ping 'ASM'. Using cached ping '0.2445'
+[0254.01] Matchmaking: Failed to ping 'ASC'. Using cached ping '0.2445'
+[0254.01] Matchmaking: Failed to ping 'SAF'. Using cached ping '0.2778'
+[0254.01] Log: FCacheExportTask(..\..\TAGame\Cache\RegionCache.cache) wrote 2702 bytes to memory
+[0254.01] Matchmaking: OnlineGameMatchmaking_X_0 PingRegions -> Searching
+[0254.01] Prime24121: HandleRegionsPinged.PreferredRegions.Length 3
+[0254.01] Matchmaking: OnlineGameMatchmaking_X::RecordStart
+[0254.01] Matchmaking: Pre-divide PartyLeaderMMR: 40.4853
+[0254.01] Matchmaking: Post-divide PartyLeaderMMR: 40.4853
+[0254.01] Matchmaking: PartyLeaderTier=(11)
+[0254.01] Matchmaking: StartMatchmaking at 2025-04-13 06:32:38 in USE3,USC1,USE1 for playlists 2 on game server 
+[0254.01] Matchmaking: Creating RPC_StartMatchmaking_X
+[0254.01] Matchmaking: PreferredRegions.Length=(3) PreferredPlaylists.Length=(1) Party.GetOrderedPartyMemberIDs().Length=(2)
+[0254.01] Matchmaking: SecondsSearching=(1) CurrentServerID=() bDisableCrossplay=(False) bIgnoreSkill=(False)
+[0254.01] Party: UpdatePartyLock NewLockStatus=(True)
+[0254.08] Matchmaking: Matchmaking RPC succeeded.
+[0254.08] Matchmaking: EstimatedQueueTime=(25.0000)
+[0254.37] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=46
+[0254.37] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=46
+[0254.37] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0255.90] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0255.90] EOSGameClips: EOSGameClips: Currently recording: false
+[0256.36] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0256.37] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0264.78] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0266.25] DevOnline: WebRequest_X_35 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=1512972997&AppEnvironment=Prod&UploadType=eteventstream&UserID=|450f5cd6696b492fa38e8f26e8acd936|||Epic|450f5cd6696b492fa38e8f26e8acd936|0&SessionID=65960D5E45613E72B650EEB88D98EBF1
+[0266.28] DevOnline: WebRequest_X_35 RECV: 204 
+[0268.31] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0268.32] EOSGameClips: EOSGameClips: Currently recording: false
+[0270.02] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ReserveConnection ReservationID=(FB2902FCDF2F486BA55BD25AD04705CD) ConnectionID=(eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJhNmUxMmUyMmM5ODI0YzNjOGNlOWFhM2I3YjgzOTZiNyIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IkVwaWN8NDUwZjVjZDY2OTZiNDkyZmEzOGU4ZjI2ZThhY2Q5MzZ8MCIsInNlcnZlcl9uYW1lIjoiVVNFMTY5LUFpbGVyb24yIiwiaWF0IjoxNzQ0NTI1OTc0LCJuYmYiOjE3NDQ1MjU5NzQsImV4cCI6MTc0NDU0MDM3NH0.Gm5L-I9N8ShwUzDetvRMJhcKHzPET_jKGRrcmKfe-xV4mX3b0EiWGyTWpDBpQo6fA0NeSCcQ2clHTYsMraTILQ)
+[0270.02] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=(ClientReservationMessage_X) Message.ReservationID=(FB2902FCDF2F486BA55BD25AD04705CD)
+[0270.02] CheckReservation: Received game server from notification (v3) Message.Reservation=((ServerName="USE169-Aileron2",Playlist=2,Region="USE",ReservationID="FB2902FCDF2F486BA55BD25AD04705CD",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJhNmUxMmUyMmM5ODI0YzNjOGNlOWFhM2I3YjgzOTZiNyIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IkVwaWN8NDUwZjVjZDY2OTZiNDkyZmEzOGU4ZjI2ZThhY2Q5MzZ8MCIsInNlcnZlcl9uYW1lIjoiVVNFMTY5LUFpbGVyb24yIiwiaWF0IjoxNzQ0NTI1OTc0LCJuYmYiOjE3NDQ1MjU5NzQsImV4cCI6MTc0NDU0MDM3NH0.Gm5L-I9N8ShwUzDetvRMJhcKHzPET_jKGRrcmKfe-xV4mX3b0EiWGyTWpDBpQo6fA0NeSCcQ2clHTYsMraTILQ",JoinName="QJYUQOVF95N4G3LO",JoinPassword="R2Q4F1X9C9NRQ3V6"))
+[0270.02] JoinGame: StartJoin Reservation=((ServerName="USE169-Aileron2",Playlist=2,Region="USE",ReservationID="FB2902FCDF2F486BA55BD25AD04705CD",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJhNmUxMmUyMmM5ODI0YzNjOGNlOWFhM2I3YjgzOTZiNyIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IkVwaWN8NDUwZjVjZDY2OTZiNDkyZmEzOGU4ZjI2ZThhY2Q5MzZ8MCIsInNlcnZlcl9uYW1lIjoiVVNFMTY5LUFpbGVyb24yIiwiaWF0IjoxNzQ0NTI1OTc0LCJuYmYiOjE3NDQ1MjU5NzQsImV4cCI6MTc0NDU0MDM3NH0.Gm5L-I9N8ShwUzDetvRMJhcKHzPET_jKGRrcmKfe-xV4mX3b0EiWGyTWpDBpQo6fA0NeSCcQ2clHTYsMraTILQ",JoinName="QJYUQOVF95N4G3LO",JoinPassword="R2Q4F1X9C9NRQ3V6")) JoinSettings=((PlaylistId=2))
+[0270.02] JoinGame: GotoJoinGameState OnlineGameJoinGame_TA -> VerifyPrivileges
+[0270.02] Online: TryToPlayOnline ControllerID=(-1)
+[0270.02] Matchmaking: OnlineGameMatchmaking_X_0 Searching -> Joining
+[0270.02] Party: UpdatePartyLock NewLockStatus=(True)
+[0270.03] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0270.03] JoinGame: GotoJoinGameState VerifyPrivileges -> ReservingServerForMatchmaking
+[0270.03] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 SendMessageToServer Message=(AddReservationMessagePublic_X_0)
+[0270.03] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[0270.24] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=(ReservationsReadyMessage_X) Message.ReservationID=(FB2902FCDF2F486BA55BD25AD04705CD)
+[0270.24] DevNet: Add Network Encryption {PlayerID=Epic|450f5cd6696b492fa38e8f26e8acd936|0 Key={Key=92F8628364A1254A9FEA1B52CAC4558D9ED376487DE7FD0E17A309ECF2F51C5C IV=4A886072F8092C46917F4F21198ABB32 HMAC=0F17A523207F27AD2CF9C688ADE8C5187DF451FED46C59D217A821F59DCFD593 Session=83F8E21F240F2A319060059ECE038C64}}
+[0270.24] Party: HandleServerReserved (Reservation=(ServerName="USE169-Aileron2",Playlist=2,Region="USE",ReservationID="FB2902FCDF2F486BA55BD25AD04705CD",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJhNmUxMmUyMmM5ODI0YzNjOGNlOWFhM2I3YjgzOTZiNyIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IkVwaWN8NDUwZjVjZDY2OTZiNDkyZmEzOGU4ZjI2ZThhY2Q5MzZ8MCIsInNlcnZlcl9uYW1lIjoiVVNFMTY5LUFpbGVyb24yIiwiaWF0IjoxNzQ0NTI1OTc0LCJuYmYiOjE3NDQ1MjU5NzQsImV4cCI6MTc0NDU0MDM3NH0.Gm5L-I9N8ShwUzDetvRMJhcKHzPET_jKGRrcmKfe-xV4mX3b0EiWGyTWpDBpQo6fA0NeSCcQ2clHTYsMraTILQ",JoinName="QJYUQOVF95N4G3LO",JoinPassword="R2Q4F1X9C9NRQ3V6"),PingURL="107.23.47.197:8837",GameURL="107.23.47.197:8836",JoinCredentials="QJYUQOVF95N4G3LO:R2Q4F1X9C9NRQ3V6")
+[0270.24] JoinGame: GotoJoinGameState ReservingServerForMatchmaking -> JoinCountdown
+[0270.24] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 SendMessageToServer Message=(PingMessage_X_0)
+[0270.24] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[0270.38] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=(ReservationsReadyMessage_X) Message.ReservationID=(FB2902FCDF2F486BA55BD25AD04705CD)
+[0270.38] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[0270.75] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=47
+[0270.75] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=47
+[0270.76] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0270.76] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=(PingMessage_X) Message.ReservationID=(FB2902FCDF2F486BA55BD25AD04705CD)
+[0270.77] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[0270.78] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=48
+[0270.78] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=48
+[0270.78] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0273.24] JoinGame: GotoJoinGameState JoinCountdown -> OpeningLoadingScreen
+[0273.24] RankedReconnect: OnlineGameJoinGame_TA_0::OpeningLoadingScreen.BeginState()
+[0273.24] RankedReconnect: LocalPlayer_TA_0.UpdateRankedReconnect() Doubles False 4 False
+[0273.24] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[0273.24] DevNet: Browse: JoinGameTransition?game=TAGame.GameInfo_Transition_TA?GameTags=Freeplay
+[0273.28] Log: FSaveDataExportTask(0) wrote 811547 bytes to memory
+[0273.28] Log: SaveGameDataAsync game thread time: 4 ms
+[0273.29] Log: LoadMap: JoinGameTransition?game=TAGame.GameInfo_Transition_TA?GameTags=Freeplay
+[0273.29] ScriptWarning: ScriptWarning, Accessed None
+	GameEvent_Soccar_TA UtopiaStadium_P.TheWorld:PersistentLevel.GameEvent_Soccar_TA_0
+	Function TAGame.GameEvent_Soccar_TA:CommitPlayerMatchData:08CA
+Script call stack:
+	Function TAGame.GameEvent_Soccar_TA:Destroyed
+	Function TAGame.GameEvent_Team_TA:Destroyed
+	Function TAGame.GameEvent_TA:Destroyed
+	Function TAGame.GameEvent_Soccar_TA:RemovePlayer
+	Function TAGame.GameEvent_TA:RemovePlayer
+	Function TAGame.PRI_TA:SetGameEvent
+	Function TAGame.GameEvent_Soccar_TA:RemovePRI
+	Function TAGame.GameEvent_Soccar_TA:CommitPlayerMatchData
+
+[0273.29] ScriptWarning: ScriptWarning, Accessed None
+	GameEvent_Soccar_TA UtopiaStadium_P.TheWorld:PersistentLevel.GameEvent_Soccar_TA_0
+	Function TAGame.GameEvent_Soccar_TA:CommitPlayerMatchData:08CA
+Script call stack:
+	Function TAGame.GameEvent_Soccar_TA:Destroyed
+	Function TAGame.GameEvent_Team_TA:Destroyed
+	Function TAGame.GameEvent_TA:Destroyed
+	Function TAGame.GameEvent_Soccar_TA:RemovePlayer
+	Function TAGame.GameEvent_TA:RemovePlayer
+	Function TAGame.GameEvent_Soccar_TA:RemovePRI
+	Function TAGame.GameEvent_Soccar_TA:CommitPlayerMatchData
+
+[0273.29] EOSVoice: Not requesting voice token, no MatchGUID
+[0273.30] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936.save
+[0273.30] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936_2.save] Result:[1]
+[0273.30] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0273.41] DevOnline: PsyNet Flush End
+[0273.45] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_Transition_SF.upk
+[0273.46] Log: Fully load package: ..\..\TAGame\CookedPCConsole\Mutators_SF.upk
+[0273.53] Log: Game class is 'GameInfo_Transition_TA'
+[0273.53] Log: Bringing World JoinGameTransition.TheWorld up for play (0) at 2025.04.13-02.32.58
+[0273.53] Log: Bringing up level for play took: 0.002416
+[0273.53] JoinGame: GotoJoinGameState OpeningLoadingScreen -> JoiningNewServer
+[0273.53] DevNet: SetProgress, MessageType=1, Title=, Message=Connecting...
+[0273.53] Log: ########### Finished loading level: 0.243731 seconds
+[0273.53] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0273.53] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=49
+[0273.53] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=49
+[0273.53] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_PartyMemberJoinGame_X
+[0273.53] DevNet: Browse: 107.23.47.197:8836/MENU_Main_p?Name=GambleGod777
+[0273.53] DevNet: Game client on port 8836, rate 15000
+[0273.53] NetComeGo: TcpipConnection_0 107.23.47.197:8836 using encryption {Key=92F8628364A1254A9FEA1B52CAC4558D9ED376487DE7FD0E17A309ECF2F51C5C IV=4A886072F8092C46917F4F21198ABB32 HMAC=0F17A523207F27AD2CF9C688ADE8C5187DF451FED46C59D217A821F59DCFD593 Session=83F8E21F240F2A319060059ECE038C64}
+[0273.53] NetComeGo: SEND first packet Length=80 CRC=-1807201025
+[0273.54] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0273.57] NetComeGo: TcpipConnection_0 RECV first packet IP=107.23.47.197:8836 Length=15 CRC=1122373138 HandshakeStatus=0 bUseSessionUID=1 InSessionUID=(0 0 0) SessionUID=(0 0 0)
+[0273.57] NetComeGo: Client set SessionUID to: 133 155 210
+[0273.61] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=50
+[0273.61] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=50
+[0273.62] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0273.67] DevNet: Welcomed by server (Level: Underwater_GRS_P, Game: TAGame.GameInfo_Soccar_TA, GameTags: )
+[0273.68] Log: FSaveDataExportTask(0) wrote 811547 bytes to memory
+[0273.68] Log: SaveGameDataAsync game thread time: 4 ms
+[0273.69] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936_1.save
+[0273.69] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936.save] Result:[1]
+[0273.72] Log: Flushing async loaders.
+[0273.73] Log: Flushed async loaders.
+[0273.73] Log: LoadMap: 107.23.47.197:8836/Underwater_GRS_P?Name=GambleGod777?game=TAGame.GameInfo_Soccar_TA
+[0273.74] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0273.86] DevOnline: PsyNet Flush End
+[0273.86] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_Soccar_SF.upk
+[0274.04] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_XP_SF.upk
+[0274.05] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFx_XPProgressMenu_SF.upk
+[0274.07] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_EndGameMenu_SF.upk
+[0274.11] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_WinnerMenu_SF.upk
+[0274.13] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameScoreboard_SF.upk
+[0274.14] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameMenu_SF.upk
+[0274.16] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_HudMatchInfo_SF.upk
+[0274.17] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_Hud_SF.upk
+[0275.09] Log: Bringing World Underwater_GRS_P.TheWorld up for play (0) at 2025.04.13-02.32.59
+[0275.10] Log: Bringing up level for play took: 0.615621
+[0275.41] JoinGame: OnJoinGameComplete bSuccess=(True) FailReason=()
+[0275.41] JoinGame: GotoJoinGameState JoiningNewServer -> None
+[0275.41] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 Close
+[0275.41] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 CloseConnection Connection.ConnectionID=(eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJhNmUxMmUyMmM5ODI0YzNjOGNlOWFhM2I3YjgzOTZiNyIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IkVwaWN8NDUwZjVjZDY2OTZiNDkyZmEzOGU4ZjI2ZThhY2Q5MzZ8MCIsInNlcnZlcl9uYW1lIjoiVVNFMTY5LUFpbGVyb24yIiwiaWF0IjoxNzQ0NTI1OTc0LCJuYmYiOjE3NDQ1MjU5NzQsImV4cCI6MTc0NDU0MDM3NH0.Gm5L-I9N8ShwUzDetvRMJhcKHzPET_jKGRrcmKfe-xV4mX3b0EiWGyTWpDBpQo6fA0NeSCcQ2clHTYsMraTILQ)
+[0275.41] Matchmaking: OnlineGameMatchmaking_X_0 Joining -> None
+[0275.41] Party: UpdatePartyLock NewLockStatus=(False)
+[0275.42] Log: ########### Finished loading level: 1.689940 seconds
+[0275.42] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=51
+[0275.42] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=51
+[0275.42] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_PartyMemberJoinGame_X
+[0275.53] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0275.55] ScriptLog: Client InputRate=60
+[0275.55] DevNet: PlayerController_TA_2 setplayer LocalPlayer_TA_0
+[0275.55] PsyNetStaticData: UpdateCacheTimerEnabled CacheTimer.bEnabled=(False)
+[0275.55] MatchBroadcast: Init bBroadcastMatch=(False) MatchLog=(None)
+[0275.55] ScriptLog: Uncached PlatformId for Epic|450f5cd6696b492fa38e8f26e8acd936|0
+[0275.61] Party: UpdatePartyLock NewLockStatus=(False)
+[0275.62] ScriptLog: MatchGUID: 1A1F8EFC11F01831445AA8BB6F5EF3F1
+[0275.62] Party: UpdatePartyLock NewLockStatus=(False)
+[0275.62] ScriptLog: Uncached PlatformId for Epic|359253c5bac348378457d018b9043f7e|0
+[0275.62] Eula: RequiresAcceptance? EulaConfig?.bRequiresAcceptance=(True) GetUISave()?.Contains('bAcceptedOfflineEULA')=(True) Eula.SyncState=(LSS_Accepted)
+[0275.62] Party: BroadcastMatchmakingAvailabilityDelayed PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' MatchmakeRestrictions=(0)
+[0275.62] Party: SetAvailableForMatchmakingForMember PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' MatchmakeRestrictions=(0)
+[0275.62] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0275.62] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=52
+[0275.62] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=52
+[0275.62] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_MatchmakingAvailability_X
+[0275.62] Party: SetAvailableForMatchmakingForMember PartyMemberID:'Epic|359253c5bac348378457d018b9043f7e|0' MatchmakeRestrictions=(0)
+[0275.64] LTM: SettingsType=(CustomMatchSettingsType_PrivateMatch)
+[0275.66] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0275.67] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=53
+[0275.67] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=53
+[0275.68] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0275.68] EOSVoice: AlertVoiceError: VoiceModerationEULANotAccepted
+[0275.95] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=54
+[0275.95] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=54
+[0275.96] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0275.97] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=55
+[0275.97] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=55
+[0275.97] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0276.31] DevOnline: RemoteUserDataReplicated Name: PRI_TA_3 Role: 1 RemoteRole: 3
+[0292.44] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0292.53] Log: FUniqueNetId::FromString - could not parse 'Bot_Marley'
+[0296.45] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0310.01] Spawn: ReplicatedRespawnTicket_TA_0 Destroyed
+[0327.60] DevOnline: WebRequest_X_36 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=1512972997&AppEnvironment=Prod&UploadType=eteventstream&UserID=|450f5cd6696b492fa38e8f26e8acd936|||Epic|450f5cd6696b492fa38e8f26e8acd936|0&SessionID=65960D5E45613E72B650EEB88D98EBF1
+[0327.62] DevOnline: WebRequest_X_36 RECV: 204 
+[0330.25] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0333.80] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0333.80] EOSGameClips: EOSGameClips: Currently recording: false
+[0342.03] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0346.05] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0387.60] DevOnline: WebRequest_X_37 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=1512972997&AppEnvironment=Prod&UploadType=eteventstream&UserID=|450f5cd6696b492fa38e8f26e8acd936|||Epic|450f5cd6696b492fa38e8f26e8acd936|0&SessionID=65960D5E45613E72B650EEB88D98EBF1
+[0387.62] DevOnline: WebRequest_X_37 RECV: 204 
+[0409.01] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0412.57] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0412.57] EOSGameClips: EOSGameClips: Currently recording: false
+[0418.60] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0422.58] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0447.60] DevOnline: WebRequest_X_38 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=1512972997&AppEnvironment=Prod&UploadType=eteventstream&UserID=|450f5cd6696b492fa38e8f26e8acd936|||Epic|450f5cd6696b492fa38e8f26e8acd936|0&SessionID=65960D5E45613E72B650EEB88D98EBF1
+[0447.62] DevOnline: WebRequest_X_38 RECV: 204 
+[0506.00] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0507.60] DevOnline: WebRequest_X_39 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=1512972997&AppEnvironment=Prod&UploadType=eteventstream&UserID=|450f5cd6696b492fa38e8f26e8acd936|||Epic|450f5cd6696b492fa38e8f26e8acd936|0&SessionID=65960D5E45613E72B650EEB88D98EBF1
+[0507.63] DevOnline: WebRequest_X_39 RECV: 204 
+[0509.54] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0509.55] EOSGameClips: EOSGameClips: Currently recording: false
+[0515.21] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0519.21] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0548.70] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0552.25] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0552.25] EOSGameClips: EOSGameClips: Currently recording: false
+[0560.16] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0564.17] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0567.60] DevOnline: WebRequest_X_40 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=1512972997&AppEnvironment=Prod&UploadType=eteventstream&UserID=|450f5cd6696b492fa38e8f26e8acd936|||Epic|450f5cd6696b492fa38e8f26e8acd936|0&SessionID=65960D5E45613E72B650EEB88D98EBF1
+[0567.63] DevOnline: WebRequest_X_40 RECV: 204 
+[0595.41] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0598.95] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0598.95] EOSGameClips: EOSGameClips: Currently recording: false
+[0599.79] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0603.81] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0627.60] DevOnline: WebRequest_X_41 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=1512972997&AppEnvironment=Prod&UploadType=eteventstream&UserID=|450f5cd6696b492fa38e8f26e8acd936|||Epic|450f5cd6696b492fa38e8f26e8acd936|0&SessionID=65960D5E45613E72B650EEB88D98EBF1
+[0627.62] DevOnline: WebRequest_X_41 RECV: 204 
+[0679.36] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[0679.36] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0679.63] Rewards: ClientGiveOnlineReward GambleGod777 Product=((ProductID=7633,InstanceID=(UpperBits=11259565191907200107,LowerBits=12571611621012652535),SeriesID=4,Attributes=((Key="Blueprint",Value="7081"),(Key="Quality",Value="Rare"),(Key="Certified",Value="3"),(Key="BlueprintCost",Value="50"),(Key="CertifiedValue",Value="0"))))
+[0679.64] ScriptLog: GetDLCProducts, UnlockedDLCList=
+[0679.88] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Challenges/PlayerProgress 
+[0679.90] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Reward/RewardResult 
+[0680.39] DevNet: URL: Adding default option Name=GambleGod777
+[0680.39] DevNet: URL: Adding default option Name=GambleGod777
+[0680.39] DevNet: URL: Adding default option Name=GambleGod777
+[0680.39] DevNet: Browse: CS_Day_P?Game=TAGame.GameInfo_Tutorial_TA?GameTags=Freeplay?Name=GambleGod777
+[0680.43] Log: FSaveDataExportTask(0) wrote 850171 bytes to memory
+[0680.43] Log: SaveGameDataAsync game thread time: 4 ms
+[0680.44] Log: Flushing async loaders.
+[0680.46] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936_2.save
+[0680.46] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936_1.save] Result:[1]
+[0680.46] Log: Flushed async loaders.
+[0680.46] Log: LoadMap: CS_Day_P?Game=TAGame.GameInfo_Tutorial_TA?GameTags=Freeplay?Name=GambleGod777
+[0680.47] PsyNetStaticData: HandleCacheExpired
+[0680.47] PsyNetStaticData: UpdateCacheTimerEnabled CacheTimer.bEnabled=(True)
+[0680.48] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0680.61] DevOnline: PsyNet Flush End
+[0680.63] NetComeGo: Close TcpipConnection_0 107.23.47.197:8836 13/04/2025 02:39:45 'Control channel cleanup'
+[0680.63] NetComeGo: TcpipConnection_0 Control channel closed, reason=Control channel cleanup
+[0680.64] Exit: TcpNetDriver_0 shut down
+[0680.79] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_Tutorial_SF.upk
+[0680.98] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_XP_SF.upk
+[0680.99] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFx_XPProgressMenu_SF.upk
+[0681.01] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_EndGameMenu_SF.upk
+[0681.05] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_WinnerMenu_SF.upk
+[0681.07] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameScoreboard_SF.upk
+[0681.08] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameMenu_SF.upk
+[0681.10] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_HudMatchInfo_SF.upk
+[0681.11] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_Hud_SF.upk
+[0681.13] Log: Fully load package: ..\..\TAGame\CookedPCConsole\Mutators_SF.upk
+[0681.15] Log: Game class is 'GameInfo_Tutorial_TA'
+[0681.17] Log: Bringing World cs_day_p.TheWorld up for play (0) at 2025.04.13-02.39.46
+[0681.17] Log: Flushing async loaders.
+[0681.35] Log: Flushed async loaders.
+[0681.35] Party: UpdatePartyLock NewLockStatus=(False)
+[0681.36] MatchBroadcast: Init bBroadcastMatch=(False) MatchLog=(None)
+[0681.36] ScriptLog: MatchTypeClass=(MatchType_Offline_TA)
+[0681.45] ScriptWarning: ScriptWarning, Accessed None 'PC'
+	GFxData_MultiItemDrops_TA Transient.GFxData_MultiItemDrops_TA_0
+	Function TAGame.GFxData_MultiItemDrops_TA:GetUnseenContainerDrops:008B
+Script call stack:
+	Function TAGame.GFxData_MultiItemDrops_TA:GetUnseenContainerDrops
+
+[0681.45] LTM: SettingsType=(CustomMatchSettingsType_PrivateMatch)
+[0681.45] LTM: SettingsType=(CustomMatchSettingsType_PrivateMatch) InSettingsType=(CustomMatchSettingsType_LocalMatch)
+[0681.46] LTM: SettingsType=(CustomMatchSettingsType_LocalMatch) InSettingsType=(CustomMatchSettingsType_LocalMatch)
+[0681.48] Log: Bringing up level for play took: 0.320428
+[0681.68] ScriptLog: Uncached PlatformId for Epic|450f5cd6696b492fa38e8f26e8acd936|0
+[0681.73] EOSVoice: Not requesting voice token, no MatchGUID
+[0681.73] Log: ########### Finished loading level: 1.261883 seconds
+[0681.73] Eula: RequiresAcceptance? EulaConfig?.bRequiresAcceptance=(True) GetUISave()?.Contains('bAcceptedOfflineEULA')=(True) Eula.SyncState=(LSS_Accepted)
+[0681.73] Party: BroadcastMatchmakingAvailabilityDelayed PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' MatchmakeRestrictions=(0)
+[0681.73] Party: SetAvailableForMatchmakingForMember PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' MatchmakeRestrictions=(0)
+[0681.73] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0681.73] DevOnline: WebRequest_X_42 SEND: https://config.psynet.gg/v2/Config/BattleCars/1512972997/Prod/Epic/INT/
+[0681.74] ScriptLog: StartMatchmaking Error=love4drku is in an online game.
+[0681.74] ScriptLog: StartMatchmaking Error=love4drku is in an online game.
+[0681.89] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=56
+[0681.89] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=56
+[0681.89] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0681.94] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=57
+[0681.94] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=57
+[0681.95] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0681.96] DevOnline: WebRequest_X_43 SEND: https://rl-cdn.psyonix.com/Ads/Prod/213.ciLwqMT4/400.jpg
+[0681.99] DevOnline: WebRequest_X_42 RECV: 304 
+[0682.10] DevOnline: WebRequest_X_43 RECV: 304 
+[0682.24] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=58
+[0682.24] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=58
+[0682.24] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_PartyMemberJoinGame_X
+[0682.24] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0682.37] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=59
+[0682.37] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=59
+[0682.37] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_MatchmakingAvailability_X
+[0682.37] Party: SetAvailableForMatchmakingForMember PartyMemberID:'Epic|359253c5bac348378457d018b9043f7e|0' MatchmakeRestrictions=(0)
+[0682.38] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0683.01] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[0684.85] Online: TryToPlayOnline ControllerID=(-1)
+[0684.86] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0684.86] Prime24121: StartSearch.PreferredRegions.Length 3
+[0684.86] Matchmaking: OnlineGameMatchmaking_X_0 OnlineGameMatchmaking_X -> PingRegions
+[0684.86] Party: UpdatePartyLock NewLockStatus=(True)
+[0685.01] ScriptLog: RegionPinger_X_2 PingRegions ("3.145.32.142:8569","18.88.12.59:8335","54.162.169.80:8009","13.38.107.57:8447","18.175.166.124:8317","18.203.101.167:8547","56.228.5.78:7849","3.127.37.214:8721","13.56.155.179:8569","44.243.59.123:8105","43.207.107.92:8273","15.229.126.121:8465","16.24.154.126:7911","52.66.228.189:8283","54.252.79.27:8881","3.0.201.121:9131","18.166.63.217:8111","13.246.18.200:8079")
+[0685.22] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=60
+[0685.22] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=60
+[0685.22] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0686.01] Matchmaking: All Regions Pinged: USE3 (0.0333),USC1 (0.0444),USE1 (0.0222),USE (1.0000),EU9 (0.1111),USC (1.0000),EU7 (0.1222),EU3 (0.1449),EU1 (0.1338),EU5 (0.1449),USW1 (0.1111),USW3 (0.1056),USW (1.0000),JPN1 (0.1716),SAM (1.0000),SAM1 (0.1445),JPN (1.0000),ME1 (0.1827),ME (1.0000),IND (1.0000),IND1 (0.2283),OCE (1.0000),OCE1 (0.2327),ASM (1.0000),ASC (1.0000),ASM1 (0.2505),ASC1 (0.2338),SAF1 (0.2616),SAF (1.0000),EU (1.0000)
+[0686.01] Matchmaking: Failed to ping 'USE'. Using cached ping '0.0278'
+[0686.01] Matchmaking: Failed to ping 'USC'. Using cached ping '0.0611'
+[0686.01] Matchmaking: Failed to ping 'USW'. Using cached ping '0.1167'
+[0686.01] Matchmaking: Failed to ping 'SAM'. Using cached ping '0.1445'
+[0686.01] Matchmaking: Failed to ping 'JPN'. Using cached ping '0.1778'
+[0686.01] Matchmaking: Failed to ping 'ME'. Using cached ping '0.1945'
+[0686.01] Matchmaking: Failed to ping 'IND'. Using cached ping '0.2222'
+[0686.01] Matchmaking: Failed to ping 'OCE'. Using cached ping '0.2278'
+[0686.01] Matchmaking: Failed to ping 'ASM'. Using cached ping '0.2445'
+[0686.01] Matchmaking: Failed to ping 'ASC'. Using cached ping '0.2445'
+[0686.01] Matchmaking: Failed to ping 'SAF'. Using cached ping '0.2778'
+[0686.01] Log: FCacheExportTask(..\..\TAGame\Cache\RegionCache.cache) wrote 2702 bytes to memory
+[0686.01] Matchmaking: OnlineGameMatchmaking_X_0 PingRegions -> Searching
+[0686.01] Prime24121: HandleRegionsPinged.PreferredRegions.Length 3
+[0686.01] Matchmaking: OnlineGameMatchmaking_X::RecordStart
+[0686.01] Matchmaking: Pre-divide PartyLeaderMMR: 40.8835
+[0686.01] Matchmaking: Post-divide PartyLeaderMMR: 40.8835
+[0686.01] Matchmaking: PartyLeaderTier=(11)
+[0686.01] Matchmaking: StartMatchmaking at 2025-04-13 06:39:50 in USE3,USC1,USE1 for playlists 2 on game server 
+[0686.01] Matchmaking: Creating RPC_StartMatchmaking_X
+[0686.01] Matchmaking: PreferredRegions.Length=(3) PreferredPlaylists.Length=(1) Party.GetOrderedPartyMemberIDs().Length=(2)
+[0686.01] Matchmaking: SecondsSearching=(1) CurrentServerID=() bDisableCrossplay=(False) bIgnoreSkill=(False)
+[0686.01] Party: UpdatePartyLock NewLockStatus=(True)
+[0686.09] Matchmaking: Matchmaking RPC succeeded.
+[0686.09] Matchmaking: EstimatedQueueTime=(24.0000)
+[0686.37] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=61
+[0686.37] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=61
+[0686.38] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0688.53] DevOnline: WebRequest_X_44 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=1512972997&AppEnvironment=Prod&UploadType=eteventstream&UserID=|450f5cd6696b492fa38e8f26e8acd936|||Epic|450f5cd6696b492fa38e8f26e8acd936|0&SessionID=65960D5E45613E72B650EEB88D98EBF1
+[0688.56] DevOnline: WebRequest_X_44 RECV: 204 
+[0695.27] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ReserveConnection ReservationID=(7B8FD787BA0045DDA1C0137EAB543C87) ConnectionID=(eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI1NmU0ODQ5MWY3NDM0Mzg5YTRmNWY4MGUzZThhMjk5NCIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IkVwaWN8NDUwZjVjZDY2OTZiNDkyZmEzOGU4ZjI2ZThhY2Q5MzZ8MCIsInNlcnZlcl9uYW1lIjoiVVNFMzA0LVBlcmloZWxpb242IiwiaWF0IjoxNzQ0NTI2Mzk5LCJuYmYiOjE3NDQ1MjYzOTksImV4cCI6MTc0NDU0MDc5OX0.RxMRN7EekFS2-MLrvdHZjGmU-_yzWqA9St41L2N801zIpOZlE1l-jiz53WagmK4hh25xE3f2jY-JaiZdl7HIQQ)
+[0695.27] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=(ClientReservationMessage_X) Message.ReservationID=(7B8FD787BA0045DDA1C0137EAB543C87)
+[0695.27] CheckReservation: Received game server from notification (v3) Message.Reservation=((ServerName="USE304-Perihelion6",Playlist=2,Region="USE",ReservationID="7B8FD787BA0045DDA1C0137EAB543C87",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI1NmU0ODQ5MWY3NDM0Mzg5YTRmNWY4MGUzZThhMjk5NCIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IkVwaWN8NDUwZjVjZDY2OTZiNDkyZmEzOGU4ZjI2ZThhY2Q5MzZ8MCIsInNlcnZlcl9uYW1lIjoiVVNFMzA0LVBlcmloZWxpb242IiwiaWF0IjoxNzQ0NTI2Mzk5LCJuYmYiOjE3NDQ1MjYzOTksImV4cCI6MTc0NDU0MDc5OX0.RxMRN7EekFS2-MLrvdHZjGmU-_yzWqA9St41L2N801zIpOZlE1l-jiz53WagmK4hh25xE3f2jY-JaiZdl7HIQQ",JoinName="7Q8AK4UFDKO56GN0",JoinPassword="3TKIIWHA6F3VZ2AX"))
+[0695.27] JoinGame: StartJoin Reservation=((ServerName="USE304-Perihelion6",Playlist=2,Region="USE",ReservationID="7B8FD787BA0045DDA1C0137EAB543C87",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI1NmU0ODQ5MWY3NDM0Mzg5YTRmNWY4MGUzZThhMjk5NCIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IkVwaWN8NDUwZjVjZDY2OTZiNDkyZmEzOGU4ZjI2ZThhY2Q5MzZ8MCIsInNlcnZlcl9uYW1lIjoiVVNFMzA0LVBlcmloZWxpb242IiwiaWF0IjoxNzQ0NTI2Mzk5LCJuYmYiOjE3NDQ1MjYzOTksImV4cCI6MTc0NDU0MDc5OX0.RxMRN7EekFS2-MLrvdHZjGmU-_yzWqA9St41L2N801zIpOZlE1l-jiz53WagmK4hh25xE3f2jY-JaiZdl7HIQQ",JoinName="7Q8AK4UFDKO56GN0",JoinPassword="3TKIIWHA6F3VZ2AX")) JoinSettings=((PlaylistId=2))
+[0695.27] JoinGame: GotoJoinGameState OnlineGameJoinGame_TA -> VerifyPrivileges
+[0695.27] Online: TryToPlayOnline ControllerID=(-1)
+[0695.27] Matchmaking: OnlineGameMatchmaking_X_0 Searching -> Joining
+[0695.28] Party: UpdatePartyLock NewLockStatus=(True)
+[0695.28] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0695.28] JoinGame: GotoJoinGameState VerifyPrivileges -> ReservingServerForMatchmaking
+[0695.28] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 SendMessageToServer Message=(AddReservationMessagePublic_X_1)
+[0695.28] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[0695.62] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=(ReservationsWaitingMessage_X) Message.ReservationID=(7B8FD787BA0045DDA1C0137EAB543C87)
+[0695.62] JoinGame: Waiting for more players to add reservations
+[0695.62] Party: HandleServerReserved (Reservation=(ServerName="USE304-Perihelion6",Playlist=2,Region="USE",ReservationID="7B8FD787BA0045DDA1C0137EAB543C87",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI1NmU0ODQ5MWY3NDM0Mzg5YTRmNWY4MGUzZThhMjk5NCIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IkVwaWN8NDUwZjVjZDY2OTZiNDkyZmEzOGU4ZjI2ZThhY2Q5MzZ8MCIsInNlcnZlcl9uYW1lIjoiVVNFMzA0LVBlcmloZWxpb242IiwiaWF0IjoxNzQ0NTI2Mzk5LCJuYmYiOjE3NDQ1MjYzOTksImV4cCI6MTc0NDU0MDc5OX0.RxMRN7EekFS2-MLrvdHZjGmU-_yzWqA9St41L2N801zIpOZlE1l-jiz53WagmK4hh25xE3f2jY-JaiZdl7HIQQ",JoinName="7Q8AK4UFDKO56GN0",JoinPassword="3TKIIWHA6F3VZ2AX"),JoinCredentials="7Q8AK4UFDKO56GN0:3TKIIWHA6F3VZ2AX")
+[0695.62] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[0695.64] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=62
+[0695.64] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=62
+[0695.65] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0695.91] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=63
+[0695.91] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=63
+[0695.91] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0696.39] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=(ReservationsReadyMessage_X) Message.ReservationID=(7B8FD787BA0045DDA1C0137EAB543C87)
+[0696.39] DevNet: Add Network Encryption {PlayerID=Epic|450f5cd6696b492fa38e8f26e8acd936|0 Key={Key=830841C5E1C79C9FF02FD8275DDEF1482994B44E79C9CF8E9F46B85BCBA01188 IV=485B3E6141AB1FC2E108E018C679150F HMAC=CAFD7B04D1A79A4ACE3BBBF0509EF5650D438315D16DF9346CD71D6CB2483A48 Session=3CF86EDC021843CF3D5C4E3BBDBDBFE1}}
+[0696.39] Party: HandleServerReserved (Reservation=(ServerName="USE304-Perihelion6",Playlist=2,Region="USE",ReservationID="7B8FD787BA0045DDA1C0137EAB543C87",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI1NmU0ODQ5MWY3NDM0Mzg5YTRmNWY4MGUzZThhMjk5NCIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IkVwaWN8NDUwZjVjZDY2OTZiNDkyZmEzOGU4ZjI2ZThhY2Q5MzZ8MCIsInNlcnZlcl9uYW1lIjoiVVNFMzA0LVBlcmloZWxpb242IiwiaWF0IjoxNzQ0NTI2Mzk5LCJuYmYiOjE3NDQ1MjYzOTksImV4cCI6MTc0NDU0MDc5OX0.RxMRN7EekFS2-MLrvdHZjGmU-_yzWqA9St41L2N801zIpOZlE1l-jiz53WagmK4hh25xE3f2jY-JaiZdl7HIQQ",JoinName="7Q8AK4UFDKO56GN0",JoinPassword="3TKIIWHA6F3VZ2AX"),PingURL="3.145.32.142:8863",GameURL="3.145.32.142:8862",JoinCredentials="7Q8AK4UFDKO56GN0:3TKIIWHA6F3VZ2AX")
+[0696.39] JoinGame: GotoJoinGameState ReservingServerForMatchmaking -> JoinCountdown
+[0696.39] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 SendMessageToServer Message=(PingMessage_X_2)
+[0696.39] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[0696.54] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=(PingMessage_X) Message.ReservationID=(7B8FD787BA0045DDA1C0137EAB543C87)
+[0696.54] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[0696.69] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=64
+[0696.69] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=64
+[0696.70] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0699.39] JoinGame: GotoJoinGameState JoinCountdown -> OpeningLoadingScreen
+[0699.39] RankedReconnect: OnlineGameJoinGame_TA_0::OpeningLoadingScreen.BeginState()
+[0699.39] RankedReconnect: LocalPlayer_TA_0.UpdateRankedReconnect() Doubles False 4 False
+[0699.39] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[0699.39] DevNet: Browse: JoinGameTransition?game=TAGame.GameInfo_Transition_TA?GameTags=Freeplay?Name=GambleGod777
+[0699.43] Log: FSaveDataExportTask(0) wrote 850171 bytes to memory
+[0699.43] Log: SaveGameDataAsync game thread time: 4 ms
+[0699.43] Log: LoadMap: JoinGameTransition?game=TAGame.GameInfo_Transition_TA?GameTags=Freeplay?Name=GambleGod777
+[0699.43] ScriptWarning: ScriptWarning, Accessed None
+	GameEvent_Soccar_TA cs_day_p.TheWorld:PersistentLevel.GameEvent_Soccar_TA_2
+	Function TAGame.GameEvent_Soccar_TA:CommitPlayerMatchData:08CA
+Script call stack:
+	Function TAGame.GameEvent_Soccar_TA:Destroyed
+	Function TAGame.GameEvent_Team_TA:Destroyed
+	Function TAGame.GameEvent_TA:Destroyed
+	Function TAGame.GameEvent_Soccar_TA:RemovePlayer
+	Function TAGame.GameEvent_TA:RemovePlayer
+	Function TAGame.PRI_TA:SetGameEvent
+	Function TAGame.GameEvent_Soccar_TA:RemovePRI
+	Function TAGame.GameEvent_Soccar_TA:CommitPlayerMatchData
+
+[0699.44] ScriptWarning: ScriptWarning, Accessed None
+	GameEvent_Soccar_TA cs_day_p.TheWorld:PersistentLevel.GameEvent_Soccar_TA_2
+	Function TAGame.GameEvent_Soccar_TA:CommitPlayerMatchData:08CA
+Script call stack:
+	Function TAGame.GameEvent_Soccar_TA:Destroyed
+	Function TAGame.GameEvent_Team_TA:Destroyed
+	Function TAGame.GameEvent_TA:Destroyed
+	Function TAGame.GameEvent_Soccar_TA:RemovePlayer
+	Function TAGame.GameEvent_TA:RemovePlayer
+	Function TAGame.GameEvent_Soccar_TA:RemovePRI
+	Function TAGame.GameEvent_Soccar_TA:CommitPlayerMatchData
+
+[0699.44] EOSVoice: Not requesting voice token, no MatchGUID
+[0699.45] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936.save
+[0699.45] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936_2.save] Result:[1]
+[0699.45] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0699.58] DevOnline: PsyNet Flush End
+[0699.61] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_Transition_SF.upk
+[0699.62] Log: Fully load package: ..\..\TAGame\CookedPCConsole\Mutators_SF.upk
+[0699.69] Log: Game class is 'GameInfo_Transition_TA'
+[0699.69] Log: Bringing World JoinGameTransition.TheWorld up for play (0) at 2025.04.13-02.40.04
+[0699.69] Log: Bringing up level for play took: 0.002391
+[0699.69] JoinGame: GotoJoinGameState OpeningLoadingScreen -> JoiningNewServer
+[0699.69] DevNet: SetProgress, MessageType=1, Title=, Message=Connecting...
+[0699.69] Log: ########### Finished loading level: 0.259856 seconds
+[0699.69] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0699.69] DevNet: Browse: 3.145.32.142:8862/MENU_Main_p?Name=GambleGod777
+[0699.70] DevNet: Game client on port 8862, rate 15000
+[0699.70] NetComeGo: TcpipConnection_1 3.145.32.142:8862 using encryption {Key=830841C5E1C79C9FF02FD8275DDEF1482994B44E79C9CF8E9F46B85BCBA01188 IV=485B3E6141AB1FC2E108E018C679150F HMAC=CAFD7B04D1A79A4ACE3BBBF0509EF5650D438315D16DF9346CD71D6CB2483A48 Session=3CF86EDC021843CF3D5C4E3BBDBDBFE1}
+[0699.70] NetComeGo: SEND first packet Length=80 CRC=-1116924897
+[0699.73] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=65
+[0699.73] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=65
+[0699.73] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_PartyMemberJoinGame_X
+[0699.75] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0699.75] NetComeGo: TcpipConnection_1 RECV first packet IP=3.145.32.142:8862 Length=15 CRC=1930658733 HandshakeStatus=0 bUseSessionUID=1 InSessionUID=(0 0 0) SessionUID=(0 0 0)
+[0699.75] NetComeGo: Client set SessionUID to: 236 31 18
+[0699.77] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=66
+[0699.77] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=66
+[0699.77] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0699.92] DevNet: Welcomed by server (Level: cs_day_p, Game: TAGame.GameInfo_Soccar_TA, GameTags: )
+[0699.93] Log: FSaveDataExportTask(0) wrote 850171 bytes to memory
+[0699.93] Log: SaveGameDataAsync game thread time: 4 ms
+[0699.94] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936_1.save
+[0699.94] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936.save] Result:[1]
+[0699.97] Log: Flushing async loaders.
+[0699.98] Log: Flushed async loaders.
+[0699.98] Log: LoadMap: 3.145.32.142:8862/cs_day_p?Name=GambleGod777?game=TAGame.GameInfo_Soccar_TA
+[0699.99] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0700.12] DevOnline: PsyNet Flush End
+[0700.12] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_Soccar_SF.upk
+[0700.30] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_XP_SF.upk
+[0700.32] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFx_XPProgressMenu_SF.upk
+[0700.34] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_EndGameMenu_SF.upk
+[0700.38] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_WinnerMenu_SF.upk
+[0700.39] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameScoreboard_SF.upk
+[0700.40] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameMenu_SF.upk
+[0700.42] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_HudMatchInfo_SF.upk
+[0700.44] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_Hud_SF.upk
+[0700.76] Log: Bringing World cs_day_p.TheWorld up for play (0) at 2025.04.13-02.40.05
+[0700.76] Log: Bringing up level for play took: 0.017777
+[0701.05] JoinGame: OnJoinGameComplete bSuccess=(True) FailReason=()
+[0701.05] JoinGame: GotoJoinGameState JoiningNewServer -> None
+[0701.05] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 Close
+[0701.05] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 CloseConnection Connection.ConnectionID=(eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI1NmU0ODQ5MWY3NDM0Mzg5YTRmNWY4MGUzZThhMjk5NCIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IkVwaWN8NDUwZjVjZDY2OTZiNDkyZmEzOGU4ZjI2ZThhY2Q5MzZ8MCIsInNlcnZlcl9uYW1lIjoiVVNFMzA0LVBlcmloZWxpb242IiwiaWF0IjoxNzQ0NTI2Mzk5LCJuYmYiOjE3NDQ1MjYzOTksImV4cCI6MTc0NDU0MDc5OX0.RxMRN7EekFS2-MLrvdHZjGmU-_yzWqA9St41L2N801zIpOZlE1l-jiz53WagmK4hh25xE3f2jY-JaiZdl7HIQQ)
+[0701.05] Matchmaking: OnlineGameMatchmaking_X_0 Joining -> None
+[0701.05] Party: UpdatePartyLock NewLockStatus=(False)
+[0701.06] Log: ########### Finished loading level: 1.075960 seconds
+[0701.07] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=67
+[0701.07] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=67
+[0701.07] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_PartyMemberJoinGame_X
+[0701.16] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0701.17] ScriptLog: Client InputRate=60
+[0701.17] DevNet: PlayerController_TA_5 setplayer LocalPlayer_TA_0
+[0701.17] PsyNetStaticData: UpdateCacheTimerEnabled CacheTimer.bEnabled=(False)
+[0701.17] MatchBroadcast: Init bBroadcastMatch=(False) MatchLog=(None)
+[0701.18] Party: UpdatePartyLock NewLockStatus=(False)
+[0701.18] ScriptLog: MatchGUID: 1F3A984011F018320FD73DBD1B760370
+[0701.18] Party: UpdatePartyLock NewLockStatus=(False)
+[0701.18] Eula: RequiresAcceptance? EulaConfig?.bRequiresAcceptance=(True) GetUISave()?.Contains('bAcceptedOfflineEULA')=(True) Eula.SyncState=(LSS_Accepted)
+[0701.18] Party: BroadcastMatchmakingAvailabilityDelayed PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' MatchmakeRestrictions=(0)
+[0701.18] Party: SetAvailableForMatchmakingForMember PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' MatchmakeRestrictions=(0)
+[0701.18] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0701.18] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=68
+[0701.18] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=68
+[0701.18] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-6lPmwClj MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_MatchmakingAvailability_X
+[0701.18] Party: SetAvailableForMatchmakingForMember PartyMemberID:'Epic|359253c5bac348378457d018b9043f7e|0' MatchmakeRestrictions=(0)
+[0701.18] LTM: SettingsType=(CustomMatchSettingsType_PrivateMatch)
+[0701.20] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0701.22] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=69
+[0701.22] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=69
+[0701.23] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0701.25] ScriptLog: Uncached PlatformId for Epic|450f5cd6696b492fa38e8f26e8acd936|0
+[0701.37] EOSVoice: AlertVoiceError: VoiceModerationEULANotAccepted
+[0701.50] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=70
+[0701.50] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=70
+[0701.50] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0701.52] PsyNet: PsyNetChannel_X_0 party:6lPmwClj receive message MessageID=71
+[0701.52] PsyNet: PsyNetChannel_X_0 party:6lPmwClj executing MessageID=71
+[0701.52] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0701.65] DevOnline: RemoteUserDataReplicated Name: PRI_TA_8 Role: 1 RemoteRole: 3
+[0701.78] ScriptLog: Uncached PlatformId for Epic|359253c5bac348378457d018b9043f7e|0
+[0714.01] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0717.99] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0747.10] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0749.27] DevOnline: WebRequest_X_45 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=1512972997&AppEnvironment=Prod&UploadType=eteventstream&UserID=|450f5cd6696b492fa38e8f26e8acd936|||Epic|450f5cd6696b492fa38e8f26e8acd936|0&SessionID=65960D5E45613E72B650EEB88D98EBF1
+[0749.30] DevOnline: WebRequest_X_45 RECV: 204 
+[0750.65] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0750.66] EOSGameClips: EOSGameClips: Currently recording: false
+[0760.51] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0764.50] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0784.93] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0788.48] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0788.48] EOSGameClips: EOSGameClips: Currently recording: false
+[0798.49] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0802.49] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0809.27] DevOnline: WebRequest_X_46 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=1512972997&AppEnvironment=Prod&UploadType=eteventstream&UserID=|450f5cd6696b492fa38e8f26e8acd936|||Epic|450f5cd6696b492fa38e8f26e8acd936|0&SessionID=65960D5E45613E72B650EEB88D98EBF1
+[0809.30] DevOnline: WebRequest_X_46 RECV: 204 
+[0810.72] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0814.27] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0814.27] EOSGameClips: EOSGameClips: Currently recording: false
+[0824.24] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0828.23] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0857.43] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0860.96] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0860.97] EOSGameClips: EOSGameClips: Currently recording: false
+[0869.27] DevOnline: WebRequest_X_47 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=1512972997&AppEnvironment=Prod&UploadType=eteventstream&UserID=|450f5cd6696b492fa38e8f26e8acd936|||Epic|450f5cd6696b492fa38e8f26e8acd936|0&SessionID=65960D5E45613E72B650EEB88D98EBF1
+[0869.30] DevOnline: WebRequest_X_47 RECV: 204 
+[0871.01] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0874.99] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0910.12] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0910.70] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[0911.36] Log: FSaveDataExportTask(0) wrote 850171 bytes to memory
+[0911.36] Log: SaveGameDataAsync game thread time: 5 ms
+[0911.37] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936_2.save
+[0911.37] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936_1.save] Result:[1]
+[0911.58] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[0912.12] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[0913.23] Party: Back down to one player, start party timeout
+[0913.33] XPGatedPlaylists: Not currently in a party.
+[0913.67] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0913.68] EOSGameClips: EOSGameClips: Currently recording: false
+[0914.83] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[0914.83] NetComeGo: TcpipConnection_1 Control channel closed, reason=Disconnect command
+[0914.83] DevNet: URL: Adding default option Name=GambleGod777
+[0914.83] DevNet: Browse: MENU_Main_p?closed?Name=GambleGod777
+[0914.83] Log: Failed; returning to Entry
+[0914.88] Log: FSaveDataExportTask(0) wrote 850171 bytes to memory
+[0914.88] Log: SaveGameDataAsync game thread time: 4 ms
+[0914.89] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936.save
+[0914.89] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936_2.save] Result:[1]
+[0914.89] Log: LoadMap: MENU_Main_p?closed?Name=GambleGod777
+[0914.89] PsyNetStaticData: UpdateCacheTimerEnabled CacheTimer.bEnabled=(True)
+[0914.90] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0915.09] DevOnline: PsyNet Flush End
+[0915.12] NetComeGo: Close TcpipConnection_1 3.145.32.142:8862 13/04/2025 02:43:39 'UNetConnection::CleanUp'
+[0915.12] NetComeGo: TcpipConnection_1 Control channel null, Sending unstable close to 3.145.32.142:8862 on temporary Control channel.
+[0915.12] Exit: TcpNetDriver_1 shut down
+[0915.15] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_GFxMenu_SF.upk
+[0915.21] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_MainMenu_SF.upk
+[0915.22] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_StartMenu_SF.upk
+[0915.27] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MainMenu_SF.upk
+[0915.40] Log: Game class is 'GameInfo_GFxMenu_TA'
+[0915.41] Log: Bringing World menu_main_p.TheWorld up for play (0) at 2025.04.13-02.43.40
+[0915.41] Log: Flushing async loaders.
+[0915.64] Log: Flushed async loaders.
+[0915.65] Log: Bringing up level for play took: 0.252042
+[0915.92] Log: ########### Finished loading level: 1.035014 seconds
+[0915.93] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0915.93] Log: Flushing async loaders.
+[0916.33] Log: Flushed async loaders.
+[0916.34] Log: Octree Warning (AddPrimitive): StaticMeshActor_SMC_445 (Owner: BG_UF_Day_P.TheWorld:PersistentLevel.MeshCollector5) Outside World.
+[0916.34] Log: Octree Warning (AddPrimitive): StaticMeshActor_SMC_619 (Owner: BG_UF_Day_P.TheWorld:PersistentLevel.MeshCollector7) Outside World.
+[0916.34] Log: Octree Warning (AddPrimitive): StaticMeshActor_SMC_627 (Owner: BG_UF_Day_P.TheWorld:PersistentLevel.MeshCollector7) Outside World.
+[0916.36] Eula: RequiresAcceptance? EulaConfig?.bRequiresAcceptance=(True) GetUISave()?.Contains('bAcceptedOfflineEULA')=(True) Eula.SyncState=(LSS_Accepted)
+[0916.36] AuthEpicVerbose: [GFx] Epic login changed. m_uiState:MainMenu bPromptParentalConsent:false bPromptToChoosePrimaryAccount:false bEpicSaveDataLoaded:false bPlatformLinked:false
+[0916.36] FTEDev: Trying to start FTE Group Prime_MatchComplete which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0916.36] FTEDev: Group Prime_LegacyUpdate Is not meant for users of type FTESave.LegacyGroupType=(LGT_NewUser)
+[0916.36] FTEDev: Trying to start FTE Group Prime_MatchComplete which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0916.36] FTEDev: Group Prime_LegacyUpdate Is not meant for users of type FTESave.LegacyGroupType=(LGT_NewUser)
+[0917.84] Log: FSaveDataExportTask(0) wrote 850171 bytes to memory
+[0917.84] Log: SaveGameDataAsync game thread time: 4 ms
+[0917.85] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936_1.save
+[0917.85] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936.save] Result:[1]
+[0917.96] Log: Flushing async loaders.
+[0917.99] Log: Flushed async loaders.
+[0918.69] Online: TryToPlayOnline ControllerID=(-1)
+[0918.69] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0918.69] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=(False)
+[0918.77] Party: OnPartyCreated bWasSuccessful=(True) InPartyId:'PsyNet-RXncdyiw' 
+[0918.77] Party: HandleJoinLobby bWasSuccessful=(True) LobbyUID:'PsyNet-RXncdyiw' 
+[0918.77] Party: HandleLobbyMemberStatusUpdate LobbyUID=PsyNet-RXncdyiw Members=1 MemberIndex=0 MemberID=Epic|450f5cd6696b492fa38e8f26e8acd936|0
+[0918.77] PsyNet: PsyNetChannel_X_1 Init party:RXncdyiw
+[0918.77] PsyNet: PsyNetChannel_X_1 Open party:RXncdyiw
+[0918.77] PsyNet: PsyNetChannel_X_1 party:RXncdyiw waiting for first channel message
+[0918.87] Eula: RequiresAcceptance? EulaConfig?.bRequiresAcceptance=(True) GetUISave()?.Contains('bAcceptedOfflineEULA')=(True) Eula.SyncState=(LSS_Accepted)
+[0918.87] Party: BroadcastMatchmakingAvailabilityDelayed PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' MatchmakeRestrictions=(4)
+[0918.87] Party: SetAvailableForMatchmakingForMember PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' MatchmakeRestrictions=(4)
+[0918.87] Party: BroadcastDisableCrossPlay PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' PartyMembers[ PartyMemberIndex ].bDisableCrossPlay=(False)
+[0918.87] Party: BroadcastCrossTextChatState PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' PartyMembers[PartyMemberIndex].CrossChatState=(PCCS_Everybody)
+[0918.90] DevOnline: PlayerDataStorage_WriteFile: Beginning to upload file. User=(450f5cd6696b492fa38e8f26e8acd936) FileName=(RLSaveData)
+[0919.04] Online: TryToPlayOnline ControllerID=(-1)
+[0919.04] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0919.05] PsyNet: PsyNetChannel_X_1 party:RXncdyiw first channel message MessageID=1
+[0919.05] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=1
+[0919.05] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0919.07] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=2
+[0919.07] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=2
+[0919.08] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0919.08] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=3
+[0919.08] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=3
+[0919.08] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0919.08] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=4
+[0919.08] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=4
+[0919.09] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0919.10] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=5
+[0919.10] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=5
+[0919.11] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0919.11] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=6
+[0919.11] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=6
+[0919.12] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0919.12] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=7
+[0919.12] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=7
+[0919.12] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0919.13] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=8
+[0919.13] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=8
+[0919.14] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0919.14] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=9
+[0919.14] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=9
+[0919.14] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0919.15] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=10
+[0919.15] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=10
+[0919.15] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0919.42] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=11
+[0919.42] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=11
+[0919.43] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0919.53] DevOnline: PlayerDataStorage_WriteFile: File upload complete. User=(450f5cd6696b492fa38e8f26e8acd936) FileName=(RLSaveData) Success=(1)
+[0923.12] Online: TryToPlayOnline ControllerID=(-1)
+[0923.13] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0923.13] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=(False)
+[0923.13] Party: ShowInviteUI
+[0923.39] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=12
+[0923.39] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=12
+[0923.39] Party: HandleLobbyMemberStatusUpdate LobbyUID=PsyNet-RXncdyiw Members=2 MemberIndex=1 MemberID=Epic|359253c5bac348378457d018b9043f7e|0
+[0923.39] Party: UpdatePartyLock NewLockStatus=(False)
+[0923.39] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/UserJoined 
+[0923.49] Eula: RequiresAcceptance? EulaConfig?.bRequiresAcceptance=(True) GetUISave()?.Contains('bAcceptedOfflineEULA')=(True) Eula.SyncState=(LSS_Accepted)
+[0923.49] Party: BroadcastMatchmakingAvailabilityDelayed PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' MatchmakeRestrictions=(4)
+[0923.49] Party: SetAvailableForMatchmakingForMember PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' MatchmakeRestrictions=(4)
+[0923.49] Party: BroadcastDisableCrossPlay PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' PartyMembers[ PartyMemberIndex ].bDisableCrossPlay=(False)
+[0923.49] Party: BroadcastCrossTextChatState PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' PartyMembers[PartyMemberIndex].CrossChatState=(PCCS_Everybody)
+[0923.66] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=13
+[0923.66] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=13
+[0923.67] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0923.67] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=14
+[0923.67] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=14
+[0923.67] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-RXncdyiw MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_CurrentVoiceRoom_TA
+[0923.67] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0923.68] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=16
+[0923.68] PsyNet: PsyNetChannel_X_1 party:RXncdyiw waiting for 15
+[0923.69] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=15
+[0923.69] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=15
+[0923.69] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-RXncdyiw MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_MatchmakingAvailability_X
+[0923.69] Party: SetAvailableForMatchmakingForMember PartyMemberID:'Epic|359253c5bac348378457d018b9043f7e|0' MatchmakeRestrictions=(4)
+[0923.69] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=16
+[0923.69] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-RXncdyiw MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_XPLevelUpdate_TA
+[0923.69] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0923.69] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0923.69] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=17
+[0923.69] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=17
+[0923.69] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-RXncdyiw MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_LocalPlayers_X
+[0923.69] Party: Handle PartyMessage_LocalPlayers_X: IsPrimaryPlayer=True
+[0923.70] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0923.70] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=19
+[0923.70] PsyNet: PsyNetChannel_X_1 party:RXncdyiw waiting for 18
+[0923.70] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=18
+[0923.70] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=18
+[0923.70] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-RXncdyiw MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_GetPlatformParty_X
+[0923.70] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=19
+[0923.70] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-RXncdyiw MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_MatchmakingAvailability_X
+[0923.70] Party: SetAvailableForMatchmakingForMember PartyMemberID:'Epic|359253c5bac348378457d018b9043f7e|0' MatchmakeRestrictions=(4)
+[0923.71] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0923.71] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0923.71] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=20
+[0923.71] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=20
+[0923.71] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-RXncdyiw MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_CrossPlayTextChat_X
+[0923.72] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0923.72] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=22
+[0923.72] PsyNet: PsyNetChannel_X_1 party:RXncdyiw waiting for 21
+[0923.72] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=21
+[0923.72] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=21
+[0923.72] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-RXncdyiw MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_DisableCrossPlay_X
+[0923.72] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=22
+[0923.72] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-RXncdyiw MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_UserVoiceReportingLevel_TA
+[0923.73] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0923.73] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0923.73] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=23
+[0923.73] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=23
+[0923.73] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-RXncdyiw MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_PartyMemberJoinGame_X
+[0923.73] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0923.74] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=24
+[0923.74] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=24
+[0923.75] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0923.75] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=26
+[0923.75] PsyNet: PsyNetChannel_X_1 party:RXncdyiw waiting for 25
+[0923.75] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=25
+[0923.75] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=25
+[0923.75] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=26
+[0923.76] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0923.76] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0923.76] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=27
+[0923.76] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=27
+[0923.76] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-RXncdyiw MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_Loadout_TA
+[0923.76] Party: HandleLoadoutMessage MemberID=Epic|359253c5bac348378457d018b9043f7e|0
+[0923.78] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0923.79] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=28
+[0923.79] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=28
+[0923.80] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0923.80] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=30
+[0923.80] PsyNet: PsyNetChannel_X_1 party:RXncdyiw waiting for 29
+[0923.81] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=29
+[0923.81] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=29
+[0923.81] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=30
+[0923.81] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0923.81] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0923.82] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=31
+[0923.82] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=31
+[0923.83] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0923.83] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=32
+[0923.83] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=32
+[0923.84] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0923.98] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=33
+[0923.98] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=33
+[0923.98] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-RXncdyiw MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_XPLevelUpdate_TA
+[0923.98] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0924.10] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=34
+[0924.10] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=34
+[0924.11] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0924.13] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=35
+[0924.13] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=35
+[0924.13] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0924.14] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=36
+[0924.14] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=36
+[0924.14] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0924.15] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=37
+[0924.15] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=37
+[0924.15] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0924.25] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=38
+[0924.25] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=38
+[0924.25] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-RXncdyiw MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_CurrentVoiceRoom_TA
+[0924.26] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0924.52] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=39
+[0924.52] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=39
+[0924.52] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-RXncdyiw MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_XPLevelUpdate_TA
+[0924.52] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0926.26] Online: TryToPlayOnline ControllerID=(-1)
+[0926.26] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0926.26] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=(False)
+[0930.00] DevOnline: WebRequest_X_48 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=1512972997&AppEnvironment=Prod&UploadType=eteventstream&UserID=|450f5cd6696b492fa38e8f26e8acd936|||Epic|450f5cd6696b492fa38e8f26e8acd936|0&SessionID=65960D5E45613E72B650EEB88D98EBF1
+[0930.03] DevOnline: WebRequest_X_48 RECV: 204 
+[0931.88] Online: TryToPlayOnline ControllerID=(-1)
+[0931.89] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0931.89] Prime24121: StartSearch.PreferredRegions.Length 3
+[0931.89] Matchmaking: OnlineGameMatchmaking_X_0 OnlineGameMatchmaking_X -> PingRegions
+[0931.89] Party: UpdatePartyLock NewLockStatus=(True)
+[0932.02] ScriptLog: RegionPinger_X_3 PingRegions ("3.135.194.240:8491","18.88.35.246:7875","54.81.67.46:7725","35.180.115.10:8955","13.40.160.185:8529","54.229.146.236:8945","13.51.69.185:9125","18.194.207.18:8315","3.101.141.69:8953","52.12.120.51:7951","52.195.4.82:8677","15.228.141.247:7943","15.184.218.176:8141","65.0.69.9:8841","54.252.79.27:9105","47.129.125.185:8003","18.166.63.217:7931","13.247.74.27:8581")
+[0932.27] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=40
+[0932.27] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=40
+[0932.28] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0933.05] Matchmaking: All Regions Pinged: USE3 (0.0333),USC1 (0.0500),USE1 (0.0222),USE (1.0000),EU9 (0.0945),USC (1.0000),EU7 (0.1222),EU3 (0.1167),EU1 (0.1500),EU5 (0.1111),USW1 (0.0945),USW3 (0.1167),USW (1.0000),JPN1 (0.1834),SAM (1.0000),SAM1 (0.1445),JPN (1.0000),ME1 (0.1723),ME (1.0000),IND (1.0000),IND1 (0.2222),OCE (1.0000),OCE1 (0.2389),ASM (1.0000),ASC (1.0000),ASM1 (0.2445),ASC1 (0.2399),SAF1 (0.2611),SAF (1.0000),EU (1.0000)
+[0933.05] Matchmaking: Failed to ping 'USE'. Using cached ping '0.0278'
+[0933.05] Matchmaking: Failed to ping 'USC'. Using cached ping '0.0611'
+[0933.05] Matchmaking: Failed to ping 'USW'. Using cached ping '0.1167'
+[0933.05] Matchmaking: Failed to ping 'SAM'. Using cached ping '0.1445'
+[0933.05] Matchmaking: Failed to ping 'JPN'. Using cached ping '0.1778'
+[0933.05] Matchmaking: Failed to ping 'ME'. Using cached ping '0.1945'
+[0933.05] Matchmaking: Failed to ping 'IND'. Using cached ping '0.2222'
+[0933.05] Matchmaking: Failed to ping 'OCE'. Using cached ping '0.2278'
+[0933.05] Matchmaking: Failed to ping 'ASM'. Using cached ping '0.2445'
+[0933.05] Matchmaking: Failed to ping 'ASC'. Using cached ping '0.2445'
+[0933.05] Matchmaking: Failed to ping 'SAF'. Using cached ping '0.2778'
+[0933.05] Log: FCacheExportTask(..\..\TAGame\Cache\RegionCache.cache) wrote 2702 bytes to memory
+[0933.05] Matchmaking: OnlineGameMatchmaking_X_0 PingRegions -> Searching
+[0933.05] Prime24121: HandleRegionsPinged.PreferredRegions.Length 3
+[0933.05] Matchmaking: OnlineGameMatchmaking_X::RecordStart
+[0933.05] Matchmaking: Pre-divide PartyLeaderMMR: 40.8835
+[0933.05] Matchmaking: Post-divide PartyLeaderMMR: 40.8835
+[0933.05] Matchmaking: PartyLeaderTier=(11)
+[0933.05] Matchmaking: StartMatchmaking at 2025-04-13 06:43:57 in USE3,USC1,USE1 for playlists 2 on game server 
+[0933.05] Matchmaking: Creating RPC_StartMatchmaking_X
+[0933.05] Matchmaking: PreferredRegions.Length=(3) PreferredPlaylists.Length=(1) Party.GetOrderedPartyMemberIDs().Length=(2)
+[0933.05] Matchmaking: SecondsSearching=(1) CurrentServerID=() bDisableCrossplay=(False) bIgnoreSkill=(False)
+[0933.05] Party: UpdatePartyLock NewLockStatus=(True)
+[0933.13] Matchmaking: Matchmaking RPC succeeded.
+[0933.13] Matchmaking: Matchmaking cancel due to ban.
+[0933.13] Matchmaking: OnlineGameMatchmaking_X_0::Searching.Cancel()
+[0933.13] Matchmaking: OnlineGameMatchmaking_X_0 Searching -> None
+[0933.13] Party: UpdatePartyLock NewLockStatus=(False)
+[0933.53] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=41
+[0933.53] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=41
+[0933.53] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0934.01] DevNet: URL: Adding default option Name=GambleGod777
+[0934.01] DevNet: URL: Adding default option Name=GambleGod777
+[0934.01] DevNet: Browse: UtopiaStadium_P?Game=TAGame.GameInfo_Soccar_TA?GameTags=Freeplay?Name=GambleGod777
+[0934.05] Log: FSaveDataExportTask(0) wrote 814240 bytes to memory
+[0934.05] Log: SaveGameDataAsync game thread time: 5 ms
+[0934.05] Log: Flushing async loaders.
+[0934.06] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936_2.save
+[0934.06] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936_1.save] Result:[1]
+[0934.06] Log: Flushed async loaders.
+[0934.06] Log: LoadMap: UtopiaStadium_P?Game=TAGame.GameInfo_Soccar_TA?GameTags=Freeplay?Name=GambleGod777
+[0934.09] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0934.20] DevOnline: PsyNet Flush End
+[0934.64] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_Soccar_SF.upk
+[0934.79] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_XP_SF.upk
+[0934.81] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFx_XPProgressMenu_SF.upk
+[0934.83] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_EndGameMenu_SF.upk
+[0934.87] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_WinnerMenu_SF.upk
+[0934.89] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameScoreboard_SF.upk
+[0934.90] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameMenu_SF.upk
+[0934.92] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_HudMatchInfo_SF.upk
+[0934.93] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_Hud_SF.upk
+[0934.95] Log: Fully load package: ..\..\TAGame\CookedPCConsole\Mutators_SF.upk
+[0934.98] Log: Game class is 'GameInfo_Soccar_TA'
+[0934.99] Log: Bringing World UtopiaStadium_P.TheWorld up for play (0) at 2025.04.13-02.43.59
+[0934.99] Log: Flushing async loaders.
+[0935.02] Log: Flushed async loaders.
+[0935.02] Party: UpdatePartyLock NewLockStatus=(False)
+[0935.02] MatchBroadcast: Init bBroadcastMatch=(False) MatchLog=(None)
+[0935.02] ScriptLog: MatchTypeClass=(MatchType_Offline_TA)
+[0935.11] ScriptWarning: ScriptWarning, Accessed None 'PC'
+	GFxData_MultiItemDrops_TA Transient.GFxData_MultiItemDrops_TA_0
+	Function TAGame.GFxData_MultiItemDrops_TA:GetUnseenContainerDrops:008B
+Script call stack:
+	Function TAGame.GFxData_MultiItemDrops_TA:GetUnseenContainerDrops
+
+[0935.11] LTM: SettingsType=(CustomMatchSettingsType_PrivateMatch)
+[0935.11] LTM: SettingsType=(CustomMatchSettingsType_PrivateMatch) InSettingsType=(CustomMatchSettingsType_LocalMatch)
+[0935.12] LTM: SettingsType=(CustomMatchSettingsType_LocalMatch) InSettingsType=(CustomMatchSettingsType_LocalMatch)
+[0935.14] Log: Bringing up level for play took: 0.160746
+[0935.35] ScriptLog: Uncached PlatformId for Epic|450f5cd6696b492fa38e8f26e8acd936|0
+[0935.41] EOSVoice: Not requesting voice token, no MatchGUID
+[0935.41] Log: ########### Finished loading level: 1.348273 seconds
+[0935.42] Eula: RequiresAcceptance? EulaConfig?.bRequiresAcceptance=(True) GetUISave()?.Contains('bAcceptedOfflineEULA')=(True) Eula.SyncState=(LSS_Accepted)
+[0935.42] Party: BroadcastMatchmakingAvailabilityDelayed PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' MatchmakeRestrictions=(0)
+[0935.42] Party: SetAvailableForMatchmakingForMember PartyMemberID:'Epic|450f5cd6696b492fa38e8f26e8acd936|0' MatchmakeRestrictions=(0)
+[0935.42] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0935.61] Log: Flushing async loaders.
+[0935.61] Log: Flushed async loaders.
+[0935.64] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=42
+[0935.64] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=42
+[0935.66] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0935.68] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=43
+[0935.68] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=43
+[0935.68] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0940.05] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=44
+[0940.05] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=44
+[0940.05] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-RXncdyiw MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_ProfileChange_TA
+[0940.05] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0954.22] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=45
+[0954.22] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=45
+[0954.22] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-RXncdyiw MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_ProfileChange_TA
+[0954.23] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0958.83] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[0959.00] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[0959.36] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[0961.05] Online: TryToPlayOnline ControllerID=(-1)
+[0961.06] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0961.06] ScriptLog: StartMatchmaking Error=You are banned from matchmaking for 0 hour(s), 5 minute(s). Leaving matches creates an unfair match for your teammates, hurts your rank, and will cause increasingly severe punishments.
+[0961.89] Online: TryToPlayOnline ControllerID=(-1)
+[0961.90] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0961.90] ScriptLog: StartMatchmaking Error=You are banned from matchmaking for 0 hour(s), 5 minute(s). Leaving matches creates an unfair match for your teammates, hurts your rank, and will cause increasingly severe punishments.
+[0963.25] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=46
+[0963.25] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=46
+[0963.25] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-RXncdyiw MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_PartyMemberJoinGame_X
+[0963.26] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0963.31] PsyNet: PsyNetChannel_X_1 party:RXncdyiw receive message MessageID=47
+[0963.31] PsyNet: PsyNetChannel_X_1 party:RXncdyiw executing MessageID=47
+[0963.31] Party: HandleLobbyReceiveBinaryData LobbyUID=PsyNet-RXncdyiw MemberIndex=1 PlayerUID=Epic|359253c5bac348378457d018b9043f7e|0 Message=PartyMessage_MatchmakingAvailability_X
+[0963.31] Party: SetAvailableForMatchmakingForMember PartyMemberID:'Epic|359253c5bac348378457d018b9043f7e|0' MatchmakeRestrictions=(0)
+[0963.31] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Party/System 
+[0967.66] Party: Back down to one player, start party timeout
+[0967.76] XPGatedPlaylists: Not currently in a party.
+[0976.88] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0977.02] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[0978.23] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[0978.23] DevNet: URL: Adding default option Name=GambleGod777
+[0978.23] DevNet: Browse: MENU_Main_p?closed?Name=GambleGod777
+[0978.23] Log: Failed; returning to Entry
+[0978.27] Log: FSaveDataExportTask(0) wrote 814240 bytes to memory
+[0978.27] Log: SaveGameDataAsync game thread time: 4 ms
+[0978.27] Log: LoadMap: MENU_Main_p?closed?Name=GambleGod777
+[0978.27] ScriptWarning: ScriptWarning, Accessed None
+	GameEvent_Soccar_TA UtopiaStadium_P.TheWorld:PersistentLevel.GameEvent_Soccar_TA_4
+	Function TAGame.GameEvent_Soccar_TA:CommitPlayerMatchData:08CA
+Script call stack:
+	Function TAGame.GameEvent_Soccar_TA:Destroyed
+	Function TAGame.GameEvent_Team_TA:Destroyed
+	Function TAGame.GameEvent_TA:Destroyed
+	Function TAGame.GameEvent_Soccar_TA:RemovePlayer
+	Function TAGame.GameEvent_TA:RemovePlayer
+	Function TAGame.PRI_TA:SetGameEvent
+	Function TAGame.GameEvent_Soccar_TA:RemovePRI
+	Function TAGame.GameEvent_Soccar_TA:CommitPlayerMatchData
+
+[0978.28] ScriptWarning: ScriptWarning, Accessed None
+	GameEvent_Soccar_TA UtopiaStadium_P.TheWorld:PersistentLevel.GameEvent_Soccar_TA_4
+	Function TAGame.GameEvent_Soccar_TA:CommitPlayerMatchData:08CA
+Script call stack:
+	Function TAGame.GameEvent_Soccar_TA:Destroyed
+	Function TAGame.GameEvent_Team_TA:Destroyed
+	Function TAGame.GameEvent_TA:Destroyed
+	Function TAGame.GameEvent_Soccar_TA:RemovePlayer
+	Function TAGame.GameEvent_TA:RemovePlayer
+	Function TAGame.GameEvent_Soccar_TA:RemovePRI
+	Function TAGame.GameEvent_Soccar_TA:CommitPlayerMatchData
+
+[0978.28] EOSVoice: Not requesting voice token, no MatchGUID
+[0978.29] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936.save
+[0978.29] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936_2.save] Result:[1]
+[0978.29] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0978.42] DevOnline: PsyNet Flush End
+[0978.48] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_GFxMenu_SF.upk
+[0978.55] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_MainMenu_SF.upk
+[0978.56] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_StartMenu_SF.upk
+[0978.61] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MainMenu_SF.upk
+[0978.73] Log: Game class is 'GameInfo_GFxMenu_TA'
+[0978.74] Log: Bringing World menu_main_p.TheWorld up for play (0) at 2025.04.13-02.44.43
+[0978.74] Log: Flushing async loaders.
+[0978.96] Log: Flushed async loaders.
+[0978.97] Log: Bringing up level for play took: 0.237958
+[0979.24] Log: ########### Finished loading level: 0.970193 seconds
+[0979.25] DevOnline: EOSSDK-LogEOSGameClips: Stop recording requested but recording is not available.
+[0979.27] Log: Flushing async loaders.
+[0979.65] Log: Flushed async loaders.
+[0979.66] Log: Octree Warning (AddPrimitive): StaticMeshActor_SMC_445 (Owner: BG_UF_Day_P.TheWorld:PersistentLevel.MeshCollector5) Outside World.
+[0979.66] Log: Octree Warning (AddPrimitive): StaticMeshActor_SMC_619 (Owner: BG_UF_Day_P.TheWorld:PersistentLevel.MeshCollector7) Outside World.
+[0979.66] Log: Octree Warning (AddPrimitive): StaticMeshActor_SMC_627 (Owner: BG_UF_Day_P.TheWorld:PersistentLevel.MeshCollector7) Outside World.
+[0979.67] Eula: RequiresAcceptance? EulaConfig?.bRequiresAcceptance=(True) GetUISave()?.Contains('bAcceptedOfflineEULA')=(True) Eula.SyncState=(LSS_Accepted)
+[0979.67] AuthEpicVerbose: [GFx] Epic login changed. m_uiState:MainMenu bPromptParentalConsent:false bPromptToChoosePrimaryAccount:false bEpicSaveDataLoaded:false bPlatformLinked:false
+[0979.68] FTEDev: Trying to start FTE Group Prime_MatchComplete which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0979.68] FTEDev: Group Prime_LegacyUpdate Is not meant for users of type FTESave.LegacyGroupType=(LGT_NewUser)
+[0979.68] FTEDev: Trying to start FTE Group Prime_MatchComplete which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0979.68] FTEDev: Group Prime_LegacyUpdate Is not meant for users of type FTESave.LegacyGroupType=(LGT_NewUser)
+[0981.28] Log: Flushing async loaders.
+[0981.30] Log: Flushed async loaders.
+[0982.57] DevOnline: PlayerDataStorage_WriteFile: Beginning to upload file. User=(450f5cd6696b492fa38e8f26e8acd936) FileName=(RLSaveData)
+[0983.12] DevOnline: PlayerDataStorage_WriteFile: File upload complete. User=(450f5cd6696b492fa38e8f26e8acd936) FileName=(RLSaveData) Success=(1)
+[0983.49] Log: Closing by request
+[0983.50] Log: appRequestExit(0)
+[0983.56] DevOnline: PlayerDataStorage_WriteFile: Beginning to upload file. User=(450f5cd6696b492fa38e8f26e8acd936) FileName=(RLSaveData)
+[0983.56] Matchmaking: OnlineGameMatchmaking_X_0 OnlineGameMatchmaking_X -> None
+[0983.56] Matchmaking: OnlineGameTourMatchmaking_TA_0 OnlineGameTourMatchmaking_TA -> None
+[0983.56] Log: FSaveDataExportTask(0) wrote 814240 bytes to memory
+[0983.56] Log: SaveGameDataAsync game thread time: 4 ms
+[0983.57] DevOnline: PsyNet Flush Start TimeoutSeconds=0.500000
+[0983.57] DevOnline: PsyNet Flush End
+[0983.57] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936_1.save
+[0983.57] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\450f5cd6696b492fa38e8f26e8acd936.save] Result:[1]
+[0983.57] Exit: Preparing to exit.
+[0983.66] Exit: Game engine shut down
+[0983.69] Exit: Windows client shut down
+[0983.69] Exit: AK Audio shut down.
+[0989.40] Exit: Object subsystem successfully closed.
+[0989.41] DevOnline: EOSSDK-LogEOSPlayerDataStorage: Deleting local scratch file as the file was not written to successfully. ScratchFilename=[C:/...gue/datastorage/scratch/9773aa1aa54f4f7b80e44bef04986cea/000...83f/RLSaveData]
+[0990.07] Exit: Exiting.
+[0990.07] Log: Log file closed, 13/04/2025 02:44:54

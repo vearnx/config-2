@@ -1,0 +1,142 @@
+[4/14/2025, 4:14:30 PM] LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary --version
+legendary version "0.20.36", codename "Urban Flight (Heroic)"
+[4/14/2025, 4:14:31 PM] LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary list --third-party
+[cli] INFO: Logging in...
+[Core] INFO: Trying to re-use existing login session...
+[cli] INFO: Getting game list... (this may take a while)
+
+Available games:
+ * Destiny 2 (App name: 592c359fb0e0413fb46dee2d24448eb4 | Version: 10040010)
+ * Fortnite (App name: Fortnite | Version: ++Fortnite+Release-34.30-CL-41387772-Windows)
+  + Unreal Editor for Fortnite (App name: Fortnite_Studio | Version: ++Fortnite+Release-34.30-CL-41387772-Windows)
+ * Honkai: Star Rail (App name: 86ae9acccf8443e18fca6950e0181288 | Version: 1.5.2)
+ * Rocket League® (App name: Sugar | Version: BC2_Update54+478365)
+ * Warframe (App name: 398965b67f314d31b0683b8ea11c93a4 | Version: 2024.03.28.14.05-21293)
+
+Total: 5
+[4/14/2025, 4:14:31 PM] LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary list --third-party
+[cli] INFO: Logging in...
+[Core] INFO: Trying to re-use existing login session...
+[cli] INFO: Getting game list... (this may take a while)
+
+Available games:
+ * Destiny 2 (App name: 592c359fb0e0413fb46dee2d24448eb4 | Version: 10040010)
+ * Fortnite (App name: Fortnite | Version: ++Fortnite+Release-34.30-CL-41387772-Windows)
+  + Unreal Editor for Fortnite (App name: Fortnite_Studio | Version: ++Fortnite+Release-34.30-CL-41387772-Windows)
+ * Honkai: Star Rail (App name: 86ae9acccf8443e18fca6950e0181288 | Version: 1.5.2)
+ * Rocket League® (App name: Sugar | Version: BC2_Update54+478365)
+ * Warframe (App name: 398965b67f314d31b0683b8ea11c93a4 | Version: 2024.03.28.14.05-21293)
+
+Total: 5
+[4/14/2025, 4:14:53 PM] HEROIC_APP_NAME=Sugar HEROIC_APP_RUNNER=legendary GAMEID=umu-0 HEROIC_APP_SOURCE=epic STORE=egs STEAM_COMPAT_INSTALL_PATH=/mnt/windows/Linux-games/rocketleague/rocketleague Steam-overlay=STEAM_COMPAT_CLIENT_INSTALL_PATH="$HOME/.var/app/com.valvesoftware.Steam/data/Steam" LD_PRELOAD= STEAM_COMPAT_CLIENT_INSTALL_PATH=/home/vearnx/.steam/steam WINEPREFIX="/home/vearnx/Games/Heroic/Prefixes/default/Rocket League" STEAM_COMPAT_DATA_PATH="/home/vearnx/Games/Heroic/Prefixes/default/Rocket League" PROTONPATH=/home/vearnx/.var/app/com.valvesoftware.Steam/.local/share/Steam/compatibilitytools.d/GE-Proton9-23 WINE_FULLSCREEN_FSR=0 PROTON_DISABLE_NVAPI=1 PROTON_EAC_RUNTIME=/home/vearnx/.config/heroic/tools/runtimes/eac_runtime PROTON_BATTLEYE_RUNTIME=/home/vearnx/.config/heroic/tools/runtimes/battleye_runtime STEAM_COMPAT_APP_ID=0 SteamAppId=0 SteamGameId=heroic-rocketleague PROTON_LOG_DIR=/home/vearnx LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary launch Sugar --no-wine --wrapper "/home/vearnx/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point -- "/home/vearnx/.var/app/com.valvesoftware.Steam/.local/share/Steam/compatibilitytools.d/GE-Proton9-23/proton" waitforexitandrun" --language en --override-exe /mnt/windows/Linux-games/rocketleague/BakkesMod/runbakkasmodlinux.bat
+[cli] INFO: Logging in...
+[Core] INFO: Trying to re-use existing login session...
+[cli] INFO: Checking for updates...
+[Core] INFO: Getting authentication token...
+[cli] INFO: Launching Sugar...
+[34mProtonFixes[18418] INFO: Running protonfixes[0m
+[34mProtonFixes[18418] INFO: Running checks[0m
+[34mProtonFixes[18418] INFO: All checks successful[0m
+[34mProtonFixes[18418] INFO: Using global defaults for UNKNOWN (0)[0m
+[34mProtonFixes[18418] INFO: No global protonfix found for UNKNOWN (0)[0m
+fsync: up and running.
+[S_API FAIL] SteamAPI_Init() failed; no appID found.
+Either launch the game from Steam, or put the file steam_appid.txt containing the correct appID in your game folder.
+wine: Read access denied for device L"\\??\\E:\\", FS volume label and serial are not available.
+wine: Read access denied for device L"\\??\\E:\\", FS volume label and serial are not available.
+wine: Read access denied for device L"\\??\\E:\\", FS volume label and serial are not available.
+[4/14/2025, 4:17:09 PM] LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary list --third-party
+[cli] INFO: Logging in...
+[Core] INFO: Trying to re-use existing login session...
+[cli] INFO: Getting game list... (this may take a while)
+
+Available games:
+ * Destiny 2 (App name: 592c359fb0e0413fb46dee2d24448eb4 | Version: 10040010)
+ * Fortnite (App name: Fortnite | Version: ++Fortnite+Release-34.30-CL-41387772-Windows)
+  + Unreal Editor for Fortnite (App name: Fortnite_Studio | Version: ++Fortnite+Release-34.30-CL-41387772-Windows)
+ * Honkai: Star Rail (App name: 86ae9acccf8443e18fca6950e0181288 | Version: 1.5.2)
+ * Rocket League® (App name: Sugar | Version: BC2_Update54+478365)
+ * Warframe (App name: 398965b67f314d31b0683b8ea11c93a4 | Version: 2024.03.28.14.05-21293)
+
+Total: 5
+[4/14/2025, 4:17:13 PM] HEROIC_APP_NAME=Sugar HEROIC_APP_RUNNER=legendary GAMEID=umu-0 HEROIC_APP_SOURCE=epic STORE=egs STEAM_COMPAT_INSTALL_PATH=/mnt/windows/Linux-games/rocketleague/rocketleague Steam-overlay=STEAM_COMPAT_CLIENT_INSTALL_PATH="$HOME/.var/app/com.valvesoftware.Steam/data/Steam" LD_PRELOAD= STEAM_COMPAT_CLIENT_INSTALL_PATH=/home/vearnx/.steam/steam WINEPREFIX="/home/vearnx/Games/Heroic/Prefixes/default/Rocket League" STEAM_COMPAT_DATA_PATH="/home/vearnx/Games/Heroic/Prefixes/default/Rocket League" PROTONPATH=/home/vearnx/.var/app/com.valvesoftware.Steam/.local/share/Steam/compatibilitytools.d/GE-Proton9-23 WINE_FULLSCREEN_FSR=0 PROTON_DISABLE_NVAPI=1 PROTON_EAC_RUNTIME=/home/vearnx/.config/heroic/tools/runtimes/eac_runtime PROTON_BATTLEYE_RUNTIME=/home/vearnx/.config/heroic/tools/runtimes/battleye_runtime STEAM_COMPAT_APP_ID=0 SteamAppId=0 SteamGameId=heroic-rocketleague PROTON_LOG_DIR=/home/vearnx LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary launch Sugar --no-wine --wrapper "/home/vearnx/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point -- "/home/vearnx/.var/app/com.valvesoftware.Steam/.local/share/Steam/compatibilitytools.d/GE-Proton9-23/proton" waitforexitandrun" --language en --override-exe /mnt/windows/Linux-games/rocketleague/BakkesMod/runbakkasmodlinux.bat
+[cli] INFO: Logging in...
+[Core] INFO: Trying to re-use existing login session...
+[cli] INFO: Checking for updates...
+[Core] INFO: Getting authentication token...
+[cli] INFO: Launching Sugar...
+[34mProtonFixes[24234] INFO: Running protonfixes[0m
+[34mProtonFixes[24234] INFO: Running checks[0m
+[34mProtonFixes[24234] INFO: All checks successful[0m
+[34mProtonFixes[24234] INFO: Using global defaults for UNKNOWN (0)[0m
+[34mProtonFixes[24234] INFO: No global protonfix found for UNKNOWN (0)[0m
+fsync: up and running.
+[S_API FAIL] SteamAPI_Init() failed; no appID found.
+Either launch the game from Steam, or put the file steam_appid.txt containing the correct appID in your game folder.
+wine: Read access denied for device L"\\??\\E:\\", FS volume label and serial are not available.
+wine: Read access denied for device L"\\??\\E:\\", FS volume label and serial are not available.
+wine: Read access denied for device L"\\??\\E:\\", FS volume label and serial are not available.
+[4/14/2025, 4:18:04 PM] LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary list --third-party
+[cli] INFO: Logging in...
+[Core] INFO: Trying to re-use existing login session...
+[cli] INFO: Getting game list... (this may take a while)
+
+Available games:
+ * Destiny 2 (App name: 592c359fb0e0413fb46dee2d24448eb4 | Version: 10040010)
+ * Fortnite (App name: Fortnite | Version: ++Fortnite+Release-34.30-CL-41387772-Windows)
+  + Unreal Editor for Fortnite (App name: Fortnite_Studio | Version: ++Fortnite+Release-34.30-CL-41387772-Windows)
+ * Honkai: Star Rail (App name: 86ae9acccf8443e18fca6950e0181288 | Version: 1.5.2)
+ * Rocket League® (App name: Sugar | Version: BC2_Update54+478365)
+ * Warframe (App name: 398965b67f314d31b0683b8ea11c93a4 | Version: 2024.03.28.14.05-21293)
+
+Total: 5
+[4/14/2025, 4:18:12 PM] HEROIC_APP_NAME=Sugar HEROIC_APP_RUNNER=legendary GAMEID=umu-0 HEROIC_APP_SOURCE=epic STORE=egs STEAM_COMPAT_INSTALL_PATH=/mnt/windows/Linux-games/rocketleague/rocketleague Steam-overlay=STEAM_COMPAT_CLIENT_INSTALL_PATH="$HOME/.var/app/com.valvesoftware.Steam/data/Steam" LD_PRELOAD= STEAM_COMPAT_CLIENT_INSTALL_PATH=/home/vearnx/.steam/steam WINEPREFIX="/home/vearnx/Games/Heroic/Prefixes/default/Rocket League" STEAM_COMPAT_DATA_PATH="/home/vearnx/Games/Heroic/Prefixes/default/Rocket League" PROTONPATH=/home/vearnx/.var/app/com.valvesoftware.Steam/.local/share/Steam/compatibilitytools.d/GE-Proton9-23 WINE_FULLSCREEN_FSR=0 PROTON_DISABLE_NVAPI=1 PROTON_EAC_RUNTIME=/home/vearnx/.config/heroic/tools/runtimes/eac_runtime PROTON_BATTLEYE_RUNTIME=/home/vearnx/.config/heroic/tools/runtimes/battleye_runtime STEAM_COMPAT_APP_ID=0 SteamAppId=0 SteamGameId=heroic-rocketleague PROTON_LOG_DIR=/home/vearnx LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary launch Sugar --no-wine --wrapper " "/home/vearnx/.var/app/com.valvesoftware.Steam/.local/share/Steam/compatibilitytools.d/GE-Proton9-23/proton" waitforexitandrun" --language en --override-exe /mnt/windows/Linux-games/rocketleague/BakkesMod/runbakkasmodlinux.bat
+[cli] INFO: Logging in...
+[Core] INFO: Trying to re-use existing login session...
+[cli] INFO: Checking for updates...
+[Core] INFO: Getting authentication token...
+[cli] INFO: Launching Sugar...
+[34mProtonFixes[27056] INFO: Running protonfixes[0m
+[34mProtonFixes[27056] INFO: Running checks[0m
+[34mProtonFixes[27056] INFO: All checks successful[0m
+[34mProtonFixes[27056] INFO: Using global defaults for UNKNOWN (0)[0m
+[34mProtonFixes[27056] INFO: No global protonfix found for UNKNOWN (0)[0m
+fsync: up and running.
+[S_API FAIL] SteamAPI_Init() failed; no appID found.
+Either launch the game from Steam, or put the file steam_appid.txt containing the correct appID in your game folder.
+wine: Read access denied for device L"\\??\\E:\\", FS volume label and serial are not available.
+wine: Read access denied for device L"\\??\\E:\\", FS volume label and serial are not available.
+wine: Read access denied for device L"\\??\\E:\\", FS volume label and serial are not available.
+wine: Read access denied for device L"\\??\\F:\\", FS volume label and serial are not available.
+wine: Read access denied for device L"\\??\\F:\\", FS volume label and serial are not available.
+wine: Read access denied for device L"\\??\\F:\\", FS volume label and serial are not available.
+wine: Read access denied for device L"\\??\\Z:\\", FS volume label and serial are not available.
+wine: Read access denied for device L"\\??\\Z:\\", FS volume label and serial are not available.
+wine: Read access denied for device L"\\??\\Z:\\", FS volume label and serial are not available.
+[4/14/2025, 4:18:52 PM] LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary eos-overlay info --prefix "/home/vearnx/Games/Heroic/Prefixes/default/Rocket League/pfx"
+[4/14/2025, 4:18:52 PM] LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary info Sugar --json --platform Windows
+[cli] INFO: Using prefix "/home/vearnx/Games/Heroic/Prefixes/default/Rocket League/pfx"
+[cli] INFO: No Legendary-managed installation found.
+[cli] INFO: Found available Overlay installations in:
+[cli] INFO: Overlay enabled: No
+[cli] INFO: Enabled Overlay path: None
+[cli] INFO: No enabled Vulkan layers.
+[Core] INFO: Trying to re-use existing login session...
+[4/14/2025, 4:18:52 PM] LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary info Sugar --json --platform Windows
+[4/14/2025, 4:18:52 PM] LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary info Sugar --json --platform Windows
+[4/14/2025, 4:18:52 PM] LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary info Sugar --json --platform Windows
+{"game": {"app_name": "Sugar", "title": "Rocket League\u00ae", "version": "BC2_Update54+478365", "platform_versions": {"Windows": "BC2_Update54+478365"}, "cloud_saves_supported": false, "cloud_save_folder": null, "cloud_save_folder_mac": null, "is_dlc": false, "external_activation": null, "launch_options": [], "command_line": null, "owned_dlc": []}, "install": {"platform": "Windows", "version": "BC2_Update54+478365", "disk_size": 34922315114, "install_path": "/mnt/windows/Linux-games/rocketleague/rocketleague", "save_path": null, "synced_egl_guid": "", "install_tags": [], "requires_ovt": false, "installed_dlc": []}, "manifest": {"size": 2714362, "type": "binary", "version": 17, "feature_level": 17, "app_name": "SugarStaging", "launch_exe": "Binaries/Win64/RocketLeague.exe", "launch_command": "", "build_version": "BC2_Update54+478365", "build_id": "jhtOEM0qNlJhcdlqhr6PoL2w96c", "prerequisites": null, "uninstaller": null, "install_tags": [""], "num_files": 17390, "num_chunks": 31008, "disk_size": 34922315114, "download_size": 31889955005, "tag_disk_size": [], "tag_download_size": []}}
+[4/14/2025, 4:18:56 PM] LEGENDARY_CONFIG_PATH=/home/vearnx/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary list --third-party
+[cli] INFO: Logging in...
+[Core] INFO: Trying to re-use existing login session...
+[cli] INFO: Getting game list... (this may take a while)
+
+Available games:
+ * Destiny 2 (App name: 592c359fb0e0413fb46dee2d24448eb4 | Version: 10040010)
+ * Fortnite (App name: Fortnite | Version: ++Fortnite+Release-34.30-CL-41387772-Windows)
+  + Unreal Editor for Fortnite (App name: Fortnite_Studio | Version: ++Fortnite+Release-34.30-CL-41387772-Windows)
+ * Honkai: Star Rail (App name: 86ae9acccf8443e18fca6950e0181288 | Version: 1.5.2)
+ * Rocket League® (App name: Sugar | Version: BC2_Update54+478365)
+ * Warframe (App name: 398965b67f314d31b0683b8ea11c93a4 | Version: 2024.03.28.14.05-21293)
+
+Total: 5

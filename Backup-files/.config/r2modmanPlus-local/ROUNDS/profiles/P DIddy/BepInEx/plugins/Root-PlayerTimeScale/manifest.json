@@ -1,0 +1,9 @@
+{
+    "name": "PlayerTimeScale",
+    "version_number": "0.0.3",
+    "website_url": "",
+    "description": "Per Player Timescales",
+    "dependencies": [
+        "willis81808-UnboundLib-2.10.2"
+    ]
+}

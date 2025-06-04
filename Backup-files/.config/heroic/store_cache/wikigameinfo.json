@@ -1,0 +1,162 @@
+{
+	"Rocket League": {
+		"pcgamingwiki": {
+			"steamID": "252950",
+			"howLongToBeatID": "27113",
+			"metacritic": {
+				"score": "86",
+				"urlid": "rocket-league"
+			},
+			"opencritic": {
+				"score": "87",
+				"urlid": "1055/rocket-league"
+			},
+			"igdb": {
+				"score": "89",
+				"urlid": "rocket-league"
+			},
+			"direct3DVersions": [
+				"11"
+			],
+			"genres": [
+				"Driving",
+				"Sports"
+			],
+			"releaseDate": [
+				"Windows: July 7, 2015",
+				"OS X: September 8, 2016|ref=<ref name=\"osx and linux release\">[http://www.rocketleaguegame.com/news/2016/09/rumble-update/ In-Depth with the Rumble Update]</ref>{{note|name=Linux_and_OSX_Removal|note=Linux and OS X were discontinued on '''March 10, 2020'''.<ref name=\"Linux_and_OSX_Removal_Ref\">{{Refsnip|url=https://steamcommunity.com/games/252950/announcements/detail/1719751122119953694|title=Steam :: Rocket League :: March Update Releases March 10|date=2020-03-12|snippet=The March Update will be the final update for Mac and Linux versions of Rocket League.",
+				"Linux: September 8, 2016|ref=<ref name=\"osx and linux release\"/>{{note|name=Linux_and_OSX_Removal"
+			]
+		},
+		"applegamingwiki": null,
+		"howlongtobeat": null,
+		"gamesdb": {
+			"steamID": "252950"
+		},
+		"steamInfo": {
+			"compatibilityLevel": "platinum",
+			"steamDeckCatagory": 3
+		},
+		"umuId": null
+	},
+	"__timestamp": {
+		"Rocket League": "Sat Mar 22 2025 20:22:16 GMT-0400 (Eastern Daylight Time)",
+		"Fortnite": "Mon Mar 24 2025 20:07:49 GMT-0400 (Eastern Daylight Time)",
+		"Destiny 2": "Mon Mar 24 2025 20:11:34 GMT-0400 (Eastern Daylight Time)",
+		"Warframe": "Wed Mar 26 2025 21:28:26 GMT-0400 (Eastern Daylight Time)"
+	},
+	"Fortnite": {
+		"pcgamingwiki": {
+			"steamID": "",
+			"howLongToBeatID": "3657",
+			"metacritic": {
+				"score": "81",
+				"urlid": "fortnite"
+			},
+			"opencritic": {
+				"score": "",
+				"urlid": ""
+			},
+			"igdb": {
+				"score": "83",
+				"urlid": "fortnite"
+			},
+			"direct3DVersions": [
+				"11",
+				"12"
+			],
+			"genres": [
+				"Battleroyale",
+				"TPS",
+				"FPS"
+			],
+			"releaseDate": [
+				"Windows: July 21, 2017|ref=<ref name=\"ea-over\">{{Refurl|url=https://www.epicgames.com/fortnite/en-US/news/fortnite-save-the-world-update-state-of-development|title=Epic Games - Fortnite Save the World Update - State of Development|date=2020-06-30",
+				"OS X: July 21, 2017|ref=<ref name=\"ea-over\"/>"
+			]
+		},
+		"applegamingwiki": null,
+		"howlongtobeat": null,
+		"gamesdb": {
+			"steamID": ""
+		},
+		"steamInfo": null,
+		"umuId": null
+	},
+	"Destiny 2": {
+		"pcgamingwiki": {
+			"steamID": "783960",
+			"howLongToBeatID": "",
+			"metacritic": {
+				"score": "",
+				"urlid": ""
+			},
+			"opencritic": {
+				"score": "",
+				"urlid": ""
+			},
+			"igdb": {
+				"score": "",
+				"urlid": ""
+			},
+			"direct3DVersions": [
+				""
+			],
+			"genres": [
+				""
+			],
+			"releaseDate": [
+				"Windows: January 18, 2018"
+			]
+		},
+		"applegamingwiki": null,
+		"howlongtobeat": null,
+		"gamesdb": {
+			"steamID": "1085660"
+		},
+		"steamInfo": {
+			"compatibilityLevel": "borked",
+			"steamDeckCatagory": 1
+		},
+		"umuId": null
+	},
+	"Warframe": {
+		"pcgamingwiki": {
+			"steamID": "230410",
+			"howLongToBeatID": "11037",
+			"metacritic": {
+				"score": "69",
+				"urlid": "warframe"
+			},
+			"opencritic": {
+				"score": "74",
+				"urlid": "319/warframe"
+			},
+			"igdb": {
+				"score": "73",
+				"urlid": "warframe"
+			},
+			"direct3DVersions": [
+				"11",
+				"12"
+			],
+			"genres": [
+				"ARPG",
+				"shooter|ref="
+			],
+			"releaseDate": [
+				"Windows: March 25, 2013"
+			]
+		},
+		"applegamingwiki": null,
+		"howlongtobeat": null,
+		"gamesdb": {
+			"steamID": "230410"
+		},
+		"steamInfo": {
+			"compatibilityLevel": "gold",
+			"steamDeckCatagory": 3
+		},
+		"umuId": "umu-230410"
+	}
+}

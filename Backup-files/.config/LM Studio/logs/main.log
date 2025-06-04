@@ -1,0 +1,99 @@
+[2025-01-21 21:24:16.690] [info]  App starting...
+[2025-01-21 21:24:16.692] [info]  [AppUpdater] Update channel set to 'stable'
+[2025-01-21 21:24:17.296] [info]  Hardware survey for general system resources through 'vulkan' took 321.54ms
+[2025-01-21 21:24:17.408] [info]  [AppUpdater] Checking for updates... (current state: idle)
+[2025-01-21 21:24:17.408] [info]  AppUpdater state changed to checking-for-updates-periodic
+[2025-01-21 21:24:17.409] [info]  [AppUpdater] Fetching version info from https://versions-prod.lmstudio.ai/update/linux/x86/0.3.8
+[2025-01-21 21:24:17.681] [info]  [AppUpdater] Received version info response
+[2025-01-21 21:24:17.681] [info]  [AppUpdater] Current version: 0.3.8 (build: 4), new version: 0.3.8 (build: 4)
+[2025-01-21 21:24:17.682] [info]  No update available: 0.3.8 (build: 4) <= 0.3.8 (build: 4)
+[2025-01-21 21:24:17.682] [info]  AppUpdater state changed to idle
+[2025-01-22 15:51:31.348] [info]  App starting...
+[2025-01-22 15:51:31.350] [info]  [AppUpdater] Update channel set to 'stable'
+[2025-01-22 15:51:31.697] [info]  Hardware survey for general system resources through 'vulkan' took 329.25ms
+[2025-01-22 15:51:31.806] [info]  [AppUpdater] Checking for updates... (current state: idle)
+[2025-01-22 15:51:31.806] [info]  AppUpdater state changed to checking-for-updates-periodic
+[2025-01-22 15:51:31.807] [info]  [AppUpdater] Fetching version info from https://versions-prod.lmstudio.ai/update/linux/x86/0.3.8
+[2025-01-22 15:51:32.182] [info]  [AppUpdater] Received version info response
+[2025-01-22 15:51:32.182] [info]  [AppUpdater] Current version: 0.3.8 (build: 4), new version: 0.3.8 (build: 4)
+[2025-01-22 15:51:32.182] [info]  No update available: 0.3.8 (build: 4) <= 0.3.8 (build: 4)
+[2025-01-22 15:51:32.182] [info]  AppUpdater state changed to idle
+[2025-01-22 18:52:44.132] [info]  App starting...
+[2025-01-22 18:52:44.134] [info]  [AppUpdater] Update channel set to 'stable'
+[2025-01-22 18:52:44.464] [info]  Hardware survey for general system resources through 'vulkan' took 322.58ms
+[2025-01-22 18:52:44.581] [info]  [AppUpdater] Checking for updates... (current state: idle)
+[2025-01-22 18:52:44.582] [info]  AppUpdater state changed to checking-for-updates-periodic
+[2025-01-22 18:52:44.582] [info]  [AppUpdater] Fetching version info from https://versions-prod.lmstudio.ai/update/linux/x86/0.3.8
+[2025-01-22 18:52:45.051] [info]  [AppUpdater] Received version info response
+[2025-01-22 18:52:45.051] [info]  [AppUpdater] Current version: 0.3.8 (build: 4), new version: 0.3.8 (build: 4)
+[2025-01-22 18:52:45.051] [info]  No update available: 0.3.8 (build: 4) <= 0.3.8 (build: 4)
+[2025-01-22 18:52:45.051] [info]  AppUpdater state changed to idle
+[2025-01-26 18:12:57.858] [info]  App starting...
+[2025-01-26 18:12:57.862] [info]  [AppUpdater] Update channel set to 'stable'
+[2025-01-26 18:12:58.052] [info]  Hardware survey for general system resources through 'vulkan' took 183.34ms
+[2025-01-26 18:12:58.190] [info]  [AppUpdater] Checking for updates... (current state: idle)
+[2025-01-26 18:12:58.191] [info]  AppUpdater state changed to checking-for-updates-periodic
+[2025-01-26 18:12:58.191] [info]  [AppUpdater] Fetching version info from https://versions-prod.lmstudio.ai/update/linux/x86/0.3.8
+[2025-01-26 18:12:58.554] [info]  [AppUpdater] Received version info response
+[2025-01-26 18:12:58.555] [info]  [AppUpdater] Current version: 0.3.8 (build: 4), new version: 0.3.8 (build: 4)
+[2025-01-26 18:12:58.555] [info]  No update available: 0.3.8 (build: 4) <= 0.3.8 (build: 4)
+[2025-01-26 18:12:58.555] [info]  AppUpdater state changed to idle
+[2025-01-26 18:13:36.104] [error] [LMSInternal][Client=LM Studio][Endpoint=loadModel] No instance reference assigned before error
+[2025-01-26 18:13:48.995] [error] Uncaught Exception: Error: Failed to load image from path '/tmp/.mount_LM-Stu8GIqN2/resources/trayIconPausedDarkTemplate.png'
+    at _0x3053b2.TrayProvider.refreshTrayIcon (/tmp/.mount_LM-Stu8GIqN2/resources/app/.webpack/main/index.js:66:41520)
+    at _0x4a537b (/tmp/.mount_LM-Stu8GIqN2/resources/app/.webpack/main/index.js:66:40532)
+    at /tmp/.mount_LM-Stu8GIqN2/resources/app/.webpack/main/index.js:242:136680
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+[2025-01-26 18:13:48.996] [error] Exception :  Error: Failed to load image from path '/tmp/.mount_LM-Stu8GIqN2/resources/trayIconPausedDarkTemplate.png'
+    at _0x3053b2.TrayProvider.refreshTrayIcon (/tmp/.mount_LM-Stu8GIqN2/resources/app/.webpack/main/index.js:66:41520)
+    at _0x4a537b (/tmp/.mount_LM-Stu8GIqN2/resources/app/.webpack/main/index.js:66:40532)
+    at /tmp/.mount_LM-Stu8GIqN2/resources/app/.webpack/main/index.js:242:136680
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+[2025-02-22 23:25:51.381] [info]  App starting...
+[2025-02-22 23:25:51.383] [info]  [AppUpdater] Update channel set to 'stable'
+[2025-02-22 23:25:51.736] [info]  Hardware survey for general system resources through 'vulkan' took 348.91ms
+[2025-02-22 23:25:51.849] [info]  [AppUpdater] Checking for updates... (current state: idle)
+[2025-02-22 23:25:51.849] [info]  AppUpdater state changed to checking-for-updates-periodic
+[2025-02-22 23:25:51.850] [info]  [AppUpdater] Fetching version info from https://versions-prod.lmstudio.ai/update/linux/x86/0.3.8
+[2025-02-22 23:25:52.391] [info]  [AppUpdater] Received version info response
+[2025-02-22 23:25:52.391] [info]  [AppUpdater] Current version: 0.3.8 (build: 4), new version: 0.3.10 (build: 6)
+[2025-02-22 23:25:52.391] [info]  Update available: 0.3.10 > 0.3.8
+[2025-02-22 23:25:52.392] [info]  AppUpdater state changed to update-available
+[2025-02-22 23:39:56.232] [error] (node:2804) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 child-exit listeners added to [_0x5bd2a1]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(Use `lm-studio --trace-warnings ...` to show where the warning was created)
+[2025-02-22 23:39:56.232] [error] (node:2804) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [_0x5bd2a1]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+[2025-02-23 00:03:05.760] [error] [LMSInternal][Client=LM Studio][Endpoint=countTokens] Error in RPC handler: Error: Cannot find model of instance reference. rSjRNvkiKOahnIvwSMRBWggG
+    at _0x6f0a0f.<computed>.getInstanceBySpecifierOrThrow (/tmp/.mount_LM-Stur7Z82y/resources/app/.webpack/main/index.js:63:12348)
+    at _0x6f0a0f.<computed>.getLLMModelBySpecifierOrThrow (/tmp/.mount_LM-Stur7Z82y/resources/app/.webpack/main/index.js:63:14931)
+    at Object.handler (/tmp/.mount_LM-Stur7Z82y/resources/app/.webpack/main/index.js:68:19977)
+    at _0x546cd8.<computed>.receivedRpcCall (/tmp/.mount_LM-Stur7Z82y/resources/app/.webpack/main/index.js:365:147)
+    at _0x41a188.receivedMessage (/tmp/.mount_LM-Stur7Z82y/resources/app/.webpack/main/index.js:338:13495)
+    at MessagePortMain.<anonymous> (/tmp/.mount_LM-Stur7Z82y/resources/app/.webpack/main/index.js:338:11926)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain._internalPort.emit (node:electron/js2c/browser_init:2:105846)
+[2025-02-23 00:03:05.762] [error] [LMSInternal][Client=LM Studio][Endpoint=countTokens] Error in RPC handler: Error: Cannot find model of instance reference. rSjRNvkiKOahnIvwSMRBWggG
+    at _0x6f0a0f.<computed>.getInstanceBySpecifierOrThrow (/tmp/.mount_LM-Stur7Z82y/resources/app/.webpack/main/index.js:63:12348)
+    at _0x6f0a0f.<computed>.getLLMModelBySpecifierOrThrow (/tmp/.mount_LM-Stur7Z82y/resources/app/.webpack/main/index.js:63:14931)
+    at Object.handler (/tmp/.mount_LM-Stur7Z82y/resources/app/.webpack/main/index.js:68:19977)
+    at _0x546cd8.<computed>.receivedRpcCall (/tmp/.mount_LM-Stur7Z82y/resources/app/.webpack/main/index.js:365:147)
+    at _0x41a188.receivedMessage (/tmp/.mount_LM-Stur7Z82y/resources/app/.webpack/main/index.js:338:13495)
+    at MessagePortMain.<anonymous> (/tmp/.mount_LM-Stur7Z82y/resources/app/.webpack/main/index.js:338:11926)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain._internalPort.emit (node:electron/js2c/browser_init:2:105846)
+[2025-02-23 02:27:00.407] [info]  App starting...
+[2025-02-23 02:27:00.409] [info]  [AppUpdater] Update channel set to 'stable'
+[2025-02-23 02:27:00.665] [info]  Hardware survey for general system resources through 'vulkan' took 254.21ms
+[2025-02-23 02:27:00.737] [info]  [AppUpdater] Checking for updates... (current state: idle)
+[2025-02-23 02:27:00.737] [info]  AppUpdater state changed to checking-for-updates-periodic
+[2025-02-23 02:27:00.737] [info]  [AppUpdater] Fetching version info from https://versions-prod.lmstudio.ai/update/linux/x86/0.3.10
+[2025-02-23 02:27:01.084] [info]  [AppUpdater] Received version info response
+[2025-02-23 02:27:01.084] [info]  [AppUpdater] Current version: 0.3.10 (build: 6), new version: 0.3.10 (build: 6)
+[2025-02-23 02:27:01.085] [info]  No update available: 0.3.10 (build: 6) <= 0.3.10 (build: 6)
+[2025-02-23 02:27:01.085] [info]  AppUpdater state changed to idle
+[2025-02-23 02:27:23.288] [error] (node:34949) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 child-exit listeners added to [_0x483f4d]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(Use `lm-studio --trace-warnings ...` to show where the warning was created)
+[2025-02-23 02:27:23.288] [error] (node:34949) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [_0x483f4d]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit

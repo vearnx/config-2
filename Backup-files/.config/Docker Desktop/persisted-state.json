@@ -1,0 +1,8 @@
+{
+	"cloud.hasUserAcknowledgedProductDialog": false,
+	"projects.persistedFlags": {
+		"hasSeenRunCommandCreateBanner": false,
+		"hasSeenRunCommandEditBanner": false
+	},
+	"cloud.hasUserAcknowledgedBetaDialog": false
+}

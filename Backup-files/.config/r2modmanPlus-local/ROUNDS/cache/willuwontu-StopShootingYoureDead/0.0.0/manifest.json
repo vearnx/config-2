@@ -1,0 +1,13 @@
+{
+	"name":"StopShootingYoureDead",
+	"author_name":"willuwontu",
+    "version_number":"0.0.0",
+	"website_url":"https://github.com/willuwontu/EvenSpreadPatch",
+	"displayName":"StopShootingYoureDead",
+	"description":"A patch to fix bursts and blocking persisting between rounds.",
+	"dependencies": [
+		"BepInEx-BepInExPack_ROUNDS-5.4.1100",
+		"willis81808-UnboundLib-2.6.2",
+        "willis81808-MMHook-1.0.0"
+	]
+}

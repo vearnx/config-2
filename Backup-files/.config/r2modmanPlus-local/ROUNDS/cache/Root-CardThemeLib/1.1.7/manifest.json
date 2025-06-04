@@ -1,0 +1,9 @@
+{
+  "name": "CardThemeLib",
+  "version_number": "1.1.7",
+  "website_url": "https://github.com/Tess-y/CardThemeLib",
+  "description": "A utility library for adding custom card themes to the game.",
+  "dependencies": [
+    "BepInEx-BepInExPack_ROUNDS-5.4.1100"
+  ]
+}

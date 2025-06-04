@@ -1,0 +1,432 @@
+Mono path[0] = '/home/vearnx/Downloads/lsdr-0.3.0-linux/LSDR_Data/Managed'
+Mono config path = '/home/vearnx/Downloads/lsdr-0.3.0-linux/LSDR_Data/MonoBleedingEdge/etc'
+Display 0 'DP-2 27"': 2560x1440 (primary device).
+Display 1 'HDMI-A-2 23"': 1920x1080 (secondary device).
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Loading player data from /home/vearnx/Downloads/lsdr-0.3.0-linux/LSDR_Data/data.unity3d
+Unable to load player prefs
+Desktop is 2560 x 1440 @ 180 Hz
+Initialize engine version: 2021.3.35f1 (157b46ce122a)
+[Subsystems] Discovering subsystems at path /home/vearnx/Downloads/lsdr-0.3.0-linux/LSDR_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=0
+Renderer: AMD Radeon RX 7800 XT (radeonsi, navi32, LLVM 19.1.7, DRM 3.61, 6.14.6-arch1-1)
+Vendor:   AMD
+Version:  4.6 (Core Profile) Mesa 25.0.5-arch1.1
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_cla
+mp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_A
+RB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync 
+GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_obj
+ect GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_E
+XT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_c
+onditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 257823280
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.044 seconds
+Default vsync count 0
+requesting resize 2560 x 1440
+Using native desktop resolution 2560 x 1440
+requesting fullscreen 2560 x 1440 at 0 Hz
+Desktop is 2560 x 1440 @ 180 Hz
+Disable old input system
+Desktop is 2560 x 1440 @ 180 Hz
+UnloadTime: 0.296611 ms
+Loading game...
+Loading mods...
+Deserialising control schemes...
+Unable to find 'Classic' control scheme - creating...
+Unable to find 'Revamped' control scheme - creating...
+Serialising control schemes...
+Loading game settings...
+Settings.json not found, creating default settings
+Could not find screen resolution!
+HeadBobIntensity: 1
+Applying game settings
+Selecting scheme 0
+Unable to find game save -- creating new one at /home/vearnx/.config/unity3d/Figglewatts/LSDR/saves/Original Dreams_save.json
+requesting resize 640 x 480
+requesting fullscreen 640 x 480 at 0 Hz
+Setting up downscaled viewport at 640 x 480
+Desktop is 2560 x 1440 @ 180 Hz
+Unloading 6 Unused Serialized files (Serialized files now loaded: 1)
+UnloadTime: 0.748001 ms
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3877.
+Total: 0.886721 ms (FindLiveObjects: 0.116230 ms CreateObjectMapping: 0.042220 ms MarkObjects: 0.684821 ms  DeleteObjects: 0.043300 ms)
+
+AudioSampleProvider buffer overflow. 2712 sample frames discarded.
+AudioSampleProvider buffer overflow. 3072 sample frames discarded.
+UnloadTime: 0.151221 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 1)
+setting day text 1
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 5950.
+Total: 0.812150 ms (FindLiveObjects: 0.147850 ms CreateObjectMapping: 0.054090 ms MarkObjects: 0.589710 ms  DeleteObjects: 0.020250 ms)
+
+setting day text 1
+Unable to play audio clip 'select', no channels available
+Unable to play audio clip 'select', no channels available
+Loading dream 'Bright Moon Cottage'
+Loading dream scene...
+Unloading 5 Unused Serialized files (Serialized files now loaded: 1)
+UICurrentDayDisplay: OnDisable
+UnloadTime: 1.534741 ms
+There can be only one active Event System.
+DevConsole already contains object 'UIDevConsole'
+Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 5785.
+Total: 1.992071 ms (FindLiveObjects: 0.207710 ms CreateObjectMapping: 0.050650 ms MarkObjects: 1.627871 ms  DeleteObjects: 0.105630 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 5785.
+Total: 1.351731 ms (FindLiveObjects: 0.188010 ms CreateObjectMapping: 0.080881 ms MarkObjects: 1.080130 ms  DeleteObjects: 0.002420 ms)
+
+Using song style 'Standard'
+Registering entities...
+Instantiating dream prefab...
+loading from builtin
+Spawning player...
+Choosing environment...
+Restoring player input etc...
+input lock? False
+Linking to Kyoto
+Loading dream 'Kyoto'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 1163 unused Assets to reduce memory usage. Loaded Objects now: 5925.
+Total: 1.563031 ms (FindLiveObjects: 0.235500 ms CreateObjectMapping: 0.057920 ms MarkObjects: 1.009121 ms  DeleteObjects: 0.260340 ms)
+
+Using song style 'Standard'
+Registering entities...
+Instantiating dream prefab...
+loading from builtin
+Spawning player...
+Choosing environment...
+Restoring player input etc...
+input lock? False
+Linking to Happytown
+Loading dream 'Happytown'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 5021 unused Assets to reduce memory usage. Loaded Objects now: 6065.
+Total: 2.122941 ms (FindLiveObjects: 0.382160 ms CreateObjectMapping: 0.094100 ms MarkObjects: 0.962081 ms  DeleteObjects: 0.684410 ms)
+
+Using song style 'Standard'
+Registering entities...
+Instantiating dream prefab...
+loading from builtin
+Spawning player...
+Choosing environment...
+Restoring player input etc...
+input lock? False
+Linking to Bright Moon Cottage
+Loading dream 'Bright Moon Cottage'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 5626 unused Assets to reduce memory usage. Loaded Objects now: 6205.
+Total: 3.286193 ms (FindLiveObjects: 0.404501 ms CreateObjectMapping: 0.253990 ms MarkObjects: 1.405191 ms  DeleteObjects: 1.222331 ms)
+
+Using song style 'Standard'
+Registering entities...
+Instantiating dream prefab...
+loading from builtin
+Spawning player...
+Choosing environment...
+Restoring player input etc...
+input lock? False
+Linking to Violence District
+Loading dream 'Violence District'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 1162 unused Assets to reduce memory usage. Loaded Objects now: 6346.
+Total: 1.828341 ms (FindLiveObjects: 0.313740 ms CreateObjectMapping: 0.073270 ms MarkObjects: 1.170261 ms  DeleteObjects: 0.270880 ms)
+
+Using song style 'Standard'
+Registering entities...
+Instantiating dream prefab...
+loading from builtin
+Spawning player...
+Choosing environment...
+Restoring player input etc...
+input lock? False
+Linking to Happytown
+Loading dream 'Happytown'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 4381 unused Assets to reduce memory usage. Loaded Objects now: 6486.
+Total: 2.548242 ms (FindLiveObjects: 0.420030 ms CreateObjectMapping: 0.104350 ms MarkObjects: 1.352131 ms  DeleteObjects: 0.671541 ms)
+
+Using song style 'Standard'
+Registering entities...
+Instantiating dream prefab...
+loading from builtin
+Spawning player...
+Choosing environment...
+Restoring player input etc...
+input lock? False
+Linking to Happytown
+Loading dream 'Happytown'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 5621 unused Assets to reduce memory usage. Loaded Objects now: 6626.
+Total: 2.872552 ms (FindLiveObjects: 0.420611 ms CreateObjectMapping: 0.109680 ms MarkObjects: 1.219510 ms  DeleteObjects: 1.122601 ms)
+
+Registering entities...
+Instantiating dream prefab...
+loading from builtin
+Spawning player...
+Choosing environment...
+Restoring player input etc...
+input lock? False
+Linking to Kyoto
+Loading dream 'Kyoto'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 5621 unused Assets to reduce memory usage. Loaded Objects now: 6752.
+Total: 2.899733 ms (FindLiveObjects: 0.475941 ms CreateObjectMapping: 0.129670 ms MarkObjects: 1.392321 ms  DeleteObjects: 0.901611 ms)
+
+Using song style 'Standard'
+Registering entities...
+Instantiating dream prefab...
+loading from builtin
+Spawning player...
+Choosing environment...
+Restoring player input etc...
+input lock? False
+Linking to Bright Moon Cottage
+Loading dream 'Bright Moon Cottage'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 5021 unused Assets to reduce memory usage. Loaded Objects now: 6892.
+Total: 2.515962 ms (FindLiveObjects: 0.416831 ms CreateObjectMapping: 0.103650 ms MarkObjects: 1.148530 ms  DeleteObjects: 0.846771 ms)
+
+Using song style 'Standard'
+Registering entities...
+Instantiating dream prefab...
+loading from builtin
+Spawning player...
+Choosing environment...
+Restoring player input etc...
+input lock? False
+Linking to Violence District
+Loading dream 'Violence District'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 1162 unused Assets to reduce memory usage. Loaded Objects now: 7032.
+Total: 1.790381 ms (FindLiveObjects: 0.325090 ms CreateObjectMapping: 0.060830 ms MarkObjects: 1.140441 ms  DeleteObjects: 0.263860 ms)
+
+Using song style 'Standard'
+Registering entities...
+Instantiating dream prefab...
+loading from builtin
+Spawning player...
+Choosing environment...
+Restoring player input etc...
+input lock? False
+Linking to Bright Moon Cottage
+Loading dream 'Bright Moon Cottage'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 4381 unused Assets to reduce memory usage. Loaded Objects now: 7172.
+Total: 2.812432 ms (FindLiveObjects: 0.397320 ms CreateObjectMapping: 0.094930 ms MarkObjects: 1.434411 ms  DeleteObjects: 0.885591 ms)
+
+Using song style 'Standard'
+Registering entities...
+Instantiating dream prefab...
+loading from builtin
+Spawning player...
+Choosing environment...
+Restoring player input etc...
+input lock? False
+Linking to Pit & Temple
+Loading dream 'Pit & Temple'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 1162 unused Assets to reduce memory usage. Loaded Objects now: 7312.
+Total: 2.037911 ms (FindLiveObjects: 0.318720 ms CreateObjectMapping: 0.071900 ms MarkObjects: 1.340411 ms  DeleteObjects: 0.306680 ms)
+
+Using song style 'Standard'
+Registering entities...
+Instantiating dream prefab...
+loading from builtin
+Spawning player...
+Choosing environment...
+Restoring player input etc...
+Ending dream
+Loading title screen
+Unloading 4 Unused Serialized files (Serialized files now loaded: 1)
+UnloadTime: 1.098021 ms
+setting day text 2
+setting day text 2
+UICurrentDayDisplay: OnDisable
+Unloading 814 unused Assets to reduce memory usage. Loaded Objects now: 7925.
+Total: 1.867762 ms (FindLiveObjects: 0.292621 ms CreateObjectMapping: 0.059160 ms MarkObjects: 1.336281 ms  DeleteObjects: 0.179480 ms)
+
+setting day text 2
+Unable to play audio clip 'click', no channels available
+Unloading 4 Unused Serialized files (Serialized files now loaded: 1)
+UICurrentDayDisplay: OnDisable
+UnloadTime: 1.428191 ms
+Unloading 247 unused Assets to reduce memory usage. Loaded Objects now: 5900.
+Total: 1.838421 ms (FindLiveObjects: 0.183230 ms CreateObjectMapping: 0.067130 ms MarkObjects: 1.438281 ms  DeleteObjects: 0.149550 ms)
+
+Ending dream
+Loading title screen
+UnloadTime: 0.144980 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 1)
+setting day text 3
+setting day text 3
+UICurrentDayDisplay: OnDisable
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 8048.
+Total: 1.614251 ms (FindLiveObjects: 0.283710 ms CreateObjectMapping: 0.052490 ms MarkObjects: 1.252781 ms  DeleteObjects: 0.025020 ms)
+
+setting day text 3
+Loading dream 'Bright Moon Cottage'
+Loading dream scene...
+UICurrentDayDisplay: OnDisable
+Unloading 5 Unused Serialized files (Serialized files now loaded: 1)
+UnloadTime: 1.223911 ms
+Unloading 88 unused Assets to reduce memory usage. Loaded Objects now: 7653.
+Total: 1.479851 ms (FindLiveObjects: 0.273290 ms CreateObjectMapping: 0.054360 ms MarkObjects: 1.069961 ms  DeleteObjects: 0.082000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 7653.
+Total: 1.083441 ms (FindLiveObjects: 0.130540 ms CreateObjectMapping: 0.060120 ms MarkObjects: 0.889941 ms  DeleteObjects: 0.002680 ms)
+
+Using song style 'Lovely'
+Registering entities...
+Instantiating dream prefab...
+loading from builtin
+Spawning player...
+Choosing environment...
+Restoring player input etc...
+input lock? True
+Linking to The Natural World
+Loading dream 'The Natural World'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 1163 unused Assets to reduce memory usage. Loaded Objects now: 7793.
+Total: 1.764811 ms (FindLiveObjects: 0.378220 ms CreateObjectMapping: 0.064300 ms MarkObjects: 1.060011 ms  DeleteObjects: 0.262050 ms)
+
+Using song style 'Lovely'
+Using song style 'Lovely'
+Registering entities...
+Instantiating dream prefab...
+loading from builtin
+Spawning player...
+Choosing environment...
+Restoring player input etc...
+input lock? False
+Linking to Pit & Temple
+Loading dream 'Pit & Temple'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 6643 unused Assets to reduce memory usage. Loaded Objects now: 7947.
+Total: 3.235033 ms (FindLiveObjects: 0.581771 ms CreateObjectMapping: 0.120560 ms MarkObjects: 1.279431 ms  DeleteObjects: 1.253111 ms)
+
+Using song style 'Lovely'
+Registering entities...
+Instantiating dream prefab...
+loading from builtin
+Spawning player...
+Choosing environment...
+Restoring player input etc...
+input lock? True
+Linking to Flesh Tunnels
+Loading dream 'Flesh Tunnels'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 794 unused Assets to reduce memory usage. Loaded Objects now: 8087.
+Total: 1.623972 ms (FindLiveObjects: 0.309691 ms CreateObjectMapping: 0.059970 ms MarkObjects: 1.113191 ms  DeleteObjects: 0.140990 ms)
+
+Using song style 'Lovely'
+Using song style 'Lovely'
+Registering entities...
+Instantiating dream prefab...
+loading from builtin
+Spawning player...
+Choosing environment...
+Restoring player input etc...
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+Unable to play audio clip 'Sample31', no channels available
+input lock? False
+Linking to Bright Moon Cottage
+Unable to play audio clip 'Sample9', no channels available
+Loading dream 'Bright Moon Cottage'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 1080 unused Assets to reduce memory usage. Loaded Objects now: 8843.
+Total: 1.894072 ms (FindLiveObjects: 0.417851 ms CreateObjectMapping: 0.095830 ms MarkObjects: 1.166021 ms  DeleteObjects: 0.214200 ms)
+
+Using song style 'Lovely'
+Registering entities...
+Instantiating dream prefab...
+loading from builtin
+Spawning player...
+Choosing environment...
+Restoring player input etc...
+input lock? False
+Linking to Happytown
+Loading dream 'Happytown'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 1175 unused Assets to reduce memory usage. Loaded Objects now: 8983.
+Total: 1.945041 ms (FindLiveObjects: 0.350180 ms CreateObjectMapping: 0.081270 ms MarkObjects: 1.220651 ms  DeleteObjects: 0.292770 ms)
+
+Using song style 'Lovely'
+Registering entities...
+Instantiating dream prefab...
+loading from builtin
+Spawning player...
+Choosing environment...
+Restoring player input etc...
+input lock? False
+Linking to Violence District
+Loading dream 'Violence District'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 5608 unused Assets to reduce memory usage. Loaded Objects now: 9123.
+Total: 3.119973 ms (FindLiveObjects: 0.503581 ms CreateObjectMapping: 0.120590 ms MarkObjects: 1.127711 ms  DeleteObjects: 1.367951 ms)
+
+Using song style 'Lovely'
+Registering entities...
+Instantiating dream prefab...
+loading from builtin
+Spawning player...
+Choosing environment...
+Restoring player input etc...
+input lock? False
+Linking to Bright Moon Cottage
+Loading dream 'Bright Moon Cottage'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 4381 unused Assets to reduce memory usage. Loaded Objects now: 9263.
+Total: 2.598782 ms (FindLiveObjects: 0.509590 ms CreateObjectMapping: 0.105280 ms MarkObjects: 1.200511 ms  DeleteObjects: 0.782951 ms)
+
+Using song style 'Lovely'
+Registering entities...
+Instantiating dream prefab...
+loading from builtin
+Spawning player...
+Choosing environment...
+Restoring player input etc...
+X connection to :0 broken (explicit kill or server shutdown).

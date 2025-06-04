@@ -1,0 +1,9 @@
+{ 
+    "name": "SPM", 
+    "version_number": "2.0.7", 
+    "website_url": "https://github.com/thunderstore-io", 
+    "description": "OK, I may have used the wrong Manifest.Json. Contains 18 maps that are ideal for 2 player, and 4 player functional.", 
+    "dependencies": [ 
+        "olavim-MapsExtended-1.2.6" 
+    ] 
+}

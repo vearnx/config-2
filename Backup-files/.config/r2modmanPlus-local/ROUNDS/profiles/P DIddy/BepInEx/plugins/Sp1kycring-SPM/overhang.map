@@ -1,0 +1,2738 @@
+{
+    "$id": 0,
+    "$type": "0|MapsExt.CustomMap, MapsExtended",
+    "_id": "569f30cd-a4b8-4c69-a9fb-7ca41da9f2fc",
+    "_name": "overhang",
+    "_version": "1.2.6",
+    "_mapObjects": {
+        "$id": 1,
+        "$type": "1|MapsExt.MapObjects.MapObjectData[], MapsExtended",
+        "$rlength": 103,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|MapsExt.MapObjects.GroundData, MapsExtended",
+                "_mapObjectId": "203fb6f3-38a9-4de6-a21c-fe82bf1e1266",
+                "_active": true,
+                "_position": {
+                    "$id": 3,
+                    "$type": "3|MapsExt.Properties.PositionProperty, MapsExtended",
+                    "_x": -36.6658,
+                    "_y": 15.25
+                },
+                "_scale": {
+                    "$id": 4,
+                    "$type": "4|MapsExt.Properties.ScaleProperty, MapsExtended",
+                    "_x": 39.25,
+                    "_y": 78.5
+                },
+                "_rotation": {
+                    "$id": 5,
+                    "$type": "5|MapsExt.Properties.RotationProperty, MapsExtended",
+                    "_angle": 330
+                },
+                "_keyframes": {
+                    "$id": 6,
+                    "$type": "6|MapsExt.AnimationKeyframe[], MapsExtended",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 7,
+                "$type": "7|MapsExt.MapObjects.BoxBackgroundData, MapsExtended",
+                "_mapObjectId": "3e219911-012c-4263-95b2-28bc8e376aaa",
+                "_active": true,
+                "_position": {
+                    "$id": 8,
+                    "$type": 3,
+                    "_x": -7.4634,
+                    "_y": -13.1867
+                },
+                "_scale": {
+                    "$id": 9,
+                    "$type": 4,
+                    "_x": 4,
+                    "_y": 2
+                },
+                "_rotation": {
+                    "$id": 10,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 11,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 12,
+                "$type": "8|MapsExt.MapObjects.BoxData, MapsExtended",
+                "_mapObjectId": "8d6d7357-c4c0-4ce8-ab73-d679a62a6d89",
+                "_active": true,
+                "_position": {
+                    "$id": 13,
+                    "$type": 3,
+                    "_x": -4.4634,
+                    "_y": -13.1867
+                },
+                "_scale": {
+                    "$id": 14,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 2
+                },
+                "_rotation": {
+                    "$id": 15,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 16,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 17,
+                "$type": 8,
+                "_mapObjectId": "7d8a4c48-fb16-415d-8e3b-b6b292d76aa1",
+                "_active": true,
+                "_position": {
+                    "$id": 18,
+                    "$type": 3,
+                    "_x": -8.4634,
+                    "_y": -11.1867
+                },
+                "_scale": {
+                    "$id": 19,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 2
+                },
+                "_rotation": {
+                    "$id": 20,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 21,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 22,
+                "$type": 7,
+                "_mapObjectId": "09ec8edf-a66f-4452-871a-066084d41047",
+                "_active": true,
+                "_position": {
+                    "$id": 23,
+                    "$type": 3,
+                    "_x": -5.4634,
+                    "_y": -10.1867
+                },
+                "_scale": {
+                    "$id": 24,
+                    "$type": 4,
+                    "_x": 4,
+                    "_y": 4
+                },
+                "_rotation": {
+                    "$id": 25,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 26,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 27,
+                "$type": 7,
+                "_mapObjectId": "f250d3c9-e4fa-4b43-ae2b-e9e551c7323e",
+                "_active": true,
+                "_position": {
+                    "$id": 28,
+                    "$type": 3,
+                    "_x": -12.2134,
+                    "_y": -12.1867
+                },
+                "_scale": {
+                    "$id": 29,
+                    "$type": 4,
+                    "_x": 5.5,
+                    "_y": 4
+                },
+                "_rotation": {
+                    "$id": 30,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 31,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 32,
+                "$type": 8,
+                "_mapObjectId": "bfdb7f70-625a-4dd6-af11-6d04a23a034b",
+                "_active": true,
+                "_position": {
+                    "$id": 33,
+                    "$type": 3,
+                    "_x": -2.3384,
+                    "_y": -14.6867
+                },
+                "_scale": {
+                    "$id": 34,
+                    "$type": 4,
+                    "_x": 25.25,
+                    "_y": 1
+                },
+                "_rotation": {
+                    "$id": 35,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 36,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 37,
+                "$type": 8,
+                "_mapObjectId": "7ea3cdf2-3092-4dc8-9bcc-e002dce9eb9a",
+                "_active": true,
+                "_position": {
+                    "$id": 38,
+                    "$type": 3,
+                    "_x": -11.2134,
+                    "_y": -9.9367
+                },
+                "_scale": {
+                    "$id": 39,
+                    "$type": 4,
+                    "_x": 7.5,
+                    "_y": 0.5
+                },
+                "_rotation": {
+                    "$id": 40,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 41,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 42,
+                "$type": 7,
+                "_mapObjectId": "cb29a481-e472-4363-9058-d1a91bf752a6",
+                "_active": true,
+                "_position": {
+                    "$id": 43,
+                    "$type": 3,
+                    "_x": -2.4634,
+                    "_y": -11.1867
+                },
+                "_scale": {
+                    "$id": 44,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 6
+                },
+                "_rotation": {
+                    "$id": 45,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 46,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 47,
+                "$type": 7,
+                "_mapObjectId": "d0fe1a9b-19ae-4647-bd11-eb3eb40b0c9e",
+                "_active": true,
+                "_position": {
+                    "$id": 48,
+                    "$type": 3,
+                    "_x": 1.0366,
+                    "_y": -13.1867
+                },
+                "_scale": {
+                    "$id": 49,
+                    "$type": 4,
+                    "_x": 5,
+                    "_y": 2
+                },
+                "_rotation": {
+                    "$id": 50,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 51,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 52,
+                "$type": 8,
+                "_mapObjectId": "090e975a-8504-4dda-a473-5549f9d92d85",
+                "_active": true,
+                "_position": {
+                    "$id": 53,
+                    "$type": 3,
+                    "_x": -0.4634,
+                    "_y": -11.1867
+                },
+                "_scale": {
+                    "$id": 54,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 2
+                },
+                "_rotation": {
+                    "$id": 55,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 56,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 57,
+                "$type": 8,
+                "_mapObjectId": "fa0de691-7d88-45fc-b186-51321fb491fa",
+                "_active": true,
+                "_position": {
+                    "$id": 58,
+                    "$type": 3,
+                    "_x": -2.4634,
+                    "_y": -7.8117
+                },
+                "_scale": {
+                    "$id": 59,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 0.75
+                },
+                "_rotation": {
+                    "$id": 60,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 61,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 62,
+                "$type": 7,
+                "_mapObjectId": "57163f49-76c6-4ede-a982-2c0e3b84420d",
+                "_active": true,
+                "_position": {
+                    "$id": 63,
+                    "$type": 3,
+                    "_x": -0.7041399,
+                    "_y": -8.512623
+                },
+                "_scale": {
+                    "$id": 64,
+                    "$type": 4,
+                    "_x": 1.51852024,
+                    "_y": 2.19259167
+                },
+                "_rotation": {
+                    "$id": 65,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 66,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 67,
+                "$type": 8,
+                "_mapObjectId": "3971de53-4c6b-45de-ba51-d80cfc68f5e8",
+                "_active": true,
+                "_position": {
+                    "$id": 68,
+                    "$type": 3,
+                    "_x": 5.7866,
+                    "_y": -13.9367
+                },
+                "_scale": {
+                    "$id": 69,
+                    "$type": 4,
+                    "_x": 0.5,
+                    "_y": 4.5
+                },
+                "_rotation": {
+                    "$id": 70,
+                    "$type": 5,
+                    "_angle": 90
+                },
+                "_keyframes": {
+                    "$id": 71,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 72,
+                "$type": 7,
+                "_mapObjectId": "e478f43b-acec-4c7e-a1e4-ed89f67340c8",
+                "_active": true,
+                "_position": {
+                    "$id": 73,
+                    "$type": 3,
+                    "_x": 4.3107,
+                    "_y": -11.1867
+                },
+                "_scale": {
+                    "$id": 74,
+                    "$type": 4,
+                    "_x": 7.451852,
+                    "_y": 2
+                },
+                "_rotation": {
+                    "$id": 75,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 76,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 77,
+                "$type": 7,
+                "_mapObjectId": "d2b8ce56-e5bf-4bf0-ae47-97dc9f1ab4d2",
+                "_active": true,
+                "_position": {
+                    "$id": 78,
+                    "$type": 3,
+                    "_x": 9.0366,
+                    "_y": -12.1867
+                },
+                "_scale": {
+                    "$id": 79,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 4
+                },
+                "_rotation": {
+                    "$id": 80,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 81,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 82,
+                "$type": 8,
+                "_mapObjectId": "c87e435b-aaac-445a-bacf-26eb6b521f0c",
+                "_active": true,
+                "_position": {
+                    "$id": 83,
+                    "$type": 3,
+                    "_x": 4.323641,
+                    "_y": -9.9367
+                },
+                "_scale": {
+                    "$id": 84,
+                    "$type": 4,
+                    "_x": 11.4259186,
+                    "_y": 0.5
+                },
+                "_rotation": {
+                    "$id": 85,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 86,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 87,
+                "$type": 7,
+                "_mapObjectId": "e5643510-bec7-4ef9-8959-9088567647bb",
+                "_active": true,
+                "_position": {
+                    "$id": 88,
+                    "$type": 3,
+                    "_x": 9.7866,
+                    "_y": -2.4367
+                },
+                "_scale": {
+                    "$id": 89,
+                    "$type": 4,
+                    "_x": 0.5,
+                    "_y": 2
+                },
+                "_rotation": {
+                    "$id": 90,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 91,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 92,
+                "$type": 8,
+                "_mapObjectId": "952527f9-1c92-4d6f-9475-ffd264a67de7",
+                "_active": true,
+                "_position": {
+                    "$id": 93,
+                    "$type": 3,
+                    "_x": 9.7866,
+                    "_y": -6.5617
+                },
+                "_scale": {
+                    "$id": 94,
+                    "$type": 4,
+                    "_x": 0.5,
+                    "_y": 6.25
+                },
+                "_rotation": {
+                    "$id": 95,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 96,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 97,
+                "$type": 8,
+                "_mapObjectId": "568c77dc-ee75-493e-9cbc-a204c898e029",
+                "_active": true,
+                "_position": {
+                    "$id": 98,
+                    "$type": 3,
+                    "_x": -2.4634,
+                    "_y": -1.1868
+                },
+                "_scale": {
+                    "$id": 99,
+                    "$type": 4,
+                    "_x": 25,
+                    "_y": 0.5
+                },
+                "_rotation": {
+                    "$id": 100,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 101,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 102,
+                "$type": 8,
+                "_mapObjectId": "6929f0ae-f608-4c87-a520-c6f63b25f7b9",
+                "_active": true,
+                "_position": {
+                    "$id": 103,
+                    "$type": 3,
+                    "_x": 4.5366,
+                    "_y": -3.8117
+                },
+                "_scale": {
+                    "$id": 104,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 4.75
+                },
+                "_rotation": {
+                    "$id": 105,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 106,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 107,
+                "$type": 7,
+                "_mapObjectId": "21cb6189-c7a8-4c78-a998-010e248bd862",
+                "_active": true,
+                "_position": {
+                    "$id": 108,
+                    "$type": 3,
+                    "_x": 7.5366,
+                    "_y": -5.5617
+                },
+                "_scale": {
+                    "$id": 109,
+                    "$type": 4,
+                    "_x": 4,
+                    "_y": 8.25
+                },
+                "_rotation": {
+                    "$id": 110,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 111,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 112,
+                "$type": "9|MapsExt.MapObjects.BoxDestructibleData, MapsExtended",
+                "_mapObjectId": "56708ef6-4714-405a-8e9f-e0036ee19cd2",
+                "_active": true,
+                "_position": {
+                    "$id": 113,
+                    "$type": 3,
+                    "_x": 4.5366,
+                    "_y": -7.92003345
+                },
+                "_scale": {
+                    "$id": 114,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 3.46666718
+                },
+                "_rotation": {
+                    "$id": 115,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 116,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "_damageable": true
+            },
+            {
+                "$id": 117,
+                "$type": 7,
+                "_mapObjectId": "691623c7-2109-4036-883a-ce79296fe0fa",
+                "_active": true,
+                "_position": {
+                    "$id": 118,
+                    "$type": 3,
+                    "_x": -5.4634,
+                    "_y": -7.8117
+                },
+                "_scale": {
+                    "$id": 119,
+                    "$type": 4,
+                    "_x": 4,
+                    "_y": 0.75
+                },
+                "_rotation": {
+                    "$id": 120,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 121,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 122,
+                "$type": 8,
+                "_mapObjectId": "da27ebc6-4b1c-4848-87bb-b7557f56ac81",
+                "_active": true,
+                "_position": {
+                    "$id": 123,
+                    "$type": 3,
+                    "_x": -6.4634,
+                    "_y": -5.860773
+                },
+                "_scale": {
+                    "$id": 124,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 0.6518512
+                },
+                "_rotation": {
+                    "$id": 125,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 126,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 127,
+                "$type": 8,
+                "_mapObjectId": "129ebe5f-6985-4e1d-8cbb-edc6f7116c48",
+                "_active": true,
+                "_position": {
+                    "$id": 128,
+                    "$type": 3,
+                    "_x": 1.0366,
+                    "_y": -5.860773
+                },
+                "_scale": {
+                    "$id": 129,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 0.6518512
+                },
+                "_rotation": {
+                    "$id": 130,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 131,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 132,
+                "$type": 7,
+                "_mapObjectId": "7ef4940a-cf89-41dd-b81e-be85e6c9c9c0",
+                "_active": true,
+                "_position": {
+                    "$id": 133,
+                    "$type": 3,
+                    "_x": 1.8199327,
+                    "_y": -7.920033
+                },
+                "_scale": {
+                    "$id": 134,
+                    "$type": 4,
+                    "_x": 3.43333483,
+                    "_y": 3.46666622
+                },
+                "_rotation": {
+                    "$id": 135,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 136,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 137,
+                "$type": 7,
+                "_mapObjectId": "782c4dfa-fb9f-4f45-9cd3-44ffbec87f02",
+                "_active": true,
+                "_position": {
+                    "$id": 138,
+                    "$type": 3,
+                    "_x": 2.7866,
+                    "_y": -3.8117
+                },
+                "_scale": {
+                    "$id": 139,
+                    "$type": 4,
+                    "_x": 1.5,
+                    "_y": 4.75
+                },
+                "_rotation": {
+                    "$id": 140,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 141,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 142,
+                "$type": 7,
+                "_mapObjectId": "2abfea95-8452-4189-af4f-2f4a4bf6f0a6",
+                "_active": true,
+                "_position": {
+                    "$id": 143,
+                    "$type": 3,
+                    "_x": -2.7134,
+                    "_y": -3.4618
+                },
+                "_scale": {
+                    "$id": 144,
+                    "$type": 4,
+                    "_x": 9.5,
+                    "_y": 4.05
+                },
+                "_rotation": {
+                    "$id": 145,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 146,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 147,
+                "$type": 7,
+                "_mapObjectId": "0c84d8f3-3e1b-4aaf-b4f1-baf62a811f25",
+                "_active": true,
+                "_position": {
+                    "$id": 148,
+                    "$type": 3,
+                    "_x": -11.2134,
+                    "_y": -5.5617
+                },
+                "_scale": {
+                    "$id": 149,
+                    "$type": 4,
+                    "_x": 7.5,
+                    "_y": 8.25
+                },
+                "_rotation": {
+                    "$id": 150,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 151,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 152,
+                "$type": 9,
+                "_mapObjectId": "55567be0-d703-4e38-a99f-070e3ccc2cdb",
+                "_active": true,
+                "_position": {
+                    "$id": 153,
+                    "$type": 3,
+                    "_x": -23.5,
+                    "_y": -14
+                },
+                "_scale": {
+                    "$id": 154,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 2
+                },
+                "_rotation": {
+                    "$id": 155,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 156,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "_damageable": true
+            },
+            {
+                "$id": 157,
+                "$type": 9,
+                "_mapObjectId": "042d25c2-b7fa-443d-b7e7-3d17af7872e5",
+                "_active": true,
+                "_position": {
+                    "$id": 158,
+                    "$type": 3,
+                    "_x": -24.5,
+                    "_y": -11.25
+                },
+                "_scale": {
+                    "$id": 159,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 2
+                },
+                "_rotation": {
+                    "$id": 160,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 161,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "_damageable": true
+            },
+            {
+                "$id": 162,
+                "$type": 9,
+                "_mapObjectId": "1a68e358-55d1-4d2a-b323-f929857b9241",
+                "_active": true,
+                "_position": {
+                    "$id": 163,
+                    "$type": 3,
+                    "_x": -25.75,
+                    "_y": -13.75
+                },
+                "_scale": {
+                    "$id": 164,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 2
+                },
+                "_rotation": {
+                    "$id": 165,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 166,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "_damageable": true
+            },
+            {
+                "$id": 167,
+                "$type": 9,
+                "_mapObjectId": "332022f8-eb57-4990-bf4e-252e8d66bb73",
+                "_active": true,
+                "_position": {
+                    "$id": 168,
+                    "$type": 3,
+                    "_x": -2.5,
+                    "_y": 6.75
+                },
+                "_scale": {
+                    "$id": 169,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 2
+                },
+                "_rotation": {
+                    "$id": 170,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 171,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "_damageable": true
+            },
+            {
+                "$id": 172,
+                "$type": 9,
+                "_mapObjectId": "095b8926-0067-426b-83c6-0d2eb8b44ee5",
+                "_active": true,
+                "_position": {
+                    "$id": 173,
+                    "$type": 3,
+                    "_x": -3.5,
+                    "_y": 4.5
+                },
+                "_scale": {
+                    "$id": 174,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 2
+                },
+                "_rotation": {
+                    "$id": 175,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 176,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "_damageable": true
+            },
+            {
+                "$id": 177,
+                "$type": 9,
+                "_mapObjectId": "f1c7dbf6-1689-44df-94a6-19aa4a2e720b",
+                "_active": true,
+                "_position": {
+                    "$id": 178,
+                    "$type": 3,
+                    "_x": -1.25,
+                    "_y": 4.5
+                },
+                "_scale": {
+                    "$id": 179,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 2
+                },
+                "_rotation": {
+                    "$id": 180,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 181,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "_damageable": true
+            },
+            {
+                "$id": 182,
+                "$type": 9,
+                "_mapObjectId": "64860665-1bb8-4c74-a3f0-be8f222e47a4",
+                "_active": true,
+                "_position": {
+                    "$id": 183,
+                    "$type": 3,
+                    "_x": -0.25,
+                    "_y": 2.5
+                },
+                "_scale": {
+                    "$id": 184,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 2
+                },
+                "_rotation": {
+                    "$id": 185,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 186,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "_damageable": true
+            },
+            {
+                "$id": 187,
+                "$type": 9,
+                "_mapObjectId": "bb873e60-c210-41f4-9d16-2a395c35722b",
+                "_active": true,
+                "_position": {
+                    "$id": 188,
+                    "$type": 3,
+                    "_x": -4.25,
+                    "_y": 2.25
+                },
+                "_scale": {
+                    "$id": 189,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 2
+                },
+                "_rotation": {
+                    "$id": 190,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 191,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "_damageable": true
+            },
+            {
+                "$id": 192,
+                "$type": 9,
+                "_mapObjectId": "15b6af12-73b1-441d-a669-50ca568c8318",
+                "_active": true,
+                "_position": {
+                    "$id": 193,
+                    "$type": 3,
+                    "_x": -2.25,
+                    "_y": 2.5
+                },
+                "_scale": {
+                    "$id": 194,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 2
+                },
+                "_rotation": {
+                    "$id": 195,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 196,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "_damageable": true
+            },
+            {
+                "$id": 197,
+                "$type": 8,
+                "_mapObjectId": "dae81079-8e58-47b2-b456-e5f97b2eac4f",
+                "_active": true,
+                "_position": {
+                    "$id": 198,
+                    "$type": 3,
+                    "_x": -24.5884,
+                    "_y": -16.3117
+                },
+                "_scale": {
+                    "$id": 199,
+                    "$type": 4,
+                    "_x": 9.75,
+                    "_y": 0.75
+                },
+                "_rotation": {
+                    "$id": 200,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 201,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 202,
+                "$type": "10|MapsExt.MapObjects.RopeData, MapsExtended",
+                "_mapObjectId": "87ba886d-bd0a-421b-9302-6096324d82e1",
+                "_active": true,
+                "_pos1": {
+                    "$type": "11|UnityEngine.Vector2, UnityEngine.CoreModule",
+                    -20,
+                    -5.75
+                },
+                "_pos2": {
+                    "$type": 11,
+                    -20,
+                    10.000001
+                }
+            },
+            {
+                "$id": 203,
+                "$type": 10,
+                "_mapObjectId": "152b641b-6e94-4916-953c-8fe0c131b758",
+                "_active": true,
+                "_pos1": {
+                    "$type": 11,
+                    -29,
+                    10
+                },
+                "_pos2": {
+                    "$type": 11,
+                    -29.25,
+                    -16.0541878
+                }
+            },
+            {
+                "$id": 204,
+                "$type": 2,
+                "_mapObjectId": "1bdf3d7c-10d7-4859-98b5-8c40f89786ca",
+                "_active": true,
+                "_position": {
+                    "$id": 205,
+                    "$type": 3,
+                    "_x": 28.375,
+                    "_y": -20.625
+                },
+                "_scale": {
+                    "$id": 206,
+                    "$type": 4,
+                    "_x": 14.75,
+                    "_y": 4.25
+                },
+                "_rotation": {
+                    "$id": 207,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 208,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 209,
+                "$type": 8,
+                "_mapObjectId": "e049bdd1-a530-48df-8b39-dd60cdfecb49",
+                "_active": true,
+                "_position": {
+                    "$id": 210,
+                    "$type": 3,
+                    "_x": 21.625,
+                    "_y": -12.375
+                },
+                "_scale": {
+                    "$id": 211,
+                    "$type": 4,
+                    "_x": 1.25,
+                    "_y": 6.25
+                },
+                "_rotation": {
+                    "$id": 212,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 213,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 214,
+                "$type": 8,
+                "_mapObjectId": "5b5e1c63-42f8-466f-b1d7-af28e1e2feae",
+                "_active": true,
+                "_position": {
+                    "$id": 215,
+                    "$type": 3,
+                    "_x": 34.75,
+                    "_y": -9.5
+                },
+                "_scale": {
+                    "$id": 216,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 18
+                },
+                "_rotation": {
+                    "$id": 217,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 218,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 219,
+                "$type": 8,
+                "_mapObjectId": "728430c3-1245-4731-a32e-6e57ec095475",
+                "_active": true,
+                "_position": {
+                    "$id": 220,
+                    "$type": 3,
+                    "_x": 30.75,
+                    "_y": -14.5
+                },
+                "_scale": {
+                    "$id": 221,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 2
+                },
+                "_rotation": {
+                    "$id": 222,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 223,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 224,
+                "$type": 8,
+                "_mapObjectId": "31150d34-0fa6-41e2-9e19-cea6f00ef94d",
+                "_active": true,
+                "_position": {
+                    "$id": 225,
+                    "$type": 3,
+                    "_x": 26,
+                    "_y": -9.5
+                },
+                "_scale": {
+                    "$id": 226,
+                    "$type": 4,
+                    "_x": 7.5,
+                    "_y": 0.5
+                },
+                "_rotation": {
+                    "$id": 227,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 228,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 229,
+                "$type": 8,
+                "_mapObjectId": "b5d276c3-61c9-4197-b58c-11d350e1f9c8",
+                "_active": true,
+                "_position": {
+                    "$id": 230,
+                    "$type": 3,
+                    "_x": 21.625,
+                    "_y": -8.375
+                },
+                "_scale": {
+                    "$id": 231,
+                    "$type": 4,
+                    "_x": 1.25,
+                    "_y": 1.75
+                },
+                "_rotation": {
+                    "$id": 232,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 233,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 234,
+                "$type": 8,
+                "_mapObjectId": "07cc1761-cd3f-4877-b4ac-dc28dc511a16",
+                "_active": true,
+                "_position": {
+                    "$id": 235,
+                    "$type": 3,
+                    "_x": 24.375,
+                    "_y": -5
+                },
+                "_scale": {
+                    "$id": 236,
+                    "$type": 4,
+                    "_x": 6.75,
+                    "_y": 0.5
+                },
+                "_rotation": {
+                    "$id": 237,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 238,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 239,
+                "$type": 8,
+                "_mapObjectId": "bb42193d-b6a6-4705-be77-06793e81510e",
+                "_active": true,
+                "_position": {
+                    "$id": 240,
+                    "$type": 3,
+                    "_x": 21.625,
+                    "_y": 2
+                },
+                "_scale": {
+                    "$id": 241,
+                    "$type": 4,
+                    "_x": 1.25,
+                    "_y": 6.5
+                },
+                "_rotation": {
+                    "$id": 242,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 243,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 244,
+                "$type": 8,
+                "_mapObjectId": "dff1aae1-32f5-4323-b521-be2d276ce9f7",
+                "_active": true,
+                "_position": {
+                    "$id": 245,
+                    "$type": 3,
+                    "_x": 22,
+                    "_y": 8.25
+                },
+                "_scale": {
+                    "$id": 246,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 2
+                },
+                "_rotation": {
+                    "$id": 247,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 248,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 249,
+                "$type": 8,
+                "_mapObjectId": "bac3ec30-8b9f-4e5d-aea1-551f9dfaa616",
+                "_active": true,
+                "_position": {
+                    "$id": 250,
+                    "$type": 3,
+                    "_x": 30.375,
+                    "_y": 6.25
+                },
+                "_scale": {
+                    "$id": 251,
+                    "$type": 4,
+                    "_x": 10.75,
+                    "_y": 2
+                },
+                "_rotation": {
+                    "$id": 252,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 253,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 254,
+                "$type": 8,
+                "_mapObjectId": "ef1bd1cb-cb33-41d6-b443-da253bef6073",
+                "_active": true,
+                "_position": {
+                    "$id": 255,
+                    "$type": 3,
+                    "_x": 22,
+                    "_y": 6.25
+                },
+                "_scale": {
+                    "$id": 256,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 2
+                },
+                "_rotation": {
+                    "$id": 257,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 258,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 259,
+                "$type": 8,
+                "_mapObjectId": "3d0e6408-a3f1-49e4-acc6-42c6db946097",
+                "_active": true,
+                "_position": {
+                    "$id": 260,
+                    "$type": 3,
+                    "_x": 31.75,
+                    "_y": -0.125
+                },
+                "_scale": {
+                    "$id": 261,
+                    "$type": 4,
+                    "_x": 8,
+                    "_y": 0.75
+                },
+                "_rotation": {
+                    "$id": 262,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 263,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 264,
+                "$type": 9,
+                "_mapObjectId": "be2f19b7-6d37-449d-83ed-f474d720bb66",
+                "_active": true,
+                "_position": {
+                    "$id": 265,
+                    "$type": 3,
+                    "_x": 24,
+                    "_y": 5.75
+                },
+                "_scale": {
+                    "$id": 266,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 1
+                },
+                "_rotation": {
+                    "$id": 267,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 268,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "_damageable": true
+            },
+            {
+                "$id": 269,
+                "$type": 8,
+                "_mapObjectId": "2260bcec-93fb-4c1d-af8c-92ebe1c8b14b",
+                "_active": true,
+                "_position": {
+                    "$id": 270,
+                    "$type": 3,
+                    "_x": 32,
+                    "_y": -5.5
+                },
+                "_scale": {
+                    "$id": 271,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 2
+                },
+                "_rotation": {
+                    "$id": 272,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 273,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 274,
+                "$type": 8,
+                "_mapObjectId": "9b9399d6-0f15-4270-8d91-03dc2358f9a3",
+                "_active": true,
+                "_position": {
+                    "$id": 275,
+                    "$type": 3,
+                    "_x": 34.75,
+                    "_y": 2.75
+                },
+                "_scale": {
+                    "$id": 276,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 5
+                },
+                "_rotation": {
+                    "$id": 277,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 278,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 279,
+                "$type": 7,
+                "_mapObjectId": "37f77e4f-094e-4ac5-9109-0a292c45987d",
+                "_active": true,
+                "_position": {
+                    "$id": 280,
+                    "$type": 3,
+                    "_x": 25,
+                    "_y": 0.25
+                },
+                "_scale": {
+                    "$id": 281,
+                    "$type": 4,
+                    "_x": 5.5,
+                    "_y": 10
+                },
+                "_rotation": {
+                    "$id": 282,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 283,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 284,
+                "$type": 7,
+                "_mapObjectId": "64430a0f-6d09-4ea9-8ce0-d54bd7083aac",
+                "_active": true,
+                "_position": {
+                    "$id": 285,
+                    "$type": 3,
+                    "_x": 30.75,
+                    "_y": 2.75
+                },
+                "_scale": {
+                    "$id": 286,
+                    "$type": 4,
+                    "_x": 6,
+                    "_y": 5
+                },
+                "_rotation": {
+                    "$id": 287,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 288,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 289,
+                "$type": 7,
+                "_mapObjectId": "976fe263-d8ae-48c6-afd7-b6d1639531c1",
+                "_active": true,
+                "_position": {
+                    "$id": 290,
+                    "$type": 3,
+                    "_x": 30.75,
+                    "_y": -2.5
+                },
+                "_scale": {
+                    "$id": 291,
+                    "$type": 4,
+                    "_x": 6,
+                    "_y": 4
+                },
+                "_rotation": {
+                    "$id": 292,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 293,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 294,
+                "$type": 7,
+                "_mapObjectId": "7048d20a-6da9-401b-bd7a-e115a3077539",
+                "_active": true,
+                "_position": {
+                    "$id": 295,
+                    "$type": 3,
+                    "_x": 28.75,
+                    "_y": -6.875
+                },
+                "_scale": {
+                    "$id": 296,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 4.75
+                },
+                "_rotation": {
+                    "$id": 297,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 298,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 299,
+                "$type": 7,
+                "_mapObjectId": "88a6dcaf-e155-4539-bbff-21179ea8b500",
+                "_active": true,
+                "_position": {
+                    "$id": 300,
+                    "$type": 3,
+                    "_x": 33.375,
+                    "_y": -11.5
+                },
+                "_scale": {
+                    "$id": 301,
+                    "$type": 4,
+                    "_x": 0.75,
+                    "_y": 14
+                },
+                "_rotation": {
+                    "$id": 302,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 303,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 304,
+                "$type": 7,
+                "_mapObjectId": "2a22340f-9cae-4f7e-afe5-0b05bd879ee2",
+                "_active": true,
+                "_position": {
+                    "$id": 305,
+                    "$type": 3,
+                    "_x": 25,
+                    "_y": -7.25
+                },
+                "_scale": {
+                    "$id": 306,
+                    "$type": 4,
+                    "_x": 5.5,
+                    "_y": 4
+                },
+                "_rotation": {
+                    "$id": 307,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 308,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 309,
+                "$type": 7,
+                "_mapObjectId": "2fe7a5ab-f76f-4a08-834d-bbbf85d9eb6c",
+                "_active": true,
+                "_position": {
+                    "$id": 310,
+                    "$type": 3,
+                    "_x": 30.375,
+                    "_y": -6.75462961
+                },
+                "_scale": {
+                    "$id": 311,
+                    "$type": 4,
+                    "_x": 1.25,
+                    "_y": 4.490741
+                },
+                "_rotation": {
+                    "$id": 312,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 313,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 314,
+                "$type": 7,
+                "_mapObjectId": "9e7eca98-ce10-4da2-9b9b-5511fd924325",
+                "_active": true,
+                "_position": {
+                    "$id": 315,
+                    "$type": 3,
+                    "_x": 32,
+                    "_y": -10
+                },
+                "_scale": {
+                    "$id": 316,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 7
+                },
+                "_rotation": {
+                    "$id": 317,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 318,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 319,
+                "$type": 7,
+                "_mapObjectId": "2f8d4953-4480-44a0-ae6e-47f179e448ef",
+                "_active": true,
+                "_position": {
+                    "$id": 320,
+                    "$type": 3,
+                    "_x": 32.375,
+                    "_y": -16
+                },
+                "_scale": {
+                    "$id": 321,
+                    "$type": 4,
+                    "_x": 1.25,
+                    "_y": 5
+                },
+                "_rotation": {
+                    "$id": 322,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 323,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 324,
+                "$type": 7,
+                "_mapObjectId": "e2a0f0fa-e7c4-40db-94dc-0948fd9ed48f",
+                "_active": true,
+                "_position": {
+                    "$id": 325,
+                    "$type": 3,
+                    "_x": 30.375,
+                    "_y": -11.25
+                },
+                "_scale": {
+                    "$id": 326,
+                    "$type": 4,
+                    "_x": 1.25,
+                    "_y": 4.5
+                },
+                "_rotation": {
+                    "$id": 327,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 328,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 329,
+                "$type": 7,
+                "_mapObjectId": "0d166d1a-3bb5-47de-b9ea-9d6fb22437ca",
+                "_active": true,
+                "_position": {
+                    "$id": 330,
+                    "$type": 3,
+                    "_x": 26,
+                    "_y": -12.625
+                },
+                "_scale": {
+                    "$id": 331,
+                    "$type": 4,
+                    "_x": 7.5,
+                    "_y": 5.75
+                },
+                "_rotation": {
+                    "$id": 332,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 333,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 334,
+                "$type": 7,
+                "_mapObjectId": "995f0b0d-a9c1-4142-9f93-d04693899b57",
+                "_active": true,
+                "_position": {
+                    "$id": 335,
+                    "$type": 3,
+                    "_x": 26.375,
+                    "_y": -17
+                },
+                "_scale": {
+                    "$id": 336,
+                    "$type": 4,
+                    "_x": 10.75,
+                    "_y": 3
+                },
+                "_rotation": {
+                    "$id": 337,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 338,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 339,
+                "$type": "12|MapsExt.MapObjects.SpawnData, MapsExtended",
+                "_mapObjectId": "a6c06e59-bb97-46ed-9506-dda405068594",
+                "_active": true,
+                "_spawnId": 0,
+                "_spawnTeamId": 0,
+                "_position": {
+                    "$type": 11,
+                    -27,
+                    -11.25
+                }
+            },
+            {
+                "$id": 340,
+                "$type": 12,
+                "_mapObjectId": "6e1a44de-56cd-4956-86dd-6c5e5d99e6c9",
+                "_active": true,
+                "_spawnId": 1,
+                "_spawnTeamId": 1,
+                "_position": {
+                    "$type": 11,
+                    7.25,
+                    2.25
+                }
+            },
+            {
+                "$id": 341,
+                "$type": 12,
+                "_mapObjectId": "16757ee8-a1e8-49b8-9b75-03b862c3b764",
+                "_active": true,
+                "_spawnId": 2,
+                "_spawnTeamId": 2,
+                "_position": {
+                    "$type": 11,
+                    31.25,
+                    8.75
+                }
+            },
+            {
+                "$id": 342,
+                "$type": 12,
+                "_mapObjectId": "4d9cbde0-24c4-4cbb-af3d-edd297ed06c5",
+                "_active": true,
+                "_spawnId": 3,
+                "_spawnTeamId": 3,
+                "_position": {
+                    "$type": 11,
+                    27.25,
+                    -14.25
+                }
+            },
+            {
+                "$id": 343,
+                "$type": 12,
+                "_mapObjectId": "d011349d-b430-4eff-8601-f226c8c2af5b",
+                "_active": true,
+                "_spawnId": 4,
+                "_spawnTeamId": 4,
+                "_position": {
+                    "$type": 11,
+                    31.75,
+                    3.5
+                }
+            },
+            {
+                "$id": 344,
+                "$type": 9,
+                "_mapObjectId": "3e8b8c9b-c9fe-4578-8d09-a3e075c833d6",
+                "_active": true,
+                "_position": {
+                    "$id": 345,
+                    "$type": 3,
+                    "_x": 24,
+                    "_y": 6.75
+                },
+                "_scale": {
+                    "$id": 346,
+                    "$type": 4,
+                    "_x": 2,
+                    "_y": 1
+                },
+                "_rotation": {
+                    "$id": 347,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 348,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "_damageable": true
+            },
+            {
+                "$id": 349,
+                "$type": 12,
+                "_mapObjectId": "3bbb9842-2613-4852-acdf-a3630f3353aa",
+                "_active": true,
+                "_spawnId": 5,
+                "_spawnTeamId": 5,
+                "_position": {
+                    "$type": 11,
+                    -6.5,
+                    -2.75
+                }
+            },
+            {
+                "$id": 350,
+                "$type": 12,
+                "_mapObjectId": "7f50244c-115c-499e-aef4-7063c415fdfb",
+                "_active": true,
+                "_spawnId": 6,
+                "_spawnTeamId": 6,
+                "_position": {
+                    "$type": 11,
+                    -13.25,
+                    3.5
+                }
+            },
+            {
+                "$id": 351,
+                "$type": 12,
+                "_mapObjectId": "4a03b3dc-0187-4853-817a-32734bd682ee",
+                "_active": true,
+                "_spawnId": 7,
+                "_spawnTeamId": 7,
+                "_position": {
+                    "$type": 11,
+                    10.75,
+                    13
+                }
+            },
+            {
+                "$id": 352,
+                "$type": 8,
+                "_mapObjectId": "6dd8795d-1f2b-4af3-99fc-8a5cfc8ff400",
+                "_active": true,
+                "_position": {
+                    "$id": 353,
+                    "$type": 3,
+                    "_x": 10.875,
+                    "_y": 11.375
+                },
+                "_scale": {
+                    "$id": 354,
+                    "$type": 4,
+                    "_x": 10.75,
+                    "_y": 0.75
+                },
+                "_rotation": {
+                    "$id": 355,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 356,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 357,
+                "$type": 9,
+                "_mapObjectId": "4d4b0474-8095-4208-83e2-1ce1c9145a01",
+                "_active": true,
+                "_position": {
+                    "$id": 358,
+                    "$type": 3,
+                    "_x": 12.25,
+                    "_y": 12.75
+                },
+                "_scale": {
+                    "$id": 359,
+                    "$type": 4,
+                    "_x": 1,
+                    "_y": 1.5
+                },
+                "_rotation": {
+                    "$id": 360,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 361,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "_damageable": true
+            },
+            {
+                "$id": 362,
+                "$type": 9,
+                "_mapObjectId": "6c7f942a-d7fe-4123-ad20-e68a73243390",
+                "_active": true,
+                "_position": {
+                    "$id": 363,
+                    "$type": 3,
+                    "_x": 13.5,
+                    "_y": 12.625
+                },
+                "_scale": {
+                    "$id": 364,
+                    "$type": 4,
+                    "_x": 1.5,
+                    "_y": 1.25
+                },
+                "_rotation": {
+                    "$id": 365,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 366,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "_damageable": true
+            },
+            {
+                "$id": 367,
+                "$type": 10,
+                "_mapObjectId": "d2ef1e77-02be-4c5e-be15-ae441a8aa264",
+                "_active": true,
+                "_pos1": {
+                    "$type": 11,
+                    13.25,
+                    40
+                },
+                "_pos2": {
+                    "$type": 11,
+                    6,
+                    11.5625
+                }
+            },
+            {
+                "$id": 368,
+                "$type": 10,
+                "_mapObjectId": "2c601f83-2c44-4e48-9f10-b4d7106b81ba",
+                "_active": true,
+                "_pos1": {
+                    "$type": 11,
+                    11.75,
+                    40
+                },
+                "_pos2": {
+                    "$type": 11,
+                    16,
+                    11.5625
+                }
+            },
+            {
+                "$id": 369,
+                "$type": 9,
+                "_mapObjectId": "111506a1-99b4-463c-9b38-8ce756ed6c32",
+                "_active": true,
+                "_position": {
+                    "$id": 370,
+                    "$type": 3,
+                    "_x": 13,
+                    "_y": 14.125
+                },
+                "_scale": {
+                    "$id": 371,
+                    "$type": 4,
+                    "_x": 1.5,
+                    "_y": 1.25
+                },
+                "_rotation": {
+                    "$id": 372,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 373,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "_damageable": true
+            },
+            {
+                "$id": 374,
+                "$type": 7,
+                "_mapObjectId": "7ef4940a-cf89-41dd-b81e-be85e6c9c9c0",
+                "_active": true,
+                "_position": {
+                    "$id": 375,
+                    "$type": 3,
+                    "_x": -6.49537,
+                    "_y": -6.763886
+                },
+                "_scale": {
+                    "$id": 376,
+                    "$type": 4,
+                    "_x": 2.00926018,
+                    "_y": 1.27962923
+                },
+                "_rotation": $iref:135,
+                "_keyframes": {
+                    "$id": 377,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 378,
+                "$type": 7,
+                "_mapObjectId": "e478f43b-acec-4c7e-a1e4-ed89f67340c8",
+                "_active": true,
+                "_position": {
+                    "$id": 379,
+                    "$type": 3,
+                    "_x": 5.79996538,
+                    "_y": -12.9499989
+                },
+                "_scale": {
+                    "$id": 380,
+                    "$type": 4,
+                    "_x": 4.499999,
+                    "_y": 1.499999
+                },
+                "_rotation": $iref:75,
+                "_keyframes": {
+                    "$id": 381,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 382,
+                "$type": 9,
+                "_mapObjectId": "00eb33b8-bea6-4b27-b655-2e1a41831daa",
+                "_active": true,
+                "_position": {
+                    "$id": 383,
+                    "$type": 3,
+                    "_x": 21.625,
+                    "_y": -3
+                },
+                "_scale": {
+                    "$id": 384,
+                    "$type": 4,
+                    "_x": 1.25,
+                    "_y": 3.5
+                },
+                "_rotation": {
+                    "$id": 385,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 386,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "_damageable": true
+            },
+            {
+                "$id": 387,
+                "$type": 7,
+                "_mapObjectId": "4edfb49e-b284-4195-8f2b-fc2a011c17dd",
+                "_active": true,
+                "_position": {
+                    "$id": 388,
+                    "$type": 3,
+                    "_x": 21.614809,
+                    "_y": -6.379629
+                },
+                "_scale": {
+                    "$id": 389,
+                    "$type": 4,
+                    "_x": 1.22962952,
+                    "_y": 2.24074125
+                },
+                "_rotation": {
+                    "$id": 390,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 391,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 392,
+                "$type": 10,
+                "_mapObjectId": "0cb55b1a-34d5-4698-b546-706ddf504309",
+                "_active": true,
+                "_pos1": {
+                    "$type": 11,
+                    28,
+                    0
+                },
+                "_pos2": {
+                    "$type": 11,
+                    27.75,
+                    0
+                }
+            },
+            {
+                "$id": 393,
+                "$type": 7,
+                "_mapObjectId": "9e31f279-b47f-4709-b8db-36bc6a237880",
+                "_active": true,
+                "_position": {
+                    "$id": 394,
+                    "$type": 3,
+                    "_x": -2.66112065,
+                    "_y": -6.50552273
+                },
+                "_scale": {
+                    "$id": 395,
+                    "$type": 4,
+                    "_x": 5.56295872,
+                    "_y": 1.855555
+                },
+                "_rotation": {
+                    "$id": 396,
+                    "$type": 5,
+                    "_angle": 0
+                },
+                "_keyframes": {
+                    "$id": 397,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 398,
+                "$type": 10,
+                "_mapObjectId": "e77bbe5c-4932-44a8-a07f-910a1608a152",
+                "_active": true,
+                "_pos1": {
+                    "$type": 11,
+                    9.749999,
+                    -1.2501
+                },
+                "_pos2": {
+                    "$type": 11,
+                    9.75,
+                    -1.5
+                }
+            },
+            {
+                "$id": 399,
+                "$type": 10,
+                "_mapObjectId": "d0b9a3eb-92b3-4512-ad2a-72e62985aa16",
+                "_active": true,
+                "_pos1": {
+                    "$type": 11,
+                    9.749999,
+                    -1.2501
+                },
+                "_pos2": {
+                    "$type": 11,
+                    9.75,
+                    11.25
+                }
+            },
+            {
+                "$id": 400,
+                "$type": 10,
+                "_mapObjectId": "486250f7-5359-4e1a-8abe-2a5d5e564824",
+                "_active": true,
+                "_pos1": {
+                    "$type": 11,
+                    -14.75,
+                    -1.2501
+                },
+                "_pos2": {
+                    "$type": 11,
+                    -14.75,
+                    15.749999
+                }
+            },
+            {
+                "$id": 401,
+                "$type": 10,
+                "_mapObjectId": "e1196a03-f16c-4047-aaf3-80721ad313a3",
+                "_active": true,
+                "_pos1": {
+                    "$type": 11,
+                    9.75,
+                    -3.25
+                },
+                "_pos2": {
+                    "$type": 11,
+                    9.75,
+                    -3.5
+                }
+            },
+            {
+                "$id": 402,
+                "$type": 10,
+                "_mapObjectId": "6b42bc33-43c9-4d84-97a5-971d472ab9f7",
+                "_active": true,
+                "_pos1": {
+                    "$type": 11,
+                    9.75,
+                    -9.25
+                },
+                "_pos2": {
+                    "$type": 11,
+                    9.75,
+                    -10
+                }
+            },
+            {
+                "$id": 403,
+                "$type": 10,
+                "_mapObjectId": "299a8548-f2e6-4914-9c8b-82de606f927a",
+                "_active": true,
+                "_pos1": {
+                    "$type": 11,
+                    9.75,
+                    -10
+                },
+                "_pos2": {
+                    "$type": 11,
+                    9.75,
+                    -10.5
+                }
+            },
+            {
+                "$id": 404,
+                "$type": 10,
+                "_mapObjectId": "283b47d6-db5b-4127-818a-ce7577a37339",
+                "_active": true,
+                "_pos1": {
+                    "$type": 11,
+                    9.75,
+                    -14
+                },
+                "_pos2": {
+                    "$type": 11,
+                    9.75,
+                    -14.25
+                }
+            },
+            {
+                "$id": 405,
+                "$type": 10,
+                "_mapObjectId": "fa13a71e-8f4c-4cd4-94ff-addd1e07d845",
+                "_active": true,
+                "_pos1": {
+                    "$type": 11,
+                    -14.75,
+                    -1.2501
+                },
+                "_pos2": {
+                    "$type": 11,
+                    -14.75,
+                    -1.5
+                }
+            },
+            {
+                "$id": 406,
+                "$type": 10,
+                "_mapObjectId": "bce8de09-c8d5-4b0b-80ef-6bf56f5354f2",
+                "_active": true,
+                "_pos1": {
+                    "$type": 11,
+                    -14.75,
+                    -9.5
+                },
+                "_pos2": {
+                    "$type": 11,
+                    -14.75,
+                    -10
+                }
+            },
+            {
+                "$id": 407,
+                "$type": 10,
+                "_mapObjectId": "88e8191b-12b9-4d83-a495-c02712a66682",
+                "_active": true,
+                "_pos1": {
+                    "$type": 11,
+                    -14.75,
+                    -10
+                },
+                "_pos2": {
+                    "$type": 11,
+                    -14.75,
+                    -10.5
+                }
+            },
+            {
+                "$id": 408,
+                "$type": 10,
+                "_mapObjectId": "10231f3e-8df2-4c52-9e29-5c34d65ef4e5",
+                "_active": true,
+                "_pos1": {
+                    "$type": 11,
+                    -14.75,
+                    -14
+                },
+                "_pos2": {
+                    "$type": 11,
+                    -14.75,
+                    -14.25
+                }
+            },
+            {
+                "$id": 409,
+                "$type": 8,
+                "_mapObjectId": "416836b6-cd1c-4b78-ac7f-014498507603",
+                "_active": true,
+                "_position": {
+                    "$id": 410,
+                    "$type": 3,
+                    "_x": -20,
+                    "_y": -8.5
+                },
+                "_scale": {
+                    "$id": 411,
+                    "$type": 4,
+                    "_x": 6,
+                    "_y": 0.5
+                },
+                "_rotation": {
+                    "$id": 412,
+                    "$type": 5,
+                    "_angle": 270
+                },
+                "_keyframes": {
+                    "$id": 413,
+                    "$type": 6,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 414,
+                "$type": 10,
+                "_mapObjectId": "f5bfef04-7f3d-4ccb-8b9a-81a3bf798100",
+                "_active": true,
+                "_pos1": {
+                    "$type": 11,
+                    -20,
+                    -11.25
+                },
+                "_pos2": {
+                    "$type": 11,
+                    -20,
+                    -16
+                }
+            }
+        ]
+    }
+}

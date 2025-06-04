@@ -1,0 +1,22 @@
+{
+	"games": [
+		{
+			"runner": "sideload",
+			"app_name": "w4JjggHz2NdnbmE7hBV4qK",
+			"title": "Title",
+			"install": {
+				"executable": "/mnt/windows/Linux-games/rocketleague/BakkesMod/runbakkasmodlinux.bat",
+				"platform": "Windows",
+				"is_dlc": false
+			},
+			"folder_name": "/mnt/windows/Linux-games/rocketleague/BakkesMod",
+			"art_cover": "file:///app/bin/heroic/resources/app.asar/build/assets/heroic_card-mjvSE_Ga.jpg",
+			"is_installed": true,
+			"art_square": "file:///app/bin/heroic/resources/app.asar/build/assets/heroic_card-mjvSE_Ga.jpg",
+			"canRunOffline": true,
+			"browserUrl": "",
+			"customUserAgent": "",
+			"launchFullScreen": false
+		}
+	]
+}

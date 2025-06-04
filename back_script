@@ -1,0 +1,58 @@
+#!/bin/bash
+
+# read the other script b4 saying anything abt me using chatGPT, also feel free to use my .config files if you want
+
+# Define the path to your backup folder and GitHub repository
+REPO_DIR="/home/vearnx/backups"  # Adjust this to your actual repository path
+CONFIG_DIR="/home/vearnx/.config"  # The directory you want to sync
+
+# Navigate to the repository directory
+cd "$REPO_DIR" || { 
+    notify-send -u critical "❌ Backup Failed" "Could not find repository directory."
+    exit 1
+}
+
+# Backup start notification
+notify-send  -t 2500 "Backing up..."
+
+
+# Sync .config folder to repo
+rsync -av --delete --exclude=".git" --exclude="/home/vearnx/.config/waybar/style.css.save.1" --exclude="/home/vearnx/.config/spotify/" "$CONFIG_DIR" "$REPO_DIR/Backup-files"
+rsync -av --delete "/home/vearnx/Documents/ULTRAKILL/ULTRAKILL-SteamRIP.com/ULTRAKILL/Saves/" "$REPO_DIR/ultrakill-saves"
+if [ $? -ne 0 ]; then
+    notify-send -u critical "❌ Backup Failed" "Failed to sync files with rsync."
+    exit 1
+fi
+
+
+# Stage new and modified files
+git add .
+if [ $? -ne 0 ]; then
+    notify-send -u critical "Backup Failed" "Failed to stage files for commit."
+    exit 1
+fi
+
+
+# Commit the changes
+git commit -m "Backup .config folder"
+if [ $? -ne 0 ]; then
+    notify-send -u critical "Backup Failed" "Failed to commit changes to Git."
+    exit 1
+fi
+
+
+# Push to the remote repository
+git push
+if [ $? -ne 0 ]; then
+    notify-send -u critical "Backup Failed" "Failed to push to GitHub."
+    exit 1
+fi
+
+
+# If everything was successful, send a success notification
+echo
+echo
+echo
+echo
+echo "Backup and sync to GitHub complete!"
+notify-send -t 2500 "Backup Successful!" "Backup has been pushed to GitHub."

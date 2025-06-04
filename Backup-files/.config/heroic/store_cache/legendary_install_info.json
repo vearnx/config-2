@@ -1,0 +1,715 @@
+{
+	"__timestamp": {
+		"Fortnite": "Mon Mar 24 2025 20:07:55 GMT-0400 (Eastern Daylight Time)",
+		"592c359fb0e0413fb46dee2d24448eb4": "Mon Mar 24 2025 20:11:35 GMT-0400 (Eastern Daylight Time)",
+		"398965b67f314d31b0683b8ea11c93a4": "Wed Mar 26 2025 21:28:32 GMT-0400 (Eastern Daylight Time)",
+		"Sugar": "Mon Apr 14 2025 16:18:53 GMT-0400 (Eastern Daylight Time)"
+	},
+	"Fortnite": {
+		"game": {
+			"app_name": "Fortnite",
+			"title": "Fortnite",
+			"version": "++Fortnite+Release-34.10-CL-40567068-Windows",
+			"platform_versions": {
+				"Windows": "++Fortnite+Release-34.10-CL-40567068-Windows"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": false,
+			"external_activation": null,
+			"launch_options": [],
+			"command_line": null,
+			"owned_dlc": [
+				{
+					"app_name": null,
+					"title": "UEFN Free Audience",
+					"installable": [],
+					"id": "045a89e535a1419ba1f790b7e1954af8"
+				},
+				{
+					"app_name": "Fortnite_Studio",
+					"title": "Unreal Editor for Fortnite",
+					"installable": [
+						{
+							"id": "58bd32e303844c90842d28480a6786ae",
+							"appId": "Fortnite_Studio",
+							"compatibleApps": [],
+							"platform": [
+								"Windows"
+							],
+							"dateAdded": "2023-03-10T16:11:34.775Z"
+						}
+					],
+					"id": "1e8bda5cfbb641b9a9aea8bd62285f73"
+				}
+			]
+		},
+		"install": null,
+		"manifest": {
+			"size": 8065397,
+			"type": "binary",
+			"version": 21,
+			"feature_level": 21,
+			"app_name": "FortniteReleaseBuilds",
+			"launch_exe": "FortniteGame/Binaries/Win64/FortniteLauncher.exe",
+			"launch_command": " -obfuscationid=sI4Tss2OHf0TI0F99UuMphHJTkTCPw",
+			"build_version": "++Fortnite+Release-34.10-CL-40567068-Windows",
+			"build_id": "nfyOs13IW0m3dF-mJYL7Yg",
+			"prerequisites": null,
+			"uninstaller": {
+				"path": "Engine/Binaries/Win64/UninstallHelper-Win64-Shipping.exe",
+				"args": "-GameName=FortniteGame -InstallDir=../../../ -InstallDirRelativeToExecutableDir=1 -UninstallActionsManifest=UninstallActionsManifest-Win64.txt"
+			},
+			"install_tags": [
+				"",
+				"DefaultGameplayChunk",
+				"DefaultGameplayChunkOptional",
+				"Encrypted",
+				"EncryptedOptional",
+				"FortniteBR",
+				"FortniteBROnDemand",
+				"FortniteBROnDemandOptional",
+				"FortniteBROptional",
+				"FrontEnd",
+				"FrontEndOptional",
+				"GFP_BRCosmetics",
+				"GFP_BRCosmeticsOptional",
+				"GFP_BRRoot",
+				"GFP_BRRootOptional",
+				"GFP_BaseInstallRoot",
+				"GFP_BaseInstallRootOptional",
+				"GFP_CreativeRoot",
+				"GFP_CreativeRootOptional",
+				"GFP_DelMarRoot",
+				"GFP_DelMarRootOptional",
+				"GFP_JunoRoot",
+				"GFP_JunoRootOptional",
+				"GFP_SaveTheWorldRoot",
+				"GFP_SaveTheWorldRootOptional",
+				"GFP_Sparks",
+				"GFP_SparksOptional",
+				"Langde",
+				"LangdeOptional",
+				"Langes419",
+				"Langes419Optional",
+				"LangesES",
+				"LangesESOptional",
+				"Langfr",
+				"LangfrOptional",
+				"Langit",
+				"LangitOptional",
+				"Langpl",
+				"LangplOptional",
+				"Langru",
+				"LangruOptional",
+				"LangzhCN",
+				"LangzhCNOptional",
+				"Startup",
+				"StartupOptional",
+				"UnusedOldEarlyStartupPatcherChunk"
+			],
+			"num_files": 1024,
+			"num_chunks": 117046,
+			"disk_size": 123730620489,
+			"download_size": 114779056143,
+			"tag_disk_size": [
+				{
+					"tag": "",
+					"size": 0,
+					"count": 0
+				},
+				{
+					"tag": "DefaultGameplayChunk",
+					"size": 2799427409,
+					"count": 5
+				},
+				{
+					"tag": "DefaultGameplayChunkOptional",
+					"size": 378273611,
+					"count": 5
+				},
+				{
+					"tag": "Encrypted",
+					"size": 115219533,
+					"count": 69
+				},
+				{
+					"tag": "EncryptedOptional",
+					"size": 141497991,
+					"count": 29
+				},
+				{
+					"tag": "FortniteBR",
+					"size": 9272614918,
+					"count": 595
+				},
+				{
+					"tag": "FortniteBROnDemand",
+					"size": 8286665560,
+					"count": 22
+				},
+				{
+					"tag": "FortniteBROnDemandOptional",
+					"size": 29810716364,
+					"count": 27
+				},
+				{
+					"tag": "FortniteBROptional",
+					"size": 3924544093,
+					"count": 13
+				},
+				{
+					"tag": "FrontEnd",
+					"size": 1012231857,
+					"count": 5
+				},
+				{
+					"tag": "FrontEndOptional",
+					"size": 654137926,
+					"count": 5
+				},
+				{
+					"tag": "GFP_BRCosmetics",
+					"size": 11984925055,
+					"count": 7
+				},
+				{
+					"tag": "GFP_BRCosmeticsOptional",
+					"size": 2652879006,
+					"count": 5
+				},
+				{
+					"tag": "GFP_BRRoot",
+					"size": 750263558,
+					"count": 5
+				},
+				{
+					"tag": "GFP_BRRootOptional",
+					"size": 304805327,
+					"count": 5
+				},
+				{
+					"tag": "GFP_BaseInstallRoot",
+					"size": 14454912772,
+					"count": 8
+				},
+				{
+					"tag": "GFP_BaseInstallRootOptional",
+					"size": 8508577551,
+					"count": 6
+				},
+				{
+					"tag": "GFP_CreativeRoot",
+					"size": 2946505866,
+					"count": 5
+				},
+				{
+					"tag": "GFP_CreativeRootOptional",
+					"size": 1178242477,
+					"count": 5
+				},
+				{
+					"tag": "GFP_DelMarRoot",
+					"size": 4934222,
+					"count": 5
+				},
+				{
+					"tag": "GFP_DelMarRootOptional",
+					"size": 139707,
+					"count": 5
+				},
+				{
+					"tag": "GFP_JunoRoot",
+					"size": 9612828505,
+					"count": 7
+				},
+				{
+					"tag": "GFP_JunoRootOptional",
+					"size": 666208759,
+					"count": 5
+				},
+				{
+					"tag": "GFP_SaveTheWorldRoot",
+					"size": 11089856569,
+					"count": 103
+				},
+				{
+					"tag": "GFP_SaveTheWorldRootOptional",
+					"size": 2704684927,
+					"count": 5
+				},
+				{
+					"tag": "GFP_Sparks",
+					"size": 49476756,
+					"count": 5
+				},
+				{
+					"tag": "GFP_SparksOptional",
+					"size": 14061164,
+					"count": 5
+				},
+				{
+					"tag": "Langde",
+					"size": 5338195,
+					"count": 5
+				},
+				{
+					"tag": "LangdeOptional",
+					"size": 4254900,
+					"count": 5
+				},
+				{
+					"tag": "Langes419",
+					"size": 50,
+					"count": 1
+				},
+				{
+					"tag": "Langes419Optional",
+					"size": 50,
+					"count": 1
+				},
+				{
+					"tag": "LangesES",
+					"size": 50,
+					"count": 1
+				},
+				{
+					"tag": "LangesESOptional",
+					"size": 50,
+					"count": 1
+				},
+				{
+					"tag": "Langfr",
+					"size": 5099649,
+					"count": 5
+				},
+				{
+					"tag": "LangfrOptional",
+					"size": 1429629,
+					"count": 5
+				},
+				{
+					"tag": "Langit",
+					"size": 50,
+					"count": 1
+				},
+				{
+					"tag": "LangitOptional",
+					"size": 50,
+					"count": 1
+				},
+				{
+					"tag": "Langpl",
+					"size": 4874350,
+					"count": 5
+				},
+				{
+					"tag": "LangplOptional",
+					"size": 992982,
+					"count": 5
+				},
+				{
+					"tag": "Langru",
+					"size": 5276752,
+					"count": 5
+				},
+				{
+					"tag": "LangruOptional",
+					"size": 1609739,
+					"count": 5
+				},
+				{
+					"tag": "LangzhCN",
+					"size": 50,
+					"count": 1
+				},
+				{
+					"tag": "LangzhCNOptional",
+					"size": 50,
+					"count": 1
+				},
+				{
+					"tag": "Startup",
+					"size": 140189049,
+					"count": 5
+				},
+				{
+					"tag": "StartupOptional",
+					"size": 3774254,
+					"count": 5
+				},
+				{
+					"tag": "UnusedOldEarlyStartupPatcherChunk",
+					"size": 239149107,
+					"count": 5
+				}
+			],
+			"tag_download_size": [
+				{
+					"tag": "",
+					"size": 0,
+					"count": 0
+				},
+				{
+					"tag": "DefaultGameplayChunk",
+					"size": 2423584809,
+					"count": 2501
+				},
+				{
+					"tag": "DefaultGameplayChunkOptional",
+					"size": 366239028,
+					"count": 364
+				},
+				{
+					"tag": "Encrypted",
+					"size": 114146262,
+					"count": 111
+				},
+				{
+					"tag": "EncryptedOptional",
+					"size": 143074842,
+					"count": 137
+				},
+				{
+					"tag": "FortniteBR",
+					"size": 8233781444,
+					"count": 8745
+				},
+				{
+					"tag": "FortniteBROnDemand",
+					"size": 7937689768,
+					"count": 7905
+				},
+				{
+					"tag": "FortniteBROnDemandOptional",
+					"size": 28375531671,
+					"count": 28366
+				},
+				{
+					"tag": "FortniteBROptional",
+					"size": 3747700696,
+					"count": 3749
+				},
+				{
+					"tag": "FrontEnd",
+					"size": 914614557,
+					"count": 968
+				},
+				{
+					"tag": "FrontEndOptional",
+					"size": 628542082,
+					"count": 626
+				},
+				{
+					"tag": "GFP_BRCosmetics",
+					"size": 10979982317,
+					"count": 11436
+				},
+				{
+					"tag": "GFP_BRCosmeticsOptional",
+					"size": 2528140180,
+					"count": 2530
+				},
+				{
+					"tag": "GFP_BRRoot",
+					"size": 706277368,
+					"count": 721
+				},
+				{
+					"tag": "GFP_BRRootOptional",
+					"size": 294168106,
+					"count": 293
+				},
+				{
+					"tag": "GFP_BaseInstallRoot",
+					"size": 13326150553,
+					"count": 13782
+				},
+				{
+					"tag": "GFP_BaseInstallRootOptional",
+					"size": 8119606785,
+					"count": 8086
+				},
+				{
+					"tag": "GFP_CreativeRoot",
+					"size": 2594263218,
+					"count": 2814
+				},
+				{
+					"tag": "GFP_CreativeRootOptional",
+					"size": 1132131696,
+					"count": 1126
+				},
+				{
+					"tag": "GFP_DelMarRoot",
+					"size": 5695361,
+					"count": 7
+				},
+				{
+					"tag": "GFP_DelMarRootOptional",
+					"size": 541456,
+					"count": 1
+				},
+				{
+					"tag": "GFP_JunoRoot",
+					"size": 8848691676,
+					"count": 9117
+				},
+				{
+					"tag": "GFP_JunoRootOptional",
+					"size": 631724867,
+					"count": 629
+				},
+				{
+					"tag": "GFP_SaveTheWorldRoot",
+					"size": 10275009139,
+					"count": 10555
+				},
+				{
+					"tag": "GFP_SaveTheWorldRootOptional",
+					"size": 2596863782,
+					"count": 2585
+				},
+				{
+					"tag": "GFP_Sparks",
+					"size": 44845924,
+					"count": 49
+				},
+				{
+					"tag": "GFP_SparksOptional",
+					"size": 16868900,
+					"count": 17
+				},
+				{
+					"tag": "Langde",
+					"size": 5967098,
+					"count": 6
+				},
+				{
+					"tag": "LangdeOptional",
+					"size": 6012593,
+					"count": 6
+				},
+				{
+					"tag": "Langes419",
+					"size": 1005903,
+					"count": 1
+				},
+				{
+					"tag": "Langes419Optional",
+					"size": 1005903,
+					"count": 1
+				},
+				{
+					"tag": "LangesES",
+					"size": 1005903,
+					"count": 1
+				},
+				{
+					"tag": "LangesESOptional",
+					"size": 1005903,
+					"count": 1
+				},
+				{
+					"tag": "Langfr",
+					"size": 6995377,
+					"count": 7
+				},
+				{
+					"tag": "LangfrOptional",
+					"size": 2941427,
+					"count": 3
+				},
+				{
+					"tag": "Langit",
+					"size": 959917,
+					"count": 1
+				},
+				{
+					"tag": "LangitOptional",
+					"size": 959917,
+					"count": 1
+				},
+				{
+					"tag": "Langpl",
+					"size": 5944670,
+					"count": 6
+				},
+				{
+					"tag": "LangplOptional",
+					"size": 1998461,
+					"count": 2
+				},
+				{
+					"tag": "Langru",
+					"size": 6908665,
+					"count": 7
+				},
+				{
+					"tag": "LangruOptional",
+					"size": 2844240,
+					"count": 3
+				},
+				{
+					"tag": "LangzhCN",
+					"size": 936790,
+					"count": 1
+				},
+				{
+					"tag": "LangzhCNOptional",
+					"size": 936790,
+					"count": 1
+				},
+				{
+					"tag": "Startup",
+					"size": 124606499,
+					"count": 134
+				},
+				{
+					"tag": "StartupOptional",
+					"size": 6653913,
+					"count": 7
+				},
+				{
+					"tag": "UnusedOldEarlyStartupPatcherChunk",
+					"size": 206490445,
+					"count": 234
+				}
+			]
+		}
+	},
+	"592c359fb0e0413fb46dee2d24448eb4": {
+		"game": {
+			"app_name": "592c359fb0e0413fb46dee2d24448eb4",
+			"title": "Destiny 2",
+			"version": "9992749",
+			"platform_versions": {
+				"Windows": "9992749"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": false,
+			"external_activation": null,
+			"launch_options": [],
+			"command_line": null,
+			"owned_dlc": []
+		},
+		"install": null,
+		"manifest": {
+			"size": 11402212,
+			"type": "binary",
+			"version": 17,
+			"feature_level": 17,
+			"app_name": "94070a1f193f432186ae3bbdccb99d06",
+			"launch_exe": "destiny2launcher.exe",
+			"launch_command": "",
+			"build_version": "9992749",
+			"build_id": "oZuKsjZBPJnkb24Xt-IhohlqXMM",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 5063,
+			"num_chunks": 170773,
+			"disk_size": 180618149539,
+			"download_size": 174574943509,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	},
+	"398965b67f314d31b0683b8ea11c93a4": {
+		"game": {
+			"app_name": "398965b67f314d31b0683b8ea11c93a4",
+			"title": "Warframe",
+			"version": "2024.03.28.14.05-21293",
+			"platform_versions": {
+				"Windows": "2024.03.28.14.05-21293"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": false,
+			"external_activation": null,
+			"launch_options": [],
+			"command_line": null,
+			"owned_dlc": []
+		},
+		"install": null,
+		"manifest": {
+			"size": 7939,
+			"type": "binary",
+			"version": 17,
+			"feature_level": 17,
+			"app_name": "398965b67f314d31b0683b8ea11c93a4",
+			"launch_exe": "Warframe.exe",
+			"launch_command": "-productid=9cd9aa0477474023a6cdf18823e481c6 -sandboxid=244aaaa06bfa49d088205b13b9d2d115 -deploymentid=e919fcba38b24026b53e45dfcbc561a2 -cluster=public -registry=Epic",
+			"build_version": "2024.03.28.14.05-21293",
+			"build_id": "sR9wTNByYoFizdLkwpLxjW-C7yM",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 2,
+			"num_chunks": 147,
+			"disk_size": 154010111,
+			"download_size": 153644533,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	},
+	"Sugar": {
+		"game": {
+			"app_name": "Sugar",
+			"title": "Rocket League®",
+			"version": "BC2_Update54+478365",
+			"platform_versions": {
+				"Windows": "BC2_Update54+478365"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": false,
+			"external_activation": null,
+			"launch_options": [],
+			"command_line": null,
+			"owned_dlc": []
+		},
+		"install": {
+			"platform": "Windows",
+			"version": "BC2_Update54+478365",
+			"disk_size": 34922315114,
+			"install_path": "/mnt/windows/Linux-games/rocketleague/rocketleague",
+			"save_path": null,
+			"synced_egl_guid": "",
+			"install_tags": [],
+			"requires_ovt": false,
+			"installed_dlc": []
+		},
+		"manifest": {
+			"size": 2714362,
+			"type": "binary",
+			"version": 17,
+			"feature_level": 17,
+			"app_name": "SugarStaging",
+			"launch_exe": "Binaries/Win64/RocketLeague.exe",
+			"launch_command": "",
+			"build_version": "BC2_Update54+478365",
+			"build_id": "jhtOEM0qNlJhcdlqhr6PoL2w96c",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 17390,
+			"num_chunks": 31008,
+			"disk_size": 34922315114,
+			"download_size": 31889955005,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	}
+}

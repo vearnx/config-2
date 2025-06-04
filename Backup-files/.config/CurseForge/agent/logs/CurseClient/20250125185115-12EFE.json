@@ -1,0 +1,919 @@
+{
+  "Name": "CurseClient",
+  "Process": "Curse.Agent.Host",
+  "PID": 77566,
+  "Arguments": [
+    "/tmp/.mount_CurseF117yEL/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host",
+    "--port=53577",
+    "--to-port=53597",
+    "--pid=77351",
+    "--appDataPath=/home/vearnx/.config/CurseForge",
+    "--clientId=Overwolf"
+  ],
+  "ProcessStart": "2025-01-25T23:51:15.3754392Z",
+  "Version": "1.269.2.22204",
+  "BuildDate": "2000-01-03T17:20:08Z",
+  "Start": "2025-01-25T18:51:15.7585805-05:00",
+  "Log": [
+{
+  "timestamp": "2025-01-25T18:51:15.7526602-05:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Failed to modified BuiltInConverters: Cannot set initonly static field 'BuiltInConverters' after type 'Newtonsoft.Json.Serialization.DefaultContractResolver' is initialized."
+},
+{
+  "timestamp": "2025-01-25T18:51:15.7561539-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Startup Name: CurseForge, Version: 1.269.2.22204"
+},
+{
+  "timestamp": "2025-01-25T18:51:15.7566056-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Running Mods Agent with args: --port=53577,--to-port=53597,--pid=77351,--appDataPath=/home/vearnx/.config/CurseForge,--clientId=Overwolf"
+},
+{
+  "timestamp": "2025-01-25T18:51:15.7586538-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "start monitor process: 77351"
+},
+{
+  "timestamp": "2025-01-25T18:51:16.3170693-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Unable to load game instances from disk. No file was found at: /home/vearnx/.config/CurseForge/agent/GameInstances/ModpackGameInstances.json"
+},
+{
+  "timestamp": "2025-01-25T18:51:16.3924139-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Mods Agent server started on port 53577"
+},
+{
+  "timestamp": "2025-01-25T18:51:16.4221234-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Web Socket session connected"
+},
+{
+  "timestamp": "2025-01-25T18:51:16.5182068-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Update simultaneous downloads '1' => '3'"
+},
+{
+  "timestamp": "2025-01-25T18:51:16.5191158-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "UpdateOverrideLauncher"
+},
+{
+  "timestamp": "2025-01-25T18:51:16.5197609-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing Curse Mods Agent"
+},
+{
+  "timestamp": "2025-01-25T18:51:16.5214595-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "update client Info ''..."
+},
+{
+  "timestamp": "2025-01-25T18:51:16.5511133-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T18:51:16.560748-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "AddonServiceClient - CfCore Url: https://api.curseforge.com"
+},
+{
+  "timestamp": "2025-01-25T18:51:16.8038785-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on GameDatabase -> GetRemoteItems"
+},
+{
+  "timestamp": "2025-01-25T18:51:16.8045259-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Getting Games from server"
+},
+{
+  "timestamp": "2025-01-25T18:51:16.8477935-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Loaded 26 games from the server"
+},
+{
+  "timestamp": "2025-01-25T18:51:16.8479436-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Saving games to local cache at /home/vearnx/.config/CurseForge/agent/gamesCache.json"
+},
+{
+  "timestamp": "2025-01-25T18:51:16.8670812-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[GameRepository] Completed download of cache",
+  "data": {
+    "name": "Games",
+    "elapsedTime": "58.00"
+  }
+},
+{
+  "timestamp": "2025-01-25T18:51:16.8805203-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing local databases..."
+},
+{
+  "timestamp": "2025-01-25T18:51:16.8808658-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing game instances."
+},
+{
+  "timestamp": "2025-01-25T18:51:16.8925101-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Addons.AddonGameInstance'"
+},
+{
+  "timestamp": "2025-01-25T18:51:16.8928161-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Games.Minecraft.MinecraftGameInstance'"
+},
+{
+  "timestamp": "2025-01-25T18:51:16.8930011-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Addons.AddonGameInstance"
+},
+{
+  "timestamp": "2025-01-25T18:51:16.9106509-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] LoadInstancesFromDisk loaded 0 instances"
+},
+{
+  "timestamp": "2025-01-25T18:51:16.9107348-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Games.Minecraft.MinecraftGameInstance"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.0615984-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] LoadInstancesFromDisk loaded 5 instances"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.0678275-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/vearnx/Documents/curseforge/minecraft/Instances/tism/"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.0751288-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initialized game tism instance"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.075175-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/vearnx/Documents/curseforge/minecraft/Instances/RLCraft/"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.0755855-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initialized game RLCraft instance"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.0755936-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/vearnx/Documents/curseforge/minecraft/Instances/comp shaders/"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.0758654-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initialized game comp shaders instance"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.0758733-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/vearnx/Documents/curseforge/minecraft/Instances/Cave Horror Project - CHP2/"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.07617-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initialized game Cave Horror Project - CHP2 instance"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.0761772-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/vearnx/Documents/curseforge/minecraft/Instances/Shaders/"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.0764276-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initialized game Shaders instance"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.0789554-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Game instances initialization completed. Operation took 197 ms"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.0791899-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing Modpack instances."
+},
+{
+  "timestamp": "2025-01-25T18:51:17.0799277-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Running startup game detection"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.0825874-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Performing quick game detection for 26 games..."
+},
+{
+  "timestamp": "2025-01-25T18:51:17.0878102-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Completed startup game detection. We have a total of 5 detected game instances. Operation took 7 ms"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.0886663-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.0890443-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T18:51:17.0891735-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Beginning initialization of InstanceManager"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.0895593-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Setting file watcher on instance directory /home/vearnx/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.0915981-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: tism"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.1113143-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "InstanceManager initialized."
+},
+{
+  "timestamp": "2025-01-25T18:51:17.11199-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing tasks"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.1120064-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Refreshing Minecraft instances list"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.1129525-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Resolving Minecraft instances list from /home/vearnx/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.1135531-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/Cave Horror Project - CHP1 was not found in database. Will attempt to import it."
+},
+{
+  "timestamp": "2025-01-25T18:51:17.1143752-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/RLCraft"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.1143951-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/Cave Horror Project - CHP1 (1) was not found in database. Will attempt to import it."
+},
+{
+  "timestamp": "2025-01-25T18:51:17.1144192-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/Cave Horror Project - CHP1 (2) was not found in database. Will attempt to import it."
+},
+{
+  "timestamp": "2025-01-25T18:51:17.1144381-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/Cave Horror Project - CHP1 (3) was not found in database. Will attempt to import it."
+},
+{
+  "timestamp": "2025-01-25T18:51:17.1144644-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/Cave Horror Project - CHP2"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.114473-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/tism"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.1144854-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/comp shaders"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.114502-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Discord RPC client initialized successfully."
+},
+{
+  "timestamp": "2025-01-25T18:51:17.1146532-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/Comp Shaders"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.1146697-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/vearnx/Documents/curseforge/minecraft/Instances/Shaders"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.1147089-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing Periodic Tasks"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.1190444-05:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.1344301-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.134455-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T18:51:17.2536198-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetModFilesFromServer"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.2545616-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.2624295-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[ModLoaderDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Modloaders",
+    "elapsedTime": "145.00"
+  }
+},
+{
+  "timestamp": "2025-01-25T18:51:17.2966169-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: RLCraft"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.3203706-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "[MinecraftVersionDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Versions",
+    "elapsedTime": "32.00"
+  }
+},
+{
+  "timestamp": "2025-01-25T18:51:17.4404991-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetModFilesFromServer"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.5609534-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: comp shaders"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.5867838-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetModFilesFromServer"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.6115434-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: Cave Horror Project - CHP2"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.637917-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.637943-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T18:51:17.7307041-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.7307351-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T18:51:17.7452755-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetModFilesFromServer"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.8138442-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: Shaders"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.8411724-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetModFilesFromServer"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.9003273-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-01-25T18:51:17.900344-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "/home/vearnx/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-01-25T18:51:39.8819509-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Getting game instance export items tree 46c29c9d-b684-49a3-9981-8c2c40eeb61f"
+},
+{
+  "timestamp": "2025-01-25T18:51:39.8863474-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2025-01-25T18:51:39.9201235-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Updating game instance 46c29c9d-b684-49a3-9981-8c2c40eeb61f - Shaders installed files availability status"
+},
+{
+  "timestamp": "2025-01-25T18:51:54.2696811-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Exporting game instance 46c29c9d-b684-49a3-9981-8c2c40eeb61f"
+},
+{
+  "timestamp": "2025-01-25T18:51:54.2780797-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Beginning package export of instance /home/vearnx/Documents/curseforge/minecraft/Instances/Shaders/"
+},
+{
+  "timestamp": "2025-01-25T18:51:54.2791907-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Creating temporary directory at /home/vearnx/Documents/curseforge/minecraft/Export/1"
+},
+{
+  "timestamp": "2025-01-25T18:51:54.2796889-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Writing manifest file for export package"
+},
+{
+  "timestamp": "2025-01-25T18:51:54.2823733-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Determining files to include in package"
+},
+{
+  "timestamp": "2025-01-25T18:51:54.2880702-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Copying override files to temporary directory"
+},
+{
+  "timestamp": "2025-01-25T18:51:54.2890911-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Copying file indigo-renderer.properties"
+},
+{
+  "timestamp": "2025-01-25T18:51:54.2895638-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Copying file sodium-mixins.properties"
+},
+{
+  "timestamp": "2025-01-25T18:51:54.2896131-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Copying file sodium-fingerprint.json"
+},
+{
+  "timestamp": "2025-01-25T18:51:54.2896487-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Copying file iris.properties"
+},
+{
+  "timestamp": "2025-01-25T18:51:54.2896804-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Copying file sodium-options.json"
+},
+{
+  "timestamp": "2025-01-25T18:51:54.3102427-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2025-01-25T18:54:07.2631282-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T18:54:07.2785267-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T18:59:13.0083956-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T18:59:13.0261501-05:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T19:04:18.7248017-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T19:04:18.7459239-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T19:09:24.3217126-05:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T19:09:24.3358183-05:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T19:14:30.157798-05:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T19:14:30.1799239-05:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T19:19:35.688077-05:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T19:19:35.7112642-05:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T19:24:41.0843925-05:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T19:24:41.103913-05:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T19:29:46.754392-05:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T19:29:46.7674631-05:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T19:34:52.121349-05:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T19:34:52.1431832-05:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T19:39:57.5712314-05:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T19:39:57.5851654-05:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T19:45:03.0382446-05:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T19:45:03.0588257-05:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T19:50:08.5614078-05:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T19:50:08.5748595-05:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-01-25T19:51:16.536957-05:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2025-01-25T19:51:16.5381073-05:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2025-01-25T19:51:16.708997-05:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2025-01-25T19:55:14.1491841-05:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-01-25T19:55:14.1610089-05:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+}
+]}

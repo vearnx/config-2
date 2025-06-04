@@ -1,0 +1,11 @@
+{
+  "name": "PlayerCustomizationUtilities",
+  "version_number": "1.0.1",
+  "website_url": "https://github.com/pdcook/PlayerCustomization",
+  "description": "Utilities for adding custom cosmetic items.",
+  "dependencies": [
+    "willis81808-UnboundLib-2.11.1",
+    "willis81808-MMHook-1.0.0"
+  ]
+}
+

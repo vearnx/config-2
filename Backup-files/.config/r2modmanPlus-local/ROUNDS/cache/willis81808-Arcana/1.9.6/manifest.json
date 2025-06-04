@@ -1,0 +1,15 @@
+{
+    "name": "Arcana",
+    "version_number": "1.9.6",
+    "website_url": "https://github.com/willis81808/Arcana",
+    "description": "Tarot themed legendary cards",
+    "dependencies": [
+    	"willis81808-UnboundLib-3.2.5",
+        "willis81808-ModsPlus-1.5.9",
+        "Root-RarityLib-1.2.1",
+        "Root-CardThemeLib-1.1.3",
+        "Root-PlayerTimeScale-0.0.1",
+        "willuwontu-ItemShops-0.0.1",
+        "RoundsModding-AllThePatch-1.0.0"
+    ]
+}

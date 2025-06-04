@@ -1,0 +1,13 @@
+{
+  "name": "RarityLib",
+  "version_number": "1.2.8",
+  "website_url": "https://github.com/Tess-y/RarityLib",
+  "description": "A utility library for adding custom rarities to the game.",
+  "dependencies": [
+    "BepInEx-BepInExPack_ROUNDS-5.4.1100",
+    "Pykess-ModdingUtils-0.3.5",
+    "Pykess-CardChoiceSpawnUniqueCardPatch-0.1.7",
+    "willis81808-UnboundLib-2.7.3",
+    "willis81808-MMHook-1.0.0"
+  ]
+}

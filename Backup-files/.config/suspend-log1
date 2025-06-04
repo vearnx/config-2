@@ -1,0 +1,20 @@
+[0;1;31m×[0m resume.service - User resume actions
+     Loaded: loaded (]8;;file://archlinux/etc/systemd/system/resume.service\/etc/systemd/system/resume.service]8;;\; [0;1;32menabled[0m; preset: [0;1;38:5:185mdisabled[0m)
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Mon 2025-05-19 16:42:54 EDT; 50s ago
+ Invocation: 8689ab9862524846a8d2559f5569fc69
+    Process: 58021 ExecStart=mpvpaper -o --loop-file=inf * /home/vearnx/.config/hypr/samurai.mp4 [0;1;31m(code=exited, status=1/FAILURE)[0m
+    Process: 58022 ExecStartPost=openrgb --startminimized (code=killed, signal=TERM)
+   Main PID: 58021 (code=exited, status=1/FAILURE)
+   Mem peak: 27.9M
+        CPU: 903ms
+
+May 19 16:41:24 archlinux mpvpaper[58021]: If your compositor is running, check or set the WAYLAND_DISPLAY environment variable.
+May 19 16:41:24 archlinux systemd[1]: [0;1;39m[0;1;31m[0;1;39mresume.service: Main process exited, code=exited, status=1/FAILURE[0m
+May 19 16:41:26 archlinux openrgb[58022]: [PluginManager] Plugin /home/vearnx/.config/OpenRGB/plugins/OpenRGBEffectsPlugin_0.9_Bookworm_64_f1411e1.so has an incompatible API version
+May 19 16:41:26 archlinux openrgb[58022]: [PluginManager] Plugin /home/vearnx/.config/OpenRGB/plugins/OpenRGBEffectsPlugin_0.9_Bookworm_64_f1411e1.so cannot be unloaded
+May 19 16:41:27 archlinux openrgb[58022]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mQLayout: Attempting to add QLayout "" to QWidget "layers", which already has a layout[0m
+May 19 16:42:54 archlinux systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mresume.service: start-post operation timed out. Terminating.[0m
+May 19 16:42:54 archlinux systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mresume.service: Control process exited, code=killed, status=15/TERM[0m
+May 19 16:42:54 archlinux systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mresume.service: Failed with result 'exit-code'.[0m
+May 19 16:42:54 archlinux systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start User resume actions.[0m
+May 19 16:43:44 archlinux systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m]8;;file://archlinux/etc/systemd/system/resume.service\/etc/systemd/system/resume.service]8;;\:1: Assignment outside of section. Ignoring.[0m

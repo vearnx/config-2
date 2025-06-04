@@ -1,0 +1,14 @@
+{
+  "name": "BudsCards",
+  "version_number": "1.2.7",
+  "website_url": "",
+  "description": "Currently adds 20 high quality, balanced cards with fully animated icons.",
+  "dependencies": [
+		"willis81808-UnboundLib-2.6.2",
+		"BepInEx-BepInExPack_ROUNDS-5.4.1100",
+		"Pykess-CardChoiceSpawnUniqueCardPatch-0.1.2",
+		"Pykess-ModdingUtils-0.1.3",
+		"TeamDK-ZeroGBulletPatch-1.0.0",
+		"Pykess-PlayerJumpPatch-0.0.2"
+  ]
+}

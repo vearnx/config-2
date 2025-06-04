@@ -1,0 +1,2 @@
+[General]
+commands="@ByteArray({\"_0cb51138_e0b6_4034_9dd5_b31de5b3286d_\":{\"command\":\"loginctl lock-session\",\"name\":\"Lock Screen\"},\"_315b70a2_35d3_481c_87ff_0c891d0fb4b0_\":{\"command\":\"systemctl poweroff\",\"name\":\"Shutdown\"},\"_417a5dad_c6db_45d8_be38_d5c72cae699d_\":{\"command\":\"systemctl reboot\",\"name\":\"Reboot\"},\"_7f874b0c_a18e_4b33_a543_a0c09fb172d7_\":{\"command\":\"konsole\",\"name\":\"Console\"},\"_973dbafd_8ec4_4b84_b6eb_69ae6f322e5b_\":{\"command\":\"loginctl unlock-session\",\"name\":\"Unlock Screen\"}})"

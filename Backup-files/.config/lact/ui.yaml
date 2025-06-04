@@ -1,0 +1,9 @@
+selected_gpu: 1002:747E-1458:2413-0000:03:00.0
+plots_time_period: 60
+plots_per_row: 2
+plots:
+- - !Temperature edge
+- - GpuClock
+  - VramClock
+- []
+- []

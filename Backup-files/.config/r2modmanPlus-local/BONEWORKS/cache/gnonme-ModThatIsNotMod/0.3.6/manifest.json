@@ -1,0 +1,7 @@
+{
+	"name": "ModThatIsNotMod",
+	"version_number": "0.3.6",
+	"description": "A mod for loading in custom items, making life easier for other mod creators, and a whole lot more.",
+	"website_url": "https://github.com/yowchap/ModThatIsNotMod-Public",
+	"dependencies": ["LavaGang-MelonLoader-0.5.2"]
+}

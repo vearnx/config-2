@@ -1,0 +1,10 @@
+{
+  "name": "GunProjectileSizePatch",
+  "version_number": "1.1.2",
+  "website_url": "https://github.com/Tess-y/GunProjectileSizePatch",
+  "description": "Patches the game so that Gun.ProjectileSize actualy works",
+  "dependencies": [
+    "BepInEx-BepInExPack_ROUNDS-5.4.1100",
+    "willis81808-UnboundLib-3.1.4"
+  ]
+}

@@ -1,0 +1,44 @@
+(defpoll current-volume :interval 1
+  "pactl get-sink-volume @DEFAULT_SINK@ | grep -oP '\\d+%' | head -n 1 | tr -d '%'")
+
+(defpoll current-media :interval 1
+  "playerctl metadata --format '{{title}} - {{artist}}' || echo 'Not Playing'")
+
+(defpoll playback-state :interval 1
+  "playerctl status || echo 'Stopped'")
+
+(defvar arg_xx 0)  ;; Default value for X position
+(defvar arg_yy 0)  ;; Default value for Y position
+
+(defwidget wifi-volume-media []
+  (box :orientation "vertical"
+       :spacing 10
+       :halign "center"
+       (box :orientation "horizontal"
+            :spacing 10
+            (label :id "wifi-status" :text "Wi-Fi: Connected")
+            (button :onclick "nmcli radio wifi toggle" "Toggle Wi-Fi"))
+       (box :orientation "horizontal"
+            :spacing 10
+            (label :id "volume-level" :text (str current-volume "%"))
+            (scale :id "volume-slider"
+                   :min 0
+                   :max 100
+                   :step 1
+                   :value current-volume
+                   :onchange (str "pactl set-sink-volume @DEFAULT_SINK@ " value "%"))) ;; Fixed issue with @value
+       (box :orientation "horizontal"
+            :spacing 10
+            (label :id "media-title" :text current-media)
+            (button :onclick "playerctl previous" "⏮ Previous")
+            (button :onclick "playerctl play-pause" 
+                    :text (if (eq playback-state "Playing") "⏸ Pause" "▶ Play"))
+            (button :onclick "playerctl next" "Next ⏭"))))
+
+(defwindow wifi-volume-media-window
+  :size (400 200)
+  :anchor "center"
+  :exclusive true
+  :monitor 0  ;; Specify the screen where the window should appear (0 is the first monitor)
+  :pos (list arg_xx arg_yy)  ;; Use the defined variables for positioning
+  (wifi-volume-media))

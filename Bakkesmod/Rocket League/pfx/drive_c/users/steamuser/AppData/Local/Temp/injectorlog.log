@@ -1,0 +1,48 @@
+2025-04-14 19-14-02.076 [Info] (main) Initialized logger for 31
+2025-04-14 19-14-02.095 [Info] (main) Initialized QApplication
+2025-04-14 19-14-02.100 [Info] (BakkesModInjectorCpp) BakkesMod injector version 31. Compiled at Jan 23 2023 23:48:40
+2025-04-14 19-14-02.112 [Info] (BakkesModInjectorCpp) Set up UI
+2025-04-14 19-14-02.173 [Info] (BakkesModInjectorCpp) Set window icon
+2025-04-14 19-14-02.173 [Info] (BakkesModInjectorCpp) Time: 281
+2025-04-14 19-14-02.181 [Info] (BakkesModInjectorCpp) Initialized tray icon
+2025-04-14 19-14-02.181 [Info] (main) Constructed BakkesModInjectorCpp
+2025-04-14 19-14-02.207 [Info] (main) Set style
+2025-04-14 19-14-02.207 [Info] (initialize) Checking if hideonboot is on
+2025-04-14 19-14-02.207 [Info] (initialize) Checking if any old versions are in current folder
+2025-04-14 19-14-02.207 [Info] (initialize) No old version found
+2025-04-14 19-14-02.207 [Info] (initialize) Injection timeout not set, using default 2500
+2025-04-14 19-14-02.207 [Info] (initialize) Current injection timeout is 2500
+2025-04-14 19-14-02.207 [Info] (main) Initialized injector
+2025-04-14 19-14-02.256 [Info] (main) Shown injector
+2025-04-14 19-14-02.708 [Info] (TimerTimeout) Booting
+2025-04-14 19-14-02.708 [Info] (CreateAppDataFolderIfDoesntExist) Checking if folder in appdata exists 
+2025-04-14 19-14-02.708 [Info] (CreateAppDataFolderIfDoesntExist)  exists
+2025-04-14 19-14-02.708 [Info] (CreateAppDataFolderIfDoesntExist) 0000000001DC31A0
+2025-04-14 19-14-02.708 [Info] (GetBakkesModFolder) No BakkesModFolder set this run
+2025-04-14 19-14-02.708 [Info] (GetBakkesModFolder) Converting path to filesystem path
+2025-04-14 19-14-02.708 [Info] (GetBakkesModFolder) C:\users\steamuser\AppData\Roaming\bakkesmod\bakkesmod/
+2025-04-14 19-14-02.708 [Info] (TimerTimeout) OLD C:\users\steamuser\AppData\Roaming\bakkesmod\bakkesmod/
+2025-04-14 19-14-02.708 [Info] (TimerTimeout) NEW C:\users\steamuser\AppData\Roaming\bakkesmod\bakkesmod/
+2025-04-14 19-14-02.708 [Info] (TimerTimeout) OLD INSTALL DETECTED C:\users\steamuser\AppData\Roaming\bakkesmod\bakkesmod/
+2025-04-14 19-14-02.712 [Info] (SetEnableBeta) Set beta status to: 0
+2025-04-14 19-14-02.713 [Info] (SetState) Switching from BOOTING (0) to CHECKING_FOR_UPDATES (5)
+2025-04-14 19-14-02.713 [Info] (TimerTimeout) Checking for updates, current version = 205
+2025-04-14 19-14-02.713 [Info] (operator ()) Requesting https://updater.bakkesmod.com/updater/205
+2025-04-14 19-14-03.247 [Info] (operator ()) Got: {"gameinfo": {"buildid": "17787643", "egsbuildids": "BC2_Update54+478365", "buildids": "17787643,17787644"}, "update_required": false, "backoff_seconds": 86400, "version": 31, "user_agent": "BakkesMod Updater CPP (31)", "injector": {"injectorurl": "https://github.com/bakkesmodorg/BakkesModInjectorCpp/releases/latest/download/BakkesMod.exe", "newinjectorversion": "28", "injectorsetupurl": "https://github.com/bakkesmodorg/BakkesModInjectorCpp/releases/latest/download/BakkesModSetup.exe", "injectorversion": "28"}}
+2025-04-14 19-14-03.247 [Info] (operator ()) Updater check request completed
+2025-04-14 19-14-03.247 [Info] (OnUpdateInfoReceived) Got data from server: {"gameinfo": {"buildid": "17787643", "egsbuildids": "BC2_Update54+478365", "buildids": "17787643,17787644"}, "update_required": false, "backoff_seconds": 86400, "version": 31, "user_agent": "BakkesMod Updater CPP (31)", "injector": {"injectorurl": "https://github.com/bakkesmodorg/BakkesModInjectorCpp/releases/latest/download/BakkesMod.exe", "newinjectorversion": "28", "injectorsetupurl": "https://github.com/bakkesmodorg/BakkesModInjectorCpp/releases/latest/download/BakkesModSetup.exe", "injectorversion": "28"}}
+2025-04-14 19-14-03.247 [Info] (OnUpdateInfoReceived) Set backoff to 86400 seconds
+2025-04-14 19-14-03.247 [Info] (OnUpdateInfoReceived) Allow network result to be freed
+2025-04-14 19-14-03.713 [Info] (TimerTimeout) Request finished
+2025-04-14 19-14-03.713 [Info] (TimerTimeout) Successfully received response from BakkesMod update server
+2025-04-14 19-14-03.713 [Info] (TimerTimeout) No update available, switching to IDLE status
+2025-04-14 19-14-03.713 [Info] (SetState) Switching from CHECKING_FOR_UPDATES (5) to CHECKING_D3D9 (15)
+2025-04-14 19-14-03.713 [Info] (TimerTimeout) Safe mode status: 0
+2025-04-14 19-14-04.214 [Info] (SetState) Switching from CHECKING_D3D9 (15) to BAKKESMOD_IDLE (1)
+2025-04-14 19-14-04.713 [Info] (DetectRocketLeagueFolder) Checking for manifest in C:\Program Files (x86)\Steam\steamapps\
+2025-04-14 19-14-04.714 [Info] (GetSteamRocketLeagueDirFromLog) Found RL dir from log: Z:\mnt\windows\Linux-games\rocketleague\rocketleague\Binaries\Win64\
+2025-04-14 19-14-04.714 [Info] (GetSteamInstallLocation) Both paths empty?  || 
+2025-04-14 19-14-04.714 [Info] (GetSteamVersion) Looking for steam manifest in ..\..\..\..\appmanifest_252950.acf
+2025-04-14 19-14-04.714 [Info] (GetSteamVersion) Could not find any RL manifest file!
+2025-04-14 19-14-04.714 [Info] (GetEpicVersion) Checking Epic path C:\ProgramData\Epic\EpicGamesLauncher\Data\Manifests
+2025-04-14 19-14-04.714 [Info] (GetEpicVersion) Checking Epic path (Legendary)C:\users\steamuser\.config\legendary

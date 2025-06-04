@@ -1,0 +1,15 @@
+{
+  "config": [
+    "/home/vearnx/.var/app/com.valvesoftware.Steam/.local/share/Steam/config"
+  ],
+  "external_drivers": [],
+  "jsonid": "vrpathreg",
+  "log": [
+    "/home/vearnx/.var/app/com.valvesoftware.Steam/.local/share/Steam/logs"
+  ],
+  "runtime": [
+    "/home/vearnx/.local/share/Steam/steamapps/common/SteamVR",
+    "/home/vearnx/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/SteamVR"
+  ],
+  "version": 1
+}
