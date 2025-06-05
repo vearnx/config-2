@@ -23,7 +23,6 @@ epiphany
 etcher-bin
 evince
 fastfetch
-figlet
 firefox
 fish
 flatpak
