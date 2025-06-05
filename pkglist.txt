@@ -103,6 +103,7 @@ mangohud
 mpvpaper
 nano
 nautilus
+neofetch
 network-manager-applet
 networkmanager
 nvidia
