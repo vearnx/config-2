@@ -1,3 +1,3 @@
-2025/02/23-02:27:00.794 8897 Reusing MANIFEST /home/vearnx/.config/LM Studio/Local Storage/leveldb/MANIFEST-000001
-2025/02/23-02:27:00.794 8897 Recovering log #3
-2025/02/23-02:27:00.794 8897 Reusing old log /home/vearnx/.config/LM Studio/Local Storage/leveldb/000003.log 
+2025/06/08-18:36:32.437 85295 Reusing MANIFEST /home/vearnx/.config/LM Studio/Local Storage/leveldb/MANIFEST-000001
+2025/06/08-18:36:32.437 85295 Recovering log #3
+2025/06/08-18:36:32.437 85295 Reusing old log /home/vearnx/.config/LM Studio/Local Storage/leveldb/000003.log 

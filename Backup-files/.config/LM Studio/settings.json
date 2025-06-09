@@ -39,7 +39,7 @@
   "ui": {
     "missionControlFullscreen": false,
     "showModelFileNameInMyModels": false,
-    "configureLoadParamsBeforeLoad": false
+    "configureLoadParamsBeforeLoad": true
   },
   "configPresetInclusiveness": {
     "speculativeDecoding": false

@@ -97,3 +97,14 @@
 [2025-02-23 02:27:23.288] [error] (node:34949) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 child-exit listeners added to [_0x483f4d]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
 (Use `lm-studio --trace-warnings ...` to show where the warning was created)
 [2025-02-23 02:27:23.288] [error] (node:34949) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [_0x483f4d]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+[2025-06-08 18:36:32.020] [info]  App starting...
+[2025-06-08 18:36:32.022] [info]  [AppUpdater] Update channel set to 'stable'
+[2025-06-08 18:36:32.279] [info]  Hardware survey for general system resources through 'vulkan' took 254.99ms
+[2025-06-08 18:36:32.351] [info]  [AppUpdater] Checking for updates... (current state: idle)
+[2025-06-08 18:36:32.352] [info]  AppUpdater state changed to checking-for-updates-periodic
+[2025-06-08 18:36:32.352] [info]  [AppUpdater] Fetching version info from https://versions-prod.lmstudio.ai/update/linux/x86/0.3.10
+[2025-06-08 18:36:32.652] [info]  [AppUpdater] Received version info response
+[2025-06-08 18:36:32.652] [info]  [AppUpdater] Current version: 0.3.10 (build: 6), new version: 0.3.16 (build: 8)
+[2025-06-08 18:36:32.652] [info]  Update available: 0.3.16 > 0.3.10
+[2025-06-08 18:36:32.652] [info]  AppUpdater state changed to update-available
+[2025-06-08 18:37:24.148] [error] [LMSInternal][Client=LM Studio][Endpoint=loadModel] No instance reference assigned before error
