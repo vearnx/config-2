@@ -21,6 +21,7 @@ rsync -av --delete --exclude=".git" --exclude="/home/vearnx/.config/waybar/style
 rsync -av --delete "/home/vearnx/Documents/ULTRAKILL/ULTRAKILL-SteamRIP.com/ULTRAKILL/Saves/" "$REPO_DIR/ultrakill-saves"
 /usr/local/bin/update-pkglist
 rsync -a /var/lib/pkglist.txt /home/vearnx/backups
+rsync -a /var/lib/aurlist.txt /home/vearnx/backups
 if [ $? -ne 0 ]; then
     notify-send -u critical "❌ Backup Failed" "Failed to sync files with rsync."
     exit 1
