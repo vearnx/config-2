@@ -1,6 +1,7 @@
-autologin.saved_credentials="{\"coopersparshott\":[\"coopersparshott\",\"RsY6i7QE0O6nYDM1ojNx2Q4mxywkSz1Z2X5q2vLAG+tpHgUt6cbQIW6c416nlDKuwlCfzzH1opaeE8BLxUBsH37x8e9//SzEvC1MCkKadWDWA2qQFM4h459ofccST0XLgoHU1tU0MnIpIdTuF2y5iRKzMS9l240E9SZGRB7/IMSZGof4XoCOmACphA1eYb8f14gk3U2n7htO7kdemuohnHIdu9KUq8tIN+2u9HdnhgnLlmqGHbxxSkKT0iSoYB2BFQ1xLWdsdkUO3lQwHoiOSQ==\"]}"
-autologin.blob="RsY6i7QE0O6nYDM1ojNx2Q4mxywkSz1Z2X5q2vLAG+tpHgUt6cbQIW6c416nlDKuwlCfzzH1opaeE8BLxUBsH37x8e9//SzEvC1MCkKadWDWA2qQFM4h459ofccST0XLgoHU1tU0MnIpIdTuF2y5iRKzMS9l240E9SZGRB7/IMSZGof4XoCOmACphA1eYb8f14gk3U2n7htO7kdemuohnHIdu9KUq8tIN+2u9HdnhgnLlmqGHbxxSkKT0iSoYB2BFQ1xLWdsdkUO3lQwHoiOSQ=="
+autologin.canonical_username="coopersparshott"
 autologin.username="coopersparshott"
+autologin.blob="RsY6i7QE0O6nYDM1ojNx2Q4mxywkSz1Z2X5q2vLAG+tpHgUt6cbQIW6c416nlDKuwlCfzzH1opaeE8BLxUBsH37x8e9//SzEvC1MCkKadWDWA2qQFM4h459ofccST0XLgoHU1tU0MnIpIdTuF2y5iRKzMS9l240E9SZGRB7/IMSZGof4XoCOmACphA1eYb8f14gk3U2n7htO7kdemuohnHIdu9KUq8tIN+2u9HdnhgnLlmqGHbxxSkKT0iSoYB2BFQ1xLWdsdkUO3lQwHoiOSQ=="
+autologin.saved_credentials="{\"coopersparshott\":[\"coopersparshott\",\"RsY6i7QE0O6nYDM1ojNx2Q4mxywkSz1Z2X5q2vLAG+tpHgUt6cbQIW6c416nlDKuwlCfzzH1opaeE8BLxUBsH37x8e9//SzEvC1MCkKadWDWA2qQFM4h459ofccST0XLgoHU1tU0MnIpIdTuF2y5iRKzMS9l240E9SZGRB7/IMSZGof4XoCOmACphA1eYb8f14gk3U2n7htO7kdemuohnHIdu9KUq8tIN+2u9HdnhgnLlmqGHbxxSkKT0iSoYB2BFQ1xLWdsdkUO3lQwHoiOSQ==\"]}"
 app.window.state.saved=true
 app.window.position.width=1396
 app.rollback-to-sc=true
@@ -12,5 +13,4 @@ app.autostart-mode="off"
 app.window.position.y=55
 storage.last-location="/home/vearnx/.cache/spotify/Storage"
 app.window.position.x=22
-autologin.canonical_username="coopersparshott"
 app.last-launched-version="1.2.63.394.g126b0d89"
