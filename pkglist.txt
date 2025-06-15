@@ -7,7 +7,6 @@ blueman
 brightnessctl
 btrfs-progs
 cava
-cmake
 corectrl
 cronie
 decibels
