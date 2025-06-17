@@ -123,6 +123,9 @@
   steam
   inotify-tools
   killall
+  kitty
+  rofi-wayland-unwrapped
+  
   ];
 
 
