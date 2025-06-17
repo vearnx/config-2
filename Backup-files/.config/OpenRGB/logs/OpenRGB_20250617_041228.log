@@ -1,0 +1,48 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20250617_041228
+====================================================================================================
+
+14    |Info:    Found file: Skibbidi.orp attempting to validate header
+14    |Warning: Profile Skibbidi.orp isn't valid for current version (v5, expected v4 at most)
+14    |Info:    Found file: main.orp attempting to validate header
+14    |Warning: Profile main.orp isn't valid for current version (v5, expected v4 at most)
+1016  |Info:    ------------------------------------------------------
+1016  |Info:    |               Start device detection               |
+1016  |Info:    ------------------------------------------------------
+1016  |Info:    Initializing HID interfaces: Success
+1021  |Info:    ------------------------------------------------------
+1021  |Info:    |             Detecting I2C interfaces               |
+1021  |Info:    ------------------------------------------------------
+1021  |Info:    Registering I2C interface: /dev/i2c-3 Device 1022:790B Subsystem: 1462:7E26
+1021  |Info:    Registering I2C interface: /dev/i2c-1 Device 1022:790B Subsystem: 1462:7E26
+1021  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1021  |Info:    Registering I2C interface: /dev/i2c-17 Device 0000:0000 Subsystem: 0000:0000
+1021  |Info:    Registering I2C interface: /dev/i2c-15 Device 1002:164E Subsystem: 1462:7E26
+1021  |Info:    Registering I2C interface: /dev/i2c-13 Device 1002:164E Subsystem: 1462:7E26
+1021  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1021  |Info:    Registering I2C interface: /dev/i2c-11 Device 0000:0000 Subsystem: 0000:0000
+1021  |Info:    Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+1021  |Info:    Registering I2C interface: /dev/i2c-9 Device 1002:747E Subsystem: 1458:2413
+1021  |Info:    Registering I2C interface: /dev/i2c-7 Device 1002:747E Subsystem: 1458:2413
+1022  |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:747E Subsystem: 1458:2413
+1022  |Info:    ------------------------------------------------------
+1022  |Info:    |               Detecting I2C devices                |
+1022  |Info:    ------------------------------------------------------
+1048  |Warning: [PluginManager] Plugin /home/vearnx/.config/OpenRGB/plugins/libOpenRGBVisualMapPlugin.so has an incompatible API version
+1581  |Info:    ------------------------------------------------------
+1581  |Info:    |               Detecting I2C PCI devices            |
+1581  |Info:    ------------------------------------------------------
+1582  |Info:    ------------------------------------------------------
+1582  |Info:    |               Detecting HID devices                |
+1582  |Info:    ------------------------------------------------------
+1582  |Info:    ------------------------------------------------------
+1582  |Info:    |            Detecting libusb HID devices            |
+1582  |Info:    ------------------------------------------------------
+1587  |Info:    ------------------------------------------------------
+1587  |Info:    |              Detecting other devices               |
+1587  |Info:    ------------------------------------------------------
+1593  |Info:    ------------------------------------------------------
+1593  |Info:    |                Detection completed                 |
+1593  |Info:    ------------------------------------------------------
+1593  |Dialog:  <h2>WARNING:</h2><p>The OpenRGB udev rules are not installed.</p><p>Most devices will not be available unless running OpenRGB as root.</p><p>If using AppImage, Flatpak, or self-compiled versions of OpenRGB you must install the udev rules manually</p><p>See <a href='https://openrgb.org/udev'>https://openrgb.org/udev</a> to install the udev rules manually</p>

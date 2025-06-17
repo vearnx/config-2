@@ -9,6 +9,7 @@ abbr --add reboot systemctl\ reboot
 abbr --add backup bash\ ~/backups/use-this-script.sh
 abbr --add update 'yay && bash ~/backups/use-this-script.sh'
 abbr --add sleep 'systemctl suspend'
+abbr --add nix-conf 'sudo vim /etc/nixos/configuration.nix'
 end
 
 # Added by LM Studio CLI (lms)

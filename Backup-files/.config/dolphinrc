@@ -3,7 +3,7 @@ update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detai
 
 [ExtractDialog]
 2 screens: Window-Maximized=true
-DirHistory[$e]=$HOME/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Schedule I/Mods/,$HOME/Documents/bakkes/,$HOME/Documents/Firewatch/
+DirHistory[$e]=$HOME/Documents/,$HOME/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Schedule I/Mods/,$HOME/Documents/bakkes/,$HOME/Documents/Firewatch/
 
 [General]
 ModifiedStartupSettings=true

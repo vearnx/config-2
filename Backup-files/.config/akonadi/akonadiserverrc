@@ -9,5 +9,5 @@ DataDir=/home/vearnx/.local/share/akonadi/db_data
 Host=
 Name=akonadi
 Options="UNIX_SOCKET=/run/user/1000/akonadi/mysql.socket"
-ServerPath=/usr/bin/mysqld
+ServerPath=/nix/store/kj7ys9bv1sxxg9chgn6fgfckllrcybb2-mariadb-server-10.11.11/bin/mysqld
 StartServer=true

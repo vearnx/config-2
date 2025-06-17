@@ -1,6 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-# read the other script b4 saying anything abt me using chatGPT, also feel free to use my .config files if you want
+
+
 
 # Define the path to your backup folder and GitHub repository
 REPO_DIR="/home/vearnx/backups"  # Adjust this to your actual repository path
@@ -19,9 +20,7 @@ notify-send  -t 2500 "Backing up..."
 # Sync .config folder to repo
 rsync -av --delete --exclude=".git" --exclude="/home/vearnx/.config/waybar/style.css.save.1" --exclude="/home/vearnx/.config/spotify/" "$CONFIG_DIR" "$REPO_DIR/Backup-files"
 rsync -av --delete "/home/vearnx/Documents/ULTRAKILL/ULTRAKILL-SteamRIP.com/ULTRAKILL/Saves/" "$REPO_DIR/ultrakill-saves"
-/usr/local/bin/update-pkglist
-rsync -a /var/lib/pkglist.txt /home/vearnx/backups
-rsync -a /var/lib/aurlist.txt /home/vearnx/backups
+
 if [ $? -ne 0 ]; then
     notify-send -u critical "❌ Backup Failed" "Failed to sync files with rsync."
     exit 1

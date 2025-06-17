@@ -25,10 +25,12 @@
                 "wideColorGamut": false
             },
             {
+                "allowSdrSoftwareBrightness": true,
                 "autoRotation": "InTabletMode",
                 "brightness": 0.219,
+                "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "sRGB",
-                "connectorName": "HDMI-A-1",
+                "connectorName": "HDMI-A-2",
                 "edidHash": "ff12e972af72da3df205b6391a189a47",
                 "edidIdentifier": "BBY 66 15 30 2013 0",
                 "highDynamicRange": false,
@@ -88,6 +90,31 @@
                 "rgbRange": "Automatic",
                 "scale": 1,
                 "sdrBrightness": 200,
+                "sdrGamutWideness": 0,
+                "transform": "Normal",
+                "vrrPolicy": "Automatic",
+                "wideColorGamut": false
+            },
+            {
+                "allowSdrSoftwareBrightness": true,
+                "autoRotation": "InTabletMode",
+                "brightness": 1,
+                "colorPowerTradeoff": "PreferEfficiency",
+                "colorProfileSource": "sRGB",
+                "connectorName": "DP-2",
+                "edidHash": "db51b37ef4d2ebba0ba83580d544b4a8",
+                "edidIdentifier": "ASR 43938 0 25 2024 0",
+                "highDynamicRange": false,
+                "iccProfilePath": "",
+                "mode": {
+                    "height": 1440,
+                    "refreshRate": 180002,
+                    "width": 2560
+                },
+                "overscan": 0,
+                "rgbRange": "Automatic",
+                "scale": 1,
+                "sdrBrightness": 408,
                 "sdrGamutWideness": 0,
                 "transform": "Normal",
                 "vrrPolicy": "Automatic",
@@ -197,6 +224,29 @@
                             "y": 0
                         },
                         "priority": 0
+                    }
+                ]
+            },
+            {
+                "lidClosed": false,
+                "outputs": [
+                    {
+                        "enabled": true,
+                        "outputIndex": 4,
+                        "position": {
+                            "x": 1920,
+                            "y": 0
+                        },
+                        "priority": 0
+                    },
+                    {
+                        "enabled": true,
+                        "outputIndex": 1,
+                        "position": {
+                            "x": 0,
+                            "y": 378
+                        },
+                        "priority": 1
                     }
                 ]
             }

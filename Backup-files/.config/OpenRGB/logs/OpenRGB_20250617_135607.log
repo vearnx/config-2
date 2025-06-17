@@ -1,0 +1,29 @@
+    OpenRGB v0.9+ (1.0rc1)
+    Commit: 1fbacdea373361ecd2e0780c1db15cc3eb9aa538 from 2025-02-22 11:06:06 -0600
+    Launched: 20250617_135607
+====================================================================================================
+
+2     |Info:    [ProfileManager] Found file: Skibbidi.orp attempting to validate header
+2     |Info:    [ProfileManager] Valid v5 profile found for Skibbidi
+2     |Info:    [ProfileManager] Found file: main.orp attempting to validate header
+2     |Info:    [ProfileManager] Valid v5 profile found for main
+195   |Info:    [ResourceManager] Calling Post-detection callbacks
+195   |Info:    ------------------------------------------------------
+195   |Info:    |                Detection completed                 |
+195   |Info:    ------------------------------------------------------
+196   |Warning: [PluginManager] Plugin /home/vearnx/.config/OpenRGB/plugins/OpenRGBEffectsPlugin_0.9_Bookworm_64_f1411e1.so cannot be loaded: Cannot load library /home/vearnx/.config/OpenRGB/plugins/OpenRGBEffectsPlugin_0.9_Bookworm_64_f1411e1.so: (libopenal.so.1: cannot open shared object file: No such file or directory)
+196   |Warning: [PluginManager] Plugin /home/vearnx/.config/OpenRGB/plugins/OpenRGBEffectsPlugin_0.9_Bookworm_64_f1411e1.so cannot be instantiated.
+203   |Warning: [PluginManager] Plugin /home/vearnx/.config/OpenRGB/plugins/libOpenRGBEffectsPlugin.so cannot be loaded: Cannot load library /home/vearnx/.config/OpenRGB/plugins/libOpenRGBEffectsPlugin.so: (libopenal.so.1: cannot open shared object file: No such file or directory)
+203   |Warning: [PluginManager] Plugin /home/vearnx/.config/OpenRGB/plugins/libOpenRGBEffectsPlugin.so cannot be instantiated.
+16266 |Info:    [ResourceManager] Calling Post-detection callbacks
+16266 |Info:    ------------------------------------------------------
+16266 |Info:    |                Detection completed                 |
+16266 |Info:    ------------------------------------------------------
+17558 |Info:    [ResourceManager] Calling Post-detection callbacks
+17558 |Info:    ------------------------------------------------------
+17558 |Info:    |                Detection completed                 |
+17558 |Info:    ------------------------------------------------------
+18180 |Info:    [ResourceManager] Calling Post-detection callbacks
+18180 |Info:    ------------------------------------------------------
+18180 |Info:    |                Detection completed                 |
+18180 |Info:    ------------------------------------------------------

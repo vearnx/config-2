@@ -1,0 +1,10 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20250617_135854
+====================================================================================================
+
+0     |Info:    Found file: Skibbidi.orp attempting to validate header
+0     |Warning: Profile Skibbidi.orp isn't valid for current version (v5, expected v4 at most)
+0     |Info:    Found file: main.orp attempting to validate header
+0     |Warning: Profile main.orp isn't valid for current version (v5, expected v4 at most)
+223   |Warning: [PluginManager] Plugin /home/vearnx/.config/OpenRGB/plugins/libOpenRGBVisualMapPlugin.so has an incompatible API version
