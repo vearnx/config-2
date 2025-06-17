@@ -122,6 +122,7 @@
   docker
   steam
   inotify-tools
+  killall
   ];
 
 
@@ -137,6 +138,7 @@ fonts.packages = with pkgs; [
   dina-font
   proggyfonts
   font-awesome 
+  ghostscript
 ];
 
   # Flatpak
