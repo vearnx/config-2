@@ -20,6 +20,8 @@ notify-send  -t 2500 "Backing up..."
 # Sync .config folder to repo
 rsync -av --delete --exclude=".git" --exclude="/home/vearnx/.config/waybar/style.css.save.1" --exclude="/home/vearnx/.config/spotify/" "$CONFIG_DIR" "$REPO_DIR/Backup-files"
 rsync -av --delete "/home/vearnx/Documents/ULTRAKILL/ULTRAKILL-SteamRIP.com/ULTRAKILL/Saves/" "$REPO_DIR/ultrakill-saves"
+rsync -a "/etc/nixos/configuration.nix" "/home/vearnx/backups/"
+
 
 if [ $? -ne 0 ]; then
     notify-send -u critical "❌ Backup Failed" "Failed to sync files with rsync."
