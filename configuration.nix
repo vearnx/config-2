@@ -15,6 +15,9 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
+  # Auto Update
+  system.autoUpgrade.enable = true;
+
   # Use latest kernel.
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
@@ -125,7 +128,14 @@
   killall
   kitty
   rofi-wayland-unwrapped
-  
+  lm_sensors
+  radeontools
+  grim
+  slurp
+  wl-clipboard  
+  pavucontrol
+  swaynotificationcenter
+  libnotify 
   ];
 
 
@@ -143,6 +153,10 @@ fonts.packages = with pkgs; [
   font-awesome 
   ghostscript
 ];
+
+  fonts.fontconfig.enable = true;
+  fonts.fontconfig.allowType1 = true;
+  fonts.enableGhostscriptFonts = true;
 
   # Flatpak
   services.flatpak.enable = true;
@@ -187,7 +201,7 @@ hardware.graphics.extraPackages32 = with pkgs; [
   # List services that you want to enable:
 
   # Enable the OpenSSH daemon.
-  # services.openssh.enable = true;
+  services.openssh.enable = true;
 
   # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ ... ];
