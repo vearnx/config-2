@@ -53,23 +53,6 @@
 			}
 		},
 		{
-			"guid": "5aeb576e-a99c-41dd-8b92-aec77dacff73",
-			"timestamp": 1749065226646,
-			"read": false,
-			"displayState": "background",
-			"notification": {
-				"ephemeral": false,
-				"icon": "sparkles",
-				"message": "Docker Desktop 4.42.0 has been installed. View what's new.",
-				"actionText": "View",
-				"action": {
-					"action": "view-notification-content"
-				},
-				"type": "update",
-				"fullContent": "# What's new in 4.42.0\n - Expanded network compatibility with IPv6 support\n- The Docker MCP Toolkit is now natively integrated into Docker Desktop\n- Docker Model Runner is now available for Windows systems running on Qualcomm/ARM GPUs\n- Added a Logs tab to the Models view so you can see the inference engine output in real time. \n- Gordon now integrates the MCP Toolkit, providing access to 100+ MCP servers\n- Fixed a bug where Docker Desktop failed to start on WSL 2.5.7 if another WSL distro is still using Linux cgroups v1\n"
-			}
-		},
-		{
 			"guid": "5ba31f73-a2dd-45aa-81fd-745fea843a76",
 			"timestamp": 1750129020761,
 			"read": false,
@@ -85,6 +68,23 @@
 					"params": {}
 				},
 				"title": "You are signed out"
+			}
+		},
+		{
+			"guid": "e1712e31-c7a9-418d-ace4-b6e238fcf5c6",
+			"timestamp": 1750461755203,
+			"read": false,
+			"displayState": "foreground",
+			"notification": {
+				"ephemeral": false,
+				"icon": "sparkles",
+				"message": "Docker Desktop 4.42.1 has been installed. View what's new.",
+				"actionText": "View",
+				"action": {
+					"action": "view-notification-content"
+				},
+				"type": "update",
+				"fullContent": "# What's new in 4.42.1\n - Expanded network compatibility with IPv6 support\n- The Docker MCP Toolkit is now natively integrated into Docker Desktop\n- Docker Model Runner is now available for Windows systems running on Qualcomm/ARM GPUs\n- Added a Logs tab to the Models view so you can see the inference engine output in real time. \n- Gordon now integrates the MCP Toolkit, providing access to 100+ MCP servers\n- Fixed a bug where Docker Desktop failed to start on WSL 2.5.7 if another WSL distro is still using Linux cgroups v1\n"
 			}
 		}
 	]
