@@ -130,7 +130,6 @@ virtualbox
 virtualbox-host-modules-arch
 vulkan-intel
 vulkan-radeon
-w3m
 waybar
 wget
 wine-staging
