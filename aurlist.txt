@@ -7,7 +7,6 @@ etcher-bin
 flatseal
 hollywood
 mpvpaper
-neofetch
 opencl-amd
 openrgb-git
 proton-ge-custom-bin
